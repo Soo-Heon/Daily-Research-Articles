@@ -30,6 +30,8 @@ TARGET_JOURNALS = [
     "Nature", "Science", "Cell",
     "Nature Genetics", "Nature Medicine", "Nature Communications",
     "Nature Biotechnology", "Nature Methods", "Nature Metabolism",
+    "Nature Reviews Genetics", "Nature Reviews Endocrinology",
+    "Nature Reviews Drug Discovery",
     "Cell Metabolism", "Cell Reports Medicine",
     "Lancet", "Lancet Diabetes Endocrinology", "Lancet Digital Health",
     "Diabetes Care", "Diabetologia", "Diabetes",
