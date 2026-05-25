@@ -15,6 +15,19 @@ import requests
 
 NCBI_BASE = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 
+# NCBI E-utilities는 익명 요청보다 tool/email 식별된 요청을 우대.
+# 이 값은 식별용이며 실제로 메일이 가지 않음. 본인 정보로 바꿔도 됨.
+TOOL_NAME = "daily-research-articles"
+TOOL_EMAIL = "kwak.sooheon@gmail.com"
+
+
+def _common_params(api_key: Optional[str] = None) -> dict:
+    """모든 E-utilities 요청에 공통으로 들어가는 파라미터."""
+    p = {"tool": TOOL_NAME, "email": TOOL_EMAIL}
+    if api_key:
+        p["api_key"] = api_key
+    return p
+
 
 def _date_range_filter(days_back: int) -> str:
     """PubMed의 EDAT(Entrez Date) 기반 날짜 필터 생성."""
@@ -31,19 +44,27 @@ def search_pmids(
     days_back: int = 1,
     max_results: int = 50,
     api_key: Optional[str] = None,
+    journal_filter: Optional[str] = None,
 ) -> list[str]:
-    """쿼리에 해당하는 PMID 리스트 반환 (최근 N일)."""
-    full_query = f"({query}) AND {_date_range_filter(days_back)}"
+    """
+    쿼리에 해당하는 PMID 리스트 반환 (최근 N일).
+    
+    journal_filter: PubMed Boolean 구문 (예: '("Nature"[ta] OR "Science"[ta])').
+                    지정 시 모든 쿼리에 AND로 결합되어 대상 저널만 검색.
+    """
+    parts = [f"({query})", _date_range_filter(days_back)]
+    if journal_filter:
+        parts.append(journal_filter)
+    full_query = " AND ".join(parts)
 
     params = {
+        **_common_params(api_key),
         "db": "pubmed",
         "term": full_query,
         "retmax": max_results,
         "retmode": "json",
         "sort": "date",
     }
-    if api_key:
-        params["api_key"] = api_key
 
     r = requests.get(f"{NCBI_BASE}/esearch.fcgi", params=params, timeout=30)
     r.raise_for_status()
@@ -63,12 +84,11 @@ def fetch_articles(
     for i in range(0, len(pmids), batch_size):
         batch = pmids[i : i + batch_size]
         params = {
+            **_common_params(api_key),
             "db": "pubmed",
             "id": ",".join(batch),
             "retmode": "xml",
         }
-        if api_key:
-            params["api_key"] = api_key
 
         r = requests.get(f"{NCBI_BASE}/efetch.fcgi", params=params, timeout=60)
         r.raise_for_status()

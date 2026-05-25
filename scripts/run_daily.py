@@ -69,7 +69,7 @@ def main() -> int:
         return 1
 
     # -------------------- 1) PubMed 검색 -------------------- #
-    print(f"\n[1/4] PubMed 검색 (최근 {days_back}일)")
+    print(f"\n[1/4] PubMed 검색 (최근 {days_back}일, 대상 저널 {len(config.TARGET_JOURNALS)}개로 제한)")
     seen_pmids: set[str] = set()
     pmid_to_context: dict[str, tuple[str, str]] = {}  # pmid -> (project, subtopic)
 
@@ -81,6 +81,7 @@ def main() -> int:
                 days_back=days_back,
                 max_results=config.MAX_RESULTS_PER_QUERY,
                 api_key=ncbi_key,
+                journal_filter=config.JOURNAL_FILTER_QUERY,
             )
         except Exception as e:
             print(f"❌ {e}")
@@ -101,8 +102,26 @@ def main() -> int:
 
     # -------------------- 2) 상세정보 fetch -------------------- #
     print(f"\n[2/4] 논문 상세정보 가져오기 ({len(seen_pmids)}편)")
-    articles = pubmed.fetch_articles(list(seen_pmids), api_key=ncbi_key)
-    print(f"  → 가져옴: {len(articles)}편")
+    articles_raw = pubmed.fetch_articles(list(seen_pmids), api_key=ncbi_key)
+    print(f"  → 가져옴: {len(articles_raw)}편")
+
+    # 안전장치: PubMed 검색 필터가 통과시켰어도 다시 한 번 저널명 매칭 확인.
+    # canonical 이름을 부여하여 표시도 깔끔하게.
+    articles = []
+    rejected_journals = []
+    for art in articles_raw:
+        canonical = config.match_target_journal(art["journal"])
+        if canonical is None:
+            rejected_journals.append(art["journal"])
+            continue
+        art["journal_canonical"] = canonical
+        articles.append(art)
+
+    if rejected_journals:
+        print(f"  ⚠️ 대상 저널 외 {len(rejected_journals)}편 제외:")
+        for j in set(rejected_journals):
+            print(f"     - {j!r}")
+    print(f"  → 최종 대상 저널 논문: {len(articles)}편")
 
     # -------------------- 3) Claude 점수 + 요약 -------------------- #
     print(f"\n[3/4] Claude {config.CLAUDE_MODEL}로 점수/요약 ({len(articles)}편)")
@@ -111,15 +130,10 @@ def main() -> int:
     scored: list[dict] = []
     for i, art in enumerate(articles, 1):
         project, subtopic = pmid_to_context.get(art["pmid"], ("?", "?"))
-        print(f"  [{i}/{len(articles)}] PMID {art['pmid']} - {art['title'][:60]}...")
+        print(f"  [{i}/{len(articles)}] [{art['journal_canonical']}] PMID {art['pmid']} - {art['title'][:50]}...")
         score = scorer.score(art, project=project, subtopic=subtopic)
         if not score:
             continue
-
-        # 우선 저널 가산점 (+1, max 10)
-        if any(j.lower() in art["journal"].lower() for j in config.TARGET_JOURNALS):
-            score["relevance_score"] = min(10, score.get("relevance_score", 0) + 1)
-            score["journal_boost"] = True
 
         scored.append({
             "article": art,

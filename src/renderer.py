@@ -108,7 +108,7 @@ def _render_article(s: dict) -> str:
     score = sc.get("relevance_score", 0)
 
     title = escape(art.get("title", "(제목 없음)"))
-    journal = escape(art.get("journal", ""))
+    journal = escape(art.get("journal_canonical") or art.get("journal", ""))
     url = escape(art.get("url", "#"))
     pub_date = escape(art.get("pub_date", ""))
     subtopic = escape(s.get("subtopic", ""))

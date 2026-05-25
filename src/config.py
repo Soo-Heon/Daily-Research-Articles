@@ -1,6 +1,11 @@
 """
-설정: PubMed 쿼리, 대상 저널, 점수 임계값
+설정: PubMed 쿼리, 대상 저널 (하드 필터), 점수 임계값.
+
+대상 저널 외 논문은 PubMed 검색 단계에서 제외됩니다.
 """
+from __future__ import annotations
+
+import re
 
 # 점수 임계값 (0-10). 이 점수 이상의 논문만 메일로 발송.
 SCORE_THRESHOLD = 6
@@ -8,16 +13,19 @@ SCORE_THRESHOLD = 6
 # 며칠 전부터 검색할지 (1 = 어제 ~ 오늘)
 DAYS_BACK = 1
 
-# 각 서브쿼리당 최대 검색 결과 수 (PubMed API 부하 방지)
+# 각 서브쿼리당 최대 검색 결과 수
 MAX_RESULTS_PER_QUERY = 50
 
 # 전체 처리할 최대 논문 수 (Claude API 비용 방지)
 MAX_TOTAL_ARTICLES = 100
 
-# Claude 모델 (요약/점수용). 비용 효율 위해 Haiku 사용.
+# Claude 모델
 CLAUDE_MODEL = "claude-haiku-4-5-20251001"
 
-# 우선 저널 (점수에 +1 가산점)
+
+# =================================================================
+# 대상 저널 (이 27개만 검색)
+# =================================================================
 TARGET_JOURNALS = [
     "Nature", "Science", "Cell",
     "Nature Genetics", "Nature Medicine", "Nature Communications",
@@ -32,13 +40,142 @@ TARGET_JOURNALS = [
     "BMJ", "Annals of Internal Medicine",
 ]
 
+# PubMed [ta] (NLM Title Abbreviation) 필터용.
+# PubMed의 [Journal] 필드는 풀네임/약어/ISO 약어를 모두 인덱싱하므로
+# 약어를 쓰면 가장 정확하게 매칭됩니다.
+JOURNAL_NLM_ABBREVIATIONS = [
+    "Nature",
+    "Science",
+    "Cell",
+    "Nat Genet",
+    "Nat Med",
+    "Nat Commun",
+    "Nat Biotechnol",
+    "Nat Methods",
+    "Nat Metab",
+    "Cell Metab",
+    "Cell Rep Med",
+    "Lancet",
+    "Lancet Diabetes Endocrinol",
+    "Lancet Digit Health",
+    "Diabetes Care",
+    "Diabetologia",
+    "Diabetes",
+    "JAMA",
+    "JAMA Intern Med",
+    "JAMA Netw Open",
+    "N Engl J Med",
+    "NPJ Digit Med",
+    "NPJ Genom Med",
+    "Sci Transl Med",
+    "BMJ",
+    "Ann Intern Med",
+]
 
-# ---------- 쿼리 정의 ----------
-# 각 쿼리는 (프로젝트, 서브토픽, 쿼리문자열) 형태
+# PubMed AND 절에 끼워넣을 저널 필터
+JOURNAL_FILTER_QUERY = "(" + " OR ".join(
+    f'"{a}"[ta]' for a in JOURNAL_NLM_ABBREVIATIONS
+) + ")"
+
+
+# =================================================================
+# 저널 이름 정규화 + 매칭 (PubMed 표기 흔들림 대응)
+# =================================================================
+# PubMed가 반환하는 저널명에 들어있는 noise를 제거:
+#   "Lancet (London, England)"           → "lancet"
+#   "The New England journal of medicine" → "new england journal of medicine"
+#   "Science (New York, N.Y.)"           → "science"
+#   "BMJ (Clinical research ed.)"        → "bmj"
+def normalize_journal(name: str) -> str:
+    if not name:
+        return ""
+    s = name.lower().strip()
+    s = re.sub(r"\s*\([^)]*\)", "", s)   # 괄호 제거
+    s = re.sub(r"^the\s+", "", s)         # 앞쪽 "the "
+    s = s.replace("&", "and")             # "&" → "and"
+    s = re.sub(r"[.,:;]", " ", s)         # 구두점 → 공백
+    s = re.sub(r"\s+", " ", s).strip()    # 다중 공백
+    return s
+
+
+# (raw 이름) → (canonical 표시 이름) 매핑.
+# 풀네임/NLM약어 모두 등록해 양방향 매칭.
+_RAW_TO_CANONICAL = {
+    # 풀네임
+    "Nature": "Nature",
+    "Science": "Science",
+    "Cell": "Cell",
+    "Nature Genetics": "Nature Genetics",
+    "Nature Medicine": "Nature Medicine",
+    "Nature Communications": "Nature Communications",
+    "Nature Biotechnology": "Nature Biotechnology",
+    "Nature Methods": "Nature Methods",
+    "Nature Metabolism": "Nature Metabolism",
+    "Cell Metabolism": "Cell Metabolism",
+    "Cell Reports Medicine": "Cell Reports Medicine",
+    "Cell Reports. Medicine": "Cell Reports Medicine",
+    "Lancet": "Lancet",
+    "The Lancet": "Lancet",
+    "Lancet Diabetes Endocrinology": "Lancet Diabetes Endocrinology",
+    "The Lancet Diabetes & Endocrinology": "Lancet Diabetes Endocrinology",
+    "The Lancet. Diabetes & Endocrinology": "Lancet Diabetes Endocrinology",
+    "Lancet Digital Health": "Lancet Digital Health",
+    "The Lancet Digital Health": "Lancet Digital Health",
+    "The Lancet. Digital Health": "Lancet Digital Health",
+    "Diabetes Care": "Diabetes Care",
+    "Diabetologia": "Diabetologia",
+    "Diabetes": "Diabetes",
+    "JAMA": "JAMA",
+    "JAMA Internal Medicine": "JAMA Internal Medicine",
+    "JAMA Network Open": "JAMA Network Open",
+    "New England Journal of Medicine": "New England Journal of Medicine",
+    "The New England Journal of Medicine": "New England Journal of Medicine",
+    "npj Digital Medicine": "npj Digital Medicine",
+    "npj Genomic Medicine": "npj Genomic Medicine",
+    "Science Translational Medicine": "Science Translational Medicine",
+    "BMJ": "BMJ",
+    "BMJ (Clinical research ed.)": "BMJ",
+    "Annals of Internal Medicine": "Annals of Internal Medicine",
+    # NLM 약어
+    "Nat Genet": "Nature Genetics",
+    "Nat Med": "Nature Medicine",
+    "Nat Commun": "Nature Communications",
+    "Nat Biotechnol": "Nature Biotechnology",
+    "Nat Methods": "Nature Methods",
+    "Nat Metab": "Nature Metabolism",
+    "Cell Metab": "Cell Metabolism",
+    "Cell Rep Med": "Cell Reports Medicine",
+    "Lancet Diabetes Endocrinol": "Lancet Diabetes Endocrinology",
+    "Lancet Digit Health": "Lancet Digital Health",
+    "JAMA Intern Med": "JAMA Internal Medicine",
+    "JAMA Netw Open": "JAMA Network Open",
+    "N Engl J Med": "New England Journal of Medicine",
+    "NPJ Digit Med": "npj Digital Medicine",
+    "NPJ Genom Med": "npj Genomic Medicine",
+    "Sci Transl Med": "Science Translational Medicine",
+    "Ann Intern Med": "Annals of Internal Medicine",
+}
+
+# 정규화 후 키 → canonical (모듈 로드시 1회)
+_NORMALIZED_TARGETS: dict[str, str] = {
+    normalize_journal(k): v for k, v in _RAW_TO_CANONICAL.items()
+}
+
+
+def match_target_journal(journal_name: str) -> str | None:
+    """
+    PubMed가 반환한 저널명이 대상 목록에 있는지 확인.
+    있으면 표시용 canonical 이름, 없으면 None.
+    """
+    norm = normalize_journal(journal_name)
+    return _NORMALIZED_TARGETS.get(norm)
+
+
+# =================================================================
+# 검색 쿼리
+# =================================================================
 QUERIES = [
-    # =================================================================
-    # 1. 식약처(MFDS) 과제: 다중오믹스 × 약물반응 × 만성대사질환
-    # =================================================================
+    # ----- 1. 식약처(MFDS) 과제 -----
     (
         "MFDS",
         "Multi-omics × 만성질환",
@@ -73,9 +210,7 @@ QUERIES = [
         'AND ("prediction" OR "biomarker" OR "precision medicine")',
     ),
 
-    # =================================================================
-    # 2. 데기디바: T2D × Foundation model / LLM / Federated
-    # =================================================================
+    # ----- 2. 데기디바 과제 -----
     (
         "DGDB",
         "T2D × Foundation/LLM/Federated",
@@ -84,9 +219,7 @@ QUERIES = [
         'AND ("prediction" OR "diagnosis" OR "prognosis")',
     ),
 
-    # =================================================================
-    # 3. 질병관리청 GDM 과제 (4개 서브토픽)
-    # =================================================================
+    # ----- 3. 질병관리청 GDM 과제 -----
     (
         "GDM",
         "GDM → T2D 전환",
