@@ -34,8 +34,6 @@
 
 ### 1단계: Gmail App Password 발급 ⚠️ 가장 중요
 
-이전 시도에서 메일이 안 온 이유의 90%는 이것입니다.
-
 1. https://myaccount.google.com/security 접속
 2. **2단계 인증**을 켭니다 (필수)
 3. https://myaccount.google.com/apppasswords 접속
@@ -58,7 +56,7 @@
 | Secret 이름 | 값 |
 |---|---|
 | `ANTHROPIC_API_KEY` | `sk-ant-...` |
-| `GMAIL_USER` | `kwak.sooheon@gmail.com` |
+| `GMAIL_USER` | `yourid@mail.net` |
 | `GMAIL_APP_PASSWORD` | 16자 App Password (공백 제거) |
 | `NCBI_API_KEY` | (선택) NCBI API 키 — rate limit 완화용 |
 
@@ -142,7 +140,7 @@ Actions 탭 → 해당 run → 'Run daily research' step 로그 펼치기
 ### 받은편지함에 안 왔다면
 
 1. **스팸함 / 모든메일** 확인
-2. Gmail에서 `from:kwak.sooheon@gmail.com` 으로 검색 — 자기 자신에게 보낸 메일은 "Sent" 분류로 가서 INBOX에서 안 보일 수 있음
+2. Gmail에서 `from:yourid@mail.net` 으로 검색 — 자기 자신에게 보낸 메일은 "Sent" 분류로 가서 INBOX에서 안 보일 수 있음
 3. archive/ 폴더의 `YYYY-MM-DD.email.html` 파일을 브라우저로 열면 발송된 내용 그대로 확인 가능
 
 ### 점수 임계값 조정
