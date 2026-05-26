@@ -67,6 +67,7 @@ jobs:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+          NCBI_TOOL_EMAIL: ${{ secrets.NCBI_TOOL_EMAIL }}
           EMAIL_TO: ${{ vars.EMAIL_TO || secrets.GMAIL_USER }}
           DAYS_BACK: ${{ github.event.inputs.days_back || '1' }}
           SEND_EMAIL: ${{ github.event.inputs.send_email || 'true' }}
