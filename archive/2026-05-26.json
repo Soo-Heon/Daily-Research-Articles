@@ -1,10 +1,77 @@
 {
   "date": "2026-05-26",
-  "days_back": 1,
+  "days_back": 7,
   "threshold": 6,
   "queries_run": 10,
-  "articles_found": 0,
-  "articles_scored": 0,
-  "articles_above_threshold": 0,
-  "results": []
+  "articles_found": 2,
+  "articles_scored": 2,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42151416",
+        "title": "Integrated multi-omics identifies distinct macrophage alterations during progression of metabolic dysfunction-associated steatohepatitis.",
+        "abstract": "Metabolic dysfunction-associated steatotic liver disease (MASLD) is a chronic condition impacting over 30% population, yet the dynamic changes in macrophage composition from steatosis to steatohepatitis (metabolic dysfunction-associated steatohepatitis, MASH) remain unclear. Here, by integrating single-nucleus transcriptomics, spatial multi-omics and proteomics on human samples, we delineate the evolving landscape of hepatic macrophages across the MASLD spectrum. Our analysis reveals a progressive depletion of Kupffer cells accompanied by the emergence of diverse, phenotypically distinct macrophage subsets. Spatial multi-omics further demonstrates that disease progression toward MASH is marked by an accumulation of antigen-presenting, phagocytic GPNMB+ macrophages, supported by IL32-producing hepatocytes. These macrophages showed an adaptive metabolic and pro-inflammatory phenotype that is tightly regulated by both spatial context and disease stage. Identified macrophage markers enable patient stratification by disease activity and its stage across independent clinical cohorts. Our study sheds light on the diversity of macrophage identities and metabolic-adaptive phenotypes during the progression of MASLD.",
+        "journal": "Nature genetics",
+        "authors": [
+          "Markus Boesch",
+          "Seray Anak",
+          "Dania El Abyad",
+          "Tessa Ostyn",
+          "Asier Antoranz",
+          "Trieu My Van"
+        ],
+        "pub_date": "2026-May-18",
+        "doi": "10.1038/s41588-026-02600-3",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42151416/",
+        "journal_canonical": "Nature Genetics"
+      },
+      "score": {
+        "relevance_score": 8,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 대사이상관련지방간질환(MASLD)에서 단순지방증에서 지방간염(MASH)으로의 진행 과정에서 대식세포의 동적 변화를 규명했습니다. 단핵세포 전사체학, 공간 다중오믹스, 단백질체학을 인간 샘플에 통합하여 간 대식세포의 진화 과정을 분석했고, 쿠퍼 세포의 진행성 감소와 GPNMB+ 대식세포의 축적을 확인했습니다. 이러한 대식세포 표지자는 독립적인 임상 코호트에서 질병 활성도와 단계별 환자 층화를 가능하게 하여 정밀의료 적용 가능성을 제시합니다.",
+        "key_points": [
+          "MASLD/MASH 진행 과정의 다중오믹스 통합 분석 (snRNA-seq, spatial multi-omics, proteomics)",
+          "질병 진행 단계별 대식세포 표현형 변화와 대사적응 특성 규명",
+          "임상 코호트 기반 환자 층화 마커 개발로 정밀의료 적용 가능성"
+        ],
+        "reason": "MFDS 과제의 핵심 키워드인 '만성대사질환(MASLD)', '다중오믹스 통합', '질병 진행 예측', '정밀의료' 모두 부합하며, 인간 샘플 기반 임상적 코호트 분석으로 약물반응/예측 모델 개발의 기초가 될 수 있는 연구입니다."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    },
+    {
+      "article": {
+        "pmid": "42156534",
+        "title": "Zero-shot de novo peptide sequencing with open posttranslational modification discovery.",
+        "abstract": "De novo peptide sequencing directly infers sequences from mass spectrometry data without relying on protein databases. Although recent deep learning models can also identify posttranslational modifications (PTMs), they require labeled training data for this task. Here we introduce rotary positional embedding-enhanced de novo sequencing algorithm (RNovA), a transformer-based de novo sequencing algorithm enhanced with relative positional embeddings and a reinforcement-learning-style sequential decision framework. RNovA enables open PTM discovery in a zero-shot setting-without retraining or a predefined list of candidate residues-while maintaining state-of-the-art performance on standard benchmarks. Demonstrating this capability, we successfully identified peptides modified by kynurenine-an uncommon and biologically relevant PTM-in clinical samples from patients with RA and validated this discovery with synthetically synthesized reference peptides. Furthermore, we demonstrated open de novo PTM discovery by analyzing the bacterial strain A1232E, which lacks a reference proteome, and detected an unannotated glutamic acid modification. RNovA enables exploration of previously inaccessible regions of the proteome, including peptides with unexpected or unannotated modifications.",
+        "journal": "Nature biotechnology",
+        "authors": [
+          "Zeping Mao",
+          "Chao Peng",
+          "Yuling Chen",
+          "Ping Wu",
+          "Qianqiu Zhang",
+          "Yonghan Yu"
+        ],
+        "pub_date": "2026-May-19",
+        "doi": "10.1038/s41587-026-03116-1",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42156534/",
+        "journal_canonical": "Nature Biotechnology"
+      },
+      "score": {
+        "relevance_score": 3,
+        "topic_match": "없음",
+        "summary_kr": "본 논문은 질량분석법 데이터로부터 단백질 데이터베이스 없이 직접 펩타이드 서열을 추론하는 RNovA(회전 위치 임베딩 강화 디노보 서열분석 알고리즘)을 소개한다. 트랜스포머 기반 이 알고리즘은 재훈련 없이 미지의 번역후 수정(PTM)을 제로샷으로 발견할 수 있으며, 류마티스 관절염 환자 샘플에서 키누레닌 수정 펩타이드를 성공적으로 식별하고 합성 기준 펩타이드로 검증했다. 이는 주석이 없는 단백질 영역의 탐색을 가능하게 하는 기반 기술이다.",
+        "key_points": [
+          "트랜스포머 기반 디노보 펩타이드 서열분석으로 미지의 번역후 수정(PTM) 제로샷 발견",
+          "임상 샘플(RA 환자)에서 키누레닌 수정 검증 - 단백질체학 발견 응용",
+          "강화학습 스타일 순차 의사결정 프레임워크 활용한 고급 AI 알고리즘"
+        ],
+        "reason": "단백질체학/질량분석 기반 연구로 AI/딥러닝 방법론은 부합하나, 코호트/바이오뱅크 데이터 통합, 약물반응/질병 예측, 만성대사질환 등 우리 과제의 핵심 임상 및 역학 목표와 직결되지 않아 관련성이 낮음."
+      },
+      "project": "MFDS",
+      "subtopic": "코호트/바이오뱅크 × 다중오믹스 × AI"
+    }
+  ]
 }
