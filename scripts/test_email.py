@@ -26,13 +26,16 @@ def main() -> int:
     user = os.environ.get("GMAIL_USER", "")
     password = os.environ.get("GMAIL_APP_PASSWORD", "")
     to = os.environ.get("EMAIL_TO", user)  # 기본값: 자기 자신
+    # 기본적으로 실제 메일은 안 보냄. 디버깅 시 TEST_SEND_EMAIL=true 로만 발송.
+    do_send = os.environ.get("TEST_SEND_EMAIL", "false").strip().lower() in ("true", "1", "yes")
 
     print("=" * 60)
-    print("이메일 발송 단독 테스트")
+    print("이메일 인증 테스트" + ("  (+ 실제 발송)" if do_send else "  (연결/인증만)"))
     print("=" * 60)
     print(f"GMAIL_USER         : {'설정됨' if user else '❌ 비어있음'}")
     print(f"GMAIL_APP_PASSWORD : {'설정됨 (len=' + str(len(password.strip())) + ')' if password else '❌ 비어있음'}")
     print(f"EMAIL_TO           : {to}")
+    print(f"TEST_SEND_EMAIL    : {do_send}")
     print()
 
     if not user or not password:
@@ -45,13 +48,20 @@ def main() -> int:
         print(f"❌ {e}")
         return 1
 
-    # 1단계: 연결 + 인증만 테스트
+    # 1단계: 연결 + 인증만 테스트 (매 실행마다)
     print("\n--- 1단계: SMTP 연결/인증 테스트 ---")
     if not sender.test_connection():
         print("\n❌ 연결/인증 단계에서 실패. 위의 진단 메시지를 확인하세요.")
         return 1
 
-    # 2단계: 실제 테스트 메일 발송
+    # 2단계: 실제 테스트 메일 발송 (TEST_SEND_EMAIL=true 일 때만)
+    if not do_send:
+        print("\n--- 2단계: 건너뜀 (TEST_SEND_EMAIL != true) ---")
+        print("✅ 인증 OK. 실제 메일은 발송하지 않음.")
+        print("   디버깅 목적으로 발송 테스트가 필요하면 workflow_dispatch에서")
+        print("   test_email_only=true 로 실행하세요.")
+        return 0
+
     print("\n--- 2단계: 테스트 메일 발송 ---")
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     html = f"""<!DOCTYPE html><html><body style="font-family: sans-serif;">

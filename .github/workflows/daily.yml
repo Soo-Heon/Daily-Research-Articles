@@ -44,13 +44,16 @@ jobs:
           pip install -r requirements.txt
 
       # ----------------------------------------------------------- #
-      # 1단계: 이메일 발송 단독 테스트 — 이게 실패하면 메인은 시도조차 안 함
+      # 1단계: SMTP 연결/인증만 매일 검증.
+      # 실제 메일은 보내지 않음. 디버깅 시 test_email_only=true 로
+      # 수동 실행하면 TEST 메일 1통이 발송됩니다.
       # ----------------------------------------------------------- #
       - name: 🧪 Test email sending
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           EMAIL_TO: ${{ vars.EMAIL_TO || secrets.GMAIL_USER }}
+          TEST_SEND_EMAIL: ${{ github.event.inputs.test_email_only || 'false' }}
         run: python scripts/test_email.py
 
       # ----------------------------------------------------------- #
