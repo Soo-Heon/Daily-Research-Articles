@@ -22,8 +22,9 @@ TOOL_EMAIL = os.getenv("NCBI_TOOL_EMAIL", "")  # GitHub Secret에서 주입
 
 
 def _common_params(api_key: Optional[str] = None) -> dict:
-    """모든 E-utilities 요청에 공통으로 들어가는 파라미터."""
-    p = {"tool": TOOL_NAME, "email": TOOL_EMAIL}
+    p = {"tool": TOOL_NAME}
+    if TOOL_EMAIL:
+        p["email"] = TOOL_EMAIL
     if api_key:
         p["api_key"] = api_key
     return p
