@@ -18,7 +18,7 @@ NCBI_BASE = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 # NCBI E-utilities는 익명 요청보다 tool/email 식별된 요청을 우대.
 # 이 값은 식별용이며 실제로 메일이 가지 않음. 본인 정보로 바꿔도 됨.
 TOOL_NAME = "daily-research-articles"
-TOOL_EMAIL = "kwak.sooheon@gmail.com"
+TOOL_EMAIL = os.getenv("NCBI_TOOL_EMAIL", "")  # GitHub Secret에서 주입
 
 
 def _common_params(api_key: Optional[str] = None) -> dict:
