@@ -6,6 +6,7 @@ API 키 없이도 동작하지만, NCBI_API_KEY를 설정하면
 """
 from __future__ import annotations
 
+import os
 import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
