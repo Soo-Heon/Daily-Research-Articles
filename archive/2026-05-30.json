@@ -1,0 +1,44 @@
+{
+  "date": "2026-05-30",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 0,
+  "results": [
+    {
+      "article": {
+        "pmid": "42209488",
+        "title": "ToxiTaRGET: a multi-omics database for toxicant-responsive molecular targets.",
+        "abstract": "Environmental toxicant exposures can induce widespread alterations in both the transcriptome and epigenome of mammals, and directly contribute to the increased risk of various diseases, including cardiovascular disorders, cancer, and neurological disorders. To evaluate how early-life toxicants produce long-term impacts on the transcriptome and epigenome in mice, the Toxicant Exposures and Responses by Genomic and Epigenomic Regulators of Transcription II (TaRGET II) Consortium generated a landmark resource comprising 3607 multi-omics datasets from longitudinal studies in mice. The molecular changes in responding to distinct environmental toxicants, including arsenic (As), lead (Pb), bisphenol A (BPA), tributyltin (TBT), di-2-ethylhexyl phthalate (DEHP), dioxin (TCDD), and fine particulate matter (PM2.5), were systematically identified and visualized on an integrative platform, ToxiTaRGET, to allow quickly search and browse by researchers. ToxiTaRGET houses a rich repository of molecular signatures, including gene expression, chromatin accessibility, and DNA methylation profiles, in response to early-life toxicant exposures. These molecular signatures span multiple biologically important tissues in both male and female mice at three distinct life stages, offering a valuable resource for the environmental health and toxicogenomic research communities.",
+        "journal": "Nature communications",
+        "authors": [
+          "Ravindra Kumar",
+          "Tianyi Fu",
+          "Prashant Kumar Kuntala",
+          "Benpeng Miao",
+          "Shuhua Fu",
+          "Daofeng Li"
+        ],
+        "pub_date": "2026-May-29",
+        "doi": "10.1038/s41467-026-73695-9",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42209488/",
+        "journal_canonical": "Nature Communications"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 환경 독성물질 노출에 의한 전사체 및 후생유전체 변화를 연구하기 위해 마우스 종단 연구에서 3,607개의 다중오믹스 데이터셋을 생성했습니다. 비소, 납, BPA, 트리부틸주석, DEHP, 다이옥신, PM2.5 등 7가지 환경 독성물질에 대한 유전자 발현, 크로마틴 접근성, DNA 메틸화 프로파일을 통합 플랫폼 ToxiTaRGET에 구축했습니다. 암, 심혈관질환, 신경학적 질환 등 다양한 질병 위험도 증가와의 연관성을 파악할 수 있는 분자 서명 저장소를 제공합니다.",
+        "key_points": [
+          "환경 독성물질-반응 다중오믹스 데이터베이스 (3,607 datasets)",
+          "전사체, 후생유전체, 에피제네틱 데이터의 통합 플랫폼",
+          "마우스 모델 기반이므로 인간 질환 예측 적용 제한"
+        ],
+        "reason": "다중오믹스 통합과 만성질환 관련성은 MFDS 과제와 부분적으로 일치하나, 마우스 동물모델 중심이고 임상 코호트/EHR/RWD가 없으며 제2형 당뇨나 임신성 당뇨와의 직접적 연관성이 부족하여 부분 관련으로 평가됨."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
