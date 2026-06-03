@@ -1,0 +1,73 @@
+{
+  "date": "2026-06-03",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 2,
+  "articles_scored": 2,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42225866",
+        "title": "Publisher Correction: Multi-ancestry genome-wide association analyses of refractive error augment genetic discovery and polygenic prediction.",
+        "abstract": "",
+        "journal": "Nature genetics",
+        "authors": [
+          "Fei-Fei Cheng",
+          "Xiaoxi Liu",
+          "Hao Mi",
+          "Lizhong Wang",
+          "Ruilei Ma",
+          "Yazhou Guo"
+        ],
+        "pub_date": "2026-Jun-01",
+        "doi": "10.1038/s41588-026-02643-6",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42225866/",
+        "journal_canonical": "Nature Genetics"
+      },
+      "score": {
+        "relevance_score": 0,
+        "topic_match": "없음",
+        "summary_kr": "초록 없음 — 평가 불가",
+        "key_points": [],
+        "reason": "abstract 비어있음"
+      },
+      "project": "MFDS",
+      "subtopic": "오믹스 × 약물반응"
+    },
+    {
+      "article": {
+        "pmid": "42225636",
+        "title": "Multi-ancestry, trans-generational GWAS meta-analysis of gestational diabetes and glycaemic traits during pregnancy reveals limited evidence of pregnancy-specific genetic effects.",
+        "abstract": "Gestational diabetes mellitus (GDM) affects ~14% of pregnancies and increases maternal type 2 diabetes mellitus (T2DM) risk. The GenDiP Consortium presents trans-generational, multi-ancestry genome-wide association study meta-analyses of GDM and pregnancy glycemic traits in up to 38,305 GDM cases and 776,145 controls. We identify 37 GDM-associated loci (7 novel) and five novel loci for pregnancy glycemic traits, all operating through the maternal genome. We classify 12 GDM variants with stronger effects in GDM than T2DM into five biologically informed categories, revealing pleiotropy patterns, pregnancy-dependent effect modification, and diagnostic heterogeneity. While all these loci overlap with T2DM and/or non-pregnant glycaemic traits, four (G6PC2, CAST-PCSK1, HKDC1, FOXA2) lack genome-wide-significant T2DM associations; GCK shows distinct causal variants for GDM, and MTNR1B exhibits pregnancy-amplified effects. Our findings provide new genetic insights into GDM and highlight the need for larger, ancestrally diverse studies of GDM and glycaemic traits during pregnancy to understand potential pregnancy-specific effects.",
+        "journal": "Nature communications",
+        "authors": [
+          "Caroline Brito Nunes",
+          "Valentina Rukins",
+          "Aminata H Cisse",
+          "Frédérique White",
+          "Nancy McBride",
+          "Alan Kuang"
+        ],
+        "pub_date": "2026-Jun-01",
+        "doi": "10.1038/s41467-026-73509-y",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42225636/",
+        "journal_canonical": "Nature Communications"
+      },
+      "score": {
+        "relevance_score": 9,
+        "topic_match": "GDM",
+        "summary_kr": "GenDiP 컨소시엄에서 38,305명의 GDM 환자와 776,145명의 대조군을 포함한 다중집단 횡세대 GWAS 메타분석을 수행하였다. GDM 관련 37개 유전자좌위(신규 7개)와 임신 중 혈당 특성 관련 5개 신규 유전자좌위를 확인했으며, 이들은 모두 모계 게놈을 통해 작용한다. GDM에서 더 강한 효과를 보이는 12개 변이체를 5개 생물학적 범주로 분류하고, T2DM과의 차별적 유전 구조를 규명했으며, G6PC2, HKDC1, FOXA2 등은 T2DM과 무관한 GDM 특이적 유전 효과를 나타낸다.",
+        "key_points": [
+          "GDM에서 T2DM과 구별되는 임신 특이적 유전 효과 규명 (4개 유전자좌위)",
+          "다중집단(multi-ancestry) 대규모 메타분석으로 임신 중 혈당 특성의 유전적 기반 파악",
+          "GCK, MTNR1B 등에서 GDM-T2DM 전환 경로의 차별적 인과 변이체 발견"
+        ],
+        "reason": "GDM→T2DM 전환 메커니즘을 직접 다루는 GWAS 연구로, 우리 GDM 과제의 유전학(Genetics) 핵심 영역과 완벽하게 부합하며, 임신 특이적 유전 효과와 T2DM 연계 분석이 질병관리청 과제의 정확한 목표이기 때문이다."
+      },
+      "project": "GDM",
+      "subtopic": "GDM → T2D 전환"
+    }
+  ]
+}
