@@ -1,0 +1,73 @@
+{
+  "date": "2026-06-04",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 2,
+  "articles_scored": 2,
+  "articles_above_threshold": 0,
+  "results": [
+    {
+      "article": {
+        "pmid": "42230793",
+        "title": "Author Correction: CHIT1-positive microglia drive motor neuron ageing in the primate spinal cord.",
+        "abstract": "",
+        "journal": "Nature",
+        "authors": [
+          "Shuhui Sun",
+          "Jiaming Li",
+          "Si Wang",
+          "Jingyi Li",
+          "Jie Ren",
+          "Zhaoshi Bao"
+        ],
+        "pub_date": "2026-Jun-02",
+        "doi": "10.1038/s41586-026-10728-9",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42230793/",
+        "journal_canonical": "Nature"
+      },
+      "score": {
+        "relevance_score": 0,
+        "topic_match": "없음",
+        "summary_kr": "초록 없음 — 평가 불가",
+        "key_points": [],
+        "reason": "abstract 비어있음"
+      },
+      "project": "MFDS",
+      "subtopic": "EHR/RWD × 오믹스 × 정밀의료"
+    },
+    {
+      "article": {
+        "pmid": "42230603",
+        "title": "Self-assembled chamber-like cardiac organoids for modeling cardiac chamber formation and cardiotoxicity assessment.",
+        "abstract": "The human heart remains a central focus of biomedical research, yet capturing early chamber morphogenesis in vitro with structural and functional fidelity remains challenging. Here we show the generation of chamber-like cardiac organoids (CCOs) from human pluripotent stem cells that reproduce key features of heart chamber development. CCO formation is orchestrated by coordinated FGF, WNT, BMP, RA, and AA signaling, and regulated by transcription factors including HAND1, TFAP2B and NR2F2. These CCOs exhibit stable self-organized architectures with myocardial, endothelial layers and inner chamber, displaying spontaneous contraction and calcium transients. Single-cell transcriptomics revealed endothelium-to-cardiomyocyte interactions mediated by WNT2B, suggesting coordinated tissue patterning. We further validated the essential roles of RA and AA in modulating chamber enlargement and stability. Furthermore, CCOs enable efficient evaluation of cardiotoxicity and teratogenicity through direct visualization of drug-induced changes. Together, this platform provides a robust model for studying cardiac development, mechanistic research, and pharmacological screening.",
+        "journal": "Nature communications",
+        "authors": [
+          "Xinle Zou",
+          "Fanwen Wang",
+          "Huilin Zheng",
+          "Xianzhuang Liu",
+          "Tianci Kong",
+          "Rui Jiang"
+        ],
+        "pub_date": "2026-Jun-02",
+        "doi": "10.1038/s41467-026-73822-6",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42230603/",
+        "journal_canonical": "Nature Communications"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 인간 다능성 줄기세포에서 심실실 모양의 심장 오르가노이드(CCO)를 생성하여 심장 발달 초기 형태형성을 모델링했습니다. FGF, WNT, BMP, RA, AA 신호 경로와 HAND1, TFAP2B, NR2F2 같은 전사인자의 조정된 발현에 의해 CCO 형성이 제어되며, 단일세포 전사체 분석으로 내피세포-심근세포 간 WNT2B 매개 상호작용을 규명했습니다. 이 플랫폼은 약물 유해반응(심독성) 및 기형 유발성을 효율적으로 평가할 수 있어 약물 스크리닝 및 약리학적 안전성 검증에 활용 가능합니다.",
+        "key_points": [
+          "단일세포 전사체 데이터 기반 신호경로 및 유전자 상호작용 분석 (Multi-omics 부분일치)",
+          "심독성(Cardiotoxicity) 평가를 통한 약물반응 예측 플랫폼",
+          "심혈관질환 모델링 (MFDS 대상 질환 중 하나)"
+        ],
+        "reason": "약물반응/약물유해반응 예측과 심혈관질환(MFDS 핵심 질환)이 관련되나, 다중오믹스 통합·정밀의료·코호트/RWD와는 무관하고 in vitro 오르가노이드 플랫폼 개발에 초점이 있어 부분 관련성만 인정됨."
+      },
+      "project": "MFDS",
+      "subtopic": "오믹스 × 약물반응"
+    }
+  ]
+}
