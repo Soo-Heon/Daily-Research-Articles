@@ -1,0 +1,78 @@
+{
+  "date": "2026-06-06",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 2,
+  "articles_scored": 2,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42243103",
+        "title": "Integrative genomic analysis of 21 orofacial diseases identifies shared genetic architecture with systemic diseases.",
+        "abstract": "Orofacial diseases are closely linked to systemic health, yet their genetic architecture and causal relationships remain incompletely understood. Here we show that integrative genomic analyses of 21 orofacial diseases in the UK Biobank, combining genome-wide, transcriptome-wide, rare variant association studies and Mendelian randomization, identify 48 novel loci and prioritize 160 putative causal genes. Among these, a synonymous variant in ALDH1A2 associated with periodontitis, encoding a key enzyme in retinoic acid synthesis, reduces translational efficiency, as shown by CRISPR-Cas9 editing. Single-cell RNA sequencing of periodontitis tissues further reveals impaired retinoic acid signaling and a T helper 17-skewed immune phenotype, accompanied by reduced retinoic acid levels in gingival crevicular fluid. Mendelian randomization supports a causal effect of Sjögren's syndrome on lung cancer and stroke, replicated in FinnGen. By contrast, dental caries and periodontitis share substantial genetic architecture with systemic diseases, including enrichment of nicotine-related pathways, without robust evidence of causality. Together, these findings map the genetic landscape of orofacial diseases and clarify their complex links to systemic pathophysiology.",
+        "journal": "Nature communications",
+        "authors": [
+          "Kisung Nam",
+          "Byeong Soo Eom",
+          "June Yeon Kim",
+          "Moon Geon Lee",
+          "Jeong-Min Lee",
+          "Kyeongho Lee"
+        ],
+        "pub_date": "2026-Jun-04",
+        "doi": "10.1038/s41467-026-73925-0",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42243103/",
+        "journal_canonical": "Nature Communications"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 UK Biobank의 21개 구강안면질환에 대해 게놈와이드, 전사체, 희귀변이 분석 및 멘델리안 무작위화를 통합한 다중오믹스 분석을 수행했습니다. ALDH1A2의 동의어 변이가 주기성 치염과 연관되어 있음을 발견하고, CRISPR-Cas9 편집 및 단일세포 RNA 시퀀싱으로 레티노산 신호전달 기전을 규명했습니다. 구강질환과 전신질환(폐암, 뇌졸중 등) 간의 유전체 공유 아키텍처와 인과관계를 제시했습니다.",
+        "key_points": [
+          "다중오믹스 통합분석(GWAS + 전사체 + 희귀변이 + MR) 방법론 적용",
+          "48개 신규 유전자좌 발굴 및 160개 인과유전자 우선순위화",
+          "구강안면질환과 만성전신질환(뇌졸중, 폐암) 간의 유전체 공유 및 인과성 규명",
+          "기능검증(CRISPR, scRNA-seq)을 통한 분자기전 해석"
+        ],
+        "reason": "다중오믹스 통합분석, 만성질환 연관성, 대규모 코호트 활용은 MFDS 과제와 부합하나, 구강질환(당뇨/심혈관/대사질환 아님)이 대상이고 약물반응/약물유해반응 예측과는 무관하여 부분 관련 수준입니다."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    },
+    {
+      "article": {
+        "pmid": "42247277",
+        "title": "Postpartum Dietary Interventions and Cardiometabolic Profiles After Pregnancies Complicated by Gestational Diabetes Mellitus: A Systematic Review and Meta-analysis.",
+        "abstract": "BACKGROUND: Gestational diabetes mellitus (GDM) confers substantial long-term cardiometabolic risk. The postpartum period represents a critical window for intervention, but the benefits of dietary interventions on cardiometabolic profiles in women with prior GDM remain unclear. PURPOSE: To evaluate whether postpartum dietary interventions improved cardiometabolic profiles in women with GDM. DATA SOURCES: Six databases were searched from 1 January 1980-31 December 2025. STUDY SELECTION: Twenty-one randomized controlled trials (RCTs) met inclusion criteria. DATA EXTRACTION: Data extraction and risk-of-bias assessment followed Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines. DATA SYNTHESIS: Meta-analyses pooled mean differences (MDs) with 95% CIs using a random-effects model. Intermediate cardiometabolic surrogate markers, such as BMI, waist circumference, weight, fasting and 2-h blood glucose, HOMA of insulin resistance (HOMA-IR), hemoglobin A1c (HbA1c), systolic and diastolic blood pressure, lipids, and inflammatory biomarkers were evaluated. The meta-analysis included 19 RCTs (participants were aged 18-45 years; sample size: 23 to 1,639; follow-up: 12 weeks-3 years). Compared with standard care, postnatal dietary interventions significantly reduced BMI (MD -0.46 kg/m2; 95% CI -0.71, -0.20), waist circumference (-1.47 cm; -2.39, -0.55), weight (-0.73 kg; -1.19, -0.27), HOMA-IR (-0.55; -1.04, -0.06), and HbA1c (-0.24%; -0.46, -0.02). No improvements were found for other markers. LIMITATIONS: Heterogeneity across studies, variable adherence to counseling-based interventions, and comprehensive standard postpartum care may have limited observed effects. CONCLUSIONS: Postpartum dietary interventions yield modest but statistically significant improvements in key cardiometabolic indicators among women with prior GDM without overt disease, highlighting the postpartum period as an important window to optimize intermediate cardiometabolic markers.",
+        "journal": "Diabetes care",
+        "authors": [
+          "Anthea Ann Ting Phee",
+          "Ru Xun Foo",
+          "Claire Guivarch",
+          "Peipei Liu",
+          "Ron Gneezy",
+          "Shwetha Shanmugan"
+        ],
+        "pub_date": "2026-Jun-05",
+        "doi": "10.2337/dc26-0057",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42247277/",
+        "journal_canonical": "Diabetes Care"
+      },
+      "score": {
+        "relevance_score": 7,
+        "topic_match": "GDM",
+        "summary_kr": "본 연구는 임신성당뇨(GDM) 병력이 있는 여성의 산후 식이 중재가 심대사 프로필에 미치는 영향을 체계적 검토와 메타분석으로 평가했습니다. 1980-2025년 6개 데이터베이스에서 21개 무작위대조시험(RCTs)을 선별하여 19개 연구(참여자 23-1,639명, 추적기간 12주-3년)를 분석했습니다. 표준 치료 대비 산후 식이 중재는 BMI(-0.46 kg/m²), 허리둘레(-1.47 cm), 체중(-0.73 kg), HOMA-IR(-0.55), HbA1c(-0.24%)를 유의미하게 감소시켰으나 다른 지표는 개선되지 않았습니다. 이는 GDM→T2D 전환 위험을 낮추기 위한 산후 관리 시점의 중요성을 시사합니다.",
+        "key_points": [
+          "GDM 병력 여성의 산후 식이 중재가 BMI, 허리둘레, 체중, HOMA-IR, HbA1c 등 주요 심대사 지표 개선",
+          "T2D 전환 고위험군의 산후 임계 시간대에서의 생활습관 개입 전략 제시",
+          "메타분석을 통한 근거기반 권고안 도출(21개 RCT 포함, 대규모 샘플)"
+        ],
+        "reason": "GDM→T2D 전환 예방의 핵심 주제이지만, 다중오믹스·유전체·미생물군집 등 고급 바이오마커가 없고 식이중재라는 단일 중재 방식만 다루어 DGDB의 머신러닝/파운데이션 모델과는 직접 연결성이 낮음."
+      },
+      "project": "GDM",
+      "subtopic": "GDM → T2D 전환"
+    }
+  ]
+}
