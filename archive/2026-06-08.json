@@ -1,0 +1,37 @@
+{
+  "date": "2026-06-08",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42251767",
+        "title": "Early Pregnancy Glycemic Testing for Prediction of Gestational Diabetes Mellitus and Large for Gestational Age Birth Weight.",
+        "abstract": "OBJECTIVE: We evaluated whether early pregnancy oral glucose tolerance testing (OGTT) or continuous glucose monitoring (CGM) improves gestational diabetes mellitus (GDM) or large for gestational age (LGA) birth prediction over clinical factors alone. RESEARCH DESIGN AND METHODS: In the Glycemic Observation and Metabolic Outcomes in Mothers and Offspring (GO MOMs) study, a prospective observational study at nine U.S. sites (2021-2025), participants with singleton gestation and without preexisting diabetes underwent blinded 75-g OGTT and CGM at 10-14 weeks' gestation. Predictive models for GDM at 24-28 weeks' and LGA were developed using these data and clinical factors (maternal age, BMI, GDM or macrosomia history). New glycemic criteria maximized the area under the receiver operating characteristic curve in training data from four sites and were validated in five. Models incorporating OGTT or CGM criteria versus clinical factors alone compared positive predictive value (PPV) at a prespecified negative predictive value (NPV) at a reported 8.3% national GDM prevalence and 10% for LGA. RESULTS: Of 2,178 participants, 93.3% who were pregnant at 24-28 weeks completed OGTTs (15.4% GDM), and 98.1% with live births had data to determine LGA (11.2% LGA). At NPV ≥96% and 8.3% GDM prevalence, PPV for GDM was 12.2% (95% CI 11.0-13.3%) for clinical factors alone, 26.5% (23.1-30.3%) for OGTT plus clinical factors, and 19.8% (17.2-22.5%) for CGM plus clinical factors. For LGA, neither glycemic model improved PPV. Validation confirmed findings. CONCLUSIONS: In a U.S.-representative population, adding 10-14-week OGTT or CGM criteria to clinical factors improved GDM but not LGA prediction. Future studies should determine whether predicting GDM in the first trimester facilitates interventions that improve GDM-related pregnancy outcomes.",
+        "journal": "Diabetes care",
+        "authors": [],
+        "pub_date": "2026-Jun-07",
+        "doi": "10.2337/dc26-0302",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42251767/",
+        "journal_canonical": "Diabetes Care"
+      },
+      "score": {
+        "relevance_score": 9,
+        "topic_match": "GDM",
+        "summary_kr": "본 연구는 GO MOMs 전향적 코호ort 연구에서 임신 초기(10-14주)의 경구포도당내성검사(OGTT)와 연속혈당모니터링(CGM)이 임신성당뇨(GDM) 및 거대아 출산(LGA) 예측을 개선하는지 평가했습니다. 2,178명의 산모를 대상으로 OGTT 및 CGM 데이터와 임상인자(나이, BMI, GDM/거대아 병력)를 이용한 예측 모델을 개발하고 검증했습니다. 결과적으로 임상인자 단독 대비 OGTT 추가 시 GDM 예측의 양성예측도(PPV)가 12.2%에서 26.5%로 향상되었으나, LGA 예측은 개선되지 않았습니다.",
+        "key_points": [
+          "임신 초기 CGM을 이용한 GDM 예측의 임상적 가치 입증 (핵심 기술)",
+          "대규모 U.S. 대표 코호트(2,178명)에서의 전향적 검증 데이터",
+          "OGTT > CGM 성능 (GDM PPV: 26.5% vs 19.8%), 향후 임상중재 개입 기회 제시"
+        ],
+        "reason": "GDM 조기 예측(CGM 활용)이 핵심 주제이며, 대규모 코호트·전향적 설계·GDM→T2D 전환 경로의 조기 개입 가능성까지 GDM 과제의 전략과 완벽하게 부합합니다."
+      },
+      "project": "GDM",
+      "subtopic": "GDM × CGM"
+    }
+  ]
+}
