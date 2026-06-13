@@ -1,0 +1,44 @@
+{
+  "date": "2026-06-13",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42277400",
+        "title": "Gardnerella enrichment in the vaginal microbiome of women with gestational diabetes mellitus is associated with lower fetal birthweight percentiles.",
+        "abstract": "AIMS/HYPOTHESIS: We aimed to characterise alterations in the late-pregnancy vaginal microbiota in women with gestational diabetes mellitus (GDM), and to examine their associations with maternal glycaemic status and fetal growth. METHODS: In this observational case-control study, women with newly diagnosed, diet-managed GDM (n=60) and healthy pregnant control participants (n=119) were recruited at a single tertiary centre. Vaginal swabs were collected in the third trimester and analysed by full-length 16S rRNA gene sequencing. Associations between vaginal microbiota composition, maternal glycaemic measures, and fetal birthweight percentile (FBW%ile) were evaluated. RESULTS: The overall vaginal microbial composition differed between groups despite similar alpha diversity. Beta diversity analyses showed significant separation between the women with GDM and the control group (R=0.068, p=0.011 by ANOSIM). Lactobacillus-dominated communities were less frequent in women with GDM than in control participants (73.3% vs 86.6%, p=0.029), with reduced Lactobacillus abundance (79.8% vs 87.4%, nominal p=0.020) and increased Gardnerella abundance (9.7% vs 1.4%, nominal p=0.011). Within the GDM group, Gardnerella abundance correlated positively with fasting glucose levels (r=0.3617, nominal p=0.007) and inversely with FBW%ile (r=-0.2774, nominal p=0.032). Stratification by FBW%ile (<50% vs ≥50%) showed a higher proportion of non-Lactobacillus-dominated communities (44.4% vs 12.1%, p=0.001) and higher Gardnerella abundance (15.0% vs 3.2%, nominal p=0.020) in the low FBW%ile subgroup. Associations with Gardnerella were attenuated in sensitivity analyses that excluded samples with extreme Gardnerella abundance. CONCLUSIONS/INTERPRETATION: Late-pregnancy GDM was associated with modest shifts in vaginal microbial structure, characterised by reduced Lactobacillus dominance and relative enrichment of Gardnerella. Exploratory analyses of associations of Gardnerella with maternal fasting glucose levels and fetal growth suggest that variation in the vaginal microbial environment may contribute to metabolic and fetal growth heterogeneity in women with GDM.",
+        "journal": "Diabetologia",
+        "authors": [
+          "Yilin Fu",
+          "Nary Long",
+          "Phannaroat Sourn",
+          "Mengqi Zhang",
+          "Weidong Tan",
+          "Huihui Yu"
+        ],
+        "pub_date": "2026-Jun-11",
+        "doi": "10.1007/s00125-026-06770-x",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42277400/",
+        "journal_canonical": "Diabetologia"
+      },
+      "score": {
+        "relevance_score": 9,
+        "topic_match": "GDM",
+        "summary_kr": "본 연구는 임신성당뇨(GDM) 여성의 질 마이크로바이옴 변화를 특성화한 관찰적 케이스-컨트롤 연구로, GDM군(n=60)과 건강한 대조군(n=119)의 임신 3분기 질 면봉에서 16S rRNA 유전자 시퀀싱을 수행했다. GDM군에서 락토바실러스 우점 커뮤니티가 감소(73.3% vs 86.6%)하고 가드넬라가 증가(9.7% vs 1.4%)했으며, GDM군 내에서 가드넬라 풍부도는 공복혈당과 양의 상관(r=0.36, p=0.007), 태아 출생체중 백분위수와 음의 상관(r=-0.28, p=0.032)을 보였다. 이는 GDM의 질 마이크로바이옴 변화가 모체 대사 및 태아 성장 이질성에 기여할 수 있음을 시사한다.",
+        "key_points": [
+          "GDM 여성의 질 마이크로바이옴에서 Lactobacillus 감소, Gardnerella 증가의 특이적 변화 발견",
+          "Gardnerella 풍부도와 공복혈당 수준 간의 양의 상관관계 및 태아 출생체중 백분위수와의 음의 상관관계",
+          "마이크로바이옴 조성 변화가 GDM 표현형 이질성(metabolic/fetal growth heterogeneity) 설명 가능성 제시"
+        ],
+        "reason": "GDM 코호트에서 마이크로바이옴 분석 및 임신 결과(태아성장)와의 연관성을 직접 다루며, GDM×Microbiome 프로젝트의 핵심 토픽과 완벽히 부합하고 다중오믹스 통합 방향성과도 일치한다."
+      },
+      "project": "GDM",
+      "subtopic": "GDM × Microbiome"
+    }
+  ]
+}
