@@ -1,0 +1,44 @@
+{
+  "date": "2026-06-14",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 0,
+  "results": [
+    {
+      "article": {
+        "pmid": "42285117",
+        "title": "Prevention of postpartum haemorrhage: from evidence to implementation at scale.",
+        "abstract": "Postpartum haemorrhage (PPH) is a leading cause of maternal death. Preventing PPH can spare women from experiencing the trauma and risks of PPH, reduce the strain on overstretched health systems, and probably produce better outcomes than a strategy solely focused on PPH treatment. Prevention of PPH is often interpreted as provision of uterotonic drugs to contract the uterus at the time of childbirth. Although uterotonics are a central strategy for PPH prevention, several other approaches can prevent PPH or ameliorate its severity. These approaches include addressing the unmet need for contraception, remedying anaemia and other modifiable risk factors for PPH, optimising medical conditions that predispose to PPH, and tackling the rise in caesarean births in many countries. Effective delivery of preventive care requires early and regular antenatal care and planned birth at appropriately resourced health facilities. Social and behavioural change interventions for improving contraceptive provision and uptake, targeting adolescents, postpartum women, geographically remote communities, and families on low income, are a priority. Effective interventions to tackle anaemia include the management of heavy menstrual bleeding, pre-pregnancy or antenatal haemoglobin testing and oral or intravenous iron treatment, dietary improvements, and-on rare occasions-blood transfusion. Risk factors for PPH that need attention include high BMI, multiple pregnancy, gestational diabetes, pre-eclampsia, macrosomia, and several medical conditions. Caesarean births are associated with a substantial increase in PPH risk and should therefore only be done when medically indicated. A Cochrane network meta-analysis of 122 trials, with 121 931 women, found that the combinations of oxytocin plus misoprostol, or oxytocin plus ergometrine, were the most effective prophylaxis for PPH when given at the time of childbirth; however, these combinations had a higher risk of side-effects compared with single-drug prophylaxis. Oxytocin and carbetocin were the most effective single drugs for PPH prophylaxis, with minimal side-effects. Single uterotonic prophylaxis with either oxytocin or carbetocin is, therefore, recommended for routine prophylaxis. However, if oxytocin or carbetocin is not accessible, misoprostol is an alternative. Combination prophylaxis with oxytocin plus misoprostol can be considered for women at high risk of PPH. Ergometrine alone and oxytocin plus ergometrine combination are no longer recommended due to hypertension-related safety concerns. A robust implementation approach that engages various stakeholders to promote change, ensures the supply of quality-assured medicines and devices, provides training and support, and secures ongoing political and financial commitment is necessary to translate evidence into global impact.",
+        "journal": "Lancet (London, England)",
+        "authors": [
+          "Ioannis D Gallos",
+          "Kulandaipalayam N Sindhu",
+          "Idnan Yunas",
+          "Soha Sobhy",
+          "Eleni Mavrides",
+          "Lumaan Sheikh"
+        ],
+        "pub_date": "2026-Jun-12",
+        "doi": "10.1016/S0140-6736(26)00903-7",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42285117/",
+        "journal_canonical": "Lancet"
+      },
+      "score": {
+        "relevance_score": 2,
+        "topic_match": "GDM",
+        "summary_kr": "본 논문은 분만 후 출혈(PPH)의 예방 전략을 다루며, 자궁수축제(oxytocin, carbetocin 등)의 효과성을 122개 임상시험 메타분석으로 검토했습니다. 임신성당뇨(GDM)를 PPH의 위험 인자 중 하나로 언급하고 있으나, GDM→T2D 전환, 다중오믹스, 예측 모델링 등 우리 과제의 핵심 주제는 포함되지 않습니다. 산모 사망 예방과 임상 실제 구현에 초점을 맞추고 있습니다.",
+        "key_points": [
+          "GDM을 분만 후 출혈(PPH)의 위험 인자로 인식하지만 GDM의 T2D 전환은 다루지 않음",
+          "임상 중재 및 약물 예방 전략 중심으로 다중오믹스/유전체/마이크로바이옴 분석 없음",
+          "산모 건강 및 분만 합병증 관리가 주제로, 당뇨병 발병 메커니즘이나 전환 예측과 무관"
+        ],
+        "reason": "GDM이 일부 언급되지만 본 논문은 분만 후 출혈 예방에 집중하며, GDM→T2D 전환, 다중오믹스, 예측 모델링, 마이크로바이옴 등 우리 과제의 핵심 요소가 부재하여 관련성이 매우 낮습니다."
+      },
+      "project": "GDM",
+      "subtopic": "GDM → T2D 전환"
+    }
+  ]
+}
