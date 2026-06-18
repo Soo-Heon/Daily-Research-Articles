@@ -1,0 +1,44 @@
+{
+  "date": "2026-06-18",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 0,
+  "results": [
+    {
+      "article": {
+        "pmid": "42302781",
+        "title": "Cellular architecture and neighborhood-informed virtual spatial tumor profiling from histopathology.",
+        "abstract": "The tumor microenvironment (TME) critically shapes disease progression and therapeutic resistance. However, a comprehensive understanding of its spatial architecture remains elusive, and clinical translation is challenging. Here, we present cellular architecture and neighborhood-informed virtual AI-driven spatial profiling (CANVAS), an artificial intelligence platform that infers tumor ecological habitats from hematoxylin and eosin (H&E) histopathology. Built on an atlas of over 18 million cells profiled by 41-plex spatial proteomics across 457 patients with non-small cell lung cancer, CANVAS establishes 10 reproducible cellular neighborhoods (CNs) capturing conserved spatial organization of the TME. Through multimodal alignment and foundation-model-based morphological encoding, CANVAS predicts CN-anchored habitat structures from H&E slides and enables clinical evaluation in over 5,000 patients spanning 9 cancer types. Across patient cohorts, CANVAS supports prognostic modeling, spatial ecotype stratification, and immunotherapy outcome prediction. These results establish CANVAS as a clinically scalable platform for spatial profiling, bridging single-cell analysis to population-level insight and enabling precision oncology.",
+        "journal": "Cell",
+        "authors": [
+          "Yuchen Li",
+          "Zhe Li",
+          "Ryan Quinton",
+          "Yuanfeng Ji",
+          "Xiaoming Zhang",
+          "Jinxi Xiang"
+        ],
+        "pub_date": "2026-Jun-16",
+        "doi": "10.1016/j.cell.2026.05.031",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42302781/",
+        "journal_canonical": "Cell"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 H&E 조직병리 슬라이드로부터 종양 미세환경의 공간적 구조를 AI로 예측하는 CANVAS 플랫폼을 개발했습니다. 41-plex 공간 프로테오믹스로 프로파일링한 457명의 비소세포폐암 환자 1,800만 개 세포를 바탕으로 10개의 재현성 있는 세포 근처(cellular neighborhood)를 도출했습니다. Foundation model 기반 형태학적 인코딩을 통해 5,000명 이상, 9가지 암종에서 예후 모델링, 면역치료 반응 예측을 가능하게 했습니다.",
+        "key_points": [
+          "다중오믹스(공간 프로테오믹스) + AI 통합으로 임상적 스케일링 달성",
+          "대규모 코호트(457→5,000+명) 및 RWD 적용으로 정밀의료 구현",
+          "Foundation model 기반 자동화된 공간 프로파일링으로 임상 번역성 확보"
+        ],
+        "reason": "다중오믹스 통합, 대규모 코호트/RWD, 정밀의료 기반 예측 모델링이라는 MFDS 핵심 요소를 포함하지만, 암 종양 미세환경 중심으로 당뇨/대사질환과는 직접 무관하여 부분 관련으로 평가됨."
+      },
+      "project": "MFDS",
+      "subtopic": "EHR/RWD × 오믹스 × 정밀의료"
+    }
+  ]
+}
