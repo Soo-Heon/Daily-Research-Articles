@@ -1,0 +1,41 @@
+{
+  "date": "2026-06-20",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42319764",
+        "title": "Trends in Pregestational and Gestational Diabetes Mellitus and Associations With Severe Maternal Morbidity in U.S. Delivery Hospitalizations, 2016-2022.",
+        "abstract": "OBJECTIVE: To describe trends in the prevalence of gestational diabetes mellitus (GDM), pregestational diabetes mellitus (type 1 and type 2), and severe maternal morbidity (SMM) in the U.S., and to examine associations between diabetes status and type with SMM. RESEARCH DESIGN AND METHODS: This retrospective study used 2016-2022 data from the Healthcare Cost and Utilization Project National Inpatient Sample. Delivery hospitalizations among women ages 12-55 years were identified. Modified Poisson regression models were used to estimate relative risks (RRs) for overall and nontransfusion SMM, adjusting for sociodemographic and clinical characteristics. RESULTS: Among 25,138,817 delivery hospitalizations, the prevalence of GDM increased from 7.1 to 9.5 per 100 deliveries, pregestational diabetes mellitus type 2 increased from 0.8 to 1.1 per 100 deliveries, and pregestational diabetes mellitus type 1 remained stable at 0.3 per 100 deliveries from 2016 to 2022. Overall SMM increased from 160.0 to 220.3 per 10,000 deliveries; nontransfusion SMM increased from 72.0 to 93.0 per 10,000 deliveries. In sociodemographic-adjusted models, compared with women without diabetes, type 1 diabetes was associated with the highest risk of nontransfusion SMM (RR 4.94; 95% CI 4.55-5.35), followed by type 2 diabetes (RR 2.58; 95% CI 2.43-2.74) and GDM (RR 1.12; 95% CI 1.08-1.15). CONCLUSIONS: From 2016 to 2022, GDM and pregestational diabetes mellitus type 2 rose in parallel with increasing SMM. While GDM was the most prevalent, pregestational diabetes mellitus, particularly type 1, was associated with a higher risk of SMM. The increased risk for SMM associated with all forms of diabetes in pregnancy highlights the importance of cardiometabolic risk management and the need for comprehensive, multidisciplinary care during pregnancy and delivery.",
+        "journal": "Diabetes care",
+        "authors": [
+          "Chyng-Wen Fwu",
+          "Sarah S Casagrande",
+          "Jean M Lawrence"
+        ],
+        "pub_date": "2026-Jun-19",
+        "doi": "10.2337/dc26-0586",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42319764/",
+        "journal_canonical": "Diabetes Care"
+      },
+      "score": {
+        "relevance_score": 6,
+        "topic_match": "GDM",
+        "summary_kr": "본 연구는 2016-2022년 미국 입원 표본 데이터를 이용하여 임신성당뇨(GDM)와 전임신성당뇨(T1DM, T2DM)의 유병률 추이와 심각한 산모이환(SMM)과의 연관성을 분석했다. GDM 유병률은 7.1%에서 9.5%로 증가했으며, 제2형 전임신성당뇨도 0.8%에서 1.1%로 증가했다. 모든 당뇨 유형이 SMM의 위험 증가와 관련되었으며, 특히 제1형 당뇨가 가장 높은 위험도(RR 4.94)를 보였다. 이는 임신 중 포괄적인 심사대사 위험관리의 중요성을 강조한다.",
+        "key_points": [
+          "2016-2022년 GDM 유병률 상승 추세 확인 (7.1% → 9.5%)",
+          "GDM과 T2DM이 심각한 산모이환(SMM) 증가와 병행하여 증가",
+          "모든 당뇨 유형에서 SMM 위험 증가, T1DM > T2DM > GDM 순서"
+        ],
+        "reason": "GDM 코호트 및 T2DM 관련 데이터를 다루지만, GDM→T2D 전환 예측이나 다중오믹스/유전체/마이크로바이옴 분석 등 우리 연구실의 핵심 방법론이 부재하여 부분 관련으로 평가됨."
+      },
+      "project": "GDM",
+      "subtopic": "GDM → T2D 전환"
+    }
+  ]
+}
