@@ -1,0 +1,44 @@
+{
+  "date": "2026-06-21",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 0,
+  "results": [
+    {
+      "article": {
+        "pmid": "42321192",
+        "title": "Replication origin firing capacity indicates ATR inhibitor sensitivity.",
+        "abstract": "Inhibitors of ATR, a central kinase controlling DNA replication origin firing and cellular checkpoints, are undergoing clinical trials, yet mechanisms underpinning sensitivity to ATR inhibitors (ATRi) and patient stratification biomarkers are lacking. Here, we perform in parallel, proteomics, transcriptomics and functional analyses and demonstrate that sensitive cancer cell lines have higher expression of DNA replication initiation factors, and exhibit higher origin firing, increased pan-nuclear γH2AX signals and cell death upon ATRi treatment. ATRi sensitivity is causally associated with origin firing rates, since we could modulate ATRi sensitivity by either up- or down-regulating origin firing capacity using CDC7 inhibition, CDK2 inhibition or CDC45 overexpression in both breast and colorectal cancer cells. High expression of replication initiation factors predicts ATRi sensitivity across cell lines from multiple cancer types and acute myeloid leukemia patient samples. This study reveals a contribution of lethal origin firing capacity to ATR sensitivity, providing key steps towards developing a multimodal clinically applicable biomarker.",
+        "journal": "Nature communications",
+        "authors": [
+          "A Lumeau",
+          "P L Pfuderer",
+          "J A Scarth",
+          "E Maniati",
+          "M A Guscott",
+          "N Shaikh"
+        ],
+        "pub_date": "2026-Jun-19",
+        "doi": "10.1038/s41467-026-74588-7",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42321192/",
+        "journal_canonical": "Nature Communications"
+      },
+      "score": {
+        "relevance_score": 2,
+        "topic_match": "없음",
+        "summary_kr": "본 연구는 ATR 억제제(ATRi)에 대한 암 세포의 민감도를 예측하는 바이오마커를 개발하기 위해 프로테오믹스, 트랜스크립토믹스, 기능 분석을 수행했습니다. DNA 복제 개시 인자의 높은 발현과 origin firing률이 ATRi 민감도와 인과관계를 보였으며, CDC7/CDK2 억제제 또는 CDC45 과발현을 통해 민감도를 조절할 수 있음을 확인했습니다. 이 발견은 암 환자의 개인맞춤 치료를 위한 다중 오믹스 기반 바이오마커 개발의 가능성을 제시합니다.",
+        "key_points": [
+          "다중오믹스(proteomics + transcriptomics) 통합 분석으로 약물 반응성 바이오마커 도출",
+          "DNA replication 기반 암 세포주 분층(patient stratification) 전략",
+          "임상 적용 가능한 multimodal biomarker 개발 제시"
+        ],
+        "reason": "MFDS의 다중오믹스·약물반응 예측·정밀의료 키워드와 일부 방법론이 일치하나, 대상이 암(암세포주/AML) 환자로 제한되고 EHR/RWD, 당뇨/심혈관 등 대사질환 중심의 우리 연구과제와 질병 영역이 전혀 겹치지 않아 낮은 관련성을 보입니다."
+      },
+      "project": "MFDS",
+      "subtopic": "EHR/RWD × 오믹스 × 정밀의료"
+    }
+  ]
+}
