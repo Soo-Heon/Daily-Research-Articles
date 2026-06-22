@@ -24,57 +24,85 @@ CLAUDE_MODEL = "claude-haiku-4-5-20251001"
 
 
 # =================================================================
-# 대상 저널 (이 27개만 검색)
+# 대상 저널 (이 43개만 검색)
+# - 종합 의학/기초 top: Nature, Science, NEJM, Lancet, JAMA, BMJ 등
+# - 당뇨/대사: Diabetes, Diabetes Care, Diabetologia, Lancet Diab Endo,
+#              Nature Metabolism, Cell Metabolism
+# - 심혈관: Circulation, Eur Heart J, JACC, Circulation Research
+# - 신장: Kidney International, JASN, CJASN
+# - 뇌졸중: Stroke
+# - 간/위장관: Hepatology, J Hepatol, Gastroenterology, Gut
+# - 오믹스/중개의학: Genome Biology, Genome Medicine, Mol Syst Biol,
+#                    Cell Systems, EBioMedicine, Cell Reports Medicine
+# - AI/디지털: Lancet Digital Health, npj Digital Medicine
+# - 유전체: Nature Genetics, npj Genomic Medicine
 # =================================================================
 TARGET_JOURNALS = [
+    # 종합 의학·기초
     "Nature", "Science", "Cell",
-    "Nature Genetics", "Nature Medicine", "Nature Communications",
-    "Nature Biotechnology", "Nature Methods", "Nature Metabolism",
-    "Nature Reviews Genetics", "Nature Reviews Endocrinology",
-    "Nature Reviews Drug Discovery",
-    "Cell Metabolism", "Cell Reports Medicine",
-    "Lancet", "Lancet Diabetes Endocrinology", "Lancet Digital Health",
-    "Diabetes Care", "Diabetologia", "Diabetes",
-    "JAMA", "JAMA Internal Medicine", "JAMA Network Open",
-    "New England Journal of Medicine", "NEJM",
-    "npj Digital Medicine", "npj Genomic Medicine",
+    "New England Journal of Medicine",
+    "Lancet", "JAMA", "BMJ",
+    "Annals of Internal Medicine",
+    "JAMA Internal Medicine", "JAMA Network Open",
     "Science Translational Medicine",
-    "BMJ", "Annals of Internal Medicine",
+    # 기초 (Nature/Cell 자매지)
+    "Nature Medicine", "Nature Genetics", "Nature Communications",
+    "Nature Biotechnology", "Nature Methods", "Nature Metabolism",
+    "Cell Metabolism", "Cell Reports Medicine",
+    # 당뇨/내분비
+    "Lancet Diabetes Endocrinology", "Diabetes Care", "Diabetologia", "Diabetes",
+    # 심혈관
+    "Circulation", "European Heart Journal",
+    "Journal of the American College of Cardiology", "Circulation Research",
+    # 신장
+    "Kidney International",
+    "Journal of the American Society of Nephrology",
+    "Clinical Journal of the American Society of Nephrology",
+    # 뇌졸중
+    "Stroke",
+    # 간/위장관
+    "Hepatology", "Journal of Hepatology", "Gastroenterology", "Gut",
+    # 오믹스/중개의학
+    "EBioMedicine",
+    "Genome Biology", "Genome Medicine",
+    "Molecular Systems Biology", "Cell Systems",
+    # 디지털 헬스
+    "Lancet Digital Health", "npj Digital Medicine", "npj Genomic Medicine",
 ]
 
 # PubMed [ta] (NLM Title Abbreviation) 필터용.
-# PubMed의 [Journal] 필드는 풀네임/약어/ISO 약어를 모두 인덱싱하므로
-# 약어를 쓰면 가장 정확하게 매칭됩니다.
+# 약어가 가장 정확하게 매칭됩니다.
 JOURNAL_NLM_ABBREVIATIONS = [
-    "Nature",
-    "Science",
-    "Cell",
-    "Nat Genet",
-    "Nat Med",
-    "Nat Commun",
-    "Nat Biotechnol",
-    "Nat Methods",
-    "Nat Metab",
-    "Nat Rev Genet",
-    "Nat Rev Endocrinol",
-    "Nat Rev Drug Discov",
-    "Cell Metab",
-    "Cell Rep Med",
-    "Lancet",
-    "Lancet Diabetes Endocrinol",
-    "Lancet Digit Health",
-    "Diabetes Care",
-    "Diabetologia",
-    "Diabetes",
-    "JAMA",
-    "JAMA Intern Med",
-    "JAMA Netw Open",
+    # 종합 의학·기초
+    "Nature", "Science", "Cell",
     "N Engl J Med",
-    "NPJ Digit Med",
-    "NPJ Genom Med",
-    "Sci Transl Med",
-    "BMJ",
+    "Lancet", "JAMA", "BMJ",
     "Ann Intern Med",
+    "JAMA Intern Med", "JAMA Netw Open",
+    "Sci Transl Med",
+    # 기초 자매지
+    "Nat Med", "Nat Genet", "Nat Commun",
+    "Nat Biotechnol", "Nat Methods", "Nat Metab",
+    "Cell Metab", "Cell Rep Med",
+    # 당뇨/내분비
+    "Lancet Diabetes Endocrinol", "Diabetes Care", "Diabetologia", "Diabetes",
+    # 심혈관
+    "Circulation", "Eur Heart J",
+    "J Am Coll Cardiol", "Circ Res",
+    # 신장
+    "Kidney Int",
+    "J Am Soc Nephrol",
+    "Clin J Am Soc Nephrol",
+    # 뇌졸중
+    "Stroke",
+    # 간/위장관
+    "Hepatology", "J Hepatol", "Gastroenterology", "Gut",
+    # 오믹스/중개의학
+    "EBioMedicine",
+    "Genome Biol", "Genome Med",
+    "Mol Syst Biol", "Cell Syst",
+    # 디지털
+    "Lancet Digit Health", "NPJ Digit Med", "NPJ Genom Med",
 ]
 
 # PubMed AND 절에 끼워넣을 저널 필터
@@ -86,11 +114,6 @@ JOURNAL_FILTER_QUERY = "(" + " OR ".join(
 # =================================================================
 # 저널 이름 정규화 + 매칭 (PubMed 표기 흔들림 대응)
 # =================================================================
-# PubMed가 반환하는 저널명에 들어있는 noise를 제거:
-#   "Lancet (London, England)"           → "lancet"
-#   "The New England journal of medicine" → "new england journal of medicine"
-#   "Science (New York, N.Y.)"           → "science"
-#   "BMJ (Clinical research ed.)"        → "bmj"
 def normalize_journal(name: str) -> str:
     if not name:
         return ""
@@ -103,75 +126,109 @@ def normalize_journal(name: str) -> str:
     return s
 
 
-# (raw 이름) → (canonical 표시 이름) 매핑.
-# 풀네임/NLM약어 모두 등록해 양방향 매칭.
 _RAW_TO_CANONICAL = {
-    # 풀네임
+    # ---- 종합 의학·기초 ----
     "Nature": "Nature",
     "Science": "Science",
     "Cell": "Cell",
-    "Nature Genetics": "Nature Genetics",
-    "Nature Medicine": "Nature Medicine",
-    "Nature Communications": "Nature Communications",
-    "Nature Biotechnology": "Nature Biotechnology",
-    "Nature Methods": "Nature Methods",
-    "Nature Metabolism": "Nature Metabolism",
-    "Cell Metabolism": "Cell Metabolism",
-    "Cell Reports Medicine": "Cell Reports Medicine",
-    "Cell Reports. Medicine": "Cell Reports Medicine",
-    "Lancet": "Lancet",
-    "The Lancet": "Lancet",
-    "Lancet Diabetes Endocrinology": "Lancet Diabetes Endocrinology",
-    "The Lancet Diabetes & Endocrinology": "Lancet Diabetes Endocrinology",
-    "The Lancet. Diabetes & Endocrinology": "Lancet Diabetes Endocrinology",
-    "Lancet Digital Health": "Lancet Digital Health",
-    "The Lancet Digital Health": "Lancet Digital Health",
-    "The Lancet. Digital Health": "Lancet Digital Health",
-    "Diabetes Care": "Diabetes Care",
-    "Diabetologia": "Diabetologia",
-    "Diabetes": "Diabetes",
-    "JAMA": "JAMA",
-    "JAMA Internal Medicine": "JAMA Internal Medicine",
-    "JAMA Network Open": "JAMA Network Open",
     "New England Journal of Medicine": "New England Journal of Medicine",
     "The New England Journal of Medicine": "New England Journal of Medicine",
-    "npj Digital Medicine": "npj Digital Medicine",
-    "npj Genomic Medicine": "npj Genomic Medicine",
-    "Science Translational Medicine": "Science Translational Medicine",
+    "N Engl J Med": "New England Journal of Medicine",
+    "Lancet": "Lancet",
+    "The Lancet": "Lancet",
+    "JAMA": "JAMA",
     "BMJ": "BMJ",
     "BMJ (Clinical research ed.)": "BMJ",
     "Annals of Internal Medicine": "Annals of Internal Medicine",
-    # NLM 약어
-    "Nat Genet": "Nature Genetics",
-    "Nat Med": "Nature Medicine",
-    "Nat Commun": "Nature Communications",
-    "Nat Biotechnol": "Nature Biotechnology",
-    "Nat Methods": "Nature Methods",
-    "Nat Metab": "Nature Metabolism",
-    "Cell Metab": "Cell Metabolism",
-    "Cell Rep Med": "Cell Reports Medicine",
-    "Lancet Diabetes Endocrinol": "Lancet Diabetes Endocrinology",
-    "Lancet Digit Health": "Lancet Digital Health",
-    "JAMA Intern Med": "JAMA Internal Medicine",
-    "JAMA Netw Open": "JAMA Network Open",
-    "N Engl J Med": "New England Journal of Medicine",
-    "NPJ Digit Med": "npj Digital Medicine",
-    "NPJ Genom Med": "npj Genomic Medicine",
-    "Sci Transl Med": "Science Translational Medicine",
     "Ann Intern Med": "Annals of Internal Medicine",
+    "JAMA Internal Medicine": "JAMA Internal Medicine",
+    "JAMA Intern Med": "JAMA Internal Medicine",
+    "JAMA Network Open": "JAMA Network Open",
+    "JAMA Netw Open": "JAMA Network Open",
+    "Science Translational Medicine": "Science Translational Medicine",
+    "Sci Transl Med": "Science Translational Medicine",
+    # ---- Nature/Cell 자매지 ----
+    "Nature Medicine": "Nature Medicine",
+    "Nat Med": "Nature Medicine",
+    "Nature Genetics": "Nature Genetics",
+    "Nat Genet": "Nature Genetics",
+    "Nature Communications": "Nature Communications",
+    "Nat Commun": "Nature Communications",
+    "Nature Biotechnology": "Nature Biotechnology",
+    "Nat Biotechnol": "Nature Biotechnology",
+    "Nature Methods": "Nature Methods",
+    "Nat Methods": "Nature Methods",
+    "Nature Metabolism": "Nature Metabolism",
+    "Nat Metab": "Nature Metabolism",
+    "Cell Metabolism": "Cell Metabolism",
+    "Cell Metab": "Cell Metabolism",
+    "Cell Reports Medicine": "Cell Reports Medicine",
+    "Cell Reports. Medicine": "Cell Reports Medicine",
+    "Cell Rep Med": "Cell Reports Medicine",
+    # ---- 당뇨/내분비 ----
+    "Lancet Diabetes Endocrinology": "Lancet Diabetes Endocrinology",
+    "The Lancet Diabetes & Endocrinology": "Lancet Diabetes Endocrinology",
+    "The Lancet. Diabetes & Endocrinology": "Lancet Diabetes Endocrinology",
+    "Lancet Diabetes Endocrinol": "Lancet Diabetes Endocrinology",
+    "Diabetes Care": "Diabetes Care",
+    "Diabetologia": "Diabetologia",
+    "Diabetes": "Diabetes",
+    # ---- 심혈관 ----
+    "Circulation": "Circulation",
+    "European Heart Journal": "European Heart Journal",
+    "Eur Heart J": "European Heart Journal",
+    "Journal of the American College of Cardiology": "Journal of the American College of Cardiology",
+    "J Am Coll Cardiol": "Journal of the American College of Cardiology",
+    "Circulation Research": "Circulation Research",
+    "Circ Res": "Circulation Research",
+    # ---- 신장 ----
+    "Kidney International": "Kidney International",
+    "Kidney Int": "Kidney International",
+    "Journal of the American Society of Nephrology": "Journal of the American Society of Nephrology",
+    "Journal of the American Society of Nephrology : JASN": "Journal of the American Society of Nephrology",
+    "J Am Soc Nephrol": "Journal of the American Society of Nephrology",
+    "Clinical Journal of the American Society of Nephrology": "Clinical Journal of the American Society of Nephrology",
+    "Clinical Journal of the American Society of Nephrology : CJASN": "Clinical Journal of the American Society of Nephrology",
+    "Clin J Am Soc Nephrol": "Clinical Journal of the American Society of Nephrology",
+    # ---- 뇌졸중 ----
+    "Stroke": "Stroke",
+    "Stroke; a journal of cerebral circulation": "Stroke",
+    # ---- 간/위장관 ----
+    "Hepatology": "Hepatology",
+    "Hepatology (Baltimore, Md.)": "Hepatology",
+    "Journal of Hepatology": "Journal of Hepatology",
+    "J Hepatol": "Journal of Hepatology",
+    "Gastroenterology": "Gastroenterology",
+    "Gut": "Gut",
+    # ---- 오믹스/중개의학 ----
+    "EBioMedicine": "EBioMedicine",
+    "Genome Biology": "Genome Biology",
+    "Genome Biol": "Genome Biology",
+    "Genome Medicine": "Genome Medicine",
+    "Genome Med": "Genome Medicine",
+    "Molecular Systems Biology": "Molecular Systems Biology",
+    "Mol Syst Biol": "Molecular Systems Biology",
+    "Cell Systems": "Cell Systems",
+    "Cell Syst": "Cell Systems",
+    # ---- 디지털 헬스 ----
+    "Lancet Digital Health": "Lancet Digital Health",
+    "The Lancet Digital Health": "Lancet Digital Health",
+    "The Lancet. Digital Health": "Lancet Digital Health",
+    "Lancet Digit Health": "Lancet Digital Health",
+    "npj Digital Medicine": "npj Digital Medicine",
+    "NPJ Digit Med": "npj Digital Medicine",
+    "npj Genomic Medicine": "npj Genomic Medicine",
+    "NPJ Genom Med": "npj Genomic Medicine",
 }
 
-# 정규화 후 키 → canonical (모듈 로드시 1회)
+# 정규화 후 키 → canonical
 _NORMALIZED_TARGETS: dict[str, str] = {
     normalize_journal(k): v for k, v in _RAW_TO_CANONICAL.items()
 }
 
 
 def match_target_journal(journal_name: str) -> str | None:
-    """
-    PubMed가 반환한 저널명이 대상 목록에 있는지 확인.
-    있으면 표시용 canonical 이름, 없으면 None.
-    """
+    """PubMed가 반환한 저널명이 대상 목록에 있는지 확인."""
     norm = normalize_journal(journal_name)
     return _NORMALIZED_TARGETS.get(norm)
 
