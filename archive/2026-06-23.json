@@ -3,8 +3,42 @@
   "days_back": 1,
   "threshold": 6,
   "queries_run": 10,
-  "articles_found": 0,
-  "articles_scored": 0,
-  "articles_above_threshold": 0,
-  "results": []
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42331229",
+        "title": "The Hepato-Exposome Axis: How Endocrine Disruptors Hijack Liver Receptors to Drive MASLD.",
+        "abstract": "Metabolically dysfunction-associated steatotic liver disease (MASLD) is rising worldwide at a pace that cannot be fully explained by obesity, diet, or genetics alone. Emerging evidence supports a mechanistic dissection of how defined endocrine-disrupting chemicals (EDCs) rewire hepatic transcriptional and metabolic networks relevant to MASLD. This review focuses on the molecular interfaces through which major EDC families intersect with hepatic metabolic regulation. We propose the \"hepato-exposome axis\" as a receptor-centric framework that maps specific EDC classes to nuclear receptors (NRs) and key metabolic pathways that regulate lipid metabolism, glucose homeostasis, mitochondrial dysfunction and inflammatory signalling implicated in MASLD progression. We summarise key EDC groups linked to liver disease, including organochlorine pesticides, pyrethroids, bisphenols, phthalates, organophosphate esters, and per- and polyfluoroalkyl substances (PFAS). We then integrate current understanding of hepatic metabolic and xenobiotic pathways in homeostasis and MASLD, emphasising xenobiotic-sensing and metabolic NRs (AhR, PXR, CAR, PPARs, FXR, LXRs, RXR) as convergence points for EDC action. Drawing on in vivo and in vitro studies, we show that distinct EDC families imprint overlapping molecular signatures onto pathways that control de novo lipogenesis, β-oxidation, glucose handling, antioxidant defences, and inflammatory/immune signalling, collectively fostering a pro-steatotic and pro-inflammatory hepatic milieu. We further discuss vulnerable populations, critical windows of exposure, mixture effects, and sex-specific responses, positioning EDCs as environmental modifiers of the MASLD trajectory across the life course. Finally, we outline priorities for mechanistic and translational research, including mixture toxicology, multi-omics exposome profiling, and biomarker discovery, to better quantify and mitigate endocrine disruptors' contribution to the global MASLD burden.",
+        "journal": "Journal of hepatology",
+        "authors": [
+          "M Martín-Grau",
+          "J H Kamstra",
+          "T Hyötyläinen",
+          "M Orešič",
+          "Y Song",
+          "N Veličković"
+        ],
+        "pub_date": "2026-Jun-22",
+        "doi": "10.1016/j.jhep.2026.06.021",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42331229/",
+        "journal_canonical": "Journal of Hepatology"
+      },
+      "score": {
+        "relevance_score": 7,
+        "topic_match": "MFDS",
+        "summary_kr": "본 논문은 내분비계 장애물질(EDCs)이 간 핵심 수용체(NRs: AhR, PXR, CAR, PPARs, FXR, LXRs)를 통해 대사기능이상관련지방간질환(MASLD)을 유발하는 메커니즘을 통합적으로 분석하였다. 유기염소계 살충제, 비스페놀, 프탈레이트, PFAS 등 주요 EDC 계열이 간의 지질신생합성, β-산화, 포도당 항상성, 염증신호를 조절하는 대사경로를 교란하는 과정을 설명하였다. 생애주기별 노출 시간, 혼합독성, 성별 차이를 고려한 multi-omics exposome profiling과 바이오마커 발굴을 향후 연구과제로 제시하였다.",
+        "key_points": [
+          "MASLD 발병의 환경-유전 상호작용: 내분비계 장애물질의 간 수용체 표적화 메커니즘 제시",
+          "Multi-omics 통합접근: 유전자 발현, 대사경로, 신호전달 네트워크를 포괄한 분석 프레임워크 제안",
+          "노출학(Exposome) 기반 정밀의료: EDC 혼합노출, 임계기(critical window), 성별특이성을 고려한 개인맞춤 위험도 평가"
+        ],
+        "reason": "MFDS의 만성대사질환(MASLD)과 multi-omics 통합 분석이라는 핵심 키워드가 직접 일치하며, 환경요인×유전체×대사체×단백체의 통합 데이터 분석 및 정밀의료 적용 방향성이 명확하나, 실제 코호트/바이오뱅크 데이터나 임상 검증이 리뷰 논문 수준이라 최고점이 아님."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
 }
