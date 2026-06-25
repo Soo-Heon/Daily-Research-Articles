@@ -1,0 +1,44 @@
+{
+  "date": "2026-06-25",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42341328",
+        "title": "Decoding fibrosis: Transcriptomic and clinical insights via AI-derived collagen deposition phenotypes in MASLD.",
+        "abstract": "Histological assessment is foundational to multi-omics studies of liver disease, yet conventional fibrosis staging lacks resolution, and quantitative metrics like collagen proportionate area (CPA) fail to capture tissue architecture. While recent AI-driven approaches offer improved precision, they are proprietary and not accessible to academic research. Here, we present a novel, interpretable AI-based framework for characterising liver fibrosis from picrosirius red (PSR)-stained slides. By identifying distinct data-driven collagen deposition phenotypes (CDPs) which capture distinct morphologies, our method substantially improves the sensitivity and biological specificity of downstream transcriptomic and proteomic analyses compared to CPA and traditional fibrosis scores. Pathway analysis reveals that CDPs 4 and 5 are associated with active extracellular matrix remodelling, while phenotype correlates highlight links to liver functional status. Importantly, selected CDPs demonstrated prognostic associations in the discovery cohort, with attenuation of discrimination in the external validation cohort. All models and tools are made freely available to support transparent and reproducible multi-omics pathology research.",
+        "journal": "Hepatology (Baltimore, Md.)",
+        "authors": [
+          "Marta Wojciechowska",
+          "Mira Thing",
+          "Yang Hu",
+          "Gianluca Mazzoni",
+          "Lea Mørch Harder",
+          "Mikkel Parsberg Werge"
+        ],
+        "pub_date": "2026-Jun-24",
+        "doi": "10.1097/HEP.0000000000001811",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42341328/",
+        "journal_canonical": "Hepatology"
+      },
+      "score": {
+        "relevance_score": 7,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 MASLD(지방간질환) 환자의 간 섬유화를 평가하기 위해 AI 기반 해석 가능한 프레임워크를 개발했습니다. Picrosirius red 염색 조직에서 콜라겐 침착 표현형(CDPs)을 자동 식별하여 기존 섬유화 스코어링보다 민감도와 생물학적 특이성을 향상시켰습니다. 트랜스크립토믹 및 프로테오믹 분석을 통합하여 활성 세외기질 리모델링과 간 기능 상태의 연관성을 규명했으며, 일부 CDPs는 발견 코호트에서 예후 연관성을 보였습니다.",
+        "key_points": [
+          "MASLD의 만성대사질환 다중오믹스 통합 분석 (전사체+단백질체)",
+          "AI 기반 정량화 표현형 개발로 조직 형태 특성화 및 개선된 임상 예측력",
+          "투명성과 재현성을 위한 자유 공개 모델·도구 제공"
+        ],
+        "reason": "MFDS 과제의 핵심 키워드인 MASLD, 다중오믹스 통합, 만성질환 예측이 직접 일치하며 AI/정밀의료 방법론도 부합하나, 코호트/RWD/EHR 활용이 명시적이지 않고 GDM/DGDB와는 무관하여 7점 평가."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
