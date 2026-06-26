@@ -1,0 +1,74 @@
+{
+  "date": "2026-06-26",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 2,
+  "articles_scored": 2,
+  "articles_above_threshold": 0,
+  "results": [
+    {
+      "article": {
+        "pmid": "42343463",
+        "title": "Tumoral switch in NUMB splicing changes essential transcription pathways and induces malignant properties in tumour cells.",
+        "abstract": "BACKGROUND: Emerging evidence indicates that cancer is associated with widespread splicing alterations that generate tumour-specific isoforms. One example is NUMB, an evolutionarily conserved adaptor protein, which produces four isoforms (p72, p71, p66, and p65) through alternative splicing of exons 3 and 9. Although traditionally considered as a tumour suppressor, NUMB has also been reported as an oncogene. We propose that this dual role reflects isoform-specific expression. RESULTS: Using public databases, we identify a tumour-associated switch in NUMB isoform expression: p72 and p71 are upregulated in tumours, whereas p66 and p65 are more highly expressed in non-tumour tissues. These isoforms show distinct associations with key cellular processes. NUMBL, a NUMB homolog, displays expression patterns similar to p65. We further identify two transcriptional clusters: one characterised by high expression of p72 and p71, and the other by enhanced p66/p65/NUMBL expression. These clusters exhibit differential associations with Notch, WNT/β-catenin, Hedgehog, and Hippo signalling pathways, suggesting isoform-specific regulatory roles. In breast cancer cell lines, we develop a NUMB-score based on isoform expression, which classifies cell lines into biologically distinct groups. The p72/p71-enriched group shows distinct signatures, pathway activity, and drug sensitivity. Application of this score to TCGA-BRCA samples reveals a significant link between high NUMB-score and poor survival, as confirmed by Kaplan-Meier analysis. CONCLUSIONS: We find that NUMB emerges as a potential oncogenic contributor and biomarker in the context of splicing-based precision oncology, highlighting Isoform-specific expression as a clinical determinant of tumour behaviour, pathway activity, and therapeutic response.",
+        "journal": "Genome biology",
+        "authors": [
+          "José Manuel García-Heredia",
+          "Sara M Ortega-Campos",
+          "Amancio Carnero"
+        ],
+        "pub_date": "2026-Jun-24",
+        "doi": "10.1186/s13059-026-04170-3",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42343463/",
+        "journal_canonical": "Genome Biology"
+      },
+      "score": {
+        "relevance_score": 4,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 암에서 NUMB 단백질의 선택적 스플라이싱 변화가 종양 특이적 아이소폼(p72, p71, p66, p65)을 생성하며, 이러한 아이소폼이 Notch, WNT, Hedgehog, Hippo 신호 경로와 연결되어 있음을 규명했다. 유방암 세포주와 TCGA-BRCA 샘플에서 NUMB 아이소폼 발현 기반 스코어를 개발하여 세포주를 생물학적으로 구별되는 그룹으로 분류했으며, 높은 NUMB-스코어가 약물 감수성 차이와 불량한 예후와 연관됨을 확인했다.",
+        "key_points": [
+          "암 특이적 선택적 스플라이싱 변화로 생성되는 NUMB 아이소폼의 이형 특이적 발현 패턴 규명",
+          "다중 신호경로(Notch, WNT, Hedgehog, Hippo)와 연결된 전사체 클러스터 분석을 통한 기능 차별화",
+          "아이소폼 기반 바이오마커 개발로 약물 반응성 예측 및 예후 층화 가능성 제시"
+        ],
+        "reason": "암 환자의 정밀의료(precision oncology)와 약물반응 예측을 위해 오믹스(전사체/스플라이싱) 기반 바이오마커 개발을 다루고 있으나, MFDS의 핵심 질환(당뇨, 심혈관질환, 만성대사질환)과 직접 관련이 없고 암 중심의 연구여서 부분 관련만 인정."
+      },
+      "project": "MFDS",
+      "subtopic": "오믹스 × 약물반응"
+    },
+    {
+      "article": {
+        "pmid": "42342704",
+        "title": "Multimodal blood based proteomic profiling reveals insights into mechanisms of immunotherapy resistance.",
+        "abstract": "Many cancer patients treated with immune checkpoint blockade (ICB) do not have durable treatment responses. Circulating biomarkers have the potential to identify patients with primary resistance or early progression on therapy to alter treatment course and potentially avoid unnecessary toxicity. Unbiased multimodal proteomic profiling in blood has been underexplored due to the previously limited scalability of multiplexing technologies or cohorts lacking time-series sampling. To address this, we performed plasma proteomic profiling of >2900 proteins and high-dimensional mass cytometry of peripheral blood lymphocytes across serial time points in 250 metastatic melanoma patients on ICB treatment. We further obtained 92 patient-matched tumor samples, which were processed for single-cell and/or bulk RNA sequencing. Proteins upregulated post-ICB were associated with inflammatory pathways involving the activation of effector immune functions. Expression of genes corresponding to these proteins was higher in immune cells involved in recruitment and tumor reactivity. Expression of genes corresponding to plasma proteins more abundant in non-responders was highest in suppressive myeloid subsets and malignant cells. We further posit the involvement of these non-responder genes in immunosuppressive and pro-tumor interactions, which we confirm using publicly available spatial transcriptomic data. We also find that epithelial-specific proteins in the circulation of responders post-ICB associate with patient toxicity and likely originate from degradation of healthy tissues. Together, these data represent extensive potential peripheral biomarker characterization using paired blood and tumor samples in melanoma patients treated with ICB, and begin to elucidate the complex interplay between tumors and the systemic immune response within the host.",
+        "journal": "Nature communications",
+        "authors": [
+          "Samuel J Wright",
+          "Izabella Zamora",
+          "Milan Parikh",
+          "Deepika Yeramosu",
+          "Marijana Rucevic",
+          "Moshe Sade-Feldman"
+        ],
+        "pub_date": "2026-Jun-24",
+        "doi": "10.1038/s41467-026-74790-7",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42342704/",
+        "journal_canonical": "Nature Communications"
+      },
+      "score": {
+        "relevance_score": 4,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 면역관문억제제(ICB) 치료를 받는 전이성 흑색종 환자 250명을 대상으로 혈장 단백질 프로토밍(>2900개 단백질)과 고차원 질량 세포측정법을 시계열로 수행했습니다. 종양 샘플에 대한 단일세포/bulk RNA 시퀀싱을 병행하여 치료 반응자와 비반응자 간의 면역학적 차이를 규명했습니다. 비반응자에서는 면역억제성 골수계 세포와 악성세포 유래의 단백질이 높게 발현되었으며, 이는 공간 전사체 데이터로 검증되었습니다. 연구 결과는 말초 혈액 바이오마커를 통한 ICB 치료 반응 예측의 잠재성을 제시합니다.",
+        "key_points": [
+          "다중오믹스 통합 접근(혈장 단백질+질량세포측정+RNA-seq)",
+          "혈액 기반 순환 바이오마커를 이용한 치료 반응 예측",
+          "시계열 샘플링과 종양-혈액 쌍 분석을 통한 정밀의료 적용"
+        ],
+        "reason": "다중오믹스 통합과 혈액 기반 바이오마커, EHR/RWD 개념이 부분적으로 부합하지만, 암 면역치료 특이적 연구로 MFDS의 핵심 대사질환(당뇨, 심혈관, MASLD, CKD) 범위 밖이며 약물유해반응이 아닌 치료 효과 예측에 초점을 맞추고 있어 관련성이 제한적입니다."
+      },
+      "project": "MFDS",
+      "subtopic": "EHR/RWD × 오믹스 × 정밀의료"
+    }
+  ]
+}
