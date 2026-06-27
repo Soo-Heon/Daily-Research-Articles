@@ -1,0 +1,74 @@
+{
+  "date": "2026-06-27",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 2,
+  "articles_scored": 2,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42349256",
+        "title": "Lipidomic signatures in gestational diabetes mellitus and postpartum type 2 diabetes mellitus: a narrative review of etiologic and predictive implications.",
+        "abstract": "Gestational diabetes mellitus (GDM) represents one of the most common complications of pregnancy, with a steadily increasing global prevalence. It serves as an independent risk factor for adverse pregnancy outcomes and confers long-term health consequences for both mothers and their offspring. Women with a history of GDM exhibit an approximately tenfold elevated risk of developing type 2 diabetes mellitus (T2DM). Although several traditional risk factors have been identified, they are insufficient for early GDM prediction. Moreover, early indicators of progression from GDM to postpartum T2DM remain limited, highlighting an urgent need for the discovery of novel biomarkers to facilitate early identification and risk prediction. In recent years, lipidomics has emerged as a powerful platform for characterizing the metabolic disturbances associated with GDM and its postpartum transition to T2DM, while also demonstrating promise for the identification of candidate predictive biomarkers. In this narrative review, we aim to comprehensively summarize the current evidence on the dual role of lipids and lipidomics-both in the etiology of GDM and postpartum T2DM, as well as their potential predictive applications. We further discuss the pathophysiological implications of altered lipid metabolism and outline future research priorities for biomarker validation and clinical translation.",
+        "journal": "EBioMedicine",
+        "authors": [
+          "Shenrui Zhang",
+          "Xindi Jiang",
+          "Shixuan Zhang",
+          "Yimin Zong",
+          "Sheng Zheng",
+          "Qianyun Feng"
+        ],
+        "pub_date": "2026-Jun-25",
+        "doi": "10.1016/j.ebiom.2026.106349",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42349256/",
+        "journal_canonical": "EBioMedicine"
+      },
+      "score": {
+        "relevance_score": 9,
+        "topic_match": "GDM",
+        "summary_kr": "본 논문은 임신성당뇨(GDM)와 산후 제2형당뇨(T2DM) 전환에서 지질체학(lipidomics)의 역할을 종합적으로 검토한 리뷰논문이다. GDM 여성은 T2DM 발병 위험이 약 10배 높으나 기존의 위험인자로는 조기 예측이 불충분하며, 지질체학이 이러한 대사 변화를 특성화하고 예측 바이오마커 발굴에 유망함을 제시한다. 논문은 지질 대사의 병리생리학적 기전을 설명하고 임상 적용을 위한 바이오마커 검증 및 향후 연구 우선순위를 제시한다.",
+        "key_points": [
+          "GDM에서 T2DM으로의 전환 과정에서 지질 대사 이상의 병리생리학적 역할 규명",
+          "lipidomics 기반의 신규 예측 바이오마커 발굴 및 조기 진단 가능성 제시",
+          "전통적 위험인자의 한계를 극복하기 위한 다중오믹스 접근의 중요성 강조"
+        ],
+        "reason": "GDM→T2D 전환 예측이라는 과제의 핵심 주제를 직접 다루고 있으며, lipidomics라는 구체적 오믹스 기법과 바이오마커 발굴을 통한 조기 예측이라는 방법론이 MFDS/GDM 과제와 높은 부합도를 보임."
+      },
+      "project": "GDM",
+      "subtopic": "GDM → T2D 전환"
+    },
+    {
+      "article": {
+        "pmid": "42350808",
+        "title": "Advances and challenges of splicing prediction with AI.",
+        "abstract": "RNA alternative splicing is a fundamental post-transcriptional mechanism whose dysregulation drives various human diseases. Predicting splicing outcomes is therefore a central challenge in precision medicine. This Review traces the evolution of computational approaches from early statistical heuristics to modern artificial intelligence frameworks. We dissect the methodologies that shape predictive performance, including training data scale, output resolution, splicing event quantification and model complexity. Among these factors, quantitative assessment of splicing events and the increasing complexity of model architectures represent particularly critical axes that define both biological interpretability and computational feasibility. We further describe how these models empower translational applications, from annotating variant effects to guiding antisense oligonucleotide development. Nonetheless, persistent challenges remain, including the interpretation of deep-intronic mutations, isoform-level reconstruction and integration of multimodal data. Together, these perspectives define both the progress achieved and the opportunities ahead for splicing prediction in genomics and medicine.",
+        "journal": "Nature genetics",
+        "authors": [
+          "Ning Shen",
+          "Ningyuan You",
+          "Chang Liu"
+        ],
+        "pub_date": "2026-Jun-25",
+        "doi": "10.1038/s41588-026-02629-4",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42350808/",
+        "journal_canonical": "Nature Genetics"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "본 리뷰는 RNA 선택적 스플라이싱 예측에서 통계 휴리스틱부터 현대 AI 프레임워크까지의 계산 접근법 진화를 추적한다. 훈련 데이터 규모, 출력 해상도, 스플라이싱 이벤트 정량화, 모델 복잡도 등 예측 성능을 결정하는 핵심 요소들을 분석하며, 특히 정량적 평가와 심층 신경망 아키텍처의 복잡성이 생물학적 해석가능성과 계산 효율성을 좌우함을 강조한다. 변이 효과 주석화와 안티센스 올리고뉴클레오타이드 개발 같은 임상 응용과 다중모달 데이터 통합의 과제를 논의한다.",
+        "key_points": [
+          "AI/머신러닝 기반 스플라이싱 예측 모델 발전 (통계→딥러닝)",
+          "다중모달 데이터 통합 및 해석가능성 문제 언급",
+          "정밀의료 적용: 변이 해석, 약물 개발 가이드"
+        ],
+        "reason": "정밀의료와 AI 방법론은 부합하나, EHR/RWD 기반 만성질환(당뇨/심혈관) 예측과는 직접 관련이 약하고 스플라이싱 예측이라는 기초 유전체학 주제로 임상 코호트/다중오믹스 통합 측면에서 거리가 있음."
+      },
+      "project": "MFDS",
+      "subtopic": "EHR/RWD × 오믹스 × 정밀의료"
+    }
+  ]
+}
