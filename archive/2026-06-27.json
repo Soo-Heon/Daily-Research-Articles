@@ -3,39 +3,36 @@
   "days_back": 1,
   "threshold": 6,
   "queries_run": 10,
-  "articles_found": 2,
-  "articles_scored": 2,
+  "articles_found": 3,
+  "articles_scored": 3,
   "articles_above_threshold": 1,
   "results": [
     {
       "article": {
-        "pmid": "42349256",
-        "title": "Lipidomic signatures in gestational diabetes mellitus and postpartum type 2 diabetes mellitus: a narrative review of etiologic and predictive implications.",
-        "abstract": "Gestational diabetes mellitus (GDM) represents one of the most common complications of pregnancy, with a steadily increasing global prevalence. It serves as an independent risk factor for adverse pregnancy outcomes and confers long-term health consequences for both mothers and their offspring. Women with a history of GDM exhibit an approximately tenfold elevated risk of developing type 2 diabetes mellitus (T2DM). Although several traditional risk factors have been identified, they are insufficient for early GDM prediction. Moreover, early indicators of progression from GDM to postpartum T2DM remain limited, highlighting an urgent need for the discovery of novel biomarkers to facilitate early identification and risk prediction. In recent years, lipidomics has emerged as a powerful platform for characterizing the metabolic disturbances associated with GDM and its postpartum transition to T2DM, while also demonstrating promise for the identification of candidate predictive biomarkers. In this narrative review, we aim to comprehensively summarize the current evidence on the dual role of lipids and lipidomics-both in the etiology of GDM and postpartum T2DM, as well as their potential predictive applications. We further discuss the pathophysiological implications of altered lipid metabolism and outline future research priorities for biomarker validation and clinical translation.",
-        "journal": "EBioMedicine",
+        "pmid": "42361830",
+        "title": "Intermittent fasting to treat diabetes: time to update clinical practice guidelines.",
+        "abstract": "Intermittent fasting is now the third most commonly practiced diet in the USA. Yet, despite more than 225 clinical trials-including nearly 40 in patients with diabetes or prediabetes-intermittent fasting has not yet been recommended as part of the American Diabetes Association (ADA) Standards of Care or the International Diabetes Federation (IDF) Global Clinical Practice Recommendations. In this Personal View, we start by synthesising evidence from trials in patients with type 2 diabetes, type 1 diabetes, prediabetes, and gestational diabetes. In adults with type 2 diabetes, diverse types of intermittent fasting, such as time-restricted eating, the 5:2 diet, and the fasting mimicking diet, reduce HbA1c (typically by 0·3-1·2%), fasting glucose, 24-h glucose, and bodyweight relative to usual eating patterns. Moreover, intermittent fasting is as effective as calorie restriction for improving glycaemic control and does not increase the risk of hypoglycaemia when medications are adjusted using simple rules. Intermittent fasting might also reduce glycaemia in adults with prediabetes, whereas there are insufficient data to recommend its use in people with type 1 or gestational diabetes. Therefore, we argue that the evidence base has sufficiently matured to warrant including intermittent fasting in clinical practice guidelines as one of several evidence-based lifestyle options for type 2 diabetes. We also provide practical guidance for clinicians on prescribing intermittent fasting and safely managing people with diabetes.",
+        "journal": "The lancet. Diabetes & endocrinology",
         "authors": [
-          "Shenrui Zhang",
-          "Xindi Jiang",
-          "Shixuan Zhang",
-          "Yimin Zong",
-          "Sheng Zheng",
-          "Qianyun Feng"
+          "Krista A Varady",
+          "Lisa S Chow",
+          "Courtney M Peterson"
         ],
-        "pub_date": "2026-Jun-25",
-        "doi": "10.1016/j.ebiom.2026.106349",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42349256/",
-        "journal_canonical": "EBioMedicine"
+        "pub_date": "2026-Jun-26",
+        "doi": "10.1016/S2213-8587(26)00119-1",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42361830/",
+        "journal_canonical": "Lancet Diabetes Endocrinology"
       },
       "score": {
-        "relevance_score": 9,
+        "relevance_score": 5,
         "topic_match": "GDM",
-        "summary_kr": "본 논문은 임신성당뇨(GDM)와 산후 제2형당뇨(T2DM) 전환에서 지질체학(lipidomics)의 역할을 종합적으로 검토한 리뷰논문이다. GDM 여성은 T2DM 발병 위험이 약 10배 높으나 기존의 위험인자로는 조기 예측이 불충분하며, 지질체학이 이러한 대사 변화를 특성화하고 예측 바이오마커 발굴에 유망함을 제시한다. 논문은 지질 대사의 병리생리학적 기전을 설명하고 임상 적용을 위한 바이오마커 검증 및 향후 연구 우선순위를 제시한다.",
+        "summary_kr": "본 논문은 간헐적 단식(intermittent fasting)의 당뇨병 치료 효과를 검토한 개인 의견 논문으로, 225개 이상의 임상시험 메타분석을 통해 제2형 당뇨, 제1형 당뇨, 전당뇨, 임신성당뇨 환자에서의 효과를 평가했다. 제2형 당뇨 환자에서 다양한 형태의 간헐적 단식(시간제한식, 5:2 식단 등)이 HbA1c를 0.3-1.2% 감소시키고 공복혈당과 체중 감소에 효과적임을 보였으며, 임신성당뇨에는 데이터 부족으로 권장 불가 결론을 내렸다. 임상진료지침에 제2형 당뇨의 근거기반 생활습관 중재법으로 포함할 것을 제안한다.",
         "key_points": [
-          "GDM에서 T2DM으로의 전환 과정에서 지질 대사 이상의 병리생리학적 역할 규명",
-          "lipidomics 기반의 신규 예측 바이오마커 발굴 및 조기 진단 가능성 제시",
-          "전통적 위험인자의 한계를 극복하기 위한 다중오믹스 접근의 중요성 강조"
+          "임신성당뇨(GDM) 환자에 대해서는 데이터 부족으로 간헐적 단식 사용을 권장하지 않음 (검색 컨텍스트와 직접 관련)",
+          "제2형 당뇨 환자에서 HbA1c 0.3-1.2% 감소 및 혈당 개선 효과 입증 (DGDB와 부분 관련)",
+          "225개 이상의 임상시험 기반 메타분석이지만 기계학습/오믹스 통합 분석은 미포함 (방법론 부분 미흡)"
         ],
-        "reason": "GDM→T2D 전환 예측이라는 과제의 핵심 주제를 직접 다루고 있으며, lipidomics라는 구체적 오믹스 기법과 바이오마커 발굴을 통한 조기 예측이라는 방법론이 MFDS/GDM 과제와 높은 부합도를 보임."
+        "reason": "GDM→T2D 전환이 핵심 검색 컨텍스트이나, 논문은 임신성당뇨에 대한 근거부족을 결론 내렸으며, 제2형 당뇨의 일반적 생활습관 중재만 다루고 있어서 다중오믹스, 기계학습, 미생물군집 등 우리 연구실의 핵심 방법론을 포함하지 않았기 때문이다."
       },
       "project": "GDM",
       "subtopic": "GDM → T2D 전환"
@@ -59,16 +56,49 @@
       "score": {
         "relevance_score": 5,
         "topic_match": "MFDS",
-        "summary_kr": "본 리뷰는 RNA 선택적 스플라이싱 예측에서 통계 휴리스틱부터 현대 AI 프레임워크까지의 계산 접근법 진화를 추적한다. 훈련 데이터 규모, 출력 해상도, 스플라이싱 이벤트 정량화, 모델 복잡도 등 예측 성능을 결정하는 핵심 요소들을 분석하며, 특히 정량적 평가와 심층 신경망 아키텍처의 복잡성이 생물학적 해석가능성과 계산 효율성을 좌우함을 강조한다. 변이 효과 주석화와 안티센스 올리고뉴클레오타이드 개발 같은 임상 응용과 다중모달 데이터 통합의 과제를 논의한다.",
+        "summary_kr": "본 리뷰는 RNA 선택적 스플라이싱 예측에 AI/머신러닝을 적용한 계산 방법론의 진화를 다룬다. 통계적 휴리스틱부터 현대 딥러닝 프레임워크까지의 발전 과정을 추적하며, 훈련 데이터 규모, 출력 해상도, 스플라이싱 정량화, 모델 복잡도 등이 예측 성능을 좌우하는 핵심 요소임을 분석한다. 변이체 효과 주석 및 안티센스 올리고뉴클레오타이드 개발 등 임상 응용을 가능하게 하지만, 깊은-인트론 변이 해석, 동형체 수준 재구성, 다중 오믹스 데이터 통합 등의 과제가 남아있다.",
         "key_points": [
-          "AI/머신러닝 기반 스플라이싱 예측 모델 발전 (통계→딥러닝)",
-          "다중모달 데이터 통합 및 해석가능성 문제 언급",
-          "정밀의료 적용: 변이 해석, 약물 개발 가이드"
+          "AI 기반 RNA 스플라이싱 예측의 방법론 진화 (통계→딥러닝)",
+          "정밀의료를 위한 변이체 효과 예측 및 약물 개발 가이던스",
+          "다중오믹스 통합 및 생물학적 해석가능성과 계산 효율성의 균형 필요"
         ],
-        "reason": "정밀의료와 AI 방법론은 부합하나, EHR/RWD 기반 만성질환(당뇨/심혈관) 예측과는 직접 관련이 약하고 스플라이싱 예측이라는 기초 유전체학 주제로 임상 코호트/다중오믹스 통합 측면에서 거리가 있음."
+        "reason": "RNA 스플라이싱은 유전체학의 기초 메커니즘이고 AI 예측 모델을 다루지만, MFDS 과제의 핵심인 임상 표현형(당뇨/심혈관/CKD 등), EHR/RWD 통합, 약물반응 예측과는 직접 연결되지 않으며 방법론 리뷰 성격으로 실제 코호트나 임상 데이터 분석 부재."
       },
       "project": "MFDS",
       "subtopic": "EHR/RWD × 오믹스 × 정밀의료"
+    },
+    {
+      "article": {
+        "pmid": "42349256",
+        "title": "Lipidomic signatures in gestational diabetes mellitus and postpartum type 2 diabetes mellitus: a narrative review of etiologic and predictive implications.",
+        "abstract": "Gestational diabetes mellitus (GDM) represents one of the most common complications of pregnancy, with a steadily increasing global prevalence. It serves as an independent risk factor for adverse pregnancy outcomes and confers long-term health consequences for both mothers and their offspring. Women with a history of GDM exhibit an approximately tenfold elevated risk of developing type 2 diabetes mellitus (T2DM). Although several traditional risk factors have been identified, they are insufficient for early GDM prediction. Moreover, early indicators of progression from GDM to postpartum T2DM remain limited, highlighting an urgent need for the discovery of novel biomarkers to facilitate early identification and risk prediction. In recent years, lipidomics has emerged as a powerful platform for characterizing the metabolic disturbances associated with GDM and its postpartum transition to T2DM, while also demonstrating promise for the identification of candidate predictive biomarkers. In this narrative review, we aim to comprehensively summarize the current evidence on the dual role of lipids and lipidomics-both in the etiology of GDM and postpartum T2DM, as well as their potential predictive applications. We further discuss the pathophysiological implications of altered lipid metabolism and outline future research priorities for biomarker validation and clinical translation.",
+        "journal": "EBioMedicine",
+        "authors": [
+          "Shenrui Zhang",
+          "Xindi Jiang",
+          "Shixuan Zhang",
+          "Yimin Zong",
+          "Sheng Zheng",
+          "Qianyun Feng"
+        ],
+        "pub_date": "2026-Jun-25",
+        "doi": "10.1016/j.ebiom.2026.106349",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42349256/",
+        "journal_canonical": "EBioMedicine"
+      },
+      "score": {
+        "relevance_score": 9,
+        "topic_match": "GDM",
+        "summary_kr": "본 논문은 임신성당뇨(GDM)와 산후 제2형 당뇨(T2DM) 전환 과정에서 지질체학(lipidomics)의 역할을 종합적으로 검토한 narrative review이다. GDM 여성의 약 10배 높은 T2DM 발병 위험성에도 불구하고 기존 위험인자만으로는 조기 예측이 불충분하므로, 새로운 바이오마커 발굴의 필요성을 강조한다. 지질 대사 변화와 지질체학 프로파일링을 통해 GDM의 병인 기전을 규명하고 산후 T2DM 진행의 예측 바이오마커 후보를 제시하며, 향후 임상 적용을 위한 바이오마커 검증 방향을 제안한다.",
+        "key_points": [
+          "GDM → T2DM 전환 과정에서 지질체학(lipidomics)의 이중 역할(병인 및 예측)",
+          "기존 위험인자의 한계를 극복하기 위한 다중오믹스 바이오마커 발굴의 시급성",
+          "산후 지질 대사 프로파일의 개선을 통한 조기 예측 및 중재 전략의 가능성"
+        ],
+        "reason": "GDM cohort에서 T2DM 전환 예측, 멀티오믹스(지질체학), 바이오마커 발굴이라는 GDM 과제의 핵심 모두를 직접 다루고 있으며, MFDS의 정밀의료·약물반응 예측과도 방법론적으로 부합한다."
+      },
+      "project": "GDM",
+      "subtopic": "GDM → T2D 전환"
     }
   ]
 }
