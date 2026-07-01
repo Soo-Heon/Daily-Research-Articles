@@ -1,0 +1,43 @@
+{
+  "date": "2026-07-01",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42372727",
+        "title": "The interplay between the microbiome and immune cells in metabolic homeostasis and disease.",
+        "abstract": "Microbiome-derived metabolites, including short-chain fatty acids, bile acids, indoles, and lipopolysaccharides, among other bioactives, modulate mammalian immune cells through a variety of molecular processes, including epigenetic remodeling, mitochondrial metabolic reprogramming, and regulation of mTOR and AMPK signaling pathways. These diverse signals shape inflammatory programs that influence metabolic outcomes in a context-dependent manner, which may sustain metabolic health or drive chronic inflammation impacting obesity, type 2 diabetes, metabolic dysfunction-associated steatotic liver disease, and cardiovascular diseases. Here, we review these metabolite-driven immune-metabolic influences and highlight innovative directions in their exploration, including integration of spatial and single-cell multi-omics to deconvolute microbiome-derived signaling networks within metabolic tissues. We further outline emerging microbiome-based therapeutic strategies targeting immune pathways in cardiometabolic disease, ranging from personalized nutrition, precision probiotics, and microbial consortium transplantation to metabolite-based postbiotics. Collectively, advancing our understanding of host immune-microbiome-metabolic interactions may support the development of targeted interventions for the prevention and treatment of cardiometabolic diseases.",
+        "journal": "Cell metabolism",
+        "authors": [
+          "Hagit Shapiro",
+          "Birgit Jickeli",
+          "Idan Niv",
+          "Ben Ernan",
+          "Eran Elinav"
+        ],
+        "pub_date": "2026-Jun-29",
+        "doi": "10.1016/j.cmet.2026.06.004",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42372727/",
+        "journal_canonical": "Cell Metabolism"
+      },
+      "score": {
+        "relevance_score": 8,
+        "topic_match": "MFDS | GDM",
+        "summary_kr": "본 논문은 마이크로바이옴 유래 대사산물(단쇄지방산, 담즙산, 인돌 등)이 면역세포를 조절하여 대사 항상성에 영향을 미치는 메커니즘을 종합적으로 검토했습니다. 공간적 및 단일세포 다중오믹스 통합 분석을 통해 대사 조직 내 마이크로바이옴 신호전달 네트워크를 규명하고, 비만, 제2형 당뇨, MASLD, 심혈관질환 등 심대사 질환의 병태생리를 조명했습니다. 개인화된 영양, 정밀 프로바이오틱스, 대사산물 기반 포스트바이오틱스 등 마이크로바이옴 기반 치료 전략을 제시했습니다.",
+        "key_points": [
+          "마이크로바이옴 대사산물의 면역세포 조절을 통한 대사질환 병태생리 규명",
+          "단일세포 및 공간적 다중오믹스 통합 분석으로 호스트-마이크로바이옴-대사 상호작용 규명",
+          "당뇨, MASLD, 심혈관질환 등 만성대사질환의 정밀의료 및 개인화 중재 전략 제시"
+        ],
+        "reason": "당뇨·심혈관·MASLD 등 MFDS 주요 만성질환과 마이크로바이옴·면역학적 다중오믹스 통합 분석 방법론이 직접 부합하며, GDM→T2D 전환 예측의 핵심 메커니즘 제공하는 고도로 관련성 높은 검토 논문입니다."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
