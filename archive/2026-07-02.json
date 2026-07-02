@@ -1,0 +1,76 @@
+{
+  "date": "2026-07-02",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 2,
+  "articles_scored": 2,
+  "articles_above_threshold": 0,
+  "results": [
+    {
+      "article": {
+        "pmid": "42381624",
+        "title": "Proteogenomics of Hypertrophic Cardiomyopathy Reveals Subtype-Specific Therapy.",
+        "abstract": "BACKGROUND: Hypertrophic cardiomyopathy (HCM) is a heterogeneous disease with diverse prognosis. The underlying mechanisms remain unknown, resulting in limited risk stratification and therapeutic strategies. This study aimed to elucidate molecular subtypes of HCM through integrated proteogenomic analysis and explore subtype-specific therapeutic strategies. METHODS: We conducted an integrated proteogenomic analysis of 132 patients with HCM using myocardial samples, incorporating whole-exome sequencing, RNA sequencing, and proteomics. Unsupervised clustering was used to identify HCM subtypes, which were validated in heart tissues and human induced pluripotent stem cell-derived cardiomyocytes from 2 independent HCM subsets. Subtype-specific signatures and pathways were explored, and their causal link with HCM pathogenesis was established by genetic evidence. A subtype-specific drug was screened using in silico drug prediction, followed by in vitro and in vivo therapeutic effect assessments. RESULTS: Integrated multi-omics analysis identified 2 proteome-based molecular subtypes, severe and mild. We identified 550 subtype-signature proteins, and enrichment analysis based on which revealed that the reduction in fatty acid metabolism and oxidative phosphorylation pathways in HCM versus healthy controls was predominantly driven by the severe subtype, with more severe clinical characteristics and poorer prognosis compared with the mild subtype. Validation in independent cohorts confirmed the robustness of the proteomic subtypes and their association with clinical severity. Additionally, key proteins in fatty acid oxidation and oxidative phosphorylation exhibited consistent expression differences among healthy controls and 2 HCM subtypes. Furthermore, genetic evidence established a causal link between reduced fatty acid oxidation and HCM pathogenesis. Baicalin, identified as a fatty acid oxidation facilitator, improved metabolic and hypertrophic phenotypes in severe subtype human induced pluripotent stem cell-derived cardiomyocytes and Myh6R404Q/+ mice. CONCLUSIONS: Our analysis demonstrates the metabolic heterogeneity of HCM and enables the development of risk stratification and subtype-specific therapeutic strategies. REGISTRATION: URL: https://www.clinicaltrials.gov; Unique identifier: NCT03076580.",
+        "journal": "Circulation research",
+        "authors": [
+          "Ke Ma",
+          "Jie Yang",
+          "Hongchang Guo",
+          "Ping Li",
+          "Xiaowei Li",
+          "Zhujun Dong"
+        ],
+        "pub_date": "2026-Jul-01",
+        "doi": "10.1161/CIRCRESAHA.126.328300",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42381624/",
+        "journal_canonical": "Circulation Research"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 132명의 비후성 심근병증(HCM) 환자의 심근 조직에서 전장 엑솜 시퀀싱, RNA 시퀀싱, 단백질체학을 통합한 프로테오게노믹스 분석을 수행했다. 비지도 클러스터링으로 2개의 분자 소형(severe/mild)을 식별하였으며, severe 소형이 지방산 산화 및 산화적 인산화 경로 감소와 관련되어 있음을 발견했다. 유전적 증거와 iPSC 유래 심근세포, 마우스 모델을 통해 지방산 산화 감소와 HCM 병인의 인과관계를 입증하고, 지방산 산화 촉진제 백련(Baicalin)이 severe 소형에서 치료 효과를 보임을 확인했다.",
+        "key_points": [
+          "다중오믹스(WES, RNA-seq, Proteomics) 통합 분석으로 HCM의 분자적 이질성 규명",
+          "단백질체 기반 분자 소형 분류와 대사 경로(지방산 산화, OXPHOS)의 차등 발현 규명",
+          "임상 위험도 층화와 소형 특이적 약물 개발 (Baicalin) 제시"
+        ],
+        "reason": "다중오믹스 통합 분석과 만성질환(심혈관) 분자 소형화는 MFDS 과제의 핵심이나, 당뇨/대사질환이 아닌 심근병증 대상이고 약물유해반응/정밀의료 임상응용 부분이 미흡하여 부분 관련으로 평가함."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    },
+    {
+      "article": {
+        "pmid": "42380265",
+        "title": "Lineage tracing from cellular heritage to disease destiny.",
+        "abstract": "The developmental history of a cell fundamentally defines its identity and function. Recent advances in cell lineage tracing now enable high-resolution reconstruction of cellular ancestries in vivo, illuminating how lineage dictates fate in health and disease. This Review highlights recently developed tools, ranging from refined recombinase systems to advanced synthetic and natural barcoding approaches, that facilitate the investigation of pathological lineage programs in cancer, cardiovascular disease and aging. Moving forward, integrating permanent lineage records with single-cell multi-omics promises to provide a unified framework to decode how a cell's past shapes its present state and future potential, heralding a new era for precision medicine.",
+        "journal": "Nature genetics",
+        "authors": [
+          "Huan Zhu",
+          "Xiuxiu Liu",
+          "Muxue Tang",
+          "Kathy O Lui",
+          "Bin Zhou"
+        ],
+        "pub_date": "2026-Jun-30",
+        "doi": "10.1038/s41588-026-02628-5",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42380265/",
+        "journal_canonical": "Nature Genetics"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "본 리뷰는 세포 계보 추적(cell lineage tracing) 기술의 최근 발전을 다루며, 재조합효소 시스템, 합성/천연 바코딩 기법 등을 통해 암, 심혈관질환, 노화 등 질병의 병리학적 계보 프로그램을 규명하는 방법들을 소개한다. 특히 영구적 계보 기록과 단일세포 다중오믹스(single-cell multi-omics)를 통합하면 세포의 과거가 현재 상태와 미래 잠재력을 어떻게 형성하는지 해독할 수 있으며, 이는 정밀의료의 새로운 시대를 열 수 있다고 강조한다.",
+        "key_points": [
+          "단일세포 다중오믹스와 계보 추적 기술의 통합 전략",
+          "심혈관질환, 암, 노화 등 만성질환의 세포 수준 메커니즘 규명",
+          "정밀의료 구현을 위한 세포 계보-페놀타입 통합 프레임워크"
+        ],
+        "reason": "Multi-omics 및 만성질환(심혈관질환)이 언급되고 정밀의료 목표와 부합하나, 리뷰 논문이며 구체적인 실증 데이터(코호트, EHR, RWD, 대사질환 중심)가 없어 부분 관련으로 평가됨."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
