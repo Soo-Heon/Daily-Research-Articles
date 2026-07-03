@@ -1,0 +1,44 @@
+{
+  "date": "2026-07-03",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 0,
+  "results": [
+    {
+      "article": {
+        "pmid": "42387167",
+        "title": "Towards the construction of a virtual yeast.",
+        "abstract": "To advance the computational simulation of cellular life, we propose a virtual yeast, an artificial intelligence (AI)-driven agent that models eukaryotic cellular behaviours by integrating multimodal biological data, mechanistic reasoning and active experimentation using Saccharomyces cerevisiae as a genetically tractable and data-rich model system. Cellular complexity is decomposed into eight function-centred modules, spanning genetic, metabolic and structural systems, each realized as a domain-specific AI tool coordinated through a large language model-based orchestration layer. Built on three data pillars, namely, mechanistic knowledge, subcellular architecture and dynamic states, the system integrates representation learning and generative modelling within a closed-loop learning pipeline that autonomously designs and executes experiments. The virtual yeast serves as both a conceptual and an operational platform to optimize biosynthetic pathways, support the generation and prioritization of hypotheses across diverse cellular processes, and accelerate target discovery. By coupling biological realism with autonomous AI reasoning, the virtual yeast establishes a generalizable blueprint for constructing virtual eukaryotic cells and advancing synthetic biology.",
+        "journal": "Nature",
+        "authors": [
+          "Liujia Qian",
+          "Zizhuo Zhou",
+          "Peijie Zhou",
+          "Zhen Dong",
+          "Xudong Zhang",
+          "Zhenwu Dai"
+        ],
+        "pub_date": "2026-Jul",
+        "doi": "10.1038/s41586-026-10574-9",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42387167/",
+        "journal_canonical": "Nature"
+      },
+      "score": {
+        "relevance_score": 2,
+        "topic_match": "없음",
+        "summary_kr": "본 논문은 효모(Saccharomyces cerevisiae)를 모델로 하여 다중오믹스 데이터, 기계학습 및 자동실험을 통합한 '가상효모' AI 에이전트를 개발했다. 유전, 대사, 구조 시스템의 8개 기능 중심 모듈을 LLM 오케스트레이션으로 조율하여 생합성 경로 최적화 및 가설 생성을 지원하는 폐쇄 루프 학습 파이프라인을 구축했다. 이는 합성생물학과 가상 진핵세포 구축의 일반화 가능한 청사진을 제시한다.",
+        "key_points": [
+          "다중오믹스 데이터 + LLM 기반 AI 오케스트레이션 통합",
+          "효모 세포 수준의 계산 시뮬레이션 (in silico 모델)",
+          "자동 실험 설계 및 폐쇄 루프 학습 파이프라인"
+        ],
+        "reason": "효모 기반 기초과학 연구로 EHR/RWD, 인간 질환(당뇨/심혈관 등), 환자 코호트와 무관하며, 임상 정밀의료 및 약물반응 예측과도 직접 연관성이 없음."
+      },
+      "project": "MFDS",
+      "subtopic": "EHR/RWD × 오믹스 × 정밀의료"
+    }
+  ]
+}
