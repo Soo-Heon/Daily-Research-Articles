@@ -3,8 +3,108 @@
   "days_back": 1,
   "threshold": 6,
   "queries_run": 10,
-  "articles_found": 0,
-  "articles_scored": 0,
-  "articles_above_threshold": 0,
-  "results": []
+  "articles_found": 3,
+  "articles_scored": 3,
+  "articles_above_threshold": 2,
+  "results": [
+    {
+      "article": {
+        "pmid": "42400003",
+        "title": "Multi-modal data integration reveals functionally credible predictive biomarkers in ovarian cancer.",
+        "abstract": "BACKGROUND: Precision oncology aims to tailor treatment according to tumor-specific molecular alterations, but the success of aberration-guided therapies has been limited in clinical trials. Here, we develop an integrated whole-genome and transcriptome workflow to systematically distinguish functionally credible, predictive driver aberrations from non-functional alterations across all classes of genomic events. METHODS: We applied the integrated omics workflow to 335 patients with ovarian high-grade serous carcinoma (HGSC) enrolled in the observational DECIDER study. Tumor samples were collected from multiple cancer sites as part of the standard cancer care. DNA and RNA were extracted together from snap-frozen tumor samples and sent to whole-genome and transcriptome sequencing. Sequencing data were processed with the Anduril 2 pipeline for detection and validation of short somatic changes and with the HMW toolkit and the nf-core/rnafusion pipeline for assessment of structural changes. Aberration-specific drug sensitivity was tested in patient-derived organoids with a drug screen combining targeted agents and chemotherapy. RESULTS: Using an agnostic integrated omics analysis, we identified clinically relevant ESCAT Tier II-III alterations in more than 40% of the patients, even though 58% of all nominally pathogenic variants proved to be false positives. Credible aberrations were predominantly clonal, detected across anatomical sites, and preserved from diagnosis to relapse, indicating early establishment during tumor evolution. The most recurrent actionable event was NF1 deficiency, which was associated with a robust transcriptional footprint and marked sensitivity to KRAS- and MEK-inhibition in patient-derived organoids. Notably, integrated DNA-RNA analysis enabled discrimination of treatment-guiding aberrations from false-positive findings that would otherwise misinform treatment selection and confound clinical trial outcomes. CONCLUSIONS: Our findings provide a strategy for more reliable biomarker detection in precision oncology, inform biomarker-guided clinical trial design, and reveal unexploited therapeutic vulnerabilities in HGSC.",
+        "journal": "Genome medicine",
+        "authors": [
+          "Taru A Muranen",
+          "Andreas Hainari",
+          "Daria Afenteva",
+          "Wojciech Senkowski",
+          "Jaana Oikkonen",
+          "Johann Dreo"
+        ],
+        "pub_date": "2026-Jul-03",
+        "doi": "10.1186/s13073-026-01706-x",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42400003/",
+        "journal_canonical": "Genome Medicine"
+      },
+      "score": {
+        "relevance_score": 4,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 난소암 고등급장액성암종(HGSC) 환자 335명을 대상으로 전체게놈과 전사체를 통합 분석하여 기능적으로 검증된 예측 바이오마커를 식별했습니다. DNA-RNA 통합 분석과 환자유래종양체(organoid) 약물감수성 검사를 통해 임상 관련성 있는 ESCAT Tier II-III 변이를 40% 이상의 환자에서 발견했으며, 거짓양성을 구분하여 정밀종양학의 신뢰도를 향상시켰습니다. NF1 결손이 가장 재발성 높은 실행 가능한 변이로, MEK/KRAS 억제제 감수성을 보였습니다.",
+        "key_points": [
+          "다중오믹스(WGS+RNA-seq) 통합 분석으로 기능적 바이오마커 식별",
+          "EHR 기반 관찰연구(DECIDER study) + 임상표본 활용",
+          "거짓양성 필터링을 통한 정밀의료 임상시험 설계 개선"
+        ],
+        "reason": "다중오믹스 통합과 정밀의료 전략을 다루지만, 대상이 난소암(암)으로 MFDS의 만성대사질환(당뇨/심혈관/MASLD/CKD) 범위를 벗어나며, 데이터/방법론에서도 직접 일치성이 낮음."
+      },
+      "project": "MFDS",
+      "subtopic": "EHR/RWD × 오믹스 × 정밀의료"
+    },
+    {
+      "article": {
+        "pmid": "42400043",
+        "title": "Multi-omics profiles of sex hormone-binding globulin are associated with subclinical atherosclerosis in men with HIV.",
+        "abstract": "BACKGROUND: Sex hormones and HIV infection both influence cardiovascular health. However, the association between sex hormones and subclinical atherosclerosis is not fully understood, especially in the context of HIV. METHODS: Among 321 men (65% with HIV) from the MACS/WIHS Combined Cohort Study, we measured 14 serum sex hormones and sex hormone-binding globulin (SHBG), assessed carotid artery plaque (IMT > 1.5 mm) using high-resolution B-mode ultrasound, and performed metagenomic sequencing on stool samples. In 312 men, we measured 986 plasma metabolites via liquid chromatography-tandem mass spectrometry and 2883 plasma proteins using the Olink Explore 3072 platform. In stratified analyses of men with (MWH) and without HIV (MWOH) and adjusting for covariates and multiple testing, we (1) examined associations of sex hormones with plaque; (2) characterized multi-omics profiles related to sex hormones; and (3) generated sex hormone-related omics scores via linear combination of related species, metabolites, and proteins, respectively, to explore whether these sex hormone-related multi-omics profiles were associated with plaque. RESULTS: Median age of participants was 62 years (interquartile range: 58-68), and 31.5% had carotid artery plaque. Sex hormones were differentially associated with plaque in MWH and MWOH. In MWH, an inverse association was observed between SHBG and plaque (OR = 0.60 per 1-SD increase, 95% CI: 0.41, 0.90). Furthermore, higher SHBG levels were associated with overall gut microbial composition, lower abundance of species from genera Prevotella, Fibrobacter and Coprococcus, higher levels of certain metabolites (primarily lipid and carnitine metabolites) and proteins enriched in the cell-cell adhesion pathway. Some SHBG-related species (e.g., Mediterranea massiliensis), metabolites (e.g., phosphatidylcholine-based lipids) and proteins (e.g., enriched in immune response pathway) were also associated with plaque in MWH. All three SHBG-related omics scores were inter-correlated and inversely associated with plaque in MWH. In MWOH, estrone-sulfate was positively associated with plaque (OR = 3.80, 95% CI: 1.41, 10.22) but not with any species, metabolites or proteins. CONCLUSIONS: Higher SHBG, and related microbial species, circulating metabolites, and proteins, were inversely associated with carotid artery plaque. These findings suggested that SHBG may play a protective role in subclinical atherosclerosis in MWH.",
+        "journal": "Genome medicine",
+        "authors": [
+          "Yi Wang",
+          "Xiaonan Xue",
+          "Mykhaylo Usyk",
+          "Anjali Sharma",
+          "Kathryn Anastos",
+          "Wendy S Post"
+        ],
+        "pub_date": "2026-Jul-04",
+        "doi": "10.1186/s13073-026-01709-8",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42400043/",
+        "journal_canonical": "Genome Medicine"
+      },
+      "score": {
+        "relevance_score": 6,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 HIV 감염 남성을 포함한 321명을 대상으로 성호르몬, 장내미생물, 혈청 대사물질, 혈장 단백질 등 다중오믹스 데이터를 통합하여 성호르몬결합글로불린(SHBG)과 경동맥 무증상 죽상경화증의 연관성을 분석했습니다. HIV 감염자에서 높은 SHBG 수준은 장내미생물 조성 변화, 특정 대사물질(인지질, 카르니틴 대사물) 증가, 세포-세포 접착 관련 단백질 증가와 함께 경동맥 플라크와 역상관을 보였습니다. 코호트 기반 다중오믹스 통합 분석을 통해 심혈관질환의 생물마커를 발굴한 연구입니다.",
+        "key_points": [
+          "다중오믹스(microbiome, metabolomics, proteomics) 통합 분석으로 심혈관질환 무증상 죽상경화증 연관성 규명",
+          "코호트 기반 연구(MACS/WIHS Combined Cohort Study)로 성호르몬과 질환 표현형의 다층적 연관성 발굴",
+          "HIV 감염자 특이적 분석을 통해 질환 군 간 차등적 연관성 제시(정밀의료 관점)"
+        ],
+        "reason": "다중오믹스 통합, 코호트/바이오뱅크, 심혈관질환 등 MFDS 핵심 키워드를 포함하나, GDM/T2D와 직접 연관성이 없고 HIV 특화 연구로 우리 연구실의 만성대사질환(당뇨·심혈관) 주력 분야와의 중복도가 제한적입니다."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    },
+    {
+      "article": {
+        "pmid": "42399225",
+        "title": "Oral microbiome modulation mitigates hyperglycemia exacerbation in gestational diabetes mellitus.",
+        "abstract": "Dysglycaemia and periodontal inflammation frequently co-occur during pregnancy, but the microbial mechanisms linking these conditions and their potential for intervention remain incompletely understood. Here, we establish prospective pregnancy cohorts including more than 2500 volunteers and longitudinally profile oral microbiome dynamics in 534 pregnant women. We show that gestational diabetes mellitus (GDM) is associated with a progressive shift from Streptococcus-dominated oral microbiota to Prevotella/Porphyromonas-enriched dysbiosis. In mouse and cellular models, this dysbiotic oral microbiota induces periodontal inflammation, systemic IL-17 and IL-1β responses, suppression of glucagon-like peptide-1 and insulin, and exacerbation of hyperglycemia. Conversely, oral microbiota remodeling through transplantation of Streptococcus-dominated bacteria attenuates periodontal inflammation, restores glucagon-like peptide-1 and insulin levels, and improves glycaemic status in mice. Salivary metabolomics identifies docosahexaenoic acid (DHA) depletion in GDM, and in vitro assays show selective suppression of dysbiosis-associated oral pathogens by DHA. We therefore test topical gingival DHA in a double-blind randomized controlled trial of 40 pregnant women with GDM (ChiCTR2400080741), with probing depth and fasting blood glucose as primary endpoints and gingival index, attachment loss and plaque index as secondary endpoints. Daily gingival DHA application for six weeks improves probing depth and attenuates fasting glucose increase compared with placebo, with median fasting glucose changes from baseline of 0.10 versus 0.27 mmol/L. Together, these findings identify oral dysbiosis as a microbial driver of periodontal and glycaemic deterioration during pregnancy and support oral microbiome modulation as a potential adjunctive strategy for pregnancy care, although the clinical findings remain preliminary and require validation in larger trials with broader glycaemic endpoints.",
+        "journal": "Nature communications",
+        "authors": [
+          "Shengtao Gao",
+          "Nanlin Yin",
+          "Rujun Wei",
+          "Xiaoqing Li",
+          "Qiuhan Cheng",
+          "Alateng Zhula"
+        ],
+        "pub_date": "2026-Jul-03",
+        "doi": "10.1038/s41467-026-74917-w",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42399225/",
+        "journal_canonical": "Nature Communications"
+      },
+      "score": {
+        "relevance_score": 9,
+        "topic_match": "GDM",
+        "summary_kr": "본 연구는 2500명 이상의 임신 코호트에서 534명 임산부의 구강미생물군집을 종단 프로파일링하여 임신성당뇨(GDM)와 구강 dysbiosis의 연관성을 규명했다. GDM 환자에서 Streptococcus 지배 미생물총이 Prevotella/Porphyromonas 우위 dysbiosis로 진행되며, 이러한 dysbiotic 미생물이 전신 염증(IL-17, IL-1β), GLP-1/인슐린 억제, 고혈당 악화를 유도함을 동물 및 세포 모델로 입증했다. 타액 대사체학에서 GDM 환자의 DHA 감소를 확인했고, 이중맹검 무작위 임상시험(n=40)에서 국소 잇몸 DHA 도포 6주가 공복혈당 상승을 억제(0.10 vs 0.27 mmol/L)하고 치주 지표를 개선시켰다.",
+        "key_points": [
+          "GDM 환자에서 구강 dysbiosis (Streptococcus → Prevotella/Porphyromonas 전이)와 고혈당의 인과 관계 규명",
+          "대규모 임신 코호트(2500+명) 및 종단 미생물군집 데이터 기반 원인 기전 규명 (IL-17, GLP-1, 인슐린)",
+          "DHA 결핍을 타액 대사체학으로 확인하고 임상시험(RCT)으로 중재 전략 검증 (공복혈당 개선)"
+        ],
+        "reason": "GDM의 microbiome 기전을 구강 dysbiosis-염증-고혈당 축으로 규명한 원인 기전 연구로서, GDM×Microbiome 과제의 핵심 주제와 완벽히 부합하며, 대규모 임신 코호트, 다중 오믹스(16S, 대사체학), RCT 임상 근거까지 제시한 우수한 관련성을 가짐."
+      },
+      "project": "GDM",
+      "subtopic": "GDM × Microbiome"
+    }
+  ]
 }
