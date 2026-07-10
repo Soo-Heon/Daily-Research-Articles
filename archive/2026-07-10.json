@@ -1,0 +1,43 @@
+{
+  "date": "2026-07-10",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42420302",
+        "title": "Genetic and molecular signatures highlight diverse pathways linking obesity to type 2 diabetes.",
+        "abstract": "Obesity is a major risk factor for type 2 diabetes, a disease affecting approximately 10% of the global population. Obesity is a heterogeneous condition, with different components exerting distinct, and sometimes opposing, effects on type 2 diabetes risk. Here, we aim to identify molecular mechanisms through which distinct components of obesity influence risk for type 2 diabetes by integrating multi-omics data. We identify SNPs associated with body mass index in males and females and cluster them based on their Mendelian randomisation estimates on type 2 diabetes risk. This analysis reveals four SNP clusters with distinct effects on type 2 diabetes ranging from strongly harmful to protective. We perform cluster-specific two-sample Mendelian randomisation analyses across over 3000 molecular traits to delineate metabolic, lipid, endocrine and glycaemic pathways mediating the harmful and protective effects of distinct obesity components on type 2 diabetes risk.",
+        "journal": "Nature communications",
+        "authors": [
+          "Pascal M Mutie",
+          "Tijana Stojanovic",
+          "Valeria Lo Faro",
+          "Torgny Karlsson",
+          "Åsa Johansson"
+        ],
+        "pub_date": "2026-Jul-08",
+        "doi": "10.1038/s41467-026-74675-9",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42420302/",
+        "journal_canonical": "Nature Communications"
+      },
+      "score": {
+        "relevance_score": 8,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 비만과 제2형 당뇨병 간의 연관성을 규명하기 위해 다중오믹스 데이터를 통합하여 분석했습니다. 성별별 BMI 관련 SNP를 식별하고 멘델리안 무작위화 분석을 통해 제2형 당뇨 위험에 미치는 영향에 따라 4개 클러스터로 분류했습니다. 각 클러스터별 분석을 통해 대사, 지질, 내분비, 혈당 경로 등 서로 다른 비만 구성요소가 제2형 당뇨 위험에 미치는 해로운 및 보호적 영향을 매개하는 분자 메커니즘을 규명했습니다.",
+        "key_points": [
+          "다중오믹스 데이터 통합을 통한 제2형 당뇨 위험 인자 분석",
+          "멘델리안 무작위화 기반 인과관계 분석으로 3000개 이상의 분자 특성 평가",
+          "비만의 이질성을 반영한 성별·경로별 층화 분석으로 보호적/해로운 효과 구분"
+        ],
+        "reason": "제2형 당뇨의 주요 위험인자인 비만을 다중오믹스 통합 분석으로 규명한 점, 만성대사질환 예측을 위한 유전·분자 경로 분석, GWAS 기반 접근법 등이 MFDS의 핵심 요소와 높이 부합하나, GDM이나 특정 코호트 설정이 없어 완전한 직접 관련성은 낮음."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
