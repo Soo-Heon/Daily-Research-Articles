@@ -1,0 +1,44 @@
+{
+  "date": "2026-07-12",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42436130",
+        "title": "The landscape of plasma proteomic links to human organ imaging.",
+        "abstract": "Plasma protein levels provide important insights into human disease, yet a comprehensive assessment of plasma proteomics across organs is lacking. Using large-scale multimodal data from the UK Biobank, we integrate plasma proteomics with organ imaging to map their phenotypic and genetic links, analyzing 2923 proteins and 1051 imaging traits across multiple organs. We uncover 5067 phenotypic protein-imaging associations, identifying both organ-specific and organ-shared proteomic relations, along with enriched protein-protein interaction networks and biological pathways. Sensitivity analyses suggest that these associations are not substantially influenced by the median 10.18-year interval between plasma sampling and imaging visits. We also map key protein predictors of organ structures and show the stratification capability of plasma protein-based prediction models. Furthermore, we identify 8116 putative causal protein-imaging links. Imaging-associated protein components show enrichment across diverse complex diseases. Our study shows that integrating plasma proteomics with multi-organ imaging provides a comprehensive pan-organ imaging-proteomics map and reveals molecular pathways linking circulating proteins to human organ biology.",
+        "journal": "Nature communications",
+        "authors": [
+          "Zirui Fan",
+          "Julio Chirinos",
+          "Xiaochen Yang",
+          "Juan Shu",
+          "Yujue Li",
+          "Joan M O'Brien"
+        ],
+        "pub_date": "2026-Jul-11",
+        "doi": "10.1038/s41467-026-74715-4",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42436130/",
+        "journal_canonical": "Nature Communications"
+      },
+      "score": {
+        "relevance_score": 7,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 영국 바이오뱅크의 대규모 다중모달 데이터를 활용하여 혈장 단백질체와 다장기 영상 이미지 간의 표현형 및 유전적 연관성을 매핑했다. 2,923개의 단백질과 1,051개의 영상 특성을 분석하여 5,067개의 표현형-단백질-영상 연관성을 발굴하고, 8,116개의 인과적 연관성을 규명했다. 혈장 단백질 기반 예측 모델의 층화 능력을 입증하였으며, 복잡한 질병들에 걸쳐 영상 관련 단백질 성분의 풍부함을 확인했다.",
+        "key_points": [
+          "UK Biobank 코호트 기반 대규모 다중오믹스(단백질체) × 영상 데이터 통합 분석",
+          "EHR/RWD와 바이오마커를 결합한 정밀의료 기초 연구 (다장기 질환 예측 모델)",
+          "표현형-유전적 연관성 및 인과 관계 규명으로 분자 메커니즘 이해"
+        ],
+        "reason": "다중오믹스(단백질체) 통합, 대규모 코호트/바이오뱅크 데이터, 정밀의료 기반 질병 예측 등 MFDS 과제의 핵심 요소를 다수 포함하나, 만성대사질환 특화가 아닌 다장기 일반 질환 대상이므로 7점 평가."
+      },
+      "project": "MFDS",
+      "subtopic": "EHR/RWD × 오믹스 × 정밀의료"
+    }
+  ]
+}
