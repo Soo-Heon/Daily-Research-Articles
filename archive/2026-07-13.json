@@ -1,0 +1,73 @@
+{
+  "date": "2026-07-13",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 2,
+  "articles_scored": 2,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42439827",
+        "title": "Applications of Stem Cell-Derived Islets and Emerging Experimental Platforms to Understand Diabetes.",
+        "abstract": "UNLABELLED: Type 1 diabetes (T1D) impacts more than 9 million individuals globally. Despite a century since the isolation and clinical introduction of insulin, exogenous insulin injections remain the primary form of treatment for T1D. While continuous glucose monitoring systems and optimized insulin delivery reduce life-threatening hypoglycemic events, they do not provide a permanent cure. Transplantation of pancreatic islets offers a potential long-term solution. Recent advances in stem cell-derived islets (SC-islets) have shown remarkable promise in both clinical and research settings. This article highlights recent clinical reports in the use of SC-islets to restore islet function and their versatility as a platform for disease modeling and drug screening while emphasizing current strategies aimed at overcoming their limitations and enhancing their therapeutic potential. We also discuss exciting emerging approaches that expand investigations beyond pancreatic endocrine cells to encompass nonendocrine cell types in the pancreas, offering a unique bird's-eye view into pancreatic biology and insights into cellular cross talk in health and disease. Our aim is for this article to serve as a resource for up-to-date advances in SC-islet research and to highlight novel platforms for studying diabetes pathogenesis in unprecedented ways, accelerating progress toward a permanent cure. ARTICLE HIGHLIGHTS: Stem cell-derived islets provide a renewable source of insulin-producing cells for studying diabetes and developing regenerative therapies. Stem cell-derived islets are still functionally immature in comparison with primary human islets, underscoring the need for deeper insights into β-cell biology to improve their fidelity. Nonetheless, they serve as a powerful platform for diabetes disease modeling. Emerging technological advances, including spatial multiomics and multicellular organoid development, are revealing key roles for non-β-cell and nonislet cell types in pancreatic diseases. Integrating these emerging tools is critical for broadening our understanding of diabetes pathophysiology and may enable us to view the disease from previously unexplored perspectives.",
+        "journal": "Diabetes",
+        "authors": [
+          "Noyonika Mukherjee",
+          "Jeffrey R Millman"
+        ],
+        "pub_date": "2026-Jul-13",
+        "doi": "10.2337/db26-0013",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42439827/",
+        "journal_canonical": "Diabetes"
+      },
+      "score": {
+        "relevance_score": 4,
+        "topic_match": "MFDS",
+        "summary_kr": "본 논문은 제1형 당뇨병 치료를 위한 줄기세포 유래 췌도(SC-islets)의 임상적 응용과 질병 모델링 플랫폼으로서의 가능성을 검토한 리뷰 논문이다. 공간 다중오믹스(spatial multiomics) 및 다세포 오가노이드 기술과 같은 신흥 기술을 활용하여 췌장 내 비-β세포와 비-췌도 세포 유형들의 역할을 규명하고 있다. 이러한 통합 접근법은 당뇨병 병리 생리에 대한 이해를 확대하고 재생 치료법 개발을 가속화할 수 있는 잠재력을 보유하고 있다.",
+        "key_points": [
+          "줄기세포 유래 췌도의 인슐린 생성 기능 복원 및 질병 모델링 플랫폼으로의 활용",
+          "공간 다중오믹스(spatial multiomics)와 다세포 오가노이드를 통한 췌장 세포 간 상호작용 규명",
+          "제1형 당뇨(T1D) 중심이며 제2형 당뇨와 직접 관련성 낮음"
+        ],
+        "reason": "Multi-omics 기술과 만성질환(당뇨) 연구를 다루나, 제1형 당뇨의 세포치료 및 기초 기전 연구에 집중되어 있고, 우리 과제의 핵심인 제2형 당뇨, 예측 모델링, 임상 코호트/RWD, 약물반응/유해반응 예측 등과는 직접 관련이 낮다."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    },
+    {
+      "article": {
+        "pmid": "42436130",
+        "title": "The landscape of plasma proteomic links to human organ imaging.",
+        "abstract": "Plasma protein levels provide important insights into human disease, yet a comprehensive assessment of plasma proteomics across organs is lacking. Using large-scale multimodal data from the UK Biobank, we integrate plasma proteomics with organ imaging to map their phenotypic and genetic links, analyzing 2923 proteins and 1051 imaging traits across multiple organs. We uncover 5067 phenotypic protein-imaging associations, identifying both organ-specific and organ-shared proteomic relations, along with enriched protein-protein interaction networks and biological pathways. Sensitivity analyses suggest that these associations are not substantially influenced by the median 10.18-year interval between plasma sampling and imaging visits. We also map key protein predictors of organ structures and show the stratification capability of plasma protein-based prediction models. Furthermore, we identify 8116 putative causal protein-imaging links. Imaging-associated protein components show enrichment across diverse complex diseases. Our study shows that integrating plasma proteomics with multi-organ imaging provides a comprehensive pan-organ imaging-proteomics map and reveals molecular pathways linking circulating proteins to human organ biology.",
+        "journal": "Nature communications",
+        "authors": [
+          "Zirui Fan",
+          "Julio Chirinos",
+          "Xiaochen Yang",
+          "Juan Shu",
+          "Yujue Li",
+          "Joan M O'Brien"
+        ],
+        "pub_date": "2026-Jul-11",
+        "doi": "10.1038/s41467-026-74715-4",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42436130/",
+        "journal_canonical": "Nature Communications"
+      },
+      "score": {
+        "relevance_score": 7,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 UK Biobank의 대규모 다중모달 데이터를 활용하여 혈장 단백질체와 장기 영상 간의 표현형 및 유전적 연관성을 매핑했습니다. 2923개 단백질과 1051개 영상 특성을 분석하여 5067개의 표현형-단백질-영상 연관성과 8116개의 인과 연관성을 규명했으며, 단백질 기반 예측 모델의 장기별 층화 능력을 입증했습니다. 혈장 단백질체와 다장기 영상의 통합이 복합질환 분자 경로 규명 및 정밀의료에 활용될 수 있음을 보여줍니다.",
+        "key_points": [
+          "다중오믹스(단백질체) + 영상 통합 분석으로 EHR/RWD 기반 정밀의료 전략 제시",
+          "UK Biobank 코호트 기반 대규모 표현형-유전체 데이터 활용 및 인과 추론",
+          "혈장 단백질 기반 예측 모델의 층화/위험 계층화 능력으로 임상적 적용 가능성"
+        ],
+        "reason": "다중오믹스(단백질체) + 영상 + 대규모 코호트 + 유전체 통합, EHR/RWD 기반 정밀의료 관련성이 높으나, 특정 만성대사질환 중심 분석이 아니고 GDM/T2D 전환 추적이 없어 DGDB/GDM 과제와의 직접 관련성은 낮습니다."
+      },
+      "project": "MFDS",
+      "subtopic": "EHR/RWD × 오믹스 × 정밀의료"
+    }
+  ]
+}
