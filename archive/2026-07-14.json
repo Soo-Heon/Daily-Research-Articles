@@ -1,0 +1,106 @@
+{
+  "date": "2026-07-14",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 3,
+  "articles_scored": 3,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42443974",
+        "title": "Multi-omics and spatial proteomic profiling reveal novel AGXT2- PYCR3- macrophages and their phenotypes in metabolic dysfunction-associated steatotic liver disease.",
+        "abstract": "BACKGROUND: Metabolic dysfunction-associated steatotic liver disease (MASLD) is a global liver disorder with a rising incidence. Early-to-middle-stage MASLD remains amenable to clinical intervention; without timely management, it may progress to fibrosis and cirrhosis. Therefore, identifying novel targets through integrated multi-technical approaches is critical for preventing and treating MASLD. METHODS: We developed an integrative multi-omics and spatial proteomic strategy combined with in vitro validation. CyTOF was applied to high-dimensional immunophenotyping of the MASLD liver microenvironment. Key cell populations were then sorted accordingly for mass spectrometry to uncover their core signaling. Focusing on identified key amino acid metabolic enzymes, we performed IMC for spatial single-cell proteomic profiling to localize metabolic aberrant subsets. Finally, functional phenotypes and mechanisms were validated in cell models. RESULTS: CyTOF revealed significant expansion of myeloid-derived cells. Thus, by targeting myeloid-derived cells, proteomic and phosphoproteomic analyses identified two severely impaired amino acid metabolic pathways: the glycine metabolic pathway regulated by AGXT2 and the proline metabolic pathway regulated by PYCR3. We then focused on AGXT2 and PYCR3 for spatial exploration via IMC and ultimately identified a macrophage subset negative for both AGXT2 and PYCR3. These macrophages were significantly elevated within MASLD and exhibited high spatial colocalization with inflammatory cells and fibrotic cells. Compared with dysregulated M1 subsets (M1-C3), dysregulated M2 subsets (M2-C1) indicated stronger pro-inflammatory and pro-fibrotic potential. In vitro models using human and murine cells confirmed that AGXT2⁻PYCR3⁻ macrophages exhibited enhanced proliferation and migration, secreted higher levels of inflammatory cytokines, chemokines, and classic fibrotic proteins, and exerted strong inductive effects on hepatic fibrotic cells, with downregulation of intercellular GSH. Mechanistically, the NF-κB and MAPK/AP-1 pathways were involved in inflammatory responses, while the p-SMAD3(T8)/TGFβ pathway contributed to the fibrotic phenotype. However, the abnormal biological functions could be effectively rescued by supplementation with corresponding amino acids, accompanied by the reversal of aberrant signaling pathway activation. CONCLUSIONS: In summary, our study explores an initial link between amino acid metabolism and early-to-middle-stage MASLD. AGXT2⁻PYCR3⁻ macrophages are significantly enriched in MASLD with pro-inflammatory and pro-fibrotic potential, and amino acid supplementation can rescue their aberrant phenotypes in vitro, warranting further validation of their treatment potential.",
+        "journal": "Genome medicine",
+        "authors": [
+          "Tiansu Lv",
+          "Hongshan Dai",
+          "Shihu Zhang",
+          "Ee Chang",
+          "Ming Ni",
+          "Jing Ge"
+        ],
+        "pub_date": "2026-Jul-13",
+        "doi": "10.1186/s13073-026-01716-9",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42443974/",
+        "journal_canonical": "Genome Medicine"
+      },
+      "score": {
+        "relevance_score": 8,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 대사기능장애연관지방간질환(MASLD)의 조기-중기 단계에서 새로운 치료 타겟을 발굴하기 위해 다중오믹스(CyTOF, 질량분석법, 공간단백질체학 IMC)와 세포 모델 검증을 통합한 접근법을 개발했다. 골수유래세포 중 AGXT2-PYCR3- 대식세포 아집단이 MASLD에서 유의하게 증가하며, 글리신 및 프롤린 대사 경로의 손상을 통해 강한 염증-섬유화 표현형을 나타냄을 규명했다. 인 비트로 검증 결과 관련 아미노산 보충이 이상 생물학적 기능과 신호전달 경로 활성화를 효과적으로 역전시킬 수 있음을 확인했다.",
+        "key_points": [
+          "MASLD의 조기-중기 단계에서 다중기술 통합(CyTOF, MS, IMC) 활용으로 신규 세포 서브셋 발굴",
+          "AGXT2-PYCR3- 대식세포의 아미노산 대사 경로 손상과 염증-섬유화 유도 기전 규명",
+          "아미노산 보충을 통한 가역적 표현형 복원 가능성 제시로 새로운 치료 전략 제안"
+        ],
+        "reason": "MFDS 과제의 핵심 영역인 MASLD를 대상으로 다중오믹스 통합, 만성질환 메커니즘 규명, 잠재적 약물 표적 발굴이 모두 포함되었으나, 예측 모델 또는 임상 코호트/RWD 연결이 부재하여 만점은 아님."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    },
+    {
+      "article": {
+        "pmid": "42439827",
+        "title": "Applications of Stem Cell-Derived Islets and Emerging Experimental Platforms to Understand Diabetes.",
+        "abstract": "UNLABELLED: Type 1 diabetes (T1D) impacts more than 9 million individuals globally. Despite a century since the isolation and clinical introduction of insulin, exogenous insulin injections remain the primary form of treatment for T1D. While continuous glucose monitoring systems and optimized insulin delivery reduce life-threatening hypoglycemic events, they do not provide a permanent cure. Transplantation of pancreatic islets offers a potential long-term solution. Recent advances in stem cell-derived islets (SC-islets) have shown remarkable promise in both clinical and research settings. This article highlights recent clinical reports in the use of SC-islets to restore islet function and their versatility as a platform for disease modeling and drug screening while emphasizing current strategies aimed at overcoming their limitations and enhancing their therapeutic potential. We also discuss exciting emerging approaches that expand investigations beyond pancreatic endocrine cells to encompass nonendocrine cell types in the pancreas, offering a unique bird's-eye view into pancreatic biology and insights into cellular cross talk in health and disease. Our aim is for this article to serve as a resource for up-to-date advances in SC-islet research and to highlight novel platforms for studying diabetes pathogenesis in unprecedented ways, accelerating progress toward a permanent cure. ARTICLE HIGHLIGHTS: Stem cell-derived islets provide a renewable source of insulin-producing cells for studying diabetes and developing regenerative therapies. Stem cell-derived islets are still functionally immature in comparison with primary human islets, underscoring the need for deeper insights into β-cell biology to improve their fidelity. Nonetheless, they serve as a powerful platform for diabetes disease modeling. Emerging technological advances, including spatial multiomics and multicellular organoid development, are revealing key roles for non-β-cell and nonislet cell types in pancreatic diseases. Integrating these emerging tools is critical for broadening our understanding of diabetes pathophysiology and may enable us to view the disease from previously unexplored perspectives.",
+        "journal": "Diabetes",
+        "authors": [
+          "Noyonika Mukherjee",
+          "Jeffrey R Millman"
+        ],
+        "pub_date": "2026-Jul-13",
+        "doi": "10.2337/db26-0013",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42439827/",
+        "journal_canonical": "Diabetes"
+      },
+      "score": {
+        "relevance_score": 4,
+        "topic_match": "MFDS",
+        "summary_kr": "본 논문은 줄기세포 유래 췌도(stem cell-derived islets, SC-islets)를 이용한 1형 당뇨 치료 및 질병 모델링 연구를 리뷰한다. 공간 멀티오믹스(spatial multiomics)와 다세포 오르가노이드 등의 신기술을 통해 췌도의 β세포뿐만 아니라 비내분비 세포의 역할을 규명하고 있다. SC-islet 플랫폼의 임상 적용 가능성과 함수 성숙도 개선, 그리고 약물 스크리닝 및 질병 병태생리 이해를 위한 새로운 기술 통합의 중요성을 강조한다.",
+        "key_points": [
+          "Stem cell-derived islets를 이용한 1형 당뇨 재생의학 치료 플랫폼",
+          "Spatial multiomics 및 multicellular organoid를 통한 멀티오믹스 기술 활용",
+          "β세포뿐 아니라 비내분비 세포의 세포간 상호작용과 질병 병태생리 규명"
+        ],
+        "reason": "Multi-omics 방법론(spatial multiomics, organoid)과 만성질환(당뇨, 특히 T1D)이 부분적으로 일치하나, 임상 응용과 재생의학 중심으로 약물반응 예측, 정밀의료, 코호트/RWD 등 MFDS의 핵심 과제와 직접 연결되지 않으며, T2D/GDM과도 무관함."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    },
+    {
+      "article": {
+        "pmid": "42442328",
+        "title": "Serum metabolomics profiling in head and neck squamous cell carcinoma: a multicentre diagnostic study.",
+        "abstract": "BACKGROUND: Head and neck squamous cell carcinoma (HNSCC) is frequently diagnosed at advanced stages, when outcomes are poor. Biomarkers for HNSCC detection remain needed. METHODS: We performed serum metabolomics profiling in 938 participants, including 457 patients with HNSCC, 451 controls, and 30 patients with oral potentially malignant disorders (OPMDs). Discovery and external validation cohorts were analysed using LC-MS/MS. Machine learning-based feature selection was used to develop an 8-metabolite diagnostic model. Disease specificity was assessed in an independent third-centre cohort. Multi-omics analyses integrating TCGA transcriptomics and spatial transcriptomics data were used to explore molecular heterogeneity. STUDY REGISTRATION: ChiCTR-BRC-17014040. FINDINGS: Serum metabolomics profiling showed altered arginine metabolism, characterised by arginine decrease and ornithine accumulation. The 8-metabolite model achieved an internal validation AUC of 0.990, with 91.3% sensitivity and 97.1% specificity. In the multicentre external validation cohort, the model achieved an AUC of 0.901, with 91.1% sensitivity and 80.2% specificity, and maintained performance in Stage I disease, with an AUC of 0.927. In the independent disease-control cohort, the model distinguished HNSCC from healthy controls with an AUC of 0.980 and showed moderate discrimination between HNSCC and OPMDs, with an AUC of 0.710. Multi-omics analyses identified two candidate molecular subtypes with distinct immune features, prognosis, TP53 mutation status, and predicted treatment sensitivities. Spatial transcriptomics supported an inverse association between metabolic score and immune infiltration. INTERPRETATION: This multicentre study identifies a serum metabolomics signature associated with HNSCC detection and molecular stratification. The findings support further prospective validation in clinically representative populations. FUNDING: National Natural Science Foundation of China; Shanghai Committee of Science and Technology; Innovative Research Team of High-level Local Universities in Shanghai; Shanghai Jiao Tong University Trans-med Awards Research; The Explorers Program of Shanghai; National Major Science and Technology Infrastructure for Translational Medicine, Shanghai; Beijing Municipal Natural Science Foundation; Beijing High-Level Innovation and Entrepreneurship Talent Support Program Young Top Talent Projects.",
+        "journal": "EBioMedicine",
+        "authors": [
+          "Hexin Ma",
+          "Xinran Zhao",
+          "Zhihui Li",
+          "Zhen Zhang",
+          "Xinhua Pan",
+          "Mengxuan Du"
+        ],
+        "pub_date": "2026-Jul-13",
+        "doi": "10.1016/j.ebiom.2026.106379",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42442328/",
+        "journal_canonical": "EBioMedicine"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 두경부암(HNSCC) 진단을 위해 938명의 참가자(환자 457명, 대조군 451명)를 대상으로 LC-MS/MS 기반 혈청 대사체학 프로파일링을 수행했습니다. 머신러닝을 이용한 특성 선택으로 8개 대사물질로 구성된 진단 모델을 개발하였으며, 다기관 외부 검증에서 AUC 0.901의 우수한 성능을 보였습니다. 추가적으로 TCGA 및 공간 전사체 데이터와의 다중오믹스 통합 분석으로 두경부암의 면역 특성과 분자 아형을 규명했습니다.",
+        "key_points": [
+          "다중기관 코호트(938명)를 활용한 구조화된 discovery-validation 연구 설계",
+          "대사체학 × 머신러닝 × 다중오믹스 통합 (transcriptomics + spatial transcriptomics)",
+          "임상 진단 바이오마커 개발 및 질환의 분자 이질성 규명으로 정밀의료 기초 제공"
+        ],
+        "reason": "코호트/바이오뱅크 × 다중오믹스 × AI 방법론이 명확하나, 연구 대상이 당뇨/심혈관/대사질환 등 우리 연구실의 주요 질환이 아닌 두경부암이므로 부분 관련성만 인정됨."
+      },
+      "project": "MFDS",
+      "subtopic": "코호트/바이오뱅크 × 다중오믹스 × AI"
+    }
+  ]
+}
