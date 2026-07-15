@@ -1,0 +1,77 @@
+{
+  "date": "2026-07-15",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 2,
+  "articles_scored": 2,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42443974",
+        "title": "Multi-omics and spatial proteomic profiling reveal novel AGXT2- PYCR3- macrophages and their phenotypes in metabolic dysfunction-associated steatotic liver disease.",
+        "abstract": "BACKGROUND: Metabolic dysfunction-associated steatotic liver disease (MASLD) is a global liver disorder with a rising incidence. Early-to-middle-stage MASLD remains amenable to clinical intervention; without timely management, it may progress to fibrosis and cirrhosis. Therefore, identifying novel targets through integrated multi-technical approaches is critical for preventing and treating MASLD. METHODS: We developed an integrative multi-omics and spatial proteomic strategy combined with in vitro validation. CyTOF was applied to high-dimensional immunophenotyping of the MASLD liver microenvironment. Key cell populations were then sorted accordingly for mass spectrometry to uncover their core signaling. Focusing on identified key amino acid metabolic enzymes, we performed IMC for spatial single-cell proteomic profiling to localize metabolic aberrant subsets. Finally, functional phenotypes and mechanisms were validated in cell models. RESULTS: CyTOF revealed significant expansion of myeloid-derived cells. Thus, by targeting myeloid-derived cells, proteomic and phosphoproteomic analyses identified two severely impaired amino acid metabolic pathways: the glycine metabolic pathway regulated by AGXT2 and the proline metabolic pathway regulated by PYCR3. We then focused on AGXT2 and PYCR3 for spatial exploration via IMC and ultimately identified a macrophage subset negative for both AGXT2 and PYCR3. These macrophages were significantly elevated within MASLD and exhibited high spatial colocalization with inflammatory cells and fibrotic cells. Compared with dysregulated M1 subsets (M1-C3), dysregulated M2 subsets (M2-C1) indicated stronger pro-inflammatory and pro-fibrotic potential. In vitro models using human and murine cells confirmed that AGXT2⁻PYCR3⁻ macrophages exhibited enhanced proliferation and migration, secreted higher levels of inflammatory cytokines, chemokines, and classic fibrotic proteins, and exerted strong inductive effects on hepatic fibrotic cells, with downregulation of intercellular GSH. Mechanistically, the NF-κB and MAPK/AP-1 pathways were involved in inflammatory responses, while the p-SMAD3(T8)/TGFβ pathway contributed to the fibrotic phenotype. However, the abnormal biological functions could be effectively rescued by supplementation with corresponding amino acids, accompanied by the reversal of aberrant signaling pathway activation. CONCLUSIONS: In summary, our study explores an initial link between amino acid metabolism and early-to-middle-stage MASLD. AGXT2⁻PYCR3⁻ macrophages are significantly enriched in MASLD with pro-inflammatory and pro-fibrotic potential, and amino acid supplementation can rescue their aberrant phenotypes in vitro, warranting further validation of their treatment potential.",
+        "journal": "Genome medicine",
+        "authors": [
+          "Tiansu Lv",
+          "Hongshan Dai",
+          "Shihu Zhang",
+          "Ee Chang",
+          "Ming Ni",
+          "Jing Ge"
+        ],
+        "pub_date": "2026-Jul-13",
+        "doi": "10.1186/s13073-026-01716-9",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42443974/",
+        "journal_canonical": "Genome Medicine"
+      },
+      "score": {
+        "relevance_score": 8,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 대사질환관련 지방간질환(MASLD)에서 다중오믹스(CyTOF, 질량분석, 공간단백질체학)를 통합하여 AGXT2-PYCR3- 대식세포 아형을 발견했습니다. 이 대식세포 집단은 MASLD 환자의 간에서 유의하게 증가하며 친염증/친섬유화 표현형을 나타내고, 글리신 및 프롤린 대사 경로 손상과 NF-κB/MAPK 신호전달 이상을 보였습니다. 세포 모델에서 아미노산 보충이 이 대식세포의 병리적 표현형을 회복시킬 수 있음을 확인하여 조기 MASLD의 치료 표적으로서의 가능성을 제시했습니다.",
+        "key_points": [
+          "MASLD 환자 조직에서 CyTOF, 질량분석, 이미징 질량세포분석을 통한 다중오믹스 통합 분석",
+          "아미노산 대사 이상(AGXT2, PYCR3)과 연계된 대식세포 아형의 발견 및 기능적 검증",
+          "약물 치료 가능성: 아미노산 보충을 통한 병리적 신호전달 경로(NF-κB, MAPK, TGFβ) 역전"
+        ],
+        "reason": "MFDS의 핵심 과제인 MASLD(만성대사질환) + 다중오믹스 + 신규 바이오마커 발굴 + 기전 규명을 모두 충족하며, 임상 중재 가능성까지 제시하여 높은 관련성을 보임."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    },
+    {
+      "article": {
+        "pmid": "42442328",
+        "title": "Serum metabolomics profiling in head and neck squamous cell carcinoma: a multicentre diagnostic study.",
+        "abstract": "BACKGROUND: Head and neck squamous cell carcinoma (HNSCC) is frequently diagnosed at advanced stages, when outcomes are poor. Biomarkers for HNSCC detection remain needed. METHODS: We performed serum metabolomics profiling in 938 participants, including 457 patients with HNSCC, 451 controls, and 30 patients with oral potentially malignant disorders (OPMDs). Discovery and external validation cohorts were analysed using LC-MS/MS. Machine learning-based feature selection was used to develop an 8-metabolite diagnostic model. Disease specificity was assessed in an independent third-centre cohort. Multi-omics analyses integrating TCGA transcriptomics and spatial transcriptomics data were used to explore molecular heterogeneity. STUDY REGISTRATION: ChiCTR-BRC-17014040. FINDINGS: Serum metabolomics profiling showed altered arginine metabolism, characterised by arginine decrease and ornithine accumulation. The 8-metabolite model achieved an internal validation AUC of 0.990, with 91.3% sensitivity and 97.1% specificity. In the multicentre external validation cohort, the model achieved an AUC of 0.901, with 91.1% sensitivity and 80.2% specificity, and maintained performance in Stage I disease, with an AUC of 0.927. In the independent disease-control cohort, the model distinguished HNSCC from healthy controls with an AUC of 0.980 and showed moderate discrimination between HNSCC and OPMDs, with an AUC of 0.710. Multi-omics analyses identified two candidate molecular subtypes with distinct immune features, prognosis, TP53 mutation status, and predicted treatment sensitivities. Spatial transcriptomics supported an inverse association between metabolic score and immune infiltration. INTERPRETATION: This multicentre study identifies a serum metabolomics signature associated with HNSCC detection and molecular stratification. The findings support further prospective validation in clinically representative populations. FUNDING: National Natural Science Foundation of China; Shanghai Committee of Science and Technology; Innovative Research Team of High-level Local Universities in Shanghai; Shanghai Jiao Tong University Trans-med Awards Research; The Explorers Program of Shanghai; National Major Science and Technology Infrastructure for Translational Medicine, Shanghai; Beijing Municipal Natural Science Foundation; Beijing High-Level Innovation and Entrepreneurship Talent Support Program Young Top Talent Projects.",
+        "journal": "EBioMedicine",
+        "authors": [
+          "Hexin Ma",
+          "Xinran Zhao",
+          "Zhihui Li",
+          "Zhen Zhang",
+          "Xinhua Pan",
+          "Mengxuan Du"
+        ],
+        "pub_date": "2026-Jul-13",
+        "doi": "10.1016/j.ebiom.2026.106379",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42442328/",
+        "journal_canonical": "EBioMedicine"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 두경부암(HNSCC) 진단을 위해 938명의 다중센터 코호트에서 혈청 대사체 프로파일링을 수행했습니다. LC-MS/MS 기반 발견 및 외부 검증 코호트에서 8개 대사물질 기반 머신러닝 진단 모델을 개발하여 AUC 0.901의 높은 성능을 달성했습니다. TCGA 트랜스크립토믹스 및 공간 트랜스크립토믹스와 통합한 다중오믹스 분석으로 면역 특성 및 예후가 다른 2개의 분자 서브타입을 규명했습니다.",
+        "key_points": [
+          "다중센터 코호트 기반 혈청 대사체 바이오마커 개발 (코호트/바이오뱅크 관련)",
+          "LC-MS/MS 메타볼로믹스 + 머신러닝 기반 진단 모델 (다중오믹스·AI 방법론)",
+          "TCGA 트랜스크립토믹스·공간 트랜스크립토믹스 통합 분석 (다중오믹스 통합)"
+        ],
+        "reason": "코호트 설계, 다중오믹스 통합, 머신러닝 활용 등 MFDS의 방법론적 요소들이 포함되어 있으나, 암 진단이라는 질병 타겟이 우리 과제의 만성대사질환(당뇨·심혈관·MASLD 등)과 직접 관련이 없어 부분 관련으로 평가됩니다."
+      },
+      "project": "MFDS",
+      "subtopic": "코호트/바이오뱅크 × 다중오믹스 × AI"
+    }
+  ]
+}
