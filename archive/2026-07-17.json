@@ -1,0 +1,110 @@
+{
+  "date": "2026-07-17",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 3,
+  "articles_scored": 3,
+  "articles_above_threshold": 3,
+  "results": [
+    {
+      "article": {
+        "pmid": "42462027",
+        "title": "Cross-cohort analysis of expression and splicing quantitative trait loci in TOPMed.",
+        "abstract": "Most genetic variants associated with complex traits are hypothesized to regulate gene expression. To understand the genetics underlying gene expression variability, we characterized 14,324 RNA-sequencing samples from the Trans-Omics for Precision Medicine program and performed expression and splicing quantitative trait locus (e/sQTL) analyses in six tissues and cell types, including whole blood (n = 6454) and lung (n = 1291). We detected tens of thousands of secondary cis-e/sQTLs, showing that secondary cis-e/sQTL discovery remains unsaturated. We fine-mapped UK Biobank-derived genome-wide association study (GWAS) signals from 164 traits and identified e/sQTL colocalizations for 10,611 GWAS signals, including 7096 that colocalize with secondary e/sQTLs. Our results suggest that even larger e/sQTL analyses will uncover additional secondary e/sQTLs, further benefiting GWAS interpretation.",
+        "journal": "Science (New York, N.Y.)",
+        "authors": [
+          "Peter Orchard",
+          "Thomas W Blackwell",
+          "Linda Kachuri",
+          "Peter J Castaldi",
+          "Michael H Cho",
+          "Stephanie A Christenson"
+        ],
+        "pub_date": "2026-Jul-16",
+        "doi": "10.1126/science.adx2989",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42462027/",
+        "journal_canonical": "Science"
+      },
+      "score": {
+        "relevance_score": 6,
+        "topic_match": "MFDS",
+        "summary_kr": "TOPMed 프로그램의 14,324개 RNA-seq 샘플을 이용하여 6개 조직/세포유형에서 발현 및 스플라이싱 정량형질좌위(e/sQTL) 분석을 수행했습니다. 수만 개의 이차 cis-e/sQTL을 발견하였으며, UK Biobank GWAS 신호 164개 특성에서 10,611개 신호의 e/sQTL 공동위치(colocalization)를 확인했습니다. 이 결과는 유전체 해석과 정밀의료 측면에서 GWAS 신호 해석의 생물학적 메커니즘 규명에 기여합니다.",
+        "key_points": [
+          "대규모 다중조직 RNA-seq 데이터 (14,324 샘플)를 활용한 expression QTL 분석",
+          "GWAS 신호와 eQTL의 공동위치 확인으로 유전체-표현형 연결고리 규명",
+          "정밀의료 및 질병 유전학 해석을 위한 유전자 발현 조절 메커니즘 제시"
+        ],
+        "reason": "다중오믹스(RNA-seq) 통합분석과 GWAS 해석이라는 MFDS의 핵심 방법론과 부분적으로 일치하나, 당뇨/심혈관질환 등 특정 만성질환에 대한 약물반응/ADR 예측이나 임상 코호트 기반 분석이 없어 중간 정도의 관련성을 보임."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    },
+    {
+      "article": {
+        "pmid": "42457042",
+        "title": "IgA-Enriched Phenotype Predicts Liver-Related Events in MASLD.",
+        "abstract": "BACKGROUND & AIMS: Metabolic dysfunction-associated steatotic liver disease (MASLD) is a complex, multifactorial condition. To achieve truly personalized therapy for MASLD, it will be essential to stratify patients based on clinical and biochemical data by identifying subgroups with distinct disease mechanisms and prognostic trajectories. METHODS: This study conducted unbiased clustering analysis of 349 MASLD patients based on clinical variables. Multi-omics analyses that included spatial transcriptomics, single-cell RNA sequencing (scRNA-seq), and immunohistochemistry were subsequently applied to characterize the biological features of high-risk subgroups. RESULTS: Among the four identified MASLD subgroups, one cluster showed a higher 5-year cumulative incidence of liver-related events (LRE) (24.0%; 95% CI, 14.8%-37.4%), with excess risk persisting after adjustment for advanced fibrosis. This high-risk subgroup was characterized by an immune-driven disease phenotype with excessive IgA expression. Multivariable analysis identified elevated IgA (≥ 318 mg/dL) as an independent predictor of LRE (hazard ratio = 3.17, 95% CI 1.27-7.91; P = 0.01), a finding validated in an independent vibration-controlled transient elastography cohort (n = 287) as well as an external multicenter validation cohort (n = 272). Spatial transcriptomics and scRNA-seq analyses demonstrated portal enrichment of IgA-expressing B-lineage cells, with IGHA1-high regions showing activation of pathways related to B-cell receptor signaling, extracellular matrix remodeling, and vascular remodeling. Intestinal immunohistochemistry and circulating EndoCAb IgG levels supported a link between increased gut permeability and coordinated systemic and intrahepatic IgA-associated immune activation. CONCLUSION: A data-driven clustering strategy identified a novel MASLD subtype characterized by enhanced IgA-mediated immune activation along the gut-liver axis as a key determinant of disease progression. This IgA-based stratification improves risk assessment and enables mechanism-based therapeutic targeting in high-risk MASLD patients. IMPACT AND IMPLICATIONS: This study identified a high-risk MASLD subgroup characterized by elevated IgA levels and increased incidence of liver-related events, independent of fibrosis severity. These findings highlight the relevance of immune dysregulation, particularly IgA-associated responses, in MASLD progression.",
+        "journal": "Journal of hepatology",
+        "authors": [
+          "Takefumi Kimura",
+          "Shun-Ichi Wakabayashi",
+          "Takanobu Iwadare",
+          "Shohei Kondo",
+          "Taiki Okumura",
+          "Hiroyuki Kobayashi"
+        ],
+        "pub_date": "2026-Jul-15",
+        "doi": "10.1016/j.jhep.2026.06.044",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42457042/",
+        "journal_canonical": "Journal of Hepatology"
+      },
+      "score": {
+        "relevance_score": 8,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 MASLD 환자 349명을 대상으로 임상변수 기반 비편향 클러스터링 분석을 수행하고, 공간 전사체학, 단일세포 RNA 시퀀싱, 면역조직화학 등 다중오믹스 기법을 적용하여 고위험 아형을 특성화했다. 높은 IgA 발현(≥318 mg/dL)을 보이는 면역주도 표현형 환자군이 간 관련 사건의 5년 누적발생률 24.0%로 유의하게 높았으며, 이는 독립적인 코호트 2개에서 검증되었다. 공간 전사체학 분석으로 IgA 발현 B세포의 담관 주변 침윤과 장-간 축 불균형을 규명하여, 면역 매개 MASLD 진행의 메커니즘과 정밀 치료 타겟을 제시했다.",
+        "key_points": [
+          "MASLD 환자의 다중오믹스 기반 정밀 분층화 - 공간 전사체학·scRNA-seq·면역조직화학 통합",
+          "IgA 매개 면역활성화가 섬유증과 무관하게 간 관련 사건을 예측하는 독립적 인자 (HR=3.17)",
+          "장-간 축 생물마커(EndoCAb IgG)와 경로 분석으로 MASLD 진행의 메커니즘 규명 및 치료 타겟 제시"
+        ],
+        "reason": "MFDS 과제의 핵심 키워드인 다중오믹스 통합, 만성대사질환(MASLD), 약물반응 예측, 정밀의료와 정확히 부합하며, 다중 코호트 검증과 기전 규명을 통한 위험도 층화라는 방법론도 완벽하게 일치하지만, GDM/T2D 전환이나 DGDB의 AI/Foundation model 요소가 없어 최고점에 미치지 못함."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    },
+    {
+      "article": {
+        "pmid": "42467085",
+        "title": "Tissue origins of the plasma proteomic response to glucose ingestion in humans.",
+        "abstract": "AIMS/HYPOTHESIS: Circulating proteins act as important hormonal signals of nutrient intake. We aimed to systematically characterise the time-resolved proteomic response to glucose ingestion in humans, and to assess its robustness following prolonged complete caloric restriction. METHODS: We conducted oral glucose tolerance tests (OGTTs) in 11 healthy volunteers before and after 7 days of complete caloric restriction and measured the response of >2900 targets through high-resolution plasma protein profiling. RESULTS: We identified a signature of 44 proteins that changed significantly following glucose ingestion, which was reproducible after 7 days without food, and was strongly (20-fold) enriched for 'stomach-specific' proteins. We report that annexin A10 (ANXA10) shows the most significant post-glucose change observed, similar to the trajectories of secreted hormones. We present observational human evidence from multiple sources suggesting that ANXA10 is secreted upon sensing an increase in gastric pH, with the stomach as the major contributing tissue. Despite a profound metabolic shift after 7 days of complete caloric restriction, characterised by delayed insulin secretion and postprandial hyperglycaemia, only four proteins showed robust evidence for a differential trajectory during both OGTTs. This included plasma levels of tryptophanyl-tRNA synthetase 1 (WARS), for which we found a genetic association with glucose homeostasis and coronary artery disease. CONCLUSIONS/INTERPRETATION: Our exploratory study identifies the proteomic response to glucose ingestion and demonstrates its reproducibility despite major shifts in glucose homeostasis. We characterise the gastrointestinal origin of these changes, and hypothesise a hitherto under-recognised role for sensing of changes in gastric pH on the plasma proteome.",
+        "journal": "Diabetologia",
+        "authors": [
+          "Burulça Uluvar",
+          "Alice Williamson",
+          "Kristoffer J Kolnes",
+          "Per Bendix Jeppesen",
+          "Anders J Kolnes",
+          "Mine Koprulu"
+        ],
+        "pub_date": "2026-Jul-17",
+        "doi": "10.1007/s00125-026-06800-8",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42467085/",
+        "journal_canonical": "Diabetologia"
+      },
+      "score": {
+        "relevance_score": 6,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 11명의 건강한 지원자에서 경구 포도당 내성검사(OQTT) 전후로 2,900개 이상의 단백질 표적을 고해상도 플라즈마 단백질 프로파일링으로 측정하여 포도당 섭취에 대한 시간해석 단백질체 반응을 특성화했다. 포도당 섭취 후 44개 단백질의 유의미한 변화를 확인했으며, 특히 위장 특이 단백질(ANXA10, WARS 등)이 풍부하게 나타났고, 7일 완전 칼로리 제한 후에도 이 서명이 재현성 있게 유지되었다. 유전자 분석을 통해 WARS가 포도당 항상성 및 관상동맥질환과의 유전적 연관성을 확인했으며, 위의 pH 변화 감지가 혈장 단백질체에 미치는 역할을 제시했다.",
+        "key_points": [
+          "포도당 섭취 후 44개 단백질의 재현성 있는 단백질체 서명 발굴",
+          "위장 특이 단백질(ANXA10, WARS)이 주요 반응 중재자로 나타남",
+          "WARS의 포도당 항상성 및 심혈관질환 유전적 연관성 규명"
+        ],
+        "reason": "다중오믹스(proteomics), 포도당 반응/대사질환 관련 생물마커, 유전적 연관 분석을 다루지만, 당뇨병 환자 코호트가 아닌 건강인 대상이며 임상 예측 모델이나 정밀의료 응용이 부재하여 MFDS의 부분 관련 주제로 평가됨."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
