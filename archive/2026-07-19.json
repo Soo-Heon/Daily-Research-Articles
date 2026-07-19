@@ -1,0 +1,44 @@
+{
+  "date": "2026-07-19",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 0,
+  "results": [
+    {
+      "article": {
+        "pmid": "42469913",
+        "title": "Multi-threshold polygenic risk improves hippocampal-based cognitive decline prediction.",
+        "abstract": "BACKGROUND: Predicting cognitive decline from brain MRI is a central question in neuroscience. Hippocampal volume (HV) is a key cognitive biomarker, and normative models can be augmented with multimodal information. Here we augment normative models with genetic information and show improvements in cognitive decline prediction across multiple experimental setups. METHODS: We improve normative models for HV by integrating multi-threshold polygenic scores (PGS) with demographic and imaging data using Gaussian Process Regression (GPR). Models were trained on 23,997 participants from UK Biobank (UKBB) and validated on 3,000 out-of-sample participants from the Alzheimer's Disease Neuroimaging Initiative (ADNI) and the European Prevention of Alzheimer's Disease (EPAD) cohorts. RESULTS: Our genetically-informed models significantly strengthened associations across six experimental designs and 13 key neurocognitive measures, including Mini-Mental State Examination (MMSE), Clinical Dementia Rating (CDR), and Alzheimer's Disease Assessment Scale (ADAS), while enhancing prediction of future cognitive decline. CONCLUSIONS: Together, these findings underscore the promise of integrating multi-threshold PGS with neuroimaging-based predictive models to improve prognostication and early intervention strategies for neurodegenerative diseases.",
+        "journal": "Genome medicine",
+        "authors": [
+          "Mohammed Janahi",
+          "Luigi Lorenzini",
+          "Neil P Oxtoby",
+          "Frederik Barkhof",
+          "Younes Mokrab",
+          "Jonathan M Schott"
+        ],
+        "pub_date": "2026-Jul-17",
+        "doi": "10.1186/s13073-026-01722-x",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42469913/",
+        "journal_canonical": "Genome Medicine"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 다중임계값 다유전자위험점수(PGS)를 뇌 MRI 및 인구통계학적 데이터와 통합하여 해마 용적 기반 인지기능 저하 예측을 개선했다. UK Biobank(23,997명)에서 모델을 훈련하고 ADNI, EPAD 코호트(3,000명)에서 검증한 결과, 유전정보를 포함한 정규화 모델이 MMSE, CDR, ADAS 등 13개 신경인지 지표에서 예측 성능을 유의하게 향상시켰다. 이는 다중오믹스(유전체+신경영상) 통합 접근으로 신경퇴행질환의 조기 중재 전략 수립에 기여할 수 있음을 보여준다.",
+        "key_points": [
+          "다중임계값 PGS를 신경영상 및 임상데이터와 통합한 다중오믹스 접근",
+          "UK Biobank 대규모 코호트와 ADNI/EPAD 독립 검증 데이터셋 활용",
+          "Gaussian Process Regression을 통한 정규화 모델 기반 정밀예측"
+        ],
+        "reason": "다중오믹스 통합, 정밀의료, 대규모 코호트 활용이라는 MFDS 핵심 요소는 충족하나, 대상 질환이 신경퇴행질환(인지저하/알츠하이머)이어서 만성대사질환 중심의 MFDS 과제와는 직접 부합도가 낮으며, DGDB·GDM의 당뇨 및 임신성당뇨와는 무관함."
+      },
+      "project": "MFDS",
+      "subtopic": "EHR/RWD × 오믹스 × 정밀의료"
+    }
+  ]
+}
