@@ -1,0 +1,44 @@
+{
+  "date": "2026-07-20",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 0,
+  "results": [
+    {
+      "article": {
+        "pmid": "42475434",
+        "title": "Loss of ATP-Dependent Citrate Lyase Drives Left Ventricular Dysfunction by Metabolic Remodeling.",
+        "abstract": "BACKGROUND: Metabolic adaptation and maladaptation are hallmarks of the failing heart and may be a target for therapeutic interventions. For example, sustained glucose oxidation during cardiac stress is associated with increased activity and abundance of ACL (ATP-dependent citrate lyase, Acly), which produces acetyl-coenzyme A (CoA) from citrate and CoA and supports de novo lipid synthesis. However, our understanding of how ACL supports cardiac metabolic adaptation and its potential to modulate disease pathophysiology has not yet been investigated. METHODS: We used human heart tissue samples from healthy donors and patients with nonischemic cardiomyopathy. Next, we used CRISPR (clustered, regularly interspaced short palindromic repeats)/Cas9 (CRISPR-associated 9) gene editing to inactivate Acly in cardiomyocytes of Myh6-Cas9 mice. In vivo positron emission tomography and ex vivo stable isotope tracer labeling were used to quantify metabolic flux changes in response to Acly knockdown. We conducted a multi-omics analysis using RNA sequencing and mass spectrometry-based metabolomics and proteomics. Experimental data were integrated into computational modeling using the metabolic network CardioNet to identify significantly dysregulated metabolic processes at a systems level. RESULTS: We observed reduced ACL abundance and activity in human heart tissue samples from patients with nonischemic cardiomyopathy, which correlated with decreased abundance of Krebs cycle intermediates. Using CRISPR/Cas9 gene editing, we found that cardiac-specific loss of ACL reduces acetyl-CoA synthesis, leading to altered cardiac metabolism characterized by increased glucose uptake and oxidation, impaired energy flux, and elevated AMP to ATP ratios, which collectively promote left ventricular dysfunction. Transcriptomic and mass spectrometry-based metabolomics, as well as proteomic data, reveal compensatory cardiac lipid remodeling and reduced histone 3 acetylation. This metabolic stress promotes activation of AMPK (AMP kinase) and PKA (protein kinase A), which in turn mediates YAP (Yes-associated protein) inhibition through phosphorylation. Stable isotope tracer studies combined with CardioNet simulations demonstrated that increased IDH1 (isocitrate dehydrogenase 1) activity prevents allosteric inhibition of glycolysis from cytosolic citrate accumulation. AAV9-mediated cardiac Idh1 deletion improved cardiac function and energy provision, reducing YAP phosphorylation and restoring downstream YAP signaling. CONCLUSIONS: Our findings suggest that ACL plays a pivotal role in cardiac metabolism through regulating lipid synthesis and cardiac function. Exploiting compensatory pathways of citrate metabolism may improve cardiac function during heart failure.",
+        "journal": "Circulation",
+        "authors": [
+          "Shijie Liu",
+          "Seth T Gammon",
+          "Lin Tan",
+          "Yaqi Gao",
+          "Kyoungmin Kim",
+          "Mahmoud H Elbatreek"
+        ],
+        "pub_date": "2026-Jul-21",
+        "doi": "10.1161/CIRCULATIONAHA.125.076453",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42475434/",
+        "journal_canonical": "Circulation"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 심부전 환자의 심장 조직에서 ATP-dependent citrate lyase (ACL)의 감소를 발견하고, CRISPR/Cas9 유전자 편집을 이용해 심장특이적 ACL 결손 마우스 모델을 구축했습니다. RNA 시퀀싱, 질량분석기반 대사체학 및 단백질체학을 포함한 다중오믹스 분석과 안정동위원소 추적 연구를 통해 ACL 결손이 에너지 부족과 좌심실 기능부전을 유발함을 규명했습니다. 대사네트워크 모델 CardioNet을 이용한 통합 분석으로 citrate 대사 경로를 조작하면 심부전 치료 가능성을 제시했습니다.",
+        "key_points": [
+          "다중오믹스(RNA-seq, 대사체학, 단백질체학) 통합 분석을 통한 만성질환 메커니즘 규명",
+          "동물모델 + 인간 조직 샘플 비교를 통한 질환 관련성 입증",
+          "계산생물학(CardioNet) 기반 대사경로 시스템 수준 분석"
+        ],
+        "reason": "다중오믹스 방법론과 만성질환(심부전)을 다루지만, MFDS의 주요 대상인 당뇨·심혈관·대사질환과의 직접적 관계가 약하고, 임상 코호트/EHR/RWD 등 MFDS 핵심 인프라 활용이 없으며, 전임상 동물모델 중심이므로 부분 관련으로 평가됩니다."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
