@@ -1,0 +1,143 @@
+{
+  "date": "2026-07-23",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 4,
+  "articles_scored": 4,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42487139",
+        "title": "clinTALL: machine learning-driven multimodal subtype classification and treatment outcome prediction in pediatric T-ALL.",
+        "abstract": "BACKGROUND: Childhood T-lineage acute lymphoblastic leukemia (T-ALL) is an aggressive hematologic malignancy with poor prognosis. Differently from B-cell precursor ALL, T-ALL lacks effective risk stratification strategies. A recent study has integrated whole genome and whole transcriptome data to define 17 distinct molecular subtypes with prognostic significance. However, clinical translation of this knowledge remains challenging due to the complexity of interpreting high-dimensional multi-omics-based data. METHODS: Here, we present clinTALL, a deep learning based multi-task pipeline for pediatric T-ALL subtype classification and treatment outcome estimation. The model integrates multimodal input data and uses a neural network architecture to generate a shared latent embedding for jointly learned multi-task prediction. The competing risk-based model was used to predict event-specific outcomes. The model was trained on a publicly available multimodal dataset comprising clinical, genomic and transcriptomic features of 1309 pediatric T-ALL samples. RESULTS: We observed that the transcriptomic-only model achieved superior single-modality results, with 92.2% accuracy for subtype prediction and a 65.9% concordance index (C-index) for event-free survival (EFS) in a cross-validation setup. Integrating all data modalities maintained high subtype classification accuracy (91.7%) and improved the overall concordance index for EFS estimation to 67.5%. The competing risk-based model enables accurate predictions of induction failure (C-index = 96.0%) and second malignant neoplasm (C-index = 62.1%). We validated molecular subtype predictions on an internal dataset of 120 pediatric T-ALL samples and obtained an accuracy of 81.8%. To facilitate the broad application of multi-omics based subtype prediction and treatment outcome inference, we provide clinTALL as a Docker based application, allowing for user friendly access to the tool. CONCLUSIONS: Together, our machine learning-based framework allows for automated, accurate subtype classification and treatment outcome inference using multimodal input data, advancing precision risk stratification for pediatric T-ALL. The full source code of clinTALL is available on GitHub ( https://github.com/UKWgenommedizin/clinTALL ).",
+        "journal": "Genome medicine",
+        "authors": [
+          "Lukas Stoiber",
+          "Željko Antić",
+          "Stefano Rebellato",
+          "Grazia Fazio",
+          "Annika Rademacher",
+          "Lennart Lenk"
+        ],
+        "pub_date": "2026-Jul-22",
+        "doi": "10.1186/s13073-026-01733-8",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42487139/",
+        "journal_canonical": "Genome Medicine"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 소아 T-ALL(T세포 전구체 급성림프모구백혈병)의 분자 아형 분류와 치료 결과 예측을 위해 임상, 유전체, 전사체 데이터를 통합하는 딥러닝 기반 다중작업 파이프라인 clinTALL을 개발했습니다. 1,309개의 소아 T-ALL 샘플로 학습하여 91.7% 정확도의 아형 분류와 67.5% C-index의 무사건생존율 예측을 달성했으며, 경쟁위험 모델로 치료 유도 실패와 2차 악성종양을 높은 정확도로 예측했습니다. Docker 기반 애플리케이션으로 임상 적용을 위해 개발되었습니다.",
+        "key_points": [
+          "다중오믹스 데이터(임상, 유전체, 전사체) 통합을 통한 정밀의료 구현",
+          "머신러닝 기반 표현형 분류 및 치료 결과 예측 파이프라인",
+          "EHR 유형 임상정보와 오믹스 데이터의 결합"
+        ],
+        "reason": "다중오믹스 통합, 머신러닝 기반 정밀의료, 임상 결과 예측 등 MFDS의 핵심 방법론과 부합하지만, 당뇨/심혈관 등 만성대사질환이 아닌 소아 혈액악성종양을 대상으로 하므로 질환 적합성이 낮음."
+      },
+      "project": "MFDS",
+      "subtopic": "EHR/RWD × 오믹스 × 정밀의료"
+    },
+    {
+      "article": {
+        "pmid": "42490418",
+        "title": "Spatially resolved single-cell atlas reveals the macroevolutionary trajectory of animal hearts.",
+        "abstract": "Animal hearts display diverse anatomical structures during adaptive evolution. Here, we present a multi-omics atlas of adult hearts from 27 species across chordates, arthropods, and mollusks. Joint analysis indicates that Bilateria hearts share a core gene repertoire, taking a stepwise \"add-on\" approach as a universal evolutionary strategy. The proto-heart is populated by key cell types, including cardiomyocytes, fibroblasts, endothelial, and neural cells, which maintained core signatures while evolving with shifts in living environments and corresponding adaptations in the cardiovascular system. Additionally, we reveal an evolutionarily conserved cardiomyocyte state dynamic potentially linked to cardiac development and stress responses. Finally, we identify a common molecular program underpinning chamber evolution from a ventricular foundation. Together, this work establishes a resource for understanding the intrinsic mechanisms of heart evolution.",
+        "journal": "Science (New York, N.Y.)",
+        "authors": [
+          "Shanshan Lian",
+          "Wei Wang",
+          "Yaoxin Liu",
+          "Meina Lu",
+          "Wentao Han",
+          "Jiaxin Luo"
+        ],
+        "pub_date": "2026-Jul-23",
+        "doi": "10.1126/science.adw0855",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42490418/",
+        "journal_canonical": "Science"
+      },
+      "score": {
+        "relevance_score": 1,
+        "topic_match": "없음",
+        "summary_kr": "본 연구는 척색동물, 절지동물, 연체동물 등 27개 척추동물 종의 성인 심장에서 다중오믹스 아틀라스를 구축하여 심장의 진화 궤적을 규명했습니다. 심근세포, 섬유아세포, 내피세포, 신경세포 등 핵심 세포 유형이 진화 과정에서 보존되면서 환경 적응에 따라 변화하는 패턴을 분석했습니다. 양측대칭동물 심장이 보편적인 '추가-온' 진화 전략을 통해 다양한 심장 구조를 형성하는 메커니즘을 제시했습니다.",
+        "key_points": [
+          "27개 종의 척색·절지·연체동물 심장 다중오믹스 아틀라스 구축",
+          "진화적으로 보존된 심근세포 상태 역학 및 심실 진화의 분자 프로그램 규명",
+          "기초 생물 진화 메커니즘 연구로 임상 질환 예측과 무관"
+        ],
+        "reason": "동물 심장의 비교진화 생물학 연구로, 만성대사질환 예측, 임상 약물반응 예측, 임신성당뇨 전환 모니터링 등 우리 연구실의 정밀의료·임상 응용 과제와 직접적 관련성이 전혀 없습니다."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    },
+    {
+      "article": {
+        "pmid": "42490484",
+        "title": "Single-cell multiomics and chromatin structure reveal gene-regulatory dynamics in heart failure.",
+        "abstract": "Heart failure is a leading cause of morbidity and mortality, yet gene-regulatory mechanisms driving cell type-specific pathologic responses remain undefined. Here, we present the cell type-resolved transcriptomes, chromatin accessibility, histone modifications, and chromatin organization of 13 nonfailing and 23 failing human hearts across all cardiac chambers. Integrative analyses revealed dynamic changes in cell type composition, gene-regulatory programs, and chromatin organization, particularly in cardiomyocytes and fibroblasts. Mapping cell type-specific enhancer-gene interactions from these analyses enabled the illumination of likely causal genetic contributors to heart failure from genetic association data. Together, these findings provide multimodal gene-regulatory maps of the human heart in health and disease, offering a framework for designing precise, cell type-targeted therapies for treating heart failure.",
+        "journal": "Science (New York, N.Y.)",
+        "authors": [
+          "Yang Xie",
+          "Luca Tucciarone",
+          "Elie N Farah",
+          "Lei Chang",
+          "Qian Yang",
+          "Thirupura S Shankar"
+        ],
+        "pub_date": "2026-Jul-23",
+        "doi": "10.1126/science.ady6893",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42490484/",
+        "journal_canonical": "Science"
+      },
+      "score": {
+        "relevance_score": 6,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 심부전 환자의 심장 조직에서 단일세포 다중오믹스(전사체, 크로마틴 접근성, 히스톤 수식, 3D 크로마틴 구조)를 통합 분석하여 질병 관련 유전자 조절 메커니즘을 규명했다. 13개의 정상 심장과 23개의 심부전 심장 샘플에서 세포 유형별 유전자 발현 프로그램, 크로마틴 구성의 동적 변화를 확인했으며, 특히 심근세포와 섬유아세포에서 주요 변화를 보였다. 향상자(enhancer)-유전자 상호작용 지도를 작성하여 유전학적 연관 데이터로부터 심부전의 인과적 유전 기여자를 규명함으로써 세포 유형 특이적 치료법 개발의 기초를 제공했다.",
+        "key_points": [
+          "단일세포 다중오믹스를 통한 만성질환(심부전) 기전 규명",
+          "세포 유형별 유전자 조절 프로그램 및 크로마틴 구조 동적 분석",
+          "유전학적 데이터와의 통합으로 질병 관련 인과 유전 변이 발굴"
+        ],
+        "reason": "다중오믹스 통합과 만성심혈관질환 연구라는 MFDS 핵심 요소를 충족하나, 코호트/바이오뱅크, EHR/RWD, 약물반응 예측 등 MFDS의 다른 주요 목표와는 거리가 있고 GDM/당뇨와 직접 관련성이 없어 부분 관련으로 평가함."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    },
+    {
+      "article": {
+        "pmid": "42490476",
+        "title": "Human body single-cell atlas of three-dimensional genome organization and DNA methylation.",
+        "abstract": "Higher-order chromatin structure and DNA methylation are critical for gene regulation, but how these vary across the human body remains unclear. We performed multiomic profiling of three-dimensional (3D) genome structure and DNA methylation for 86,689 single nuclei across 16 tissues, identifying 35 major and 206 cell subtypes. We revealed extensive changes in CG and non-CG methylation across cell types and characterized 3D chromatin structure at an unprecedented cellular resolution. Extensive discrepancies exist between cell types delineated by DNA methylation and genome structure, which indicates that the role of distinct epigenomic features in maintaining cell identity may vary by lineage. This study expands our understanding of the diversity of DNA methylation and chromatin structure and offers a reference for exploring gene regulation in human health and disease.",
+        "journal": "Science (New York, N.Y.)",
+        "authors": [
+          "Jingtian Zhou",
+          "Yue Wu",
+          "Hanqing Liu",
+          "Wei Tian",
+          "Rosa G Castanon",
+          "Anna Bartlett"
+        ],
+        "pub_date": "2026-Jul-23",
+        "doi": "10.1126/science.adx0673",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42490476/",
+        "journal_canonical": "Science"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 16개 인체 조직의 86,689개 단일핵에서 3차원 게놈 구조와 DNA 메틸화를 다중오믹스 프로파일링으로 분석하여 35개 주요 세포형과 206개 세포 아형을 규명했습니다. CG 및 non-CG 메틸화의 세포형별 변화와 전례 없는 해상도의 3D 크로마틴 구조를 특성화했으며, DNA 메틸화와 게놈 구조로 정의된 세포형 간 광범위한 불일치를 발견했습니다. 이 연구는 인체 건강과 질병에서 유전자 조절을 탐색하기 위한 참고 자료를 제공합니다.",
+        "key_points": [
+          "다중오믹스(3D 게놈 구조 + DNA 메틸화) 통합 분석 수행",
+          "16개 조직 86,689개 단일핵 대규모 데이터셋 구축",
+          "에피게놈 특성이 세포 정체성 유지에서 계통별로 다양한 역할 수행"
+        ],
+        "reason": "MFDS의 다중오믹스 통합 및 만성질환 관련 유전자 조절 기초 연구에 부분 관련되나, 건강한 정상 조직 중심의 기초 에피게놈 지도 제작이므로 당뇨/심혈관 등 특정 만성질환이나 약물반응 예측과의 직접 연관성이 제한적입니다."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
