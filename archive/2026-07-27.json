@@ -1,0 +1,35 @@
+{
+  "date": "2026-07-27",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 0,
+  "results": [
+    {
+      "article": {
+        "pmid": "42507768",
+        "title": "Translational Cardiovascular Science for the Circulation Community.",
+        "abstract": "",
+        "journal": "Circulation",
+        "authors": [
+          "Matthew L Steinhauser"
+        ],
+        "pub_date": "2026-Jul-28",
+        "doi": "10.1161/CIRCULATIONAHA.126.080204",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42507768/",
+        "journal_canonical": "Circulation"
+      },
+      "score": {
+        "relevance_score": 0,
+        "topic_match": "없음",
+        "summary_kr": "초록 없음 — 평가 불가",
+        "key_points": [],
+        "reason": "abstract 비어있음"
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
