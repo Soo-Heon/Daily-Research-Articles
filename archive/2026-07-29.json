@@ -1,0 +1,44 @@
+{
+  "date": "2026-07-29",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 0,
+  "results": [
+    {
+      "article": {
+        "pmid": "42509242",
+        "title": "Immunological maladaptation preceding spontaneous preterm birth in human pregnancies.",
+        "abstract": "The majority of spontaneous preterm births (sPTB) occurs without identifiable clinical indications or apparent risk factors. A dysregulated maternal immune adaptation at delivery has been associated with sPTB. Yet, a precise understanding of maternal immune dynamics preceding sPTB remains lacking. Here we show, in a nested case-control study within a low-risk, population-based pregnancy cohort, that an abnormal immune adaptation in mothers' blood precedes sPTB by weeks to months and discriminates sPTB cases from term controls (AUROC: 0.7). Prominent features include enhanced immune cell responses to an adrenergic stimulus during the first and second trimesters, followed by increased production of pro-inflammatory cytokines in the third trimester in sPTB vs. term pregnancies. Transcriptome analysis of second trimester single-cell CD4+ T cells reveals a Th17-skewed, neuroactive-protein responsive phenotype in sPTB pregnancies. Our study provides a multi-omics resource and a conceptual framework for early identification of individuals at increased risk for sPTB with broad translational implications for advancing targeted preventive measures.",
+        "journal": "Nature communications",
+        "authors": [
+          "Ina A Stelzer",
+          "Joshua Gillard",
+          "Christopher Urbschat",
+          "Kristin Thiele",
+          "Dorien Feyaerts",
+          "Mirja Pagenkemper"
+        ],
+        "pub_date": "2026-Jul-27",
+        "doi": "10.1038/s41467-026-75605-5",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42509242/",
+        "journal_canonical": "Nature Communications"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "GDM",
+        "summary_kr": "본 연구는 저위험 인구기반 임신 코호트에서 자발적 조산(sPTB)을 선행하는 모체 면역 부적응을 다중오믹스 접근으로 규명했습니다. 첫·두 번째 삼분기에 아드레날린 자극에 대한 강화된 면역세포 반응과 세 번째 삼분기의 염증성 사이토카인 증가, 그리고 CD4+ T세포의 Th17 편향 표현형을 발견하여 조산 위험 조기 식별이 가능함을 보였습니다. 이 연구는 임신 중 면역역학의 다중오믹스 자원을 제공하고 표적 예방 조치의 임상적 의의를 제시합니다.",
+        "key_points": [
+          "임신성당뇨가 아닌 조산(sPTB)을 주요 대상으로 함 - GDM과제와의 직접 관련성 제한",
+          "다중오믹스(전사체, 면역세포, 사이토카인) + 코호트 기반 연구설계 - MFDS 방법론 부합",
+          "임신 중 시간 경과적 면역 동역학 분석 - 질병관리청 과제의 시계열 바이오마커 관점과 부분 관련"
+        ],
+        "reason": "임신 코호트와 다중오믹스, 조기 위험 예측이라는 핵심 요소는 부합하나, GDM이 아닌 조산을 중심으로 다루어 GDM→T2D 전환 예측이라는 우리 과제와 직접성이 떨어지며, 당뇨 예측이 아닌 임신 합병증 예측이 주 목표인 점에서 부분 관련으로 평가됨."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
