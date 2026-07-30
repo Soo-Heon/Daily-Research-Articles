@@ -1,0 +1,40 @@
+{
+  "date": "2026-07-30",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42531358",
+        "title": "Single Cell Proteomics to Spatial Multiomics in Cardiovascular Disease: Foundations, Technologies, and Biological Insights.",
+        "abstract": "It is now apparent that cardiac form and function are governed at a system level by an integrated collective of heterogeneous single-cell programs that together regulate tissue homeostasis, drive disease emergence, and shape individualized responses to therapy. Current advances in single-cell proteomics and spatial multiomics by mass spectrometry imaging allow systematic dissection of clinically defined cardiovascular tissues with an unprecedented molecular resolving power, yet remain relatively underutilized in cardiovascular research. This compendium review works to stimulate new research into spatial regulation of the heart, emphasizing integration of single-cell proteomic regulation with comprehensive multiomic mass spectrometry imaging studies. In this context, we outline conceptual foundations, technological innovations, and biological insights that have resulted in the current success of single-cell proteomic and spatial multiomic analyses in cardiovascular disease. We provide an experimental design knowledge base of critical components in single-cell proteomics and spatial workflows by mass spectrometry imaging, essential for generating robust and reproducible data sets that are interpretable by advanced computational methods. Key cardiovascular discoveries by single-cell proteomics and multiomic mass spectrometry imaging are reviewed, highlighting how these approaches have provided new molecular insights into cardiac cell programming.",
+        "journal": "Circulation research",
+        "authors": [
+          "Aleksandra Binek",
+          "Peggi M Angel"
+        ],
+        "pub_date": "2026-Jul-31",
+        "doi": "10.1161/CIRCRESAHA.126.327684",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42531358/",
+        "journal_canonical": "Circulation Research"
+      },
+      "score": {
+        "relevance_score": 6,
+        "topic_match": "MFDS",
+        "summary_kr": "본 논문은 심혈관질환에서 단일세포 단백질체학과 공간 다중오믹스 질량분석법의 기술 발전과 생물학적 통찰을 종합 검토한 논문이다. 심장 조직의 세포 수준 단백질 프로파일링과 다중오믹스 이미징 통합을 통해 질병 발생 메커니즘과 치료 반응의 개인화를 규명한다. 단일세포 단백질체학 및 공간 다중오믹스 분석의 실험설계, 기술적 혁신, 심혈관질환의 주요 발견사항을 제시한다.",
+        "key_points": [
+          "심혈관질환에서 단일세포 단백질체학과 질량분석 기반 공간 다중오믹스 통합 분석",
+          "세포 프로그래밍과 조직 항상성, 질병 발생, 개인화 치료 반응 규명",
+          "단일세포 단백질체학 및 공간 다중오믹스 워크플로우의 실험설계 및 계산방법론 제시"
+        ],
+        "reason": "MFDS의 '만성질환 × 다중오믹스 통합' 핵심 키워드와 심혈관질환이 직접 일치하나, 논문이 기술 리뷰/방법론 중심이고 약물반응 예측, EHR/RWD, 코호트 기반 임상 적용이 명시되지 않아 부분 관련으로 평가."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
