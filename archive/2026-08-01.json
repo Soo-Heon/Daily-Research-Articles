@@ -1,0 +1,77 @@
+{
+  "date": "2026-08-01",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 2,
+  "articles_scored": 2,
+  "articles_above_threshold": 0,
+  "results": [
+    {
+      "article": {
+        "pmid": "42536435",
+        "title": "Glucocorticoid-Modulated Molecular Signatures and Prediction of Treatment Efficacy in IgA Nephropathy.",
+        "abstract": "BACKGROUND: Glucocorticoids remain an important anti-inflammatory therapy for IgA nephropathy but are associated with substantial treatment-related adverse effects, highlighting the urgent need for early prediction of treatment efficacy. We hypothesized that randomized controlled trial-based serum proteomic profiling could delineate glucocorticoid-modulated proteins and more accurately stratify patients likely to benefit from glucocorticoid therapy. METHODS: We performed proteomic analyses of samples from the TESTING trial, in which patients with IgA nephropathy were randomized to receive methylprednisolone or placebo. 479 longitudinal serum samples from 241 Chinese participants collected at baseline and at 6 and 12 months were analyzed. Linear mixed effect models were used to identify glucocorticoid-modulated proteins and pathways in the methylprednisolone group relative to placebo. Cox proportional hazards and penalized ridge regression models were used to prioritize proteins and develop a prediction model for therapeutic efficacy. The candidate proteins were further validated by ELISA. RESULTS: Among more than 1,500 detected proteins, 302 were glucocorticoid-modulated and enriched in pathways of cytoskeletal stabilization and immunometabolism. Notably, pathways associated with long-term eGFR decline, such as complement activation and endothelial injury, were not modulated by glucocorticoids. Among the glucocorticoid-modulated proteins, Cox proportional hazards and penalized ridge regression models identified those whose baseline levels improved prediction of treatment efficacy compared to clinical variables alone. ELISA validated selected candidate proteins LEP and C1QTNF5. The prediction model incorporating these two proteins significantly outperformed the traditional clinical model in predicting glucocorticoid efficacy (5-year AUC, 0.85 [95% confidence interval (CI), 0.72 to 0.88] versus 0.80 [95% CI, 0.78 to 0.91]). CONCLUSIONS: Data from this randomized trial-based proteomic study helped delineate glucocorticoid-modulated proteins and pathways, and identified robust protein biomarkers that enabled stratification of patients likely to benefit from glucocorticoid therapy.",
+        "journal": "Journal of the American Society of Nephrology : JASN",
+        "authors": [
+          "Lan Wang",
+          "Yu He",
+          "Wenmin Tian",
+          "Jinwei Wang",
+          "Sufang Shi",
+          "Lijun Liu"
+        ],
+        "pub_date": "2026-Jul-31",
+        "doi": "10.1681/ASN.0000001208",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42536435/",
+        "journal_canonical": "Journal of the American Society of Nephrology"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "IgA 신장병증 환자에서 글루코코르티코이드 치료 효과를 예측하기 위해 RCT 기반 혈청 프로테오믹 분석을 수행했습니다. 241명의 중국인 환자에서 수집한 479개의 종단 샘플(기저선, 6개월, 12개월)을 분석하여 302개의 글루코코르티코이드-조절 단백질을 식별했으며, 특히 LEP와 C1QTNF5 단백질이 임상 변수만 사용한 모델보다 우수한 예측 성능(5년 AUC 0.85)을 보였습니다.",
+        "key_points": [
+          "Multi-omics (proteomics) 기반의 약물반응 예측 모델 개발",
+          "RCT 기반 종단 데이터로 약물유해반응과 효과 관련 생물표지자 발굴",
+          "IgA 신장병증은 만성 신질환(CKD)의 일종으로 MFDS 대상 질환에 부분 해당"
+        ],
+        "reason": "다중오믹스(프로테오믹)와 약물반응 예측, RCT 데이터 활용 등 MFDS 방법론과 일치하나, 질환이 IgA 신장병증으로 제시된 만성질환 목록(당뇨/심혈관/MASLD/CKD/뇌졸중)과 직접 대응되지 않고, 약물유해반응 예측의 실질적 근거가 제한적이며 DGDB, GDM과는 무관하여 부분 관련으로 평가합니다."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    },
+    {
+      "article": {
+        "pmid": "42537502",
+        "title": "Skeletal muscle reprogramming of metabolic, ribosomal and developmental pathways contributes to Roux-en-Y gastric bypass-induced adaptation in women.",
+        "abstract": "BACKGROUND: Understanding how skeletal muscle responds to weight loss is crucial for developing targeted strategies to manage obesity and promote sustained improvement in metabolic health. Here, we investigated the molecular mechanisms underlying skeletal muscle reprogramming of gene expression and metabolic activity following Roux-en-Y gastric bypass (RYGB). METHODS: Forty-one women were studied before and one year after RYGB surgery. We leveraged multi-omics (DNA methylomics and transcriptomics) and machine learning approaches to complement muscle metabolic analyses and clinical data to identify mechanisms underlying RYGB-induced muscle metabolic reprogramming. FINDINGS: RYGB markedly decreased body weight and fat mass and improved metabolic health. Integrative analysis of vastus lateralis muscle identified 8233 genes with differentially methylated regions and 2173 differentially expressed genes post-RYGB surgery, of which 1197 genes were both differentially methylated and differentially expressed. Promoter hypomethylation was associated with the enhanced expression of transcription factors involved in skeletal muscle development and ribosomal subunits. In contrast, expression of genes encoding mitochondrial proteins decreased despite increases in mitochondrial content and enhanced mitochondrial function in skeletal muscle post-RYGB. Pre-operative muscle OXPHOS capacity, and expression of skeletal muscle hypertrophy and differentiation genes MYOC and EHMT2 were associated with weight loss success. INTERPRETATION: RYGB improves systemic metabolic health and induces sustained skeletal muscle bioenergetic reprogramming characterised by enhanced expression of genes involved in myogenesis and protein translation, but decreased expression of genes involved in mitochondrial metabolism, which may reflect improved mitochondrial quality and function. These findings advance our understanding of skeletal muscle metabolic responses to weight loss and of individual variability in metabolic phenotypes. FUNDING: Canadian Institutes of Health Research (CIHR PJT183651-M-EH, 201709FDN-CEBA-116200-GRS), Diabetes Canada Investigator Award grant OG-3-22-5645-GS (GRS), J. Bruce Duncan Endowed Chair in Metabolic Diseases (GRS), Tier 1 Canada Research Chair in Mitochondrial Bioenergetics and Metabolic Health (M-EH), Tier 1 Canada Research Chair in Metabolic Diseases (GRS).",
+        "journal": "EBioMedicine",
+        "authors": [
+          "Chantal A Pileggi",
+          "Dhanuddara Mohottalage",
+          "Luke S Kennedy",
+          "Majid Nikpay",
+          "Lauren M K Hamilton",
+          "Martín Roffe"
+        ],
+        "pub_date": "2026-Jul-31",
+        "doi": "10.1016/j.ebiom.2026.106410",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42537502/",
+        "journal_canonical": "EBioMedicine"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 위우회술(RYGB) 후 골격근의 대사적 재프로그래밍 메커니즘을 규명하기 위해 41명의 여성을 대상으로 수술 전후 DNA 메틸로미크스와 전사체 분석을 수행했습니다. 다중오믹스 통합분석 결과 8,233개의 차등메틸화 영역과 2,173개의 차등발현 유전자를 확인했으며, 이 중 1,197개 유전자가 메틸화와 발현 모두에서 차등적 변화를 보였습니다. 골격근 발달 및 리보솜 유전자의 발현 증가와 미토콘드리아 단백질 유전자의 발현 감소가 관찰되었으며, 이는 미토콘드리아 품질 개선과 관련이 있었습니다. 수술 전 OXPHOS 용량과 근육비대 유전자(MYOC, EHMT2)의 발현이 체중 감량 성공과 연관되어 있었습니다.",
+        "key_points": [
+          "다중오믹스(DNA 메틸로미크스 + 전사체) 통합분석으로 비만 관련 대사질환 메커니즘 규명",
+          "골격근 조직에서 1,197개의 메틸화-발현 연관 유전자 동정으로 개인맞춤 대사표현형 예측 가능성 제시",
+          "임상 특성과 분자 마커(MYOC, EHMT2, OXPHOS)의 연관성으로 대사건강 개선 예측 바이오마커 제안"
+        ],
+        "reason": "다중오믹스 통합분석과 만성대사질환(비만 관련 대사 재프로그래밍)을 다루지만, MFDS 과제의 주요 대상 질환(당뇨/심혈관/MASLD/CKD)과 직접적 관련성이 낮고, GDM과도 무관하며, 임상 코호트 기반이지만 기계학습의 실제 활용이 제한적이어서 부분적 관련성에 해당합니다."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
