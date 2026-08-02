@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-02",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 0,
+  "results": [
+    {
+      "article": {
+        "pmid": "42537502",
+        "title": "Skeletal muscle reprogramming of metabolic, ribosomal and developmental pathways contributes to Roux-en-Y gastric bypass-induced adaptation in women.",
+        "abstract": "BACKGROUND: Understanding how skeletal muscle responds to weight loss is crucial for developing targeted strategies to manage obesity and promote sustained improvement in metabolic health. Here, we investigated the molecular mechanisms underlying skeletal muscle reprogramming of gene expression and metabolic activity following Roux-en-Y gastric bypass (RYGB). METHODS: Forty-one women were studied before and one year after RYGB surgery. We leveraged multi-omics (DNA methylomics and transcriptomics) and machine learning approaches to complement muscle metabolic analyses and clinical data to identify mechanisms underlying RYGB-induced muscle metabolic reprogramming. FINDINGS: RYGB markedly decreased body weight and fat mass and improved metabolic health. Integrative analysis of vastus lateralis muscle identified 8233 genes with differentially methylated regions and 2173 differentially expressed genes post-RYGB surgery, of which 1197 genes were both differentially methylated and differentially expressed. Promoter hypomethylation was associated with the enhanced expression of transcription factors involved in skeletal muscle development and ribosomal subunits. In contrast, expression of genes encoding mitochondrial proteins decreased despite increases in mitochondrial content and enhanced mitochondrial function in skeletal muscle post-RYGB. Pre-operative muscle OXPHOS capacity, and expression of skeletal muscle hypertrophy and differentiation genes MYOC and EHMT2 were associated with weight loss success. INTERPRETATION: RYGB improves systemic metabolic health and induces sustained skeletal muscle bioenergetic reprogramming characterised by enhanced expression of genes involved in myogenesis and protein translation, but decreased expression of genes involved in mitochondrial metabolism, which may reflect improved mitochondrial quality and function. These findings advance our understanding of skeletal muscle metabolic responses to weight loss and of individual variability in metabolic phenotypes. FUNDING: Canadian Institutes of Health Research (CIHR PJT183651-M-EH, 201709FDN-CEBA-116200-GRS), Diabetes Canada Investigator Award grant OG-3-22-5645-GS (GRS), J. Bruce Duncan Endowed Chair in Metabolic Diseases (GRS), Tier 1 Canada Research Chair in Mitochondrial Bioenergetics and Metabolic Health (M-EH), Tier 1 Canada Research Chair in Metabolic Diseases (GRS).",
+        "journal": "EBioMedicine",
+        "authors": [
+          "Chantal A Pileggi",
+          "Dhanuddara Mohottalage",
+          "Luke S Kennedy",
+          "Majid Nikpay",
+          "Lauren M K Hamilton",
+          "Martín Roffe"
+        ],
+        "pub_date": "2026-Jul-31",
+        "doi": "10.1016/j.ebiom.2026.106410",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42537502/",
+        "journal_canonical": "EBioMedicine"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 위우회술(RYGB) 후 근육의 대사 재프로그래밍 메커니즘을 규명하기 위해 41명의 여성을 대상으로 수술 전후 다중오믹스(DNA 메틸화 및 전사체) 분석과 머신러닝을 수행했습니다. RYGB는 체중과 지방량을 감소시키고 대사건강을 개선했으며, 통합분석 결과 1197개 유전자가 메틸화 및 발현 변화를 보였습니다. 근육발생 및 단백질 번역 관련 유전자의 발현 증가와 미토콘드리아 대사 유전자의 발현 감소가 관찰되었으며, 이는 미토콘드리아 품질 개선을 반영합니다.",
+        "key_points": [
+          "다중오믹스(DNA 메틸화 + 전사체) 통합 분석으로 만성질환(비만) 관련 근육 대사 재프로그래밍 규명",
+          "머신러닝과 임상 데이터를 결합하여 개인 맞춤형 대사 표현형 및 예측 마커(MYOC, EHMT2) 도출",
+          "골격근 조직의 분자적 메커니즘 분석으로 대사건강 개선 기전 제시"
+        ],
+        "reason": "MFDS의 다중오믹스·만성질환·머신러닝 방법론과 부분 일치하나, 비만 수술 후 근육 대사에 초점이 맞춰져 있어 당뇨/심혈관/MASLD 등 주 타겟 질환과의 직접적 연관성이 제한적입니다."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
