@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-04",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42545033",
+        "title": "Side effects in hypertension treatment: a pharmacogenomic analysis.",
+        "abstract": "BACKGROUND AND AIMS: Up to half of patients switch or discontinue antihypertensive medications within the first year, but underlying mechanisms remain elusive. This study aimed to identify genetic predictors of antihypertensive medication use trajectories within the first year. METHODS: Using longitudinal medication data from >400 000 genotyped antihypertensive medication users across three cohorts (FinnGen, the UK Biobank, and the Estonian Biobank), short-term antihypertensive medication use trajectories were classified as Continue, Switch, or Discontinue. Genome-wide association studies were performed across five medication classes. RESULTS: In total, 14 genome-wide significant loci were identified for switching from angiotensin-converting enzyme inhibitors (ACEI) and dihydropyridine calcium channel blockers (dCCB) to other antihypertensive medications. For ACEI switching, evidence converged on the neurotensin-NTSR1 pathway, including a 320-fold Finnish-enriched protective missense variant in the neurotensin receptor gene NTSR1 (rs148569146 [G301R], odds ratio [OR] 0.49, P = 3.3 × 10-43) and a variant near RASSF9 (rs181941187, OR = 0.74, P = 1.2 × 10-49) tagging the neurotensin gene NTS. In drug-gene interaction analyses, NTSR1 G301R was associated with reduced ACEI-induced cough risk (OR 0.39, P = 8.1 × 10-4). The dCCB switching locus at CYP3A43 was in near-complete linkage (r2 = 0.99) with the functional CYP3A4*22 allele (rs35599367, OR 1.23, P = 6.1 × 10-10). A polygenic risk score (PRS) for ACEI switching predicted two-fold ACEI cough risk in the top 10% PRS compared with the middle 20% in an independent sample of the Estonian Biobank. CONCLUSIONS: These findings extend the bradykinin hypothesis of ACEI-induced cough by implicating neurotensin-NTSR1 signalling, pinpoint CYP3A4*22 as a novel functional predictor of dCCB switching with potential for genotype-guided prescribing, and validate medication use trajectories as a framework for pharmacogenetic discovery.",
+        "journal": "European heart journal",
+        "authors": [
+          "Felix Vaura",
+          "Kristi Krebs",
+          "Tuomo Kiiskinen",
+          "Joel Rämö",
+          "Max Tamlander"
+        ],
+        "pub_date": "2026-Aug-03",
+        "doi": "10.1093/eurheartj/ehag575",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42545033/",
+        "journal_canonical": "European Heart Journal"
+      },
+      "score": {
+        "relevance_score": 8,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 40만 명 이상의 유전형이 규명된 고혈압 치료제 사용자를 대상으로 대규모 게놈 연관 분석(GWAS)을 수행하여 항고혈압제 전환/중단 예측의 유전적 요인을 규명했습니다. ACE억제제와 칼슘채널차단제 전환과 관련된 14개의 게놈 유의 유전체좌를 동정하였고, 특히 NTSR1 유전자의 핀란드 특이 보호 변이(G301R)가 ACE억제제 유발 기침 위험을 감소시킴을 확인했습니다. 다중 코호트(FinnGen, UK Biobank, Estonian Biobank) 종단 데이터와 약물-유전자 상호작용 분석을 통해 약물유해반응 예측 및 개인맞춤 처방의 가능성을 제시했습니다.",
+        "key_points": [
+          "다중 대규모 코호트(FinnGen, UK Biobank, Estonian Biobank)의 종단 약물 사용 데이터 활용",
+          "약물유해반응(ACEI-induced cough) 예측을 위한 GWAS 및 약물-유전자 상호작용(PGx) 분석",
+          "다형성 위험점수(PRS) 개발을 통한 임상적 정밀의료 응용 가능성 제시"
+        ],
+        "reason": "MFDS의 핵심 키워드인 다중 코호트, 유전체 데이터, 약물유해반응 예측, 정밀의료(genotype-guided prescribing)를 모두 포함하며, EHR/RWD 기반 약물 사용 궤적 분석을 통한 약물반응 예측이라는 점에서 MFDS 과제와 직접 관련성이 높습니다."
+      },
+      "project": "MFDS",
+      "subtopic": "오믹스 × 약물반응"
+    }
+  ]
+}
