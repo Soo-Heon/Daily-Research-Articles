@@ -3,10 +3,43 @@
   "days_back": 1,
   "threshold": 6,
   "queries_run": 10,
-  "articles_found": 1,
-  "articles_scored": 1,
-  "articles_above_threshold": 1,
+  "articles_found": 2,
+  "articles_scored": 2,
+  "articles_above_threshold": 2,
   "results": [
+    {
+      "article": {
+        "pmid": "42550202",
+        "title": "Predicting future risk of type 1 and type 2 diabetes after gestational diabetes mellitus using polygenic scores: a cohort study.",
+        "abstract": "AIMS/HYPOTHESIS: Women with previous gestational diabetes mellitus (GDM) have an increased risk of developing both type 1 and type 2 diabetes. However, predicting the risk on a personal level is challenging. Polygenic scores (PGSs), which capture an individual's genetic susceptibility to disease, may improve risk prediction. We aimed to examine the utility of PGSs for type 1 diabetes (T1D-PGS) and type 2 diabetes (T2D-PGS) to predict overt diabetes in women with previous GDM, with a median follow-up time of 30 years after index pregnancy. METHODS: We conducted an observational study including 370 women diagnosed with GDM between 1978 and 1996. Development of type 1 and type 2 diabetes was identified using national registry data comprising ICD-10 diagnosis codes on diabetes until 2019, combined with a glucose tolerance test performed in 2000-2002. The predictive ability of T1D-PGS and T2D-PGS and clinical risk factors during index pregnancy for type 1 and type 2 diabetes, including maternal age at delivery, pre-pregnancy BMI, fasting plasma glucose, insulin treatment and family history of diabetes, was evaluated using receiver operating characteristic area under the curve (AUC). RESULTS: During a median follow-up of 30 years, 200 (54.1%) women were diagnosed with diabetes: 30 (8.1%) with type 1 diabetes, 157 (42.4%) with type 2 diabetes and 13 (3.5%) carried monogenic diabetes variants. The mean T1D-PGS was higher in women with type 1 diabetes compared with those without (13.6 vs 11.5, p<0.001), while the T2D-PGS was similar between women with and without type 2 diabetes (52.9 vs 52.8, p=0.16). The T1D-PGS and clinical risk factors during pregnancy were discriminative of type 1 diabetes with AUCs of 0.788 and 0.839, respectively, while a combined model yielded an AUC of 0.887. The T2D-PGS and clinical risk factors during pregnancy yielded AUCs of 0.539 and 0.745, respectively. The combined model had an AUC of 0.752. CONCLUSIONS/INTERPRETATION: In women with previous GDM, the T1D-PGS showed good predictive ability for the development of type 1 diabetes, especially when combined with clinical risk factors during pregnancy, and may have potential to guide targeted follow-up and early treatment interventions. The T2D-PGS showed no predictive ability for type 2 diabetes.",
+        "journal": "Diabetologia",
+        "authors": [
+          "Isabella L Jørgensen",
+          "Peter Damm",
+          "Mette K Andersen",
+          "Pauline K Reim",
+          "Lana R F Madsen",
+          "Mie K W Crusell"
+        ],
+        "pub_date": "2026-Aug-04",
+        "doi": "10.1007/s00125-026-06824-0",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42550202/",
+        "journal_canonical": "Diabetologia"
+      },
+      "score": {
+        "relevance_score": 9,
+        "topic_match": "GDM",
+        "summary_kr": "본 연구는 임신성당뇨(GDM) 병력이 있는 여성 370명을 30년간 추적하여 다각형유전점수(PGS)와 임신 중 임상 위험인자를 이용한 제1형/제2형 당뇨 발생 예측 성능을 평가했다. 추적 기간 중 54.1%가 당뇨 진단을 받았으며(T1D 8.1%, T2D 42.4%), T1D-PGS는 제1형 당뇨 예측에서 우수한 판별력(AUC 0.887, 임상인자 결합 시)을 보인 반면 T2D-PGS는 제2형 당뇨 예측에 유의미한 능력을 보이지 못했다. 이 결과는 GDM 환자에서 유전학적 소인이 제1형 당뇨 발생 예측에는 효과적이나, 제2형 당뇨 예측에는 임상 위험인자가 더 중요함을 시사한다.",
+        "key_points": [
+          "GDM → T1D/T2D 전환 예측: 30년 장기 추적 코호트 (검색 컨텍스트 직접 부합)",
+          "다중 위험인자 통합 모델: PGS + 임상 위험인자(나이, BMI, 공복혈당, 인슐린 치료, 가족력) 결합",
+          "유전학적 소인의 제한성: T2D-PGS는 제2형 당뇨 예측에 실패 → 환경/대사 요인의 중요성 강조"
+        ],
+        "reason": "GDM 코호트에서 T1D/T2D 전환 예측을 GWAS 기반 polygenic score와 임상데이터로 평가한 논문으로, GDM 프로젝트의 'GDM→T2D 전환', 'Genetics/GWAS' 핵심 키워드를 완벽히 충족하며 장기 추적 데이터와 다중 위험인자 통합 분석 방법론도 부합하여 매우 높은 관련성을 가짐."
+      },
+      "project": "GDM",
+      "subtopic": "GDM → T2D 전환"
+    },
     {
       "article": {
         "pmid": "42545033",
@@ -26,15 +59,15 @@
         "journal_canonical": "European Heart Journal"
       },
       "score": {
-        "relevance_score": 8,
+        "relevance_score": 7,
         "topic_match": "MFDS",
-        "summary_kr": "본 연구는 40만 명 이상의 유전형이 규명된 고혈압 치료제 사용자를 대상으로 대규모 게놈 연관 분석(GWAS)을 수행하여 항고혈압제 전환/중단 예측의 유전적 요인을 규명했습니다. ACE억제제와 칼슘채널차단제 전환과 관련된 14개의 게놈 유의 유전체좌를 동정하였고, 특히 NTSR1 유전자의 핀란드 특이 보호 변이(G301R)가 ACE억제제 유발 기침 위험을 감소시킴을 확인했습니다. 다중 코호트(FinnGen, UK Biobank, Estonian Biobank) 종단 데이터와 약물-유전자 상호작용 분석을 통해 약물유해반응 예측 및 개인맞춤 처방의 가능성을 제시했습니다.",
+        "summary_kr": "본 연구는 40만 명 이상의 항고혈압제 사용자를 대상으로 한 3개 대규모 코호트(FinnGen, UK Biobank, Estonian Biobank)의 종단 약물 사용 데이터와 유전체 정보를 통합하여 약물 중단/전환을 예측하는 유전적 인자를 규명했다. GWAS를 통해 ACE억제제와 칼슘채널차단제 전환과 관련된 14개의 게놈 전체 유의성 유전자좌를 발견했으며, 특히 NTSR1 유전자의 핀란드 특이 보호 변이(rs148569146)와 CYP3A4*22 대립유전자가 약물 부작용(기침) 위험과 약물 전환을 강하게 예측함을 보였다. 다유전자 위험 점수(PRS)를 통해 독립 샘플에서 ACE억제제 기침 위험을 2배 예측했다.",
         "key_points": [
-          "다중 대규모 코호트(FinnGen, UK Biobank, Estonian Biobank)의 종단 약물 사용 데이터 활용",
-          "약물유해반응(ACEI-induced cough) 예측을 위한 GWAS 및 약물-유전자 상호작용(PGx) 분석",
-          "다형성 위험점수(PRS) 개발을 통한 임상적 정밀의료 응용 가능성 제시"
+          "대규모 코호트 기반 약물반응 예측: 40만 명 규모의 다중 국가 바이오뱅크 활용(MFDS 코호트/바이오뱅크 과제와 부합)",
+          "약물유해반응(ADR) 예측 - 약물 중단/전환 및 ACEI 유발 기침의 유전적 기반 규명",
+          "약물유전체학 기반 정밀의료: 특정 유전자 변이(CYP3A4*22, NTSR1)의 기능적 검증 및 약물 지도 기반 처방 가능성"
         ],
-        "reason": "MFDS의 핵심 키워드인 다중 코호트, 유전체 데이터, 약물유해반응 예측, 정밀의료(genotype-guided prescribing)를 모두 포함하며, EHR/RWD 기반 약물 사용 궤적 분석을 통한 약물반응 예측이라는 점에서 MFDS 과제와 직접 관련성이 높습니다."
+        "reason": "MFDS의 핵심 과제인 '오믹스(유전체) × 약물반응/약물유해반응 예측 × 정밀의료'와 '대규모 코호트/바이오뱅크 기반 EHR/RWD 활용'이 직접 부합하며, 방법론(GWAS, PRS, 다중 코호트 통합)도 부합하나, 당뇨나 다른 대사질환이 아닌 단일 질환(고혈압)만 다루므로 최고점은 아님."
       },
       "project": "MFDS",
       "subtopic": "오믹스 × 약물반응"
