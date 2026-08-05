@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-05",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42550202",
+        "title": "Predicting future risk of type 1 and type 2 diabetes after gestational diabetes mellitus using polygenic scores: a cohort study.",
+        "abstract": "AIMS/HYPOTHESIS: Women with previous gestational diabetes mellitus (GDM) have an increased risk of developing both type 1 and type 2 diabetes. However, predicting the risk on a personal level is challenging. Polygenic scores (PGSs), which capture an individual's genetic susceptibility to disease, may improve risk prediction. We aimed to examine the utility of PGSs for type 1 diabetes (T1D-PGS) and type 2 diabetes (T2D-PGS) to predict overt diabetes in women with previous GDM, with a median follow-up time of 30 years after index pregnancy. METHODS: We conducted an observational study including 370 women diagnosed with GDM between 1978 and 1996. Development of type 1 and type 2 diabetes was identified using national registry data comprising ICD-10 diagnosis codes on diabetes until 2019, combined with a glucose tolerance test performed in 2000-2002. The predictive ability of T1D-PGS and T2D-PGS and clinical risk factors during index pregnancy for type 1 and type 2 diabetes, including maternal age at delivery, pre-pregnancy BMI, fasting plasma glucose, insulin treatment and family history of diabetes, was evaluated using receiver operating characteristic area under the curve (AUC). RESULTS: During a median follow-up of 30 years, 200 (54.1%) women were diagnosed with diabetes: 30 (8.1%) with type 1 diabetes, 157 (42.4%) with type 2 diabetes and 13 (3.5%) carried monogenic diabetes variants. The mean T1D-PGS was higher in women with type 1 diabetes compared with those without (13.6 vs 11.5, p<0.001), while the T2D-PGS was similar between women with and without type 2 diabetes (52.9 vs 52.8, p=0.16). The T1D-PGS and clinical risk factors during pregnancy were discriminative of type 1 diabetes with AUCs of 0.788 and 0.839, respectively, while a combined model yielded an AUC of 0.887. The T2D-PGS and clinical risk factors during pregnancy yielded AUCs of 0.539 and 0.745, respectively. The combined model had an AUC of 0.752. CONCLUSIONS/INTERPRETATION: In women with previous GDM, the T1D-PGS showed good predictive ability for the development of type 1 diabetes, especially when combined with clinical risk factors during pregnancy, and may have potential to guide targeted follow-up and early treatment interventions. The T2D-PGS showed no predictive ability for type 2 diabetes.",
+        "journal": "Diabetologia",
+        "authors": [
+          "Isabella L Jørgensen",
+          "Peter Damm",
+          "Mette K Andersen",
+          "Pauline K Reim",
+          "Lana R F Madsen",
+          "Mie K W Crusell"
+        ],
+        "pub_date": "2026-Aug-04",
+        "doi": "10.1007/s00125-026-06824-0",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42550202/",
+        "journal_canonical": "Diabetologia"
+      },
+      "score": {
+        "relevance_score": 9,
+        "topic_match": "GDM",
+        "summary_kr": "본 연구는 임신성당뇨(GDM) 진단 후 30년 추적관찰 기간 동안 제1형/제2형 당뇨 발병 위험을 다유전자위험점수(PGS)로 예측하는 코호트 연구이다. 1978-1996년 GDM 진단 370명 여성을 대상으로 임신 중 임상 위험인자와 T1D-PGS, T2D-PGS의 예측능을 평가하였으며, 30년 추적기간 중 54.1%가 당뇨 진단을 받았다(T1D 8.1%, T2D 42.4%). T1D-PGS는 제1형 당뇨 예측에 우수한 성능(AUC 0.887, 임상인자 결합모델)을 보였으나, T2D-PGS는 제2형 당뇨 예측에 유의한 성능을 보이지 않았다(AUC 0.752).",
+        "key_points": [
+          "GDM → T1D/T2D 전환 장기(30년) 추적 코호트 데이터 활용",
+          "다유전자위험점수(PGS) 기반 개인화 위험 예측 모델 개발",
+          "임신 중 임상 위험인자(BMI, 공복혈당, 인슐린 치료 등)와 유전체 통합 예측"
+        ],
+        "reason": "GDM에서 T2D 전환 예측이 핵심 연구 주제이며, GWAS 기반 유전체 분석(PGS), 코호트 설계, 장기 추적관찰 데이터가 모두 포함되어 있어 GDM 과제와 직접적으로 일치한다."
+      },
+      "project": "GDM",
+      "subtopic": "GDM → T2D 전환"
+    }
+  ]
+}
