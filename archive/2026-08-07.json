@@ -1,0 +1,77 @@
+{
+  "date": "2026-08-07",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 2,
+  "articles_scored": 2,
+  "articles_above_threshold": 0,
+  "results": [
+    {
+      "article": {
+        "pmid": "42557316",
+        "title": "A compendium of next-generation patient-derived models for diverse cancers.",
+        "abstract": "The development of new therapeutics and the validation of pathogenetic cancer mechanisms require representative laboratory models1,2. However, existing collections represent only a fraction of the diversity observed in human cancer2-4. Recent technologies have enabled efficient in vitro model derivation (for example, tumour organoids)5. However, whether these maintain essential properties of patient tumours during long-term expansion has not been systematically investigated. Here we present results of a large-scale international programme-the Human Cancer Models Initiative-which involved the generation of a resource of 665 next-generation models from 2,780 donors with 25 cancer types and integrated tumour-model whole genome, exome, methylome and transcriptome analyses. The resource provides 522 models with comprehensive clinical data, 153 models of rare cancers and 71 models from participants with non-European ancestry. Analyses of 421 matched tumour-model pairs reveal high genetic (97.8%) and epigenetic (95%) concordance and define correlates of model discordance. Single-nucleus RNA sequencing of tumour-model pairs reveals subsets of models in which culture conditions significantly influence cell states. Finally, we characterize model preservation of extrachromosomal DNA and post-treatment mutational signatures to provide opportunities to study therapeutic resistance. This model repository is being made available to the community-including multimodal molecular profiling, clinical information and integrative software tools-thus providing a valuable resource for preclinical investigation of cancer pathogenesis and treatment response.",
+        "journal": "Nature",
+        "authors": [
+          "Dina ElHarouni",
+          "Mushriq Al-Jazrawe",
+          "Seongmin Choi",
+          "Merve Dede",
+          "Toshinori Hinoue",
+          "Sean A Misek"
+        ],
+        "pub_date": "2026-Aug-05",
+        "doi": "10.1038/s41586-026-10806-y",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42557316/",
+        "journal_canonical": "Nature"
+      },
+      "score": {
+        "relevance_score": 3,
+        "topic_match": "없음",
+        "summary_kr": "본 연구는 Human Cancer Models Initiative를 통해 25개 암종에서 2,780명의 기증자로부터 665개의 차세대 환자유래모델을 개발하고, 전체게놈/엑솜/메틸롬/전사체 등 다중오믹스 통합분석을 수행했다. 종양-모델 쌍의 매칭 분석에서 높은 유전적(97.8%) 및 후성유전적(95%) 일치도를 확인하고, 단일핵 RNA 시퀀싱으로 배양조건에 따른 세포상태 변화를 규명했으며, 치료저항성 연구를 위한 세포외 DNA 보존 특성을 분석했다. 이 모델 저장소는 분자 프로파일링, 임상정보, 통합 소프트웨어 도구와 함께 암 병리기전 및 치료반응 연구를 위한 커뮤니티 자원으로 공개된다.",
+        "key_points": [
+          "다중오믹스 통합분석(WGS/WES/methylome/transcriptome) 수행",
+          "665개 암 환자유래모델(PDX/organoid) 및 임상데이터 보유",
+          "암질환 중심으로 약물반응/저항성 기전 연구에 초점"
+        ],
+        "reason": "암질환 전문 연구로 당뇨/심혈관/MASLD/CKD 등 우리 과제의 만성대사질환과 무관하며, 다중오믹스와 약물반응 예측 키워드는 일부 부합하나 질환 영역 완전 이질로 관련성 매우 낮음."
+      },
+      "project": "MFDS",
+      "subtopic": "오믹스 × 약물반응"
+    },
+    {
+      "article": {
+        "pmid": "42560525",
+        "title": "Endometriosis subtypes and risk of type 2 diabetes: the Advancing Research on Cardiovascular Health and Endometriosis Study (ARCHES) retrospective cohort study.",
+        "abstract": "AIMS/HYPOTHESIS: Endometriosis is a heterogeneous inflammatory condition that may influence long-term metabolic health. Prior studies have reported largely null associations with type 2 diabetes, potentially missing subtype-specific and subgroup heterogeneity. We investigated the association between endometriosis, including clinically relevant subtypes, and incident type 2 diabetes, and assessed effect modification by menopausal status, BMI and history of gestational diabetes mellitus. METHODS: We assembled a dynamic population-based cohort of 2,939,364 individuals assigned as female at birth from the Utah Population Database (1996-2021). Endometriosis and subtypes were identified using validated ICD-9/10 codes and modelled as time-varying exposures. Incident type 2 diabetes was ascertained using ICD codes. Cox proportional hazards models with calendar time as the time scale were used to estimate HRs and 95% CIs, adjusting for birth year, birth state, race/ethnicity, age and BMI at cohort entry. Stratified analyses evaluated effect modification by menopausal status, BMI and history of gestational diabetes mellitus. RESULTS: During a mean follow-up duration of 10.8 years, 99,978 women were diagnosed with endometriosis. Endometriosis was associated with a 46% higher risk of type 2 diabetes compared with no endometriosis (aHR 1.46; 95% CI 1.43, 1.50). Risk varied by subtype, with the strongest associations observed for 'other site' endometriosis (specified site: aHR 2.67; 95% CI 2.51, 2.84; unspecified site: aHR 2.47; 95% CI 2.35, 2.60). Associations were stronger among premenopausal women than postmenopausal women (aHR 1.55; 95% CI 1.50, 1.60) and those with BMI <30 kg/m2 than those in higher BMI categories (aHR 2.39; 95% CI 2.34, 2.44), and were present regardless of history of gestational diabetes mellitus. CONCLUSIONS/INTERPRETATION: Endometriosis was associated with increased type 2 diabetes risk, with substantial heterogeneity by subtype and metabolic context. Associations were strongest among individuals who are traditionally considered at lower baseline risk, although these findings should be interpreted cautiously given the potential for residual confounding and detection bias.",
+        "journal": "Diabetologia",
+        "authors": [
+          "Maggie Fuzak Nunziato",
+          "Bin Yan",
+          "Karen C Schliep",
+          "Leslie V Farland",
+          "Michael W Varner",
+          "Jenna R Krall"
+        ],
+        "pub_date": "2026-Aug-06",
+        "doi": "10.1007/s00125-026-06828-w",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42560525/",
+        "journal_canonical": "Diabetologia"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "GDM",
+        "summary_kr": "본 연구는 자궁내막증(endometriosis)과 제2형 당뇨 발생 위험의 연관성을 조사한 대규모 코호트 연구이다. 유타주 인구 데이터베이스의 294만 명 여성을 대상으로 1996-2021년 동안 추적 관찰하여 자궁내막증 아형별 당뇨 발생률을 분석했다. 자궁내막증은 제2형 당뇨 위험을 46% 증가시켰으며, 특히 폐경 전 여성과 BMI <30 kg/m² 그룹에서 더 강한 연관성을 보였고, 임신성 당뇨 병력과 무관하게 위험이 증가했다.",
+        "key_points": [
+          "자궁내막증과 T2D의 연관성 규명 (aHR 1.46) - 우리 과제의 GDM→T2D 전환 관점과 부분 겹침",
+          "임신성 당뇨 병력을 층화 분석 변수로 포함 (GDM 역사 보유자에서도 위험 증가)",
+          "대규모 인구기반 코호트 및 EHR 데이터 활용 - MFDS의 코호트/RWD 방법론 유사"
+        ],
+        "reason": "GDM→T2D 전환 연구의 직접 대상은 아니나, 임신성 당뇨 병력을 주요 교란변수/층화 변수로 포함하고 있으며, 대규모 코호트와 EHR 기반 분석이라는 방법론적 유사성이 있으나, 주요 노출 변수가 자궁내막증이므로 부분 관련성만 인정."
+      },
+      "project": "GDM",
+      "subtopic": "GDM → T2D 전환"
+    }
+  ]
+}
