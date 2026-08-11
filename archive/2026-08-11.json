@@ -1,0 +1,110 @@
+{
+  "date": "2026-08-11",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 3,
+  "articles_scored": 3,
+  "articles_above_threshold": 2,
+  "results": [
+    {
+      "article": {
+        "pmid": "42578927",
+        "title": "RUNX1-driven endothelial-to-mesenchymal transition contributes to remodelling in LMNA cardiomyopathy.",
+        "abstract": "BACKGROUND AND AIMS: LMNA-related dilated cardiomyopathy (LMNA-DCM) is a progressive genetic disorder characterized by conduction disease, malignant arrhythmias, myocardial fibrosis, and heart failure. Although LMNA mutations have traditionally been associated with cardiomyocyte-intrinsic defects, the mechanisms driving fibrotic remodelling remain incompletely understood. METHODS: Spatial transcriptomics and integrated single-nuclei multiomics were performed on explanted human LMNA-DCM hearts to define endothelial transcriptional and epigenomic states associated with fibrosis. Patient-specific induced pluripotent stem cell-derived endothelial cells, engineered cardiac organoids, and the LMNAH222P/H222P mouse model were used to investigate RUNX1-mediated endothelial-to-mesenchymal transition (EndoMT). Genetic and pharmacological RUNX1 inhibition strategies were evaluated in vitro and in vivo. RESULTS: Endothelial populations exhibiting EndoMT-associated transcriptional and epigenomic signatures were identified in human LMNA-DCM hearts. LMNA induced pluripotent stem cell-derived endothelial cells demonstrated endothelial dysfunction, mesenchymal gene activation, and epigenetic activation of RUNX1 following loss of LMNA-mediated repression. Genetic RUNX1 deletion restored endothelial identity, reversed EndoMT-associated transcriptional programmes, and normalized chromatin accessibility at endothelial regulatory loci. In multicellular cardiac organoids, endothelial RUNX1 activation impaired endothelial-cardiomyocyte signalling and cardiomyocyte contractile function, whereas endothelial-specific RUNX1 deletion restored endothelial and myocardial function. Pharmacological RUNX1 inhibition with Ro24-7429 similarly improved endothelial and cardiomyocyte function in vitro and reduced myocardial fibrosis while preserving cardiac function in LMNAH222P/H222P mice, including after disease onset. CONCLUSIONS: RUNX1-driven EndoMT represents a central mechanism linking LMNA mutations to fibrotic remodelling in LMNA cardiomyopathy. These findings support endothelial transcriptional reprogramming and RUNX1 signalling as potential therapeutic targets in fibrotic cardiomyopathy.",
+        "journal": "European heart journal",
+        "authors": [
+          "David Wu",
+          "Dipti Tripathi",
+          "Amit Manhas",
+          "Chikage Noishiki",
+          "Lu Liu",
+          "Catherine A Wu"
+        ],
+        "pub_date": "2026-Aug-11",
+        "doi": "10.1093/eurheartj/ehag619",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42578927/",
+        "journal_canonical": "European Heart Journal"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 LMNA 관련 확장성 심근병증(DCM)에서 내피세포-중간엽 전환(EndoMT)이 심근섬유화 재형성의 중심 메커니즘임을 규명했습니다. 공간 전사체 및 단핵 다중오믹스(spatial transcriptomics & single-nuclei multiomics) 분석을 LMNA-DCM 환자 심장과 iPSC 유래 세포, 심장 오가노이드, 마우스 모델에 적용하여 RUNX1 매개 EndoMT의 역할을 검증했습니다. RUNX1 억제(유전적/약리적)가 내피 기능을 회복하고 심근섬유화를 감소시키며 심장 기능을 보존함을 확인했습니다.",
+        "key_points": [
+          "Multi-omics (공간 전사체 + 단핵 다중오믹스) 통합 분석으로 질병 메커니즘 규명",
+          "만성질환(심근병증) 관련 심근섬유화 및 심부전 기전 연구",
+          "인간 환자 샘플, iPSC 모델, 동물 모델 통합 검증 전략"
+        ],
+        "reason": "만성질환(심혈관질환) 분야에서 다중오믹스 통합 분석과 질병 메커니즘 규명이 우리 과제와 부분적으로 일치하나, 특정 당뇨/대사질환이나 임신성당뇨와의 직접적 관련성이 없고 기초 메커니즘 연구 중심으로 EHR/RWD 및 임상적 예측 모델과는 거리가 있습니다."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    },
+    {
+      "article": {
+        "pmid": "42579538",
+        "title": "Gestational Diabetes Mellitus: Recurrence and Future Type 2 Diabetes Risk Across Racial and Ethnic Groups.",
+        "abstract": "OBJECTIVE: Despite rising diabetes prevalence among women, data on long-term diabetes risk following gestational diabetes mellitus (GDM), particularly its recurrence, remain limited, especially for Asian women. This study examined associations among GDM, its recurrence, and subsequent diabetes risk across multiple ethnic groups. RESEARCH DESIGN AND METHODS: This retrospective cohort study included 326,115 mothers with singleton pregnancies in the Kaiser Permanente Southern California health care system, followed from their first delivery after January 2007 until diabetes onset outside of pregnancy, end of membership, or December 2022. GDM was identified through glucose screenings during each pregnancy; diabetes was diagnosed using glucose or HbA1c levels, antidiabetes medications, or ICD codes. Cox regression models with time-varying GDM status estimated hazard ratios (HRs) and 95% CIs for diabetes risk. RESULTS: Over a median follow-up of 6.2 (IQR 2.8-10.6) years, 45,935 of 442,225 pregnancies were complicated by GDM, including 4,842 recurrent GDM pregnancies. Among all ethnic groups, Asian women had the highest GDM and recurrence rates (20.18% and 53.28%, respectively). Compared with non-GDM history, GDM was associated with a more than fivefold increased diabetes risk (HR 5.87 [95% CI 5.67-6.08]). Recurrent GDM was associated with an almost 10-fold increase in diabetes risk (HR 9.91 [95% CI 9.14-10.75]), with Asian women showing the highest risk (HR 11.74 [95% CI 9.64-14.30]). CONCLUSIONS: Compared with no GDM, GDM was significantly associated with higher diabetes risk, with recurrent GDM doubling the risk, underscoring the need for tailored screening and prevention strategies across racial and ethnic groups.",
+        "journal": "Diabetes care",
+        "authors": [
+          "Xin Yin",
+          "Ting Chow",
+          "Mayra Martinez",
+          "Guoqi Yu",
+          "Jiaxi Yang",
+          "Cuilin Zhang"
+        ],
+        "pub_date": "2026-Aug-11",
+        "doi": "10.2337/dc26-0856",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42579538/",
+        "journal_canonical": "Diabetes Care"
+      },
+      "score": {
+        "relevance_score": 9,
+        "topic_match": "GDM",
+        "summary_kr": "Kaiser Permanente Southern California 의료시스템의 326,115명 산모를 대상으로 2007년 이후 첫 분만부터 2022년까지 추적 조사한 대규모 코호트 연구입니다. 포도당 선별검사와 HbA1c, 항당뇨병 약물, ICD 코드를 통해 GDM과 제2형 당뇨를 진단하고 Cox 회귀 모형으로 위험도를 분석했습니다. GDM 병력이 있는 경우 당뇨 위험이 5.87배, 반복성 GDM의 경우 9.91배 증가했으며, 특히 아시아 여성에서 가장 높은 GDM 재발률(53.28%)과 위험도(HR 11.74)를 보였습니다.",
+        "key_points": [
+          "GDM에서 T2D 전환의 장기 추적 데이터 (중앙값 6.2년, 44만 2,225건 임신 분석)",
+          "반복성 GDM이 단독 GDM보다 당뇨 위험을 약 2배 증가시키는 용량-반응 관계 입증",
+          "인종/민족별 차이 규명: 아시아 여성의 GDM 재발률 53.28%로 최고, 당뇨 위험 HR 11.74 (다른 인종군 대비 높음)"
+        ],
+        "reason": "GDM→T2D 전환의 핵심 연구이며, EHR 기반 대규모 코호트, 다중 인종/민족 포함, 종단 추적이라는 우리 GDM 과제의 방법론과 완벽하게 부합하고, 반복성 GDM이라는 새로운 위험 인자를 제시한 점이 정밀의료 전략 수립에 직접 활용 가능합니다."
+      },
+      "project": "GDM",
+      "subtopic": "GDM → T2D 전환"
+    },
+    {
+      "article": {
+        "pmid": "42579609",
+        "title": "Neighborhood Walkability and the Development of Type 2 Diabetes After Gestational Diabetes Mellitus: A Longitudinal Study in New York City.",
+        "abstract": "OBJECTIVE: Neighborhood walkability is associated with lower gestational diabetes mellitus (GDM) risk, but its association with type 2 diabetes after GDM is unknown. We estimated this association and assessed effect modification by individual and neighborhood socioeconomic conditions. RESEARCH DESIGN AND METHODS: Women with GDM who delivered in New York City (NYC) in 2009-2011 were identified through birth certificate records and hospital discharge data and linked to NYC A1C Registry data (2009-2021) for follow-up. Women with prepregnancy diabetes were excluded. A previously published neighborhood walkability index was categorized into quartiles. Type 2 diabetes was ascertained as two A1C results ≥6.5% (48 mmol/mol) after 12 weeks postpartum. Cox proportional hazards models estimated associations between walkability and type 2 diabetes after GDM, adjusting for individual- and neighborhood-level characteristics. Stratification analyses were conducted by socioeconomic conditions. RESULTS: Among 12,403 women with GDM at baseline, the 12-year cumulative incidence of type 2 diabetes was 20.6%. Adjusted hazard ratios (aHRs) of type 2 diabetes for low-medium (aHR 0.89 [95% CI 0.76, 1.04]), medium (aHR 0.85 [95% CI 0.74, 0.99]), and high (aHR 0.88 [95% CI 0.76, 1.03]) walkability (vs. low) were protective or null. The protective association from high walkability was observed only in the most affluent neighborhoods (aHR 0.52 [95% CI 0.31, 0.89]). CONCLUSIONS: In NYC, more walkable neighborhoods were associated with lower risk of type 2 diabetes after GDM without a dose-response effect, and associations depended on individual and neighborhood socioeconomic contexts. While increasing walkability is a core planning goal and may improve health, decisions should also address neighborhood inequities in diabetes.",
+        "journal": "Diabetes care",
+        "authors": [
+          "Bohao Wu",
+          "Natalie A Boychuk",
+          "Shelley H Liu",
+          "Frances M Howell",
+          "Sandra S Albrecht",
+          "Hiu Tai Chan"
+        ],
+        "pub_date": "2026-Aug-11",
+        "doi": "10.2337/dc26-1125",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42579609/",
+        "journal_canonical": "Diabetes Care"
+      },
+      "score": {
+        "relevance_score": 6,
+        "topic_match": "GDM",
+        "summary_kr": "뉴욕시의 GDM 여성 12,403명을 대상으로 2009-2021년 추적 관찰하여 근린환경 보행성(neighborhood walkability)과 GDM 이후 제2형 당뇨 발생의 연관성을 조사했다. 12년 누적 발생률은 20.6%이며, 보행성이 높은 지역은 낮은 지역 대비 당뇨 위험이 감소했으나 용량-반응 관계는 없었다. 이 보호 효과는 가장 부유한 지역에서만 유의하게 관찰되어(aHR 0.52), 사회경제적 맥락에 따른 효과 수정이 존재함을 보여주었다.",
+        "key_points": [
+          "GDM → T2D 전환 추적 연구 (12년 follow-up, 20.6% 발생률)",
+          "사회경제적 맥락(SES)에 따른 환경 요인의 차별적 영향 규명",
+          "근린환경 지표 활용하지만 유전체/마이크로바이옴 등 생물학적 메커니즘 분석 부재"
+        ],
+        "reason": "GDM→T2D 전환이라는 핵심 주제를 다루고 대규모 코호트/RWD를 활용했으나, 다중오믹스·유전체·마이크로바이옴 등 MFDS/GDM 과제의 주요 방법론이 부재하고 환경 및 사회경제적 요인에 중점을 두어 부분 관련도만 해당된다."
+      },
+      "project": "GDM",
+      "subtopic": "GDM → T2D 전환"
+    }
+  ]
+}
