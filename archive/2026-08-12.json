@@ -1,0 +1,240 @@
+{
+  "date": "2026-08-12",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 7,
+  "articles_scored": 7,
+  "articles_above_threshold": 4,
+  "results": [
+    {
+      "article": {
+        "pmid": "42581046",
+        "title": "Building a Precision Health Ecosystem: Singapore's Approach to Innovation through the Clinical Implementation Pilots.",
+        "abstract": "The Clinical Implementation Pilots (CIPs) within Singapore's National Precision Medicine (NPM) programme are designed to integrate genomic testing into clinical pathways for conditions including hereditary cancers, familial hypercholesterolemia, breast cancer, primary glomerular disease, and pharmacogenomics. These multidisciplinary pilots emphasize collaboration to enhance cost-effectiveness and improve patient outcomes, thereby establishing a sustainable foundation for future scalability in clinical genomics and ultimately fostering a healthier population through personalized healthcare solutions.",
+        "journal": "NPJ genomic medicine",
+        "authors": [
+          "Rebecca Caeser",
+          "Doreen Low",
+          "Irenaeus Chia",
+          "David Matchar",
+          "Mikael Hartman",
+          "Yi Wang"
+        ],
+        "pub_date": "2026-Jul-28",
+        "doi": "10.1038/s41525-026-00594-9",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42581046/",
+        "journal_canonical": "npj Genomic Medicine"
+      },
+      "score": {
+        "relevance_score": 6,
+        "topic_match": "MFDS",
+        "summary_kr": "싱가포르의 국가정밀의료(NPM) 프로그램 내 임상구현파일럿(CIPs)은 유전체 검사를 임상 경로에 통합하는 다학제 접근을 제시한다. 유전성 암, 가족성 고콜레스테롤혈증, 유방암, 원발성 사구체질환, 약물유전체학(pharmacogenomics) 등 5가지 질환을 대상으로 한다. 이 연구는 정밀의료 구현을 위한 임상 협력 모델과 비용-효과성을 강조하며, 개인맞춤의료로의 지속 가능한 확장을 목표로 한다.",
+        "key_points": [
+          "약물유전체학(pharmacogenomics)을 포함한 임상 통합 파이프라인 제시",
+          "다중질환(hereditary cancer, familial hypercholesterolemia, glomerular disease)에 대한 유전체 검사 임상 적용",
+          "정밀의료 실현을 위한 다학제 협력 및 지속 가능한 확장 모델"
+        ],
+        "reason": "약물반응 예측(약물유전체학)과 정밀의료, 임상 통합이라는 MFDS 핵심 키워드를 포함하지만, 특정 만성대사질환(당뇨/심혈관/MASLD/CKD) 대상이 아니고 다중오믹스 통합, RWD/EHR, 코호트/바이오뱅크 구체화가 부재하여 부분 관련으로 평가."
+      },
+      "project": "MFDS",
+      "subtopic": "오믹스 × 약물반응"
+    },
+    {
+      "article": {
+        "pmid": "42579609",
+        "title": "Neighborhood Walkability and the Development of Type 2 Diabetes After Gestational Diabetes Mellitus: A Longitudinal Study in New York City.",
+        "abstract": "OBJECTIVE: Neighborhood walkability is associated with lower gestational diabetes mellitus (GDM) risk, but its association with type 2 diabetes after GDM is unknown. We estimated this association and assessed effect modification by individual and neighborhood socioeconomic conditions. RESEARCH DESIGN AND METHODS: Women with GDM who delivered in New York City (NYC) in 2009-2011 were identified through birth certificate records and hospital discharge data and linked to NYC A1C Registry data (2009-2021) for follow-up. Women with prepregnancy diabetes were excluded. A previously published neighborhood walkability index was categorized into quartiles. Type 2 diabetes was ascertained as two A1C results ≥6.5% (48 mmol/mol) after 12 weeks postpartum. Cox proportional hazards models estimated associations between walkability and type 2 diabetes after GDM, adjusting for individual- and neighborhood-level characteristics. Stratification analyses were conducted by socioeconomic conditions. RESULTS: Among 12,403 women with GDM at baseline, the 12-year cumulative incidence of type 2 diabetes was 20.6%. Adjusted hazard ratios (aHRs) of type 2 diabetes for low-medium (aHR 0.89 [95% CI 0.76, 1.04]), medium (aHR 0.85 [95% CI 0.74, 0.99]), and high (aHR 0.88 [95% CI 0.76, 1.03]) walkability (vs. low) were protective or null. The protective association from high walkability was observed only in the most affluent neighborhoods (aHR 0.52 [95% CI 0.31, 0.89]). CONCLUSIONS: In NYC, more walkable neighborhoods were associated with lower risk of type 2 diabetes after GDM without a dose-response effect, and associations depended on individual and neighborhood socioeconomic contexts. While increasing walkability is a core planning goal and may improve health, decisions should also address neighborhood inequities in diabetes.",
+        "journal": "Diabetes care",
+        "authors": [
+          "Bohao Wu",
+          "Natalie A Boychuk",
+          "Shelley H Liu",
+          "Frances M Howell",
+          "Sandra S Albrecht",
+          "Hiu Tai Chan"
+        ],
+        "pub_date": "2026-Aug-11",
+        "doi": "10.2337/dc26-1125",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42579609/",
+        "journal_canonical": "Diabetes Care"
+      },
+      "score": {
+        "relevance_score": 6,
+        "topic_match": "GDM",
+        "summary_kr": "뉴욕시의 GDM 환자 12,403명을 대상으로 2009-2021년 동안 근린 보행가능성(neighborhood walkability)이 GDM 이후 제2형 당뇨 발생에 미치는 영향을 종단 연구했다. A1C 레지스트리 데이터를 활용하여 12년 추적 결과 20.6%의 누적 발생률을 보였으며, 높은 보행가능성은 특히 부유한 지역에서만 당뇨 발생 위험 감소(aHR 0.52)와 관련이 있었다. 연구는 GDM→T2D 전환에서 사회경제적 요인의 중요성을 제시했다.",
+        "key_points": [
+          "GDM 코호트에서 T2D 전환 추적 데이터 (12년 종단, 12,403명)",
+          "RWD 활용: A1C 레지스트리와 출생증명서/병원 퇴원 기록 연계",
+          "GDM→T2D 전환에서 환경/사회경제적 요인의 effect modification 검증"
+        ],
+        "reason": "GDM→T2D 전환 연구로 주제 직결되나, 다중오믹스/유전체/마이크로바이옴 등 생물학적 마커가 전혀 없고 순수 역학 연구로서 DGDB의 AI/Foundation model 방법론과도 불부합하므로 부분 관련에 해당."
+      },
+      "project": "GDM",
+      "subtopic": "GDM → T2D 전환"
+    },
+    {
+      "article": {
+        "pmid": "42584895",
+        "title": "Gestational Diabetes and Postpartum Cardiovascular, Kidney, and Metabolic Disorders.",
+        "abstract": "IMPORTANCE: Gestational diabetes is associated with future cardiometabolic risk, but postpartum evidence across the cardiovascular-kidney-metabolic (CKM) disorder spectrum remains limited. OBJECTIVE: To characterize the timing and magnitude of incident postpartum CKM disorders after a pregnancy complicated by gestational diabetes. DESIGN, SETTING, AND PARTICIPANTS: This retrospective cohort study used data from April 1, 2007, to October 12, 2023, from the Merative MarketScan commercial database. Participants were commercially insured females aged 12 to 55 years with a single delivery and no preexisting CKM disorders before delivery. Follow-up began after delivery and continued until incident diagnosis, disenrollment, or end of data availability. Data were analyzed from August 2025 to March 2026. EXPOSURE: Gestational diabetes, identified using diagnosis codes requiring 1 or more inpatient claims or 2 or more outpatient claims during pregnancy. MAIN OUTCOMES AND MEASURES: Incident postpartum diagnoses of obesity, hypertension, hyperlipidemia, prediabetes, type 2 diabetes, metabolic syndrome, chronic kidney disease, and cardiovascular disease. Cox proportional hazards regression models estimated adjusted hazard ratios (AHRs) and 95% CIs. Temporal patterns were assessed using postpartum interval-specific HRs and year-specific incidence rate ratios. RESULTS: Of 1 153 998 females (mean [SD] age, 28.0 [5.8] years), 95 103 (8.2%) had gestational diabetes; median follow-up was 2.4 years (IQR, 1.6-3.8 years). Compared with individuals without gestational diabetes, those with gestational diabetes had higher crude incidence rates per 1000 person-years of type 2 diabetes (9.9 vs 1.0), prediabetes (12.9 vs 2.5), hyperlipidemia (19.9 vs 10.1), hypertension (13.9 vs 8.1), and obesity (26.3 vs 15.2). In adjusted models, gestational diabetes was associated with dysglycemia, including type 2 diabetes (time-averaged AHR, 10.02; 95% CI, 9.53-10.52) and prediabetes (AHR, 5.32; 95% CI, 5.12-5.53), metabolic syndrome (AHR, 2.72, 95% CI, 2.49-2.98), hyperlipidemia (AHR, 2.00; 95% CI, 1.95-2.06), hypertension (AHR, 1.76; 95% CI, 1.70-1.82), and obesity (AHR, 1.75; 95% CI, 1.71-1.79). Composite cardiovascular disease risk was elevated (AHR, 1.28; 95% CI, 1.18-1.40), whereas chronic kidney disease was not (AHR, 0.96; 95% CI, 0.76-1.22). CONCLUSIONS AND RELEVANCE: In this cohort study, gestational diabetes was associated with increased postpartum risk across multiple metabolic disorders. These findings suggest that postpartum care after gestational diabetes may need to extend beyond glucose monitoring to include broader cardiometabolic risk surveillance.",
+        "journal": "JAMA network open",
+        "authors": [
+          "Lili Liu",
+          "Junjie Anderson Lu",
+          "Esther E Velasquez",
+          "Cande V Ananth",
+          "Mindie H Nguyen",
+          "Michelle A Williams"
+        ],
+        "pub_date": "2026-Aug-03",
+        "doi": "10.1001/jamanetworkopen.2026.28578",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42584895/",
+        "journal_canonical": "JAMA Network Open"
+      },
+      "score": {
+        "relevance_score": 9,
+        "topic_match": "GDM",
+        "summary_kr": "본 연구는 2007-2023년 미국 상용 보험 데이터베이스(MarketScan)를 이용한 대규모 후향적 코호트 연구로, 임신성당뇨(GDM) 여성 95,103명과 대조군을 추적하여 산후 심혈관-신장-대사 질환 발생을 분석했다. GDM 여성은 제2형 당뇨(AHR 10.02), 전당뇨(AHR 5.32), 대사증후군(AHR 2.72) 등 다양한 대사 질환의 산후 발생 위험이 유의하게 높았으며, 평균 2.4년의 추적 기간 동안 당뇨 발생률이 9.9/1000인년으로 일반인의 9배 수준이었다. 이 연구는 GDM에서 T2D로의 진행 경로와 복합 대사질환 발생 패턴을 명확히 보여주는 대규모 임상 근거를 제시한다.",
+        "key_points": [
+          "GDM → T2D 전환의 강력한 위험도 증가(시간 평균 AHR 10.02) 및 산후 당뇨 발생률 9배 증가",
+          "대규모 코호트 데이터(115만 명)와 EHR/청구 데이터 기반 분석으로 GDM 추적 관찰의 실제 임상 근거 제공",
+          "GDM에서 T2D 뿐 아니라 대사증후군, 고혈압, 비만, 고지혈증 등 복합 CKM 질환의 통합 위험도 제시"
+        ],
+        "reason": "GDM → T2D 전환을 직접 다루는 대규모 코호트 연구로서 질병관리청 GDM 과제의 핵심 주제와 완전히 부합하며, EHR/청구 데이터 기반 다중 질환 추적과 정밀의료 관점도 MFDS과제와 일치."
+      },
+      "project": "GDM",
+      "subtopic": "GDM → T2D 전환"
+    },
+    {
+      "article": {
+        "pmid": "42584893",
+        "title": "Adverse Pregnancy Outcomes and Health-Related Social Needs Among Parous Women.",
+        "abstract": "IMPORTANCE: Adverse pregnancy outcomes (APOs) are associated with increased risk for postpartum complications, adverse outcomes in future pregnancies, and chronic disease. Health-related social needs (HRSNs), the social and economic factors of health, affect long-term outcomes through mechanisms such as health behaviors, ability to maintain well-being, and barriers to care. OBJECTIVE: To investigate whether APOs are associated with HRSNs among parous Black and/or Latina women. DESIGN, SETTING, AND PARTICIPANTS: This cross-sectional study analyzed data from the BUSY-BP cohort study, which recruited Black and/or Latina women aged 18 to 65 years between February 2023 and April 2024 at a large integrated health system in New England. BUSY-BP study participants completed the Centers for Medicare and Medicaid Services Accountable Health Communities HRSN Screening Tool, which assesses burden of HRSNs across 13 domains. The present study included participants who were parous and had complete covariate data through convenience sampling. Statistical analyses were conducted from March 2024 to July 2025. EXPOSURES: APOs self-reported by participants at enrollment included hypertensive disorders of pregnancy, gestational diabetes, preterm birth, and/or low birth weight. MAIN OUTCOMES AND MEASURES: The primary outcome was high burden of HRSNs, defined as a composite score of 7 or more domains of need. Secondary outcomes were individual domains of HRSNs (living situation, food, transportation, utilities, safety, financial strain, employment, family and community support, education, exercise, substance use, mental health, and disabilities). Logistic regression was used to test the association between APOs and HRSNs, adjusting for age, years since last pregnancy, and parity. RESULTS: Among the 883 participants included (median [IQR] age, 39.2 [14.6] years; 594 with Black race [67.3%], 442 with Latina ethnicity [50.1%], 289 [32.7%] with other race, 441 [49.9%] with other ethnicity), 400 (45.3%) reported experiencing 1 or more APOs (175 hypertensive disorders of pregnancy [19.8%], 109 gestational diabetes [12.3%], 157 low birth weight [17.8%], 226 preterm birth [25.6%]). Prevalence of APOs increased with higher cumulative burden of HRSNs. Compared with no APO history, any APO history was associated with higher adjusted odds of high HRSN burden (adjusted OR [AOR], 1.68; 95% CI, 1.22-2.32; P = .001). There was a dose-response association between the number of different APO types and HRSN burden (AOR, 1.39 [95% CI, 1.19-1.62] per additional APO type; P < .001). Among individual domains of HRSNs, education had an association with APOs that had the greatest magnitude (AOR, 1.81; 95% CI, 1.19-2.79). CONCLUSIONS AND RELEVANCE: In this cross-sectional study, APOs were associated with a greater burden of HRSNs among Black and/or Latina women. This finding highlights that APOs provide a critical opportunity to deploy interventions to address both medical and social factors associated with adverse health outcomes.",
+        "journal": "JAMA network open",
+        "authors": [
+          "Marya Rana",
+          "Katherine E Economy",
+          "Kaitlyn E James",
+          "Lauren Belak",
+          "Victoria R Viscosi",
+          "Imuetiyan E Eweka"
+        ],
+        "pub_date": "2026-Aug-03",
+        "doi": "10.1001/jamanetworkopen.2026.28595",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42584893/",
+        "journal_canonical": "JAMA Network Open"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "GDM",
+        "summary_kr": "본 연구는 흑인 및 라티노 여성 883명을 대상으로 임신성당뇨를 포함한 역행임신 합병증(APO)과 건강관련 사회적 필요(HRSN)의 연관성을 조사한 횡단면 연구이다. 참여자의 45.3%가 임신성당뇨, 임신중독증, 조산, 저출생체중 등 1개 이상의 APO를 경험했으며, APO 병력이 있는 경우 높은 HRSN 부담과 유의한 연관성을 보였다(AOR 1.68). APO 유형이 많을수록 HRSN 부담이 증가하는 용량-반응 관계를 확인했으나, GDM→T2D 전환 추적이나 다중오믹스 분석은 포함되지 않았다.",
+        "key_points": [
+          "임신성당뇨를 포함한 역행임신 합병증(APO)과 사회경제적 건강결정요인(HRSN)의 유의한 연관성 규명",
+          "흑인·라티노 여성의 사회적 건강 결정요인이 APO 위험을 매개하는 메커니즘 제시",
+          "임신 합병증이 산후 만성질환 위험 증가의 중요한 임상적 개입 기회임을 강조"
+        ],
+        "reason": "GDM을 명시적으로 다루고 있으나, GDM→T2D 추적 관찰(longitudinal follow-up), 생물학적 마커(microbiome, genetics), 또는 다중오믹스 통합 분석 없이 순환형 단면 설계로만 사회경제적 요인 관계성을 보여 부분 관련성에 해당한다."
+      },
+      "project": "GDM",
+      "subtopic": "GDM → T2D 전환"
+    },
+    {
+      "article": {
+        "pmid": "42584380",
+        "title": "Rethinking Disease Progression in Transthyretin Amyloid Cardiomyopathy: Toward Mechanism-Specific Monitoring and Therapeutic Response Assessment.",
+        "abstract": "The therapeutic landscape of transthyretin amyloid cardiomyopathy has evolved rapidly, with the introduction of transthyretin stabilizers and gene-silencing therapies, together with the development of investigational genome-editing approaches and amyloid-depleting therapies. These therapeutic classes target distinct biological mechanisms underlying disease progression. However, current definitions of disease progression continue to rely predominantly on clinical, biomarker, and functional measures that reflect downstream manifestations of disease rather than the specific biological processes targeted by these therapies. As therapies become increasingly mechanism-specific, a more biologically informed framework for understanding disease progression and treatment response is needed. We propose that disease progression in transthyretin amyloid cardiomyopathy can be understood as the interaction of 3 biologically distinct, yet highly interconnected, domains: amyloid precursor protein biology, amyloid burden, and organ response. These domains continuously influence one another throughout the disease course; however, distinguishing them conceptually provides a biological framework that aligns disease progression with therapeutic mechanism and biomarker development. The first domain encompasses production, stability, and amyloidogenicity of the precursor protein and represents the fundamental driver of ongoing amyloid formation. The second reflects the cumulative burden of deposited amyloid within tissues, which serves as both a determinant of prognosis and a direct therapeutic target. The third comprises the consequences of amyloid deposition, including myocardial remodelling, neurohormonal activation, cardiorenal dysfunction, and the clinical manifestations of heart failure. These domains may evolve independently, contribute differently to prognosis, and respond differently to therapy. Ultimately, the future of disease monitoring in cardiac amyloidosis lies in both measuring disease severity more precisely and defining disease biology more accurately. Together, these complementary approaches have the potential to enable mechanism-specific therapeutic guidance and truly personalized care. As treatments become increasingly mechanism-specific, monitoring strategies must evolve from tracking the consequences of disease to measuring the biological processes being targeted. The greatest advances are likely to come from biomarkers that quantify precursor protein biology, amyloid burden, and organ response. This forward-looking conceptual framework provides a conceptual foundation for aligning disease biology, therapeutic mechanisms, and monitoring strategies with the ultimate goal of enabling precision therapeutic guidance for patients with cardiac amyloidosis.",
+        "journal": "Journal of the American College of Cardiology",
+        "authors": [
+          "Marianna Fontana",
+          "Scott D Solomon",
+          "Philip N Hawkins",
+          "Julian D Gillmore"
+        ],
+        "pub_date": "2026-Aug-04",
+        "doi": "10.1016/j.jacc.2026.07.026",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42584380/",
+        "journal_canonical": "Journal of the American College of Cardiology"
+      },
+      "score": {
+        "relevance_score": 4,
+        "topic_match": "MFDS",
+        "summary_kr": "본 논문은 트랜스티레틴 아밀로이드 심근병증의 질병 진행을 기전-특이적 관점에서 재정의하고, 아밀로이드 전구단백질 생물학, 아밀로이드 부하, 장기 반응의 3가지 상호연결된 생물학적 영역으로 체계화한다. 새로운 약물치료(단백질 안정화제, 유전자 침묵제, 게놈 편집, 아밀로이드 제거 치료)의 등장에 따라 질병 진행과 치료 반응을 측정하기 위한 기전-특이적 바이오마커 개발의 필요성을 강조한다. 임상 지표 중심의 기존 모니터링에서 벗어나 정확한 질병 생물학을 측정하는 바이오마커 기반 접근으로의 전환을 제안한다.",
+        "key_points": [
+          "기전-특이적 약물반응 평가 프레임워크: 심부전 치료 반응을 전구단백질, 아밀로이드 부하, 장기손상 3가지 생물학적 영역으로 분석",
+          "약물반응 예측을 위한 다층 바이오마커: 기존 임상·기능 지표에서 생물학적 프로세스 기반 바이오마커로의 패러다임 전환",
+          "정밀의료 실현: 환자 개인화된 기전-특이적 치료 모니터링 및 치료 지침 제공 가능성"
+        ],
+        "reason": "약물반응 평가와 정밀의료 개념은 MFDS 과제와 부분적으로 관련이 있으나, 특정 희귀 심장질환(cardiac amyloidosis)만 다루고 다중오믹스 데이터 통합, 만성대사질환, 코호트/EHR 활용 등 주요 과제 요소가 부재하여 관련성이 제한적이다."
+      },
+      "project": "MFDS",
+      "subtopic": "오믹스 × 약물반응"
+    },
+    {
+      "article": {
+        "pmid": "42578927",
+        "title": "RUNX1-driven endothelial-to-mesenchymal transition contributes to remodelling in LMNA cardiomyopathy.",
+        "abstract": "BACKGROUND AND AIMS: LMNA-related dilated cardiomyopathy (LMNA-DCM) is a progressive genetic disorder characterized by conduction disease, malignant arrhythmias, myocardial fibrosis, and heart failure. Although LMNA mutations have traditionally been associated with cardiomyocyte-intrinsic defects, the mechanisms driving fibrotic remodelling remain incompletely understood. METHODS: Spatial transcriptomics and integrated single-nuclei multiomics were performed on explanted human LMNA-DCM hearts to define endothelial transcriptional and epigenomic states associated with fibrosis. Patient-specific induced pluripotent stem cell-derived endothelial cells, engineered cardiac organoids, and the LMNAH222P/H222P mouse model were used to investigate RUNX1-mediated endothelial-to-mesenchymal transition (EndoMT). Genetic and pharmacological RUNX1 inhibition strategies were evaluated in vitro and in vivo. RESULTS: Endothelial populations exhibiting EndoMT-associated transcriptional and epigenomic signatures were identified in human LMNA-DCM hearts. LMNA induced pluripotent stem cell-derived endothelial cells demonstrated endothelial dysfunction, mesenchymal gene activation, and epigenetic activation of RUNX1 following loss of LMNA-mediated repression. Genetic RUNX1 deletion restored endothelial identity, reversed EndoMT-associated transcriptional programmes, and normalized chromatin accessibility at endothelial regulatory loci. In multicellular cardiac organoids, endothelial RUNX1 activation impaired endothelial-cardiomyocyte signalling and cardiomyocyte contractile function, whereas endothelial-specific RUNX1 deletion restored endothelial and myocardial function. Pharmacological RUNX1 inhibition with Ro24-7429 similarly improved endothelial and cardiomyocyte function in vitro and reduced myocardial fibrosis while preserving cardiac function in LMNAH222P/H222P mice, including after disease onset. CONCLUSIONS: RUNX1-driven EndoMT represents a central mechanism linking LMNA mutations to fibrotic remodelling in LMNA cardiomyopathy. These findings support endothelial transcriptional reprogramming and RUNX1 signalling as potential therapeutic targets in fibrotic cardiomyopathy.",
+        "journal": "European heart journal",
+        "authors": [
+          "David Wu",
+          "Dipti Tripathi",
+          "Amit Manhas",
+          "Chikage Noishiki",
+          "Lu Liu",
+          "Catherine A Wu"
+        ],
+        "pub_date": "2026-Aug-11",
+        "doi": "10.1093/eurheartj/ehag619",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42578927/",
+        "journal_canonical": "European Heart Journal"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 LMNA 관련 확장성 심근병증(DCM)에서 내피세포-중간엽전이(EndoMT)를 통한 심근 섬유화 메커니즘을 규명했습니다. 공간 전사체학 및 단일핵 다중오믹스 분석을 LMNA-DCM 환자 심장에 적용하여 RUNX1-매개 EndoMT 신호가 섬유화를 주도함을 발견했습니다. iPSC 유래 내피세포, 심장 오르가노이드, 마우스 모델에서 RUNX1 억제가 내피세포 기능을 회복하고 심근 섬유화를 감소시킴을 확인했습니다.",
+        "key_points": [
+          "다중오믹스(공간 전사체학, 에피게놈) 기법을 만성질환(심부전) 기전 규명에 적용",
+          "유전적/약리적 치료 전략 검증으로 정밀의료 접근 시도",
+          "단일질환(LMNA-DCM) 특화 연구로 일반적인 당뇨/대사질환과의 직접적 관련성 제한"
+        ],
+        "reason": "다중오믹스 기술과 만성심혈관질환을 다루어 MFDS 과제의 방법론과 질환 범위와 부분적으로 겹치지만, 특정 유전질환 중심이고 당뇨/대사질환/코호트/약물반응 예측 등 우리 연구의 핵심 주제와는 직접 연계성이 약함."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    },
+    {
+      "article": {
+        "pmid": "42579538",
+        "title": "Gestational Diabetes Mellitus: Recurrence and Future Type 2 Diabetes Risk Across Racial and Ethnic Groups.",
+        "abstract": "OBJECTIVE: Despite rising diabetes prevalence among women, data on long-term diabetes risk following gestational diabetes mellitus (GDM), particularly its recurrence, remain limited, especially for Asian women. This study examined associations among GDM, its recurrence, and subsequent diabetes risk across multiple ethnic groups. RESEARCH DESIGN AND METHODS: This retrospective cohort study included 326,115 mothers with singleton pregnancies in the Kaiser Permanente Southern California health care system, followed from their first delivery after January 2007 until diabetes onset outside of pregnancy, end of membership, or December 2022. GDM was identified through glucose screenings during each pregnancy; diabetes was diagnosed using glucose or HbA1c levels, antidiabetes medications, or ICD codes. Cox regression models with time-varying GDM status estimated hazard ratios (HRs) and 95% CIs for diabetes risk. RESULTS: Over a median follow-up of 6.2 (IQR 2.8-10.6) years, 45,935 of 442,225 pregnancies were complicated by GDM, including 4,842 recurrent GDM pregnancies. Among all ethnic groups, Asian women had the highest GDM and recurrence rates (20.18% and 53.28%, respectively). Compared with non-GDM history, GDM was associated with a more than fivefold increased diabetes risk (HR 5.87 [95% CI 5.67-6.08]). Recurrent GDM was associated with an almost 10-fold increase in diabetes risk (HR 9.91 [95% CI 9.14-10.75]), with Asian women showing the highest risk (HR 11.74 [95% CI 9.64-14.30]). CONCLUSIONS: Compared with no GDM, GDM was significantly associated with higher diabetes risk, with recurrent GDM doubling the risk, underscoring the need for tailored screening and prevention strategies across racial and ethnic groups.",
+        "journal": "Diabetes care",
+        "authors": [
+          "Xin Yin",
+          "Ting Chow",
+          "Mayra Martinez",
+          "Guoqi Yu",
+          "Jiaxi Yang",
+          "Cuilin Zhang"
+        ],
+        "pub_date": "2026-Aug-11",
+        "doi": "10.2337/dc26-0856",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42579538/",
+        "journal_canonical": "Diabetes Care"
+      },
+      "score": {
+        "relevance_score": 9,
+        "topic_match": "GDM",
+        "summary_kr": "Kaiser Permanente Southern California 326,115명의 산모를 대상으로 한 대규모 코호트 연구에서 임신성당뇨(GDM)의 재발과 제2형 당뇨로의 전환 위험을 인종/민족별로 추적 조사했다. 6.2년 추적관찰 동안 GDM 병력이 있는 산모는 당뇨 위험이 5.87배 높았으며, 재발성 GDM은 9.91배 높았다. 특히 아시안 여성에서 GDM 발생률(20.18%), 재발률(53.28%), 당뇨 진행 위험(HR 11.74)이 모두 가장 높아 민족별 맞춤형 선별 및 예방 전략의 필요성을 제시했다.",
+        "key_points": [
+          "GDM → T2D 전환의 명확한 정량적 연관성 규명 (HR 5.87, 재발시 9.91)",
+          "대규모 임상 코호트(326,115명, 442,225 임신)에서 장기 추적 자료(중앙값 6.2년) 제시",
+          "인종/민족별 계층화 분석으로 아시안 여성의 고위험성 강조"
+        ],
+        "reason": "GDM cohort에서 T2D 전환을 RWD 기반으로 분석한 논문으로, 연구실 GDM 과제의 핵심 주제인 'GDM→T2D 전환 예측'과 직접 부합하며, EHR/RWD 활용 및 코호트 기반 연구 방법론도 일치한다."
+      },
+      "project": "GDM",
+      "subtopic": "GDM → T2D 전환"
+    }
+  ]
+}
