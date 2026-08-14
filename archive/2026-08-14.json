@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-14",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42596600",
+        "title": "Immunological risk identified by single-cell multi-omics and cardiovascular outcomes.",
+        "abstract": "BACKGROUND AND AIMS: While inflammation and (auto-)immunity are modifiers of atherosclerosis, immunological determinants of cardiovascular risk beyond the established inflammatory markers, high-sensitivity C-reactive protein (hsCRP) and interleukin-6 (IL-6) remain incompletely defined in humans. This exploratory proof-of-concept study aimed to detect immunological signals enriched in patients with increased cardiovascular risk. METHODS: A nested case-control study was performed within the Ludwigshafen Risk and Cardiovascular Health (LURIC) cohort, a single-centre prospective study of 3316 patients. Forty-four individuals with and without angiographically confirmed coronary artery disease (CAD) and defined survival status were selected for comprehensive immunophenotyping employing bulk RNA, single-cell RNA (scRNA), single-cell T-cell receptor sequencing, mass cytometry, spatial imaging, and cytokine secretion in blood immune cells. Multi-omics factor analysis was applied to identify shared transcriptional programmes. Readouts were tested for their association with CAD status and cardiovascular mortality and validated in two independent cohorts. RESULTS: The integrated analysis strategy revealed immunological signals not detectable with conventional biomarkers, including a prominent signature of cellular proliferation, linked to activation, memory formation, clonal expansion, interferon signalling, and cytokine secretion in T cells. Cell types and transcriptional programmes associated with CAD status and poor long-term survival were identified. These associations were independent of established inflammatory markers, hsCRP and IL-6 that originated from myeloid cells. Key findings were replicated across independent cohorts using 136 scRNA sequencing datasets. Cellular proliferation was confirmed by protein validation in atherosclerotic plaques, and signatures were evaluated as stratification tools to predict short-term outcomes in acute coronary syndromes. CONCLUSIONS: Multi-omic profiling of blood immune cells revealed novel immune signatures associated with CAD, short- and long-term cardiovascular disease outcomes that are independent of systemic inflammation and may be used as risk stratification tools in the future.",
+        "journal": "European heart journal",
+        "authors": [
+          "Hauke Horstmann",
+          "Nathaly Anto Michel",
+          "Corinna Losert",
+          "Tijani Abogunloko",
+          "Alexander Peikert",
+          "Sophie Hansen"
+        ],
+        "pub_date": "2026-Aug-14",
+        "doi": "10.1093/eurheartj/ehag553",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42596600/",
+        "journal_canonical": "European Heart Journal"
+      },
+      "score": {
+        "relevance_score": 8,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 LURIC 코호트(3,316명)의 심혈관질환 환자에서 단일세포 다중오믹스(scRNA, TCR, mass cytometry, spatial imaging)를 이용하여 관상동맥질환(CAD)과 심혈관 사망률을 예측하는 새로운 면역학적 바이오마커를 발굴했습니다. 통합 다중오믹스 인수분해 분석으로 T세포 증식, 활성화, 인터페론 신호 등 기존 염증표지자(hsCRP, IL-6)로는 감지 불가능한 면역 신호를 동정했습니다. 이 신호들은 136개 독립 scRNA 데이터셋에서 검증되었으며, 급성 관상동맥증후군의 단기 예후 예측 도구로 활용 가능함을 시사합니다.",
+        "key_points": [
+          "코호트 기반 단일세포 다중오믹스(scRNA-seq, TCR, mass cytometry) 통합분석으로 심혈관질환 위험 예측",
+          "만성질환(CAD) 관련 새로운 면역 바이오마커 발굴 (기존 마커 독립적)",
+          "다중오믹스 인수분해(MOFA) 방법론으로 공유 전사체 프로그램 식별 및 독립 코호트 검증"
+        ],
+        "reason": "MFDS 과제의 핵심인 다중오믹스 통합 분석, 만성질환(심혈관질환) 예측, 코호트/바이오뱅크 기반 약물반응/질환 예측이 모두 부합하며, 방법론도 최신 단일세포 기술 활용으로 직접 관련성이 높습니다."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
