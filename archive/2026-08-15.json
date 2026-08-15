@@ -1,0 +1,108 @@
+{
+  "date": "2026-08-15",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 3,
+  "articles_scored": 3,
+  "articles_above_threshold": 2,
+  "results": [
+    {
+      "article": {
+        "pmid": "42596600",
+        "title": "Immunological risk identified by single-cell multi-omics and cardiovascular outcomes.",
+        "abstract": "BACKGROUND AND AIMS: While inflammation and (auto-)immunity are modifiers of atherosclerosis, immunological determinants of cardiovascular risk beyond the established inflammatory markers, high-sensitivity C-reactive protein (hsCRP) and interleukin-6 (IL-6) remain incompletely defined in humans. This exploratory proof-of-concept study aimed to detect immunological signals enriched in patients with increased cardiovascular risk. METHODS: A nested case-control study was performed within the Ludwigshafen Risk and Cardiovascular Health (LURIC) cohort, a single-centre prospective study of 3316 patients. Forty-four individuals with and without angiographically confirmed coronary artery disease (CAD) and defined survival status were selected for comprehensive immunophenotyping employing bulk RNA, single-cell RNA (scRNA), single-cell T-cell receptor sequencing, mass cytometry, spatial imaging, and cytokine secretion in blood immune cells. Multi-omics factor analysis was applied to identify shared transcriptional programmes. Readouts were tested for their association with CAD status and cardiovascular mortality and validated in two independent cohorts. RESULTS: The integrated analysis strategy revealed immunological signals not detectable with conventional biomarkers, including a prominent signature of cellular proliferation, linked to activation, memory formation, clonal expansion, interferon signalling, and cytokine secretion in T cells. Cell types and transcriptional programmes associated with CAD status and poor long-term survival were identified. These associations were independent of established inflammatory markers, hsCRP and IL-6 that originated from myeloid cells. Key findings were replicated across independent cohorts using 136 scRNA sequencing datasets. Cellular proliferation was confirmed by protein validation in atherosclerotic plaques, and signatures were evaluated as stratification tools to predict short-term outcomes in acute coronary syndromes. CONCLUSIONS: Multi-omic profiling of blood immune cells revealed novel immune signatures associated with CAD, short- and long-term cardiovascular disease outcomes that are independent of systemic inflammation and may be used as risk stratification tools in the future.",
+        "journal": "European heart journal",
+        "authors": [
+          "Hauke Horstmann",
+          "Nathaly Anto Michel",
+          "Corinna Losert",
+          "Tijani Abogunloko",
+          "Alexander Peikert",
+          "Sophie Hansen"
+        ],
+        "pub_date": "2026-Aug-14",
+        "doi": "10.1093/eurheartj/ehag553",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42596600/",
+        "journal_canonical": "European Heart Journal"
+      },
+      "score": {
+        "relevance_score": 8,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 LURIC 코호트(3,316명)에서 단일세포 다중오믹스(scRNA, TCR, mass cytometry, spatial imaging)를 활용하여 관상동맥질환(CAD)과 심혈관 사망 위험과 관련된 새로운 면역 신호를 발굴했다. T세포의 증식, 활성화, 메모리 형성, 인터페론 신호 등의 특이적 면역학적 프로필을 발견하였으며, 이는 기존 염증 마커(hsCRP, IL-6)와 독립적으로 CAD 상태 및 장기 예후를 예측한다. 다중오믹스 인수 분석으로 통합 분석한 후 독립 코호트(136개 scRNA 데이터셋)에서 검증하고, 급성 관상동맥증후군의 단기 예후 예측 도구로서의 가능성을 제시했다.",
+        "key_points": [
+          "다중오믹스 통합분석(scRNA, TCR, mass cytometry, spatial imaging)을 심혈관질환 바이오마커 발굴에 적용",
+          "코호트 기반 nested case-control 설계 및 독립 코호트 검증으로 재현성 입증",
+          "전통적 염증마커와 독립적인 새로운 면역학적 위험신호 도출로 정밀 위험 층화(risk stratification) 가능성 제시"
+        ],
+        "reason": "MFDS의 핵심 요소(다중오믹스 통합, 만성질환=심혈관질환, 코호ort, 약물반응/예측 모델링)를 모두 충족하며, 단일세포 수준의 상세한 면역학적 분석과 독립 코호트 검증을 통해 임상적 위험예측 가능성을 보여주는 고도의 관련 연구."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    },
+    {
+      "article": {
+        "pmid": "42600260",
+        "title": "NMR metabolomics and glycomics for cancer detection in patients with non-specific symptoms: a prospective observational cohort study.",
+        "abstract": "BACKGROUND: Early cancer diagnosis in patients with non-specific symptoms is limited by the lack of discriminatory tests. Within the Oxfordshire Suspected CANcer (SCAN) pathway, exploratory biomarker work showed that serum 1H NMR-based metabolomics can identify cancer with high accuracy. SCAN2 evaluated whether integrating metabolomics with glycomics provides complementary molecular information and improves discrimination in a clinically complex, real-world population. METHODS: Serum from 369 SCAN patients (59 cancers) was analysed using AXINON® System-derived NMR metabolomics and HPLC-MS glycomics. Machine-learning models were trained to predict cancer status, with performance assessed by receiver operating characteristic (ROC) analysis of pooled cross-validated predictions. To place cancer risk in a broader clinical context, a second classifier modelling alternative non-cancer diagnosis was incorporated, and mean predicted probabilities from both models were jointly projected into a two-dimensional space, maintaining strict separation of training and test data. FINDINGS: In the full cohort, integration of glycomics with metabolomics achieved an AUC of 0.814 (95% CI 0.808-0.820). In a refined sub-cohort excluding major comorbidities and selected cancer types (32 cancers, 277 non-cancers), performance improved to an AUC of 0.884 (95% CI 0.879-0.890). Discriminatory features included cancer-associated biantennary fucosylated glycans alongside amino acid metabolites (glutamate, histidine) and lipoprotein-related measures. A classifier distinguishing metastatic from non-metastatic disease (n = 29 vs. 30) achieved an AUC of 0.80. Joint probability analysis in the full cohort preserved cancer-associated signatures across comorbidity burden, with projection-based classification achieving an accuracy of 89.2% (95% CI 85.7-92.6). INTERPRETATION: These findings validate the SCAN1 metabolomic signature in a more clinically complex cohort and indicate that integrating glycomics with metabolomics provides complementary biological information for cancer discrimination. Joint probability analysis provides an interpretable framework for cancer risk stratification within multimorbid diagnostic pathways, supporting the clinical potential of scalable multi-omics blood testing. FUNDING: EPSRC, EU Horizon 2020, Wellcome/MLSTF, Novo Nordisk Foundation.",
+        "journal": "EBioMedicine",
+        "authors": [
+          "Tereza Kacerova",
+          "Abi G Yates",
+          "James R Larkin",
+          "Boris Shulgin",
+          "Jack J J J Miller",
+          "Philippa L Harris Gleave"
+        ],
+        "pub_date": "2026-Aug-14",
+        "doi": "10.1016/j.ebiom.2026.106434",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42600260/",
+        "journal_canonical": "EBioMedicine"
+      },
+      "score": {
+        "relevance_score": 6,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 비특이적 증상을 보이는 환자들의 암 조기 진단을 위해 NMR 기반 대사체학과 HPLC-MS 글리코믹스를 통합한 다중오믹스 접근법을 적용한 전향적 코호트 연구이다. SCAN 경로에 등록된 369명 환자(암 59명)를 대상으로 머신러닝 모델을 훈련하여 암 진단의 판별력을 평가하였으며, 대사체학과 글리코믹스 통합 시 AUC 0.814를 달성했다. 특히 이분 푸코실화 글리칸과 아미노산 대사물(글루타메이트, 히스티딘)이 암 관련 판별 특징으로 나타났으며, 임상적으로 복합적인 환자군에서도 암 위험 층화에 유용한 해석 가능한 프레임워크를 제시했다.",
+        "key_points": [
+          "코호트 기반 다중오믹스(대사체학+글리코믹스) 통합 분석으로 질병 판별",
+          "머신러닝을 활용한 암 진단 예측 모델 개발 및 ROC 분석",
+          "실제 임상 환경에서의 복합질환 환자 대상 다차원 위험 층화 프레임워크 구현"
+        ],
+        "reason": "MFDS의 핵심 요소인 코호트, 다중오믹스, AI/머신러닝이 모두 포함되었으나, 만성대사질환(당뇨/심혈관 등)이 아닌 암 조기진단을 대상으로 하며, 약물반응/약물유해반응 예측과는 직접적 연관이 없어 부분 관련으로 평가됨."
+      },
+      "project": "MFDS",
+      "subtopic": "코호트/바이오뱅크 × 다중오믹스 × AI"
+    },
+    {
+      "article": {
+        "pmid": "42601275",
+        "title": "The future of blood-based biomarkers in liver cancer.",
+        "abstract": "Liquid biomarkers hold substantial promise in liver cancer, with potential applications in risk stratification, surveillance and early detection, therapeutic decision-making, and treatment-response monitoring. In parallel with oncologic advances, liquid biopsy has gained increasing attention. However, despite expanded research efforts, prospective clinical validation remains limited. While cell-free DNA-based detection of actionable alterations has entered clinical practice in select contexts, most candidate liquid biomarkers still require rigorous evaluation through translational research embedded in clinical trials and prospective cohort studies. In this review, we summarise the current landscape of blood-based biomarkers across the cancer care continuum for individuals at risk, or diagnosed with hepatocellular carcinoma and biliary tract cancers, and discuss the key challenges and opportunities that lie ahead.",
+        "journal": "Journal of hepatology",
+        "authors": [
+          "Amit G Singal",
+          "Anna Saborowski",
+          "Neehar D Parikh",
+          "Jesus M Banales"
+        ],
+        "pub_date": "2026-Jul-02",
+        "doi": "10.1016/j.jhep.2026.03.040",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42601275/",
+        "journal_canonical": "Journal of Hepatology"
+      },
+      "score": {
+        "relevance_score": 3,
+        "topic_match": "MFDS",
+        "summary_kr": "본 논문은 간암(간세포암종, 담도암) 환자의 위험층화, 감시, 조기 진단, 치료 의사결정 및 치료반응 모니터링을 위한 혈액 바이오마커의 임상적 활용을 검토한다. 액체 생검(liquid biopsy)과 세포자유DNA 기반 검사의 현황을 정리하고, 임상 시험과 전향적 코호트 연구를 통한 엄격한 평가의 필요성을 강조한다. 약물반응 및 치료반응 모니터링에서 혈액 바이오마커의 잠재력을 논의하지만, 주요 초점은 종양학적 응용에 있다.",
+        "key_points": [
+          "액체 생검 및 혈액 바이오마커의 간암 임상 응용 전망",
+          "세포자유DNA 기반 약물유전체 정보 검출의 임상 실제화",
+          "전향적 코호트 연구와 임상시험을 통한 바이오마커 검증 필요성"
+        ],
+        "reason": "암 진단 및 모니터링 중심의 종양학 논문으로, MFDS 과제의 핵심인 만성대사질환(당뇨/심혈관/MASLD/CKD)이 아니며, 약물반응 예측보다는 치료반응 모니터링에 제한되어 있어 관련성이 낮다."
+      },
+      "project": "MFDS",
+      "subtopic": "오믹스 × 약물반응"
+    }
+  ]
+}
