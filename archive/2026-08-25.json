@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-25",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 0,
+  "results": [
+    {
+      "article": {
+        "pmid": "42639656",
+        "title": "Dual-Target Cardiac Regeneration: Controllable Nfyb/Nr3c1 Cointervention Spurs Cardiomyocyte Cytokinesis After Myocardial Infarction.",
+        "abstract": "BACKGROUND: Myocardial infarction can cause a massive loss of functional cardiomyocytes, yet effective strategies to stimulate cardiac regeneration remain lacking. A key barrier to adult cardiomyocyte proliferation appears to be cytokinesis inhibition. This study aimed to determine whether combining proliferation stimulators with the removal of cytokinesis-inhibitory constraints could unlock regenerative potential after myocardial infarction. METHODS: Transcriptomic profile from 5 regeneration models, including Aurkb-tdTomato cytokinesis reporter mice and Myh6-MerCreMer;mosaic analysis with double markers (MADM), and cross-species comparative analysis were used to explore the regulatory networks for cardiomyocyte proliferation. MADM mice were used to evaluate cardiac regeneration by quantifying after cytokinesis new cardiomyocytes and clonal clusters. RESULTS: Integrative multimodel analysis revealed a dual regulatory control system for cardiomyocyte proliferation, along with key associated genes and transcriptional regulators. Nfyb was identified as an activator and Nr3c1 as a repressor of cardiomyocyte proliferation. Nfyb overexpression enhanced cardiomyocyte proliferation and post-myocardial infarction cardiac repair through propelling cell-cycle gene transcription. Nr3c1 inhibition promoted cardiomyocyte proliferation, improved cardiac function, and reduced infarct size. A spatiotemporally controlled adeno-associated virus 9 system combining drug-inducible Nfyb overexpression and CRISPR/enOsCas12f1-mediated Nr3c1 deletion efficiently induces cardiomyocyte proliferation. Clonal analysis using MADM mice showed that the dual intervention synergistically increased new cardiomyocyte formation (28% clustered, >28-fold versus control). The enhanced regenerative effect of the dual intervention was demonstrated in post-myocardial infarction mice and human engineered heart tissues. CONCLUSIONS: This work documents a dual-control paradigm of cardiomyocyte proliferation and establishes Nfyb/Nr3c1 cointervention as a putative new therapy to induce and control cardiac regeneration after injury.",
+        "journal": "Circulation",
+        "authors": [
+          "Bingjun Lu",
+          "Wujian Liu",
+          "Ziyan Ge",
+          "Jiamin Zou",
+          "Yidan Xu",
+          "Zhuo Zhang"
+        ],
+        "pub_date": "2026-Aug-25",
+        "doi": "10.1161/CIRCULATIONAHA.125.079049",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42639656/",
+        "journal_canonical": "Circulation"
+      },
+      "score": {
+        "relevance_score": 2,
+        "topic_match": "없음",
+        "summary_kr": "본 연구는 심근경색 후 심근세포 재생을 유도하기 위해 Nfyb/Nr3c1 이중 표적 개입 전략을 개발했습니다. 5개의 재생 모델과 횡단면 비교 분석을 통한 멀티모달 트랜스크립토믹 분석으로 심근세포 증식의 이중 조절 네트워크를 규명했습니다. Nfyb 과발현과 CRISPR/Cas12f1 기반 Nr3c1 삭제를 결합한 AAV9 시스템이 심근세포 형성을 28배 증대시키고 심근경색 후 심기능을 개선했습니다.",
+        "key_points": [
+          "심근경색 후 심근세포 재생을 위한 Nfyb/Nr3c1 이중 표적 개입 전략",
+          "멀티모델 트랜스크립토믹 분석과 MADM 마우스를 이용한 클로날 분석",
+          "AAV9 기반 약물 유도 가능 시스템과 CRISPR 기술 활용"
+        ],
+        "reason": "심혈관질환 관련 연구이나 당뇨, 만성대사질환이 아닌 급성 심근경색의 심근세포 재생 메커니즘 연구로, 다중오믹스 통합이나 약물반응 예측, 정밀의료 및 코호트 기반 인간 데이터 분석과 직접적인 관련성이 낮습니다."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
