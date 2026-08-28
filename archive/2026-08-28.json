@@ -1,0 +1,44 @@
+{
+  "date": "2026-08-28",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42658082",
+        "title": "Third-Trimester Energy-Restriction or Weight Loss and Maternal and Child Body Composition One Year Postnatally After a Pregnancy With Gestational Diabetes: Results From the DiGest Follow-up Study.",
+        "abstract": "OBJECTIVE: Energy restriction and weight loss are evidence-based, safe, and well-tolerated methods for lowering glycemia in type 2 diabetes. We assessed if imposed energy restriction or natural weight loss in the third trimester in women with gestational diabetes was associated with maternal and offspring weight postnatally. RESEARCH DESIGN AND METHODS: Women with gestational diabetes and BMI ≥25 kg/m2 were randomized to a standard- (2,000 kcal/day) or reduced-energy (1,200 kcal/day) diet from ∼29 to -36 weeks' gestation, with follow-up to 12 months postnatally. We performed both trial and cohort analyses, using adjusted linear and logistic regression and a Super-Imposition by Translation and Rotation model. RESULTS: Allocation to energy restriction did not alter antenatal or postnatal growth, with infants in both randomized groups having normal weight for age throughout the first year of life. In cohort analysis, women who lost weight in pregnancy (average loss of 3 kg) had lower adjusted weight at 3 but not 12 months. Infants exposed to pregnancy weight loss had lower risk of large-for-gestational age at birth and lower fat mass at 3 months, and no higher prevalence of low infant weight (<5% had weight for age < -2 SD). Infants exposed to weight loss in pregnancy showed no evidence of growth faltering or excessive catch-up or catch-down growth. CONCLUSIONS: Among women with gestational diabetes and high BMI, energy restriction or weight loss in pregnancy were associated with no adverse effects on offspring weight or growth in the first year. Future work will assess associations with child obesity at 3 years.",
+        "journal": "Diabetes care",
+        "authors": [
+          "Sarah Dib",
+          "Laura C Kusinski",
+          "Richard Powell",
+          "Tim J Cole",
+          "Danielle L Jones",
+          "Suzanne Smith"
+        ],
+        "pub_date": "2026-Aug-27",
+        "doi": "10.2337/dc26-0405",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42658082/",
+        "journal_canonical": "Diabetes Care"
+      },
+      "score": {
+        "relevance_score": 6,
+        "topic_match": "GDM",
+        "summary_kr": "본 연구는 임신성당뇨 여성을 대상으로 임신 3분기에 에너지 제한식(1,200 kcal/day) 또는 표준식(2,000 kcal/day)을 적용하고 출산 후 12개월까지 모체 및 신생아의 신체 구성을 추적했다. 에너지 제한 자체는 출산 전후 체중에 영향을 주지 않았으나, 임신 중 자연적 체중감소(평균 3kg)를 경험한 여성의 신생아는 거대아 위험이 낮았고 생후 3개월의 지방량이 감소했다. 장기적 성장 부작용 없이 안전한 결과를 보였다.",
+        "key_points": [
+          "임신성당뇨 환자의 임신 3분기 식이 중재 및 체중 감소의 모체·신생아 영향 평가",
+          "GDM→T2D 전환 고위험군의 출산 후 관리 및 장기 추적 데이터 제공",
+          "신생아 신체 구성(체지방, 체중)과 대사 연관성 평가 필요 (microbiome, 유전체 데이터 미포함)"
+        ],
+        "reason": "GDM 코호트 추적 연구로 GDM 과제의 핵심 대상이나, T2D 전환 예측이 주요 목표가 아니며 다중오믹스, microbiome, genetics 등의 기계학습/정밀의료 요소가 부재하여 부분 관련으로 평가됨."
+      },
+      "project": "GDM",
+      "subtopic": "GDM → T2D 전환"
+    }
+  ]
+}
