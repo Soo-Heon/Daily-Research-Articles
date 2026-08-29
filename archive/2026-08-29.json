@@ -1,0 +1,42 @@
+{
+  "date": "2026-08-29",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42664006",
+        "title": "Breastfeeding Intensity and Early Postpartum Lipid Profiles Among Women With Prior Gestational Diabetes.",
+        "abstract": "IMPORTANCE: Women with prior gestational diabetes are at high risk of cardiometabolic disease, including dyslipidemia, early in the postpartum period. Identifying modifiable factors associated with lipid metabolism is clinically important. OBJECTIVES: To examine the association between breastfeeding intensity and early postpartum lipid profiles and assess whether these associations persist after adjustment for insulin sensitivity. DESIGN, SETTING, AND PARTICIPANTS: This prospective cohort study included Japanese women with prior gestational diabetes who underwent metabolic evaluation at 6 to 9 weeks post partum at a tertiary medical center from December 1, 2014, to November 30, 2020. Statistical analysis was conducted from April 2024 to June 2026. EXPOSURES: Breastfeeding intensity categorized using a validated 6-level scale. High-intensity breastfeeding (HIB) was defined as 80% or more breast milk. MAIN OUTCOMES AND MEASURES: Fasting lipid profiles and dyslipidemia defined according to Japan Atherosclerosis Society criteria. Associations were evaluated using multivariable regression models adjusting for clinical covariates and insulin sensitivity (Matsuda index). RESULTS: Of 470 women in the study (mean [SD] age, 34.0 [4.8] years), 369 (79%) practiced HIB. HIB was associated with lower mean (SD) triglyceride levels (67.2 [42.0] vs 116.1 [66.7] mg/dL; P < .001), higher mean (SD) high-density lipoprotein cholesterol (HDL-C) levels (73.9 [17.8] vs 63.0 [14.0] mg/dL; P < .001), and lower mean (SD) high-density lipoprotein cholesterol (LDL-C) to HDL-C ratios (1.8 [0.7] vs 2.3 [0.7]; P < .001) compared with those not practicing HIB. In adjusted analyses, HIB was associated with reduced odds of hypertriglyceridemia (adjusted odds ratio [AOR], 0.25; 95% CI, 0.13-0.51) and elevated LDL-C to HDL-C ratio (AOR, 0.27; 95% CI, 0.15-0.49). These associations remained significant after adjustment for insulin sensitivity. CONCLUSIONS AND RELEVANCE: This study found that HIB was associated with more favorable early postpartum lipid profiles after adjustment for insulin sensitivity among women with prior gestational diabetes, suggesting that greater breastfeeding intensity is associated with a more favorable early cardiometabolic profile among women with prior gestational diabetes.",
+        "journal": "JAMA network open",
+        "authors": [
+          "Harumi Kanzawa",
+          "Ichiro Yasuhi",
+          "Hiroshi Yamashita",
+          "Hiroshi Yatsuhashi"
+        ],
+        "pub_date": "2026-Aug-03",
+        "doi": "10.1001/jamanetworkopen.2026.31833",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42664006/",
+        "journal_canonical": "JAMA Network Open"
+      },
+      "score": {
+        "relevance_score": 7,
+        "topic_match": "GDM",
+        "summary_kr": "본 연구는 임신성당뇨 병력이 있는 일본 여성 470명을 대상으로 산후 6-9주에 모유수유 강도와 지질 프로필의 연관성을 조사한 전향적 코호트 연구이다. 고강도 모유수유(80% 이상 모유)는 낮은 중성지방, 높은 HDL-C, 낮은 LDL-C/HDL-C 비율과 연관되었으며, 인슐린 감수성(Matsuda index)으로 조정한 후에도 고중성지방혈증과 높은 LDL-C/HDL-C 비율의 위험도를 각각 75%, 73% 감소시켰다. 이는 모유수유가 GDM 병력 여성의 조기 산후 심대사 위험도를 개선하는 수정 가능한 요인임을 시사한다.",
+        "key_points": [
+          "GDM → T2D 전환의 주요 경로인 dyslipidemia와 cardiometabolic disease 조기 발생 대상",
+          "산후 조기(6-9주) 대사 평가로 T2D 전환 위험도 프로파일링에 유용한 시점",
+          "인슐린 감수성 지표(Matsuda index)를 통한 메커니즘 분석으로 다중인자 분석 수행"
+        ],
+        "reason": "GDM 코호트에서 T2D 전환의 주요 위험인자인 지질대사 이상을 조사했으나, 마이크로바이옴/GWAS/CGM 등 우리 연구실의 구체적 omics/기술 키워드가 부재하고 모유수유라는 단일 임상중재 연구로 다중오믹스 통합 분석 수준에는 미치지 못함."
+      },
+      "project": "GDM",
+      "subtopic": "GDM → T2D 전환"
+    }
+  ]
+}
