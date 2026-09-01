@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-01",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 0,
+  "results": [
+    {
+      "article": {
+        "pmid": "42669747",
+        "title": "Unify learns cellular evolution with universal multimodal embeddings.",
+        "abstract": "Integrating single-cell RNA-sequencing (scRNA-seq) data across species is hindered by evolutionary divergence, technical batch effects, and the reliance on one-to-one orthologs. Here, we present Unify, a transfer learning methodology that learns universal cell embeddings by defining functionally coherent, multi-modal macrogenes. This is achieved by combining RNA expression with embeddings from protein language models and general-purpose language models. Unify transcends species boundaries, enabling cross-species comparisons beyond strict gene-level homology. Unify corrects batch effects while preserving conserved biological signals across vast evolutionary distances and enables more accurate prediction of perturbation responses across species, such as from mouse to human. Applied to species separated by over 700 million years, Unify reconstructs more accurate multi-species cell-type evolutionary trees and uncovers convergent gene programs. Together, these results establish Unify as a powerful method for comparative single-cell genomics and evolutionary biology.",
+        "journal": "Nature communications",
+        "authors": [
+          "Huawen Zhong",
+          "Wenkai Han",
+          "Guoxin Cui",
+          "David Gomez-Cabrero",
+          "Jesper Tegner",
+          "Xin Gao"
+        ],
+        "pub_date": "2026-Jul-31",
+        "doi": "10.1038/s41467-026-76230-y",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42669747/",
+        "journal_canonical": "Nature Communications"
+      },
+      "score": {
+        "relevance_score": 3,
+        "topic_match": "없음",
+        "summary_kr": "본 연구는 Unify라는 전이학습 방법론을 제시하여 종 간 단일세포 RNA-seq 데이터 통합을 가능하게 한다. 단백질 언어모델과 일반용도 언어모델의 임베딩을 RNA 발현과 결합하여 다중모달 거대유전자를 정의함으로써 진화적 거리를 초월한 교차종 비교를 수행한다. 이 방법론은 배치효과 보정, 교란반응 예측, 진화적 보존신호 유지 등을 실현하며 7억년 이상 떨어진 종들 간 정확한 다종 세포유형 진화트리 재구성을 가능하게 한다.",
+        "key_points": [
+          "단일세포 다중오믹스(RNA + 단백질 임베딩) 통합 방법론",
+          "전이학습 및 언어모델 활용한 크로스스피시 비교분석",
+          "진화생물학·비교게놈학 중심, 임상/질환 응용 미흡"
+        ],
+        "reason": "단일세포 다중오믹스 통합과 언어모델 활용 측면에서 기술적 중복이 있으나, 대상이 진화생물학/비교게놈학이며 질환군(당뇨, 심혈관질환 등)과 임상적 약물반응/EHR 예측 등 우리 과제의 핵심과 직접 연결되지 않음."
+      },
+      "project": "MFDS",
+      "subtopic": "EHR/RWD × 오믹스 × 정밀의료"
+    }
+  ]
+}
