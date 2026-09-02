@@ -1,0 +1,75 @@
+{
+  "date": "2026-09-02",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 2,
+  "articles_scored": 2,
+  "articles_above_threshold": 2,
+  "results": [
+    {
+      "article": {
+        "pmid": "42675038",
+        "title": "Genome-wide DNA methylation analysis revealed epigenetic mechanism underlying end-stage renal disease.",
+        "abstract": "End-stage renal disease (ESRD) remains a major clinical challenge with high morbidity and mortality, and its molecular mechanisms, particularly those shared among diverse primary kidney diseases during progression to ESRD, have not been studied. Here we conduct a large-scale two-stage epigenome-wide association study of ESRD in two independent cohorts consisting of 704 controls and 1031 ESRD cases. We identify 52 ESRD-associated differentially methylated CpG positions (ESRD DMPs) showing consistent association between the two cohorts and across diverse kidney diseases, implicating 144 candidate genes enriched in inflammatory and immune pathways. Five of the 52 DMPs are associated with ESRD complications, and seven with renal function decline in early-stage chronic kidney disease, demonstrating their potential as prognostic biomarkers for ESRD and its complications. Our findings highlight inflammation, immune dysregulation, and renal fibrosis as shared epigenetic drivers of ESRD progression, and identify biomarkers with potential utility for risk stratification and therapeutic intervention.",
+        "journal": "Nature communications",
+        "authors": [
+          "Xiaohong Zhou",
+          "Dianchun Shi",
+          "JinJin Xu",
+          "Ling Wang",
+          "Resham Lal Gurung",
+          "Zhiming Ye"
+        ],
+        "pub_date": "2026-Aug-03",
+        "doi": "10.1038/s41467-026-76153-8",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42675038/",
+        "journal_canonical": "Nature Communications"
+      },
+      "score": {
+        "relevance_score": 7,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 말기신부전증(ESRD)의 분자적 메커니즘을 규명하기 위해 두 개의 독립적 코호트(대조군 704명, ESRD 환자 1,031명)에서 대규모 전장 에피게놈 연관분석(EWAS)을 수행했다. 52개의 ESRD 관련 차등메틸화 CpG 위치(DMPs)를 발견했으며, 이들이 염증·면역 경로의 144개 후보 유전자를 포함한다는 것을 확인했다. 이 중 5개 DMPs는 ESRD 합병증과, 7개는 초기 만성신질환에서의 신기능 저하와 연관되어 ESRD 진행 예측 바이오마커로서의 가능성을 입증했다.",
+        "key_points": [
+          "만성신질환(CKD)의 ESRD 진행 단계에서 에피게놈 수준의 공유된 메커니즘 규명",
+          "염증 및 면역 경로의 에피유전체 변이가 ESRD 진행의 핵심 동인 제시",
+          "대규모 코호트 기반 바이오마커 발굴로 정밀의료 기반 위험층화 및 치료개입 가능성 제시"
+        ],
+        "reason": "MFDS의 핵심 요소인 만성대사질환(CKD) + 다중오믹스(에피게놈) + 코호트 기반 분석 + 임상 바이오마커 개발이 모두 포함되어 있으나, GDM이나 DGDB의 특정 초점(당뇨 중심, Foundation model, Microbiome 등)은 직접적으로 다루지 않음."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    },
+    {
+      "article": {
+        "pmid": "42678068",
+        "title": "Adverse pregnancy outcomes and long-term cardiovascular risk: lifelong connections.",
+        "abstract": "Pregnancy represents a critical period during which the maternal cardiovascular system adapts to profound haemodynamic and metabolic demands. When these adaptive mechanisms are impaired, adverse pregnancy outcomes (APOs)-including hypertensive disorders of pregnancy, gestational diabetes, pre-term birth, small-for-gestational-age birth, and pregnancy loss-occur. Extensive epidemiological evidence demonstrates that APOs are not isolated obstetric events but early clinical markers of cardiometabolic dysfunction that identify women at increased risk of coronary artery disease, heart failure, stroke, chronic kidney disease, and premature cardiovascular mortality. Shared mechanisms include endothelial dysfunction, inflammation, and insulin resistance, establishing a continuum between obstetric complications and later cardiovascular disease. Early post-partum studies reveal persistent hypertension, adverse cardiac remodelling, and metabolic abnormalities that mediate much of the long-term excess cardiovascular risk. These findings redefine the 'fourth trimester' as a preventive window in which timely blood pressure surveillance, metabolic screening, and lifestyle optimization can yield durable cardiovascular benefit. Integrated cardio-obstetric care models, digital follow-up, and systematic transition to primary care are crucial for maintaining long-term prevention. Addressing persistent gaps in limited provider awareness, fragmented follow-up, and disparities across socially disadvantaged populations remains critical. Recognizing pregnancy complications as indicators of underlying cardiovascular vulnerability offers an opportunity to shift prevention upstream and promote lifelong cardiovascular health for women.",
+        "journal": "European heart journal",
+        "authors": [
+          "Veronica Giorgione",
+          "Nisha I Parikh",
+          "Daniela Pedicino",
+          "Basky Thilaganathan"
+        ],
+        "pub_date": "2026-Sep-01",
+        "doi": "10.1093/eurheartj/ehag654",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42678068/",
+        "journal_canonical": "European Heart Journal"
+      },
+      "score": {
+        "relevance_score": 7,
+        "topic_match": "GDM",
+        "summary_kr": "본 논문은 임신성당뇨를 포함한 역학적 이상 임신결과(APOs)가 장기 심혈관질환 위험의 조기 임상 지표임을 광범위한 역학적 증거로 입증했다. 공유 기전으로는 내피 기능 부전, 염증, 인슐린 저항성이 관여하여 산과적 합병증과 후속 심혈관질환 간의 연속체를 형성한다. 산후 추적 연구에서 지속적 고혈압, 심장 리모델링, 대사 이상이 확인되었으며, 이는 장기 심혈관 위험을 중재하는 요소로 작용한다. 통합된 심장-산과 협력 모델과 체계적 추적 관리를 통해 예방 기회를 활용할 수 있음을 제시한다.",
+        "key_points": [
+          "GDM을 포함한 임신성 합병증이 T2D, CVD 등 만성질환으로의 전환 메커니즘 제시",
+          "공유 병리 기전(내피 기능부전, 염증, 인슐린 저항성)에서 다중 만성질환 연결고리 규명",
+          "산후 대사 스크리닝과 장기 추적의 임상적 중요성 강조"
+        ],
+        "reason": "GDM→T2D/CVD 전환의 기전과 장기 예측의 중요성을 다루고 있으나, 실제 유전/마이크로바이옴/분자 데이터 기반의 구체적 예측 모델은 제시되지 않아 핵심 키워드는 일치하나 방법론적 부합성은 제한적."
+      },
+      "project": "GDM",
+      "subtopic": "GDM → T2D 전환"
+    }
+  ]
+}
