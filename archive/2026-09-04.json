@@ -1,0 +1,101 @@
+{
+  "date": "2026-09-04",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 3,
+  "articles_scored": 3,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42684194",
+        "title": "Artificial intelligence and personalised medicine in liver cancer.",
+        "abstract": "Primary liver cancers, including hepatocellular carcinoma and cholangiocarcinoma, represent a growing global health burden marked by rising incidence and high mortality. Clinical management requires integration of tumour stage, liver function, and patient-related factors to guide treatment decisions, yet current frameworks capture only a fraction of underlying disease complexity. In this setting, artificial intelligence (AI) is emerging as a key enabler of precision medicine in liver oncology. AI encompasses machine learning and deep learning approaches capable of identifying complex, non-linear patterns within large, high-dimensional datasets. These methods are increasingly applied across multimodal data inputs, including electronic health records, radiologic imaging, digital pathology, and omics profiling. In imaging, AI supports surveillance, lesion detection, characterisation, and prediction of recurrence, survival, and treatment response. In computational pathology, models are extending tissue analysis beyond description of morphology and marker expression toward prognostic modelling and inference of tumour biology. Integration of clinical, imaging, and pathological data in multimodal AI frameworks has shown superior performance compared with single-modality models for key outcomes such as recurrence and survival. Despite promising results, clinical translation remains limited by insufficient external and prospective validation, limited interpretability of complex models, and regulatory and workflow integration challenges. Addressing these barriers through federated learning strategies and the development of transparent, explainable systems is essential. If successfully implemented, AI-driven multimodal decision-support systems could substantially refine diagnosis, prognostication, and treatment selection in liver cancer, advancing personalised care in this biologically and clinically complex disease.",
+        "journal": "Journal of hepatology",
+        "authors": [
+          "Nickolai Joel Matuschewski",
+          "William Baker",
+          "Julius Chapiro",
+          "Julien Calderaro"
+        ],
+        "pub_date": "2026-Jul-02",
+        "doi": "10.1016/j.jhep.2026.04.017",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42684194/",
+        "journal_canonical": "Journal of Hepatology"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "본 논문은 간암(간세포암종 및 담관암종) 환자의 진단, 예후 예측, 치료 선택을 위해 AI/머신러닝을 활용한 정밀의료 접근법을 검토한다. 전자의무기록(EHR), 영상의학, 디지털 병리, 오믹스 데이터 등 다중 모달 데이터의 통합 분석을 통해 단일 모달 모델보다 우수한 성능을 보였다. 그러나 외부 검증 부족, 모델 해석성 제한, 규제 문제 등으로 임상 적용에 장애가 있으며, 페더레이션 러닝과 설명가능 AI 개발이 필수적이라고 강조한다.",
+        "key_points": [
+          "다중오믹스 + EHR + 영상 + 병리 데이터의 통합 분석으로 간암 예후/치료반응 예측",
+          "AI/머신러닝 기반 정밀의료 프레임워크의 필요성과 임상 성능 우수성",
+          "페더레이션 러닝, 설명가능성, 규제 통합을 통한 임상 번역 과제 제시"
+        ],
+        "reason": "MFDS의 핵심 주제인 다중오믹스 통합, EHR/RWD, 정밀의료, AI 방법론을 포함하지만 당뇨/심혈관/MASLD/CKD 등 대사질환이 아닌 암 질환 중심이므로 부분 관련으로 평가됨."
+      },
+      "project": "MFDS",
+      "subtopic": "EHR/RWD × 오믹스 × 정밀의료"
+    },
+    {
+      "article": {
+        "pmid": "42684212",
+        "title": "Global, Regional, and National Burden of Myocarditis and Its Impairment, 1990-2023.",
+        "abstract": "BACKGROUND: The impact of recent trends in the burden of myocarditis has not been reported in detail. OBJECTIVES: This study aims to estimate the global, regional, and national burden of myocarditis from 1990 to 2023, using data from the GBD (Global Burden of Disease, Injuries, and Risk Factors Study) 2023. METHODS: As part of the GBD 2023, the authors used all available administrative health facility and vital registration data to estimate myocarditis prevalence, incidence, disability-adjusted life years (DALYs), mortality, and mortality-to-incidence ratio (MIR) for every country, stratified by age, sex, and quintiles of a Socio-demographic Index (SDI). The MIR represents the relative mortality burden compared with disease incidence at the population level. The prevalence of heart failure attributable to myocarditis was estimated using a model-based attribution approach. RESULTS: In 2023, the global age-standardized rates of prevalence, incidence, DALY, and mortality of myocarditis were 4.84 (95% uncertainty interval [UI]: 3.98-5.80), 12.46 (95% UI: 9.86-15.70), 8.41 (95% UI: 5.63-12.59) and 0.21 (95% UI: 0.14-0.29) per 100,000 population, respectively. Although global age-standardized prevalence and incidence rates remained stable from 1990 to 2023, the absolute number of incident cases increased by 54.28% from 0.67 million (95% UI: 0.52-0.85 million) to 1.04 million (95% UI: 0.83-1.32 million). Age-standardized DALYs and mortality rates decreased by 62.48% and 60.00%, respectively, over the same period. The MIR decreased across all age groups from 1990 to 2023 and remained highest among the youngest and oldest populations, with the ratio in those <5 years of age declining from 17.82% in 1990 to 6.32% in 2023. Across SDI strata, incidence rates remained stable from 1990 to 2023, while mortality rates declined in all quintiles and remained lowest in high SDI regions, whereas the MIR decreased from 2.33 in 1990 to 1.30 in 2023. In 2023, prevalence was highest in the high SDI quintile (6.30 [95% UI: 5.15-7.48] per 100,000 population) and lowest in the low-middle SDI quintile (4.10 [95% UI: 3.38-5.02]), reflecting disparities aligned with health resource availability. Age-standardized prevalence rates of heart failure attributable to myocarditis declined from 2.33 (95% UI: 1.90-2.90) per 100,000 population in 1990 to 1.76 (95% UI: 1.41-2.29) in 2023, with a U-shaped distribution across age groups showing the highest burden in those <5 years of age and >75 years of age in 2023. CONCLUSIONS: Although age-adjusted DALYs and mortality rates of myocarditis decreased globally from 1990 to 2023, incidence and prevalence remained stable, suggesting potential improvements in outcomes over time. However, absolute burden has grown due to population growth and aging, and important disparities persist across age groups and SDI strata. These findings highlight the need for targeted strategies to improve early diagnosis and reduce the burden of myocarditis, particularly in vulnerable populations and lower-resource settings, while being interpreted in the context of evolving diagnostic and coding practices.",
+        "journal": "Journal of the American College of Cardiology",
+        "authors": [],
+        "pub_date": "2026-Aug-21",
+        "doi": "10.1016/j.jacc.2026.07.039",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42684212/",
+        "journal_canonical": "Journal of the American College of Cardiology"
+      },
+      "score": {
+        "relevance_score": 2,
+        "topic_match": "없음",
+        "summary_kr": "본 연구는 GBD 2023 데이터를 활용하여 1990-2023년 전 세계 심근염의 질병부담을 분석한 역학 연구입니다. 행정 보건시설 데이터와 사망등록 자료를 통해 유병률, 발생률, DALY, 사망률을 국가별·연령·성별로 추정했으며, 심근염으로 인한 심부전 유병률도 산출했습니다. 결과적으로 나이 표준화 사망률과 DALY는 감소했으나 절대 발생 사례는 54.28% 증가했고, SDI 수준에 따른 보건 격차가 지속되는 것으로 나타났습니다.",
+        "key_points": [
+          "심근염 특정 질환의 질병부담 연구로 다중오믹스, 약물반응/ADR 예측 등 우리 과제의 핵심 방법론 부재",
+          "역학 및 공중보건 통계 중심으로 정밀의료, AI 예측 모델, 약물유해반응 분석과 무관",
+          "심근염은 MFDS 대사질환(당뇨/심혈관/MASLD/CKD/뇌졸중) 범위 내 심혈관질환이나, 질환 특이적 역학 기술일 뿐 약물반응 예측이나 omics 통합 분석 미포함"
+        ],
+        "reason": "심근염의 질병부담 통계 연구로, 다중오믹스 통합, 약물반응/ADR 예측, 정밀의료 기술, AI/ML 모델, 코호트 분석 등 우리 연구실의 핵심 과제와 방법론적으로 거의 일치하는 부분이 없습니다."
+      },
+      "project": "MFDS",
+      "subtopic": "AI × 약물반응 × 대사질환"
+    },
+    {
+      "article": {
+        "pmid": "42691178",
+        "title": "Longitudinal dynamics of gene expression and metabolomics in an aging population cohort.",
+        "abstract": "Multiomic profiling provides a comprehensive physiological overview at the molecular level, but understanding of its spatiotemporal dynamics remains limited in human populations. We profiled longitudinal whole-blood gene expression and metabolite levels in 335 females over 8 years. Levels of 5061 genes and 181 metabolites changed over time, with individual trajectories often diverging from population-level trends. Longitudinally variable genes showed cell type specificity and enrichment for aging-relevant pathways, including cardiometabolic and neurodegenerative disorders. Longitudinal trajectories were further shaped by genetics, circadian rhythm, seasonality, and environmental pollutant exposures. Integrative analyses revealed extensive static and time-variable cross-omic connectivity. Longitudinal profiling offers insight into the temporal evolution of age-related conditions at the molecular level, and understanding individual variation within these longitudinal patterns will be essential for future precision medicine approaches.",
+        "journal": "Science (New York, N.Y.)",
+        "authors": [
+          "Julia S El-Sayed Moustafa",
+          "Anna Ramisch",
+          "Yasrab N Raza",
+          "Gwenael G R Leday",
+          "Yunlong Jiao",
+          "Dongmeng Wang"
+        ],
+        "pub_date": "2026-Sep-03",
+        "doi": "10.1126/science.aed6452",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42691178/",
+        "journal_canonical": "Science"
+      },
+      "score": {
+        "relevance_score": 8,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 335명의 여성을 8년간 추적하여 전혈액의 5061개 유전자 발현과 181개 대사물질의 종단 변화를 프로파일링했습니다. 개인별 궤적이 모집단 수준의 추세와 다양하게 분기하며, 심대사질환(cardiometabolic) 및 신경퇴행성질환 관련 경로에서 노화 관련 유전자의 특이성을 확인했습니다. 유전학, 일주기 리듬, 계절성, 환경 오염물질 노출이 종단 궤적을 형성하며, 오믹스 간 광범위한 정적·동적 상호연결을 발견했습니다.",
+        "key_points": [
+          "다중오믹스(유전자발현+대사체) 종단 프로파일링으로 개인별 이질성 파악",
+          "심대사질환 관련 경로 풍부성으로 만성질환 분자수준 이해",
+          "유전학·계절성·환경노출 등 다중 변수의 시간변동성 통합분석"
+        ],
+        "reason": "MFDS의 핵심 요소인 다중오믹스 통합, 만성대사질환(심혈관질환) 중심의 분자 궤적 분석, 코호트/종단데이터, 개인별 정밀의료 적용이 직접 부합하며, 노화 관련 만성질환 예측의 기초 연구로서 높은 관련성을 보유합니다."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
