@@ -1,0 +1,10 @@
+{
+  "date": "2026-09-05",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 0,
+  "articles_scored": 0,
+  "articles_above_threshold": 0,
+  "results": []
+}
