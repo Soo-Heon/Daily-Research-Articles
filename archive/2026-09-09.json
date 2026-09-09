@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-09",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 0,
+  "results": [
+    {
+      "article": {
+        "pmid": "42706231",
+        "title": "Multi-population GWAS meta-analysis identifies bladder cancer susceptibility loci and highlights genetic regulation of smoking-related risk.",
+        "abstract": "Bladder cancer is the ninth most common cancer worldwide, caused by genetic and environmental risk factors. Here, we report the findings of a multi-population meta-analysis of genome-wide association studies, including 32,470 individuals with and 1,753,462 without bladder cancer. We identify 70 independent risk loci, of which 43 are novel. Using a 70-marker polygenic risk score (HR = 1.63 per standard deviation), we increase the area under the curve from 0.71 (baseline risk model) to 0.75. Integrative analyses reveal the enrichment of the associated variants within accessible chromatin regions, and of the prioritized genes within pathways for xenobiotic metabolism and smoking behavior. Specifically, we show that the 15q25.1 variant rs71581744-ACCCC/A co-localizes with tissue-specific CHRNA3 expression, modulates mRNA stability, and associates with risk of muscle-invasive bladder cancer among current smokers. Together, these findings substantially expand the known genetic architecture of bladder cancer risk and highlight the germline regulation of smoking behavior as a mechanism driving bladder cancer susceptibility.",
+        "journal": "Nature communications",
+        "authors": [
+          "Ludmila Prokunina-Olsson",
+          "Oscar Florez-Vargas",
+          "Michael G Levin",
+          "Diptavo Dutta",
+          "Charles E Breeze",
+          "Lauren M Hurwitz"
+        ],
+        "pub_date": "2026-Aug-08",
+        "doi": "10.1038/s41467-026-76157-4",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42706231/",
+        "journal_canonical": "Nature Communications"
+      },
+      "score": {
+        "relevance_score": 3,
+        "topic_match": "없음",
+        "summary_kr": "본 연구는 32,470명의 방광암 환자와 1,753,462명의 대조군을 포함한 다중집단 GWAS 메타분석을 수행하여 70개의 독립적인 위험 유전자좌를 규명했다. 다변량 유전위험점수(PRS)를 개발하여 질병 예측 능력을 향상시켰으며, 통합분석을 통해 이노비오틱 대사 경로와 흡연 행동 조절 유전자들의 역할을 확인했다. 특히 15q25.1 rs71581744 변이가 CHRNA3 발현을 조절하며 현재 흡연자의 근육침습성 방광암 위험과 관련됨을 보여주었다.",
+        "key_points": [
+          "다중집단 GWAS 메타분석으로 방광암 위험 유전자좌 70개 규명 (43개 신규)",
+          "다변량 유전위험점수(PRS) 개발로 예측 정확도 향상 (AUC 0.71→0.75)",
+          "흡연-유전자 상호작용 메커니즘 규명 (CHRNA3 발현 조절)"
+        ],
+        "reason": "다중오믹스 통합과 약물유해반응 예측이라는 MFDS 과제와 달리, 본 연구는 방광암이라는 무관한 질환의 유전역학에 집중하며, 당뇨/심혈관/MASLD/CKD/뇌졸중 등 연구실의 만성대사질환 영역과 직접 관련이 없다."
+      },
+      "project": "MFDS",
+      "subtopic": "오믹스 × 약물반응"
+    }
+  ]
+}
