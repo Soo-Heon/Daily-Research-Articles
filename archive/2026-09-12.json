@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-12",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42723603",
+        "title": "Obesity Increases Atherosclerosis Susceptibility via an Intertissue miR-30e-SLC7A11 Axis.",
+        "abstract": "BACKGROUND: With obesity as a risk factor for atherosclerotic disease, recent research suggests that adipose tissue in obese animal models and humans can generate endocrine-like molecules that affect arterial health. Previous studies showed that microRNA-30e (miR-30e) levels are elevated in atherosclerosis and solute carrier family 7 member 11 (SLC7A11), a cystine/glutamate transporter, is involved in atherogenesis. However, whether an endocrine-like link between the adipose-derived miR-30e-5p and SLC7A11 in the vascular endothelium can lead to obesity-caused atherosclerosis is unknown. METHODS: miRNA data mining and reverse transcription-polymerase chain reaction validations were used to demonstrate the positive association among serum levels of miR-30e-5p, obesity, and coronary arterial disease in human patients. Transcriptomics (bulk RNA sequencing and single-nucleus RNA sequencing), metabolomics, and in silico analysis were used to establish a miR-30e-5p-SLC7A11 regulation of central carbon metabolism, mitochondrial and endothelial cell (EC) function. Mouse models with EC-specific Slc7a11 knockout (EC-Slc7a11-/-) and gain- or loss-of- function of miR-30e-5p were used to elucidate the detrimental role of this endocrine-like axis in obesity-related atherosclerosis. RESULTS: The level of adipocyte-derived miR-30e-5p was significantly upregulated in obese human patients with coronary artery disease and in obese and atherosclerotic mice. Mediated through serum exosomes, the adipocyte-generated miR-30e-5p targeted SLC7A11 mRNA in vascular ECs. SLC7A11 deficiency due to miR-30e-5p targeting dysregulated glutamate/cystine metabolism, increased glycolysis, reduced oxidative phosphorylation, and impaired mitochondrial function. The EC dysfunction could be rectified by SLC7A11 overexpression or miR-30e-5p antagonism. Administration of exogenous miR-30e-5p or white adipose tissue-derived exosomes phenocopied the increased atherosclerosis in EC-Slc7a11-/- mice. In contrast, miR-30e-5p antagomir or GW4869 treatment reduced atherosclerosis in Apoe-/- and ob/ob mice. CONCLUSIONS: Our multiomics approaches demonstrate that the adipose-derived miR-30e-5p downregulated SLC7A11 mRNA in ECs via tissue crosstalk. The resulting EC dysfunction led to obesity-related atherosclerosis in mice. These findings underscore a causality between obesity and atherosclerosis in the context of cardiovascular-kidney-metabolic syndrome.",
+        "journal": "Circulation research",
+        "authors": [
+          "Chen Wang",
+          "Jianqing She",
+          "Xiaoli Qian",
+          "Haoyu Wu",
+          "Wenyang Hao",
+          "Xiao Liang"
+        ],
+        "pub_date": "2026-Sep-11",
+        "doi": "10.1161/CIRCRESAHA.126.328493",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42723603/",
+        "journal_canonical": "Circulation Research"
+      },
+      "score": {
+        "relevance_score": 7,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 비만이 죽상동맥경화증을 유발하는 메커니즘을 다중오믹스 접근법으로 규명했습니다. 지방조직에서 분비된 miR-30e-5p가 혈청 엑소솜을 통해 혈관내피세포의 SLC7A11을 타겟하여 글루타메이트/시스테인 대사 이상, 미토콘드리아 기능 저하를 유발함을 밝혔습니다. 인간 환자 데이터 및 마우스 모델(EC-Slc7a11-/-, ob/ob, Apoe-/-)을 이용한 검증으로 조직간 크로스톡 기반의 심혈관-신장-대사 증후군 연계 메커니즘을 제시했습니다.",
+        "key_points": [
+          "다중오믹스 통합(전사체, 대사체, miRNA) × 만성대사질환(비만, 죽상동맥경화증, 심혈관질환)",
+          "인간 환자 코호트 데이터와 동물 모델의 체계적 검증, 조직간 엑소솜-miRNA 매개 신호전달",
+          "약물 타겟 제시(miR-30e-5p 길항제, GW4869) 및 정밀의료 관점의 내피세포 기능 복구 전략"
+        ],
+        "reason": "MFDS 다중오믹스·만성대사질환·심혈관질환 등 핵심 키워드와 메서드 부합하나, GDM/T2D 전환, CGM, GWAS 등 DGDB·GDM 특정 과제 요소는 부재하여 7점 평가."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
