@@ -1,0 +1,45 @@
+{
+  "date": "2026-09-15",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42733093",
+        "title": "Clinical usability of an explainable AI decision support tool and evaluation of multimodal models in NSCLC.",
+        "abstract": "Despite a decade in, immunotherapy (IO) treatment selection in non-small cell lung cancer (NSCLC) remains largely guided by subgroup analyses and imperfect programmed death ligand 1 (PD-L1) and clinical scores. To our knowledge, I3LUNG ( NCT05537922 ) is currently the largest international, real-world, multimodal, artificial intelligence (AI)-based study, enrolling 2,396 patients. We integrated real-world clinical and blood (CB) data, computed tomography (CT) images, digital pathology (DP), and genomics into machine learning early fusion (MLEF) and deep learning intermediate fusion (DLIF) models. Machine learning (ML) and deep learning (DL) CB-only models achieved consistent performance across outcomes with area under the curve (AUC) up to 0.77 in the test (TEST) set. Performance drop in external validation (EXVAL) likely reflects population differences (AUC range: 0.55-0.72). AI models significantly surpassed PD-L1, Eastern Cooperative Oncology Group performance status (ECOG PS), neutrophil-to-lymphocyte ratio (NLR), lactate dehydrogenase (LDH) and Lung Immune Prognostic Index (LIPI) score in the independent TEST set. The clinical usability study showed that lung expert and nonexpert physicians improved their prediction with the explainable AI (XAI) ML CB-only based tool. Although multimodal integration with MLEF (CB+CT+DP) was associated with higher performance, its incremental benefit remains uncertain, not translated in TEST and EXVAL. The I3LUNG project is a pioneering framework showing the clinical usefulness of AI tools. A prospective validation of the decision support system (both CB and multimodal) is currently undergoing in more than 2,000 patients.",
+        "journal": "Nature medicine",
+        "authors": [
+          "Arsela Prelaj",
+          "Vanja Miskovic",
+          "Matteo Sacco",
+          "Alberto Ferrarin",
+          "Cristina Maria Licciardello",
+          "Leonardo Provenzano"
+        ],
+        "pub_date": "2026-Sep-13",
+        "doi": "10.1038/s41591-026-04488-2",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42733093/",
+        "journal_canonical": "Nature Medicine"
+      },
+      "score": {
+        "relevance_score": 6,
+        "topic_match": "MFDS",
+        "summary_kr": "I3LUNG 연구는 비소세포폐암(NSCLC) 환자 2,396명을 대상으로 임상데이터, 혈액, CT 영상, 디지털병리, 유전체 데이터를 통합하여 면역치료 반응 예측 AI 모델을 개발했습니다. 기계학습 조기융합(MLEF)과 심층학습 중간융합(DLIF) 모델을 구축하여 AUC 0.77의 성능을 달성했으며, 혈액 기반 단독 모델이 임상적으로 유용한 설명가능한 AI 의사결정 도구로 입증되었습니다. 외부 검증에서 성능 저하를 보였으나, 다중오믹스 통합과 실제 임상 데이터 활용의 가치를 입증한 선도적 프레임워크입니다.",
+        "key_points": [
+          "다중오믹스(임상+혈액+영상+병리+유전체) 통합 AI 모델 개발",
+          "EHR/RWD 기반 대규모 국제 다기관 연구(2,396명)",
+          "설명가능한 AI(XAI)의 임상적 유용성 검증 및 의사결정 지원 도구 개발",
+          "외부 검증 단계에서 일반화 한계 제시"
+        ],
+        "reason": "EHR/RWD 기반 다중오믹스 통합, 정밀의료 응용, 설명가능한 AI 도구 개발 등 MFDS 핵심 요소들을 포함하나, 만성대사질환이 아닌 암 질환 대상이고 약물반응/유해반응 예측이 아닌 특정 치료군 선정 예측인 점에서 부분 관련성만 해당합니다."
+      },
+      "project": "MFDS",
+      "subtopic": "EHR/RWD × 오믹스 × 정밀의료"
+    }
+  ]
+}
