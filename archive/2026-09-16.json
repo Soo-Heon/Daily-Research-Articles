@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-16",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42741845",
+        "title": "State of Cardiovascular Disease and Stroke in Hispanic/Latino Adults in the United States: A Scientific Statement From the American Heart Association.",
+        "abstract": "Cardiovascular disease became the leading cause of death among Hispanic individuals in the United States in 2022. Hispanic adults experience a disproportionate burden of cardiometabolic risk factors, including obesity, diabetes, and dyslipidemia. Hispanic populations are highly heterogeneous, with substantial variations in genetic ancestry and sociocultural influences that shape cardiovascular disease risk and outcomes. The \"Hispanic paradox,\" describing lower cardiovascular disease mortality despite higher risk factor burden, is increasingly recognized as an oversimplification that does not apply uniformly across Hispanic heritage groups, sexes, or disease types. Disaggregated data reveal substantial differences in risk profiles and disease burden among Hispanic heritage groups, emphasizing the limitations of treating this population as a monolithic unit. Recent evidence demonstrates widening disparities in hypertension control, obesity, diabetes, and metabolic diseases among Hispanic populations, threatening this prior mortality advantage. Advancing cardiovascular and equitable health will require developing a deeper understanding of the unique drivers of cardiovascular disease within diverse Hispanic communities, addressing barriers such as language and insurance access, and implementing culturally tailored interventions and policies. This scientific statement summarizes current cardiovascular disease epidemiology in Hispanic populations, emphasizing heritage group variation and social and structural determinants of health, and presents strategies to improve prevention and healthcare delivery. Key priorities for advancing cardiovascular health in Hispanic adults include expanding disaggregated data collection, increasing representation in research, and ensuring equitable implementation of precision medicine approaches, including genomics, multi-omics, and artificial intelligence, while addressing environmental exposures, psychosocial stressors, and policy-related drivers of risk in order to achieve the American Heart Association's 2028 Impact Goals to advancing health and hope for everyone, everywhere.",
+        "journal": "Circulation",
+        "authors": [
+          "Johanna Contreras",
+          "David Aguilar",
+          "Katia Bravo-Jaimes",
+          "Yamnia Cortes",
+          "Salvador Cruz-Flores",
+          "Jorge R Kizer"
+        ],
+        "pub_date": "2026-Sep-15",
+        "doi": "10.1161/CIR.0000000000001463",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42741845/",
+        "journal_canonical": "Circulation"
+      },
+      "score": {
+        "relevance_score": 6,
+        "topic_match": "MFDS",
+        "summary_kr": "본 논문은 미국 히스패닉/라틴계 성인의 심혈관질환과 뇌졸중 현황에 관한 미국심장학회의 과학적 성명서이다. 히스패닉 인구 집단 내 유전적 다양성과 사회문화적 요인에 따른 심혈관질환 위험 및 예후의 이질성을 강조하며, 비만, 당뇨병, 이상지질혈증 등 대사성 위험인자 부담의 증가 추세를 보고하였다. 정밀의료 구현을 위해 게노믹스, 다중오믹스, 인공지능을 기반으로 한 건강격차 해소 전략을 제시하고 있다.",
+        "key_points": [
+          "심혈관질환과 뇌졸중 등 만성질환의 히스패닉 인구 내 이질성 및 격차 분석",
+          "다중오믹스(multi-omics), 게노믹스, AI를 활용한 정밀의료 접근의 필요성 강조",
+          "당뇨병, 비만, 이상지질혈증 등 대사질환 위험인자의 증가와 사회·구조적 결정요인 고찰"
+        ],
+        "reason": "MFDS의 핵심 주제인 다중오믹스, 정밀의료, 만성대사질환(당뇨/심혈관)을 언급하나, 실제 다중오믹스 데이터 활용 연구는 아니고 역학 분석 및 전략 제시 수준으로 방법론적 구체성이 부족하여 부분 관련으로 평가함."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
