@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-18",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 0,
+  "results": [
+    {
+      "article": {
+        "pmid": "42750043",
+        "title": "Genolator enables protein function interpretation using a multimodal large language model fusing genomic and structural interpretation with natural language interaction.",
+        "abstract": "BACKGROUND: Decoding the genetic code to unveil its genome functionality is a monumental task which would greatly advance the understanding of disease mechanisms and development of targeted treatments. Although large language models (LLMs) have transformed natural language processing across diverse domains, translating the complex language of DNA into human-readable form remains challenging due to genomic data complexity and unexplored regions of the human genome. Current language models either are capable of processing natural language or the genomic code. Models fusing both aspects are largely lacking. RESULTS: Here we present Genolator, a multimodal large language model that integrates embeddings from DNA sequences, amino acid sequences, and protein structures with natural language queries. Fine-tuned on over 365,000 question-answer pairs generated using abstracted Gene-Ontology (GO) terms, Genolator effectively answers queries regarding protein subcellular localization, molecular function, and biological processes. Evaluation demonstrates high accuracy in confirming or denying protein function associations, outperforming baseline models such as openly available allrounder LLMs like GPT 4.1 as well as smaller domain-specific models integrating knowledge from a protein structure transformer. Explorations of Genolator's hidden states unveil a biologically and linguistically plausible organization of its learned representations. Analysis of the attention heads of the underlying language model and an ablation study provide evidence for a benefit of the multi-modal approach. CONCLUSION: Genolator enhances accessibility to genomic information by enabling natural language interaction with protein data, facilitating biological discovery, and clinical research. It represents a step towards bridging genomic code and human language through the integration of a multimodal LLM.",
+        "journal": "Genome biology",
+        "authors": [
+          "Martin Danner",
+          "Tanhim Islam",
+          "Matthias Begemann",
+          "Florian Kraft",
+          "Miriam Elbracht",
+          "Ingo Kurth"
+        ],
+        "pub_date": "2026-Sep-16",
+        "doi": "10.1186/s13059-026-04274-w",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42750043/",
+        "journal_canonical": "Genome Biology"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 DNA 서열, 아미노산 서열, 단백질 구조 임베딩을 자연언어 쿼리와 통합하는 멀티모달 대규모언어모델(LLM) 'Genolator'를 개발했습니다. 365,000개 이상의 Gene-Ontology 기반 QA 쌍으로 파인튜닝되어 단백질의 세포내 위치, 분자 기능, 생물학적 과정 예측에서 GPT-4.1 등 기존 모델보다 우수한 성능을 보였습니다. 이 멀티모달 접근법은 게놈 정보 접근성을 높이고 임상 연구 및 질병 메커니즘 이해를 촉진할 수 있는 잠재력을 제시합니다.",
+        "key_points": [
+          "멀티모달 LLM으로 게놈 데이터와 자연언어 통합 (DGDB의 Foundation model/LLM 전략과 부합)",
+          "단백질 기능 및 생물학적 과정 예측 (다중오믹스 통합 의도와 관련)",
+          "365,000 QA 쌍 기반 지도학습 (대규모 코호트/바이오뱅크 활용 가능성)"
+        ],
+        "reason": "LLM 및 멀티모달 학습 등 DGDB의 기술적 접근과 게놈 해석을 통한 정밀의료(MFDS)의 방향성을 부분적으로 공유하나, 단백질 기능 주석에만 특화되어 있고 실제 질병 예측, EHR/RWD 통합, 만성대사질환 임상 응용 사례가 부재하여 부분 관련 수준입니다."
+      },
+      "project": "MFDS",
+      "subtopic": "EHR/RWD × 오믹스 × 정밀의료"
+    }
+  ]
+}
