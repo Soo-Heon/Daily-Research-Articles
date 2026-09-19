@@ -1,0 +1,109 @@
+{
+  "date": "2026-09-19",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 3,
+  "articles_scored": 3,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42754908",
+        "title": "Machine learning identifies microbiome and clinical predictors of sustained weight loss following prolonged fasting.",
+        "abstract": "BACKGROUND: Prolonged fasting may improve metabolic health, but controlled data in healthy adults with longer follow-up and multi-omics profiling are limited. We investigated the immediate and 12-week follow-up effects of a 5-day fasting intervention on body composition, gut microbiome, and circulating and fecal metabolites, and assessed whether baseline characteristics predict individual weight-loss response. METHODS: In a randomized, waitlist-controlled trial, 38 healthy adults completed a 5-day fasting intervention with 12-week follow-up (LEANER study). Outcomes included body mass index and body composition, gut microbiome composition, and plasma and fecal metabolites. Changes over time and between groups were evaluated using regression-based models and paired non-parametric tests, as appropriate. Additionally, permutation-based multivariate testing was performed on microbiome and metabolome data. Twelve-week body weight response was predicted using data-driven machine learning with cross-validation, followed by external validation in three independent cohorts undergoing prolonged fasting protocols. RESULTS: Fasting reduced body mass index acutely, predominantly driven by loss of fat mass, and these improvements partially persisted at 12 weeks. Fasting induced marked shifts in gut microbiome composition and in plasma and fecal metabolites. Post-fasting and longer-term changes in microbial diversity were associated with baseline microbiome diversity. A model combining baseline microbiome and clinical variables predicted body mass index response at 12 weeks; prominent predictors included an unclassified Faecalibacterium species, Oscillibacter sp. 50_27, low-density lipoprotein cholesterol, and systolic blood pressure. The model generalized to three independent cohorts, including individuals with metabolic syndrome, patients with multiple sclerosis exposed to repeated fasting, and healthy volunteers fasting for 6-12 days. CONCLUSIONS: In healthy adults, a 5-day prolonged fasting intervention produces robust short-term metabolic changes with partial persistence and consistent remodeling of the gut microbiome and metabolite profiles. Baseline microbiome and clinical characteristics can help stratify expected longer-term responses, supporting the development of individualized fasting-based interventions. TRIAL REGISTRATION: ClinicalTrials.gov, NCT04452916. Prospectively registered on June 29, 2020.",
+        "journal": "Genome medicine",
+        "authors": [
+          "Gelsomina Kaufhold",
+          "Theda U P Bartolomaeus",
+          "Kristin Schütte",
+          "Till Schütte",
+          "Sakshi Kamboj",
+          "Ulrike Löber"
+        ],
+        "pub_date": "2026-Sep-16",
+        "doi": "10.1186/s13073-026-01765-0",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42754908/",
+        "journal_canonical": "Genome Medicine"
+      },
+      "score": {
+        "relevance_score": 6,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 5일간의 금식 중재가 건강한 성인의 대사 건강에 미치는 영향을 조사한 무작위 대조 시험(LEANER study)으로, 38명의 참여자를 대상으로 장내미생물군집, 혈장/분변 대사물질, 신체 구성을 포함한 다중오믹스 프로파일링을 수행했다. 기계학습 모델을 통해 기저 미생물군집 다양성, Faecalibacterium 및 Oscillibacter 종, LDL 콜레스테롤, 수축기 혈압 등이 12주 체중 감량 반응을 예측하는 주요 변수임을 밝혔으며, 이 모델은 대사증후군 환자 및 다발성경화증 환자 코호트에서 검증되었다.",
+        "key_points": [
+          "다중오믹스(마이크로바이옴, 대사물질, 임상 지표) 통합을 통한 금식 중재의 효과 평가",
+          "기계학습 기반의 개인맞춤형 체중감량 반응 예측 모델 개발 및 외부 코호트 검증",
+          "기저 미생물군집 구성과 임상 변수의 결합이 장기 대사 반응을 층화(stratify)할 수 있는 가능성 제시"
+        ],
+        "reason": "다중오믹스 데이터 통합, 만성질환 관련 대사 표현형(비만, 대사증후군), 기계학습 기반 예측 모델 등 MFDS 과제의 핵심 요소들을 포함하지만, 질환 예방 및 약물반응 예측보다는 건강인 대상의 중재 효과 평가에 중점이 있어 부분 관련으로 평가됨."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    },
+    {
+      "article": {
+        "pmid": "42758305",
+        "title": "Menopause hormone therapy and type 2 diabetes risk and prognosis: systematic review and meta-analyses.",
+        "abstract": "AIMS/HYPOTHESIS: Menopause hormone therapy (MHT) may have effects on metabolic conditions. This study was conducted to systematically review the literature, to summarise and quantify the effect of MHT on glucose or insulin levels and on new-onset type 2 diabetes among women without type 2 diabetes and to summarise and quantify the effect of MHT on glucose, insulin, lipid and blood pressure levels among women with type 2 diabetes. METHODS: Data from six electronic databases (PubMed, Embase, Cochrane, CINAHL, PsyclNFO and MEDLINE) from inception to 29 July 2025 were searched for randomised controlled trials (RCTs) and cohort studies comparing MHT users with non-users among postmenopausal women or women undergoing the menopausal transition. Eligible studies reported the effects of MHT on glucose metabolism, lipid levels or blood pressure in women with or without type 2 diabetes. The risk of bias in RCTs and cohort studies was assessed with version 2 of the Cochrane risk-of-bias for randomised trials (RoB 2) tool and the Risk of Bias in Non-randomised Studies of Interventions (ROBINS-I) tool, respectively. Certainty of evidence (CoE) was assessed with the Grading of Recommendations Assessment, Development and Evaluation (GRADE) approach. Random-effects models were used to estimate the pooled effects. RESULTS: In total, 49 articles (33 reporting on RCTs and 16 on cohort studies) from 15 countries were identified, involving 1,472,277 participants. The study durations ranged from 1 week to 13.2 years for RCTs and from 6 months to 17 years for cohort studies. Seven of these were assessed as having a low risk of bias. Among women without type 2 diabetes, MHT use was associated with small reductions in fasting insulin (11 studies: N=4262, mean difference [MD] -5.90 pmol/l [95% confidence interval (CI) -8.03, -3.77 pmol/l]; high CoE) and in homeostasis model assessment of insulin resistance score (four studies: N=2883, MD -0.21 [95% CI -0.32, -0.09]; moderate CoE), as well as a lower risk of new-onset type 2 diabetes (14 studies: N=1,450,134, risk ratio 0.83 [95% CI 0.75, 0.92]; very low CoE], compared with non-MHT users. Among women with type 2 diabetes, MHT was associated with small reductions in fasting plasma glucose (16 studies: N=1379, MD -1.07 mmol/l [95% CI -1.86, -0.28 mmol/l]; very low CoE), haemoglobin A1c (17 studies: N=15,720, MD -5.47 mmol/mol [-0.50%] [95% CI -8.32, -2.62 mmol/mol (-0.76, -0.24%)]; very low CoE), cholesterol (15 studies: N=907, MD -0.37 mmol/l [95% CI -0.50, -0.24 mmol/l]; low CoE), low-density lipoprotein cholesterol (16 studies: N=961, MD -0.33 mmol/l [95% CI -0.54, -0.13 mmol/l]; low CoE) and systolic blood pressure (nine studies: N=630, MD -3.43 mmHg (-0.46 kPa) [95% CI -4.88, -1.98 mmHg]; low CoE), compared with non-MHT users. CONCLUSIONS/INTERPRETATION: MHT showed small beneficial associations with glucose metabolism among women with and without type 2 diabetes, while the effect size was generally too small to be clinically significant. Future studies are needed to shed more light on the effect of MHT by initiation age. Study limitations include the predominantly single-reviewer screening and assessment, the high risk of bias of the included studies and restricted geographical representation. REGISTRATION: The study protocol was registered with the International Prospective Register of Systematic Reviews (PROSPERO; CRD420251230387). FUNDING: This work was supported by a National Health and Medical Research Council investigator grant (APP2009577).",
+        "journal": "Diabetologia",
+        "authors": [
+          "Chen Liang",
+          "Annette J Dobson",
+          "Jenny Doust",
+          "Leticia Watanabe Ribeiro",
+          "Gita D Mishra"
+        ],
+        "pub_date": "2026-Sep-18",
+        "doi": "10.1007/s00125-026-06856-6",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42758305/",
+        "journal_canonical": "Diabetologia"
+      },
+      "score": {
+        "relevance_score": 3,
+        "topic_match": "GDM",
+        "summary_kr": "본 메타분석은 폐경기 호르몬 치료(MHT)가 제2형 당뇨 위험 및 예후에 미치는 영향을 체계적으로 검토했다. 15개국 49개 논문(RCT 33개, 코호트 16개, 147만 명 이상)을 분석하여 MHT 사용이 당뇨 없는 여성에서 공복 인슐린 감소와 새로운 제2형 당뇨 위험 감소(RR 0.83)를 보였으며, 당뇨 있는 여성에서도 공복혈당, HbA1c, 콜레스테롤, 수축기 혈압의 작은 개선을 보였으나 임상적으로는 유의미하지 않은 수준이었다.",
+        "key_points": [
+          "MHT가 당뇨 없는 여성에서 제2형 당뇨 발생 위험을 17% 감소 (RR 0.83)",
+          "당뇨 환자에서 혈당 조절 지표(HbA1c, 공복혈당) 경미한 개선",
+          "호르몬 치료 시작 나이 등 추가 연구 필요한 상황"
+        ],
+        "reason": "GDM→T2D 전환 예측 관점과는 무관하며, 폐경기 여성의 호르몬 치료 효과에 초점을 맞춘 것으로 우리 연구실 과제(특히 GDM 코호트에서 microbiome/genetics 기반 T2D 전환 예측)와 직접적 관련성이 낮음."
+      },
+      "project": "GDM",
+      "subtopic": "GDM → T2D 전환"
+    },
+    {
+      "article": {
+        "pmid": "42754563",
+        "title": "CoxFormer enables spatial omics inference with multimodal generative modeling.",
+        "abstract": "Gene co-expression maps transcriptome-wide gene-gene relationships, yet high-quality estimates cover less than half the genome. Meanwhile, spatial omics either profiles restricted in situ panels or lacks cellular resolution. Extending co-expression transcriptome-wide could overcome these limitations by inferring unassayed gene expression at subcellular resolution. Here we show that CoxFormer integrates literature-derived gene knowledge with co-expression networks from bulk tissues and large-scale single-cell atlases to learn 512-dimensional representations for 32,016 human genes. These embeddings capture functional gene relationships and serve as a generative prior for spatial inference across platforms and modalities. Without requiring a matched single-cell RNA-sequencing reference, CoxFormer supports four applications beyond measured genes: histology-based expression imputation, gene activity prediction from chromatin accessibility, subcellular super-resolution inference, and pathological region detection. Together, CoxFormer extends gene embedding from gene- and cell-level tasks to whole-transcriptome spatial inference, providing a unified framework for biological analysis beyond the limited gene coverage of current spatial omics technologies.",
+        "journal": "Nature communications",
+        "authors": [
+          "Yiyang Yang",
+          "Xu Liao",
+          "Haoyu Zhang",
+          "Yida Wu",
+          "Yuling Jiao",
+          "Xiaobo Sun"
+        ],
+        "pub_date": "2026-Aug-20",
+        "doi": "10.1038/s41467-026-76404-8",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42754563/",
+        "journal_canonical": "Nature Communications"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "CoxFormer는 문헌 기반 유전자 지식과 대규모 단일세포 아틀라스의 공발현 네트워크를 통합하여 32,016개 인간 유전자에 대한 512차원 임베딩을 학습하는 생성형 모델입니다. 이를 통해 공간 오믹스에서 미측정 유전자 발현을 세포소분해능 수준에서 추론하며, 조직학 기반 발현 계산, 염색질 접근성으로부터 유전자 활성도 예측, 병리학적 영역 탐지 등 네 가지 응용을 지원합니다. 현재 공간 오믹스 기술의 제한된 유전자 커버리지를 극복하는 통합 분석 프레임워크를 제시합니다.",
+        "key_points": [
+          "다중오믹스 통합: 전사체학, 단일세포 데이터, 염색질 접근성 데이터를 통합한 멀티모달 생성형 모델",
+          "Foundation model 접근: 512차원 유전자 임베딩으로 기능적 유전자 관계를 학습하는 사전학습 표현",
+          "공간 오믹스 고도화: 참고데이터 없이도 조직학 이미지에서 전체 전사체 수준의 발현 추론 가능"
+        ],
+        "reason": "다중오믹스 통합과 정밀의료 기술 개발은 MFDS 과제와 부합하나, 특정 만성대사질환 적용이나 임상 코호트 검증이 부재하고 기술 개발 중심이므로 부분 관련에 해당합니다."
+      },
+      "project": "MFDS",
+      "subtopic": "EHR/RWD × 오믹스 × 정밀의료"
+    }
+  ]
+}
