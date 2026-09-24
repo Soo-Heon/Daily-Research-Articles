@@ -1,0 +1,40 @@
+{
+  "date": "2026-09-24",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42777243",
+        "title": "Clinical Uses of Common Genetic Variants Associated with Common Diseases.",
+        "abstract": "Twenty-five years after the draft of the human genome sequence, genomics has revolutionized many areas of biology, the diagnosis of familial and early-onset diseases, and the development of targeted therapies, particularly in oncology. Genomic knowledge has had little effect on the diagnosis and treatment of most common adult-onset conditions. Genomewide association studies have revealed that for these conditions, thousands of genetic variants of small effect underpin the polygenic nature of risk. When incorporated into polygenic risk scores, these variants predict risk; however, polygenic risk scores have had little effect in the clinic. In this article, we review the reasons for the slow pace of the diffusion of these methods in clinical practice. With the impending era of relatively inexpensive genome sequencing in mind, we review the ways in which polygenic risk scores, along with the related field of pharmacogenomics, may be useful in clinical practice for the prevention and treatment of common diseases.",
+        "journal": "The New England journal of medicine",
+        "authors": [
+          "David J Hunter",
+          "Michael Inouye"
+        ],
+        "pub_date": "2026-Sep-24",
+        "doi": "10.1056/NEJMra2413201",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42777243/",
+        "journal_canonical": "New England Journal of Medicine"
+      },
+      "score": {
+        "relevance_score": 6,
+        "topic_match": "MFDS",
+        "summary_kr": "본 논문은 인간 게놈 서열 분석 25년 후 공통 성인 질환의 진단 및 치료에서 유전체학의 임상 적용 현황을 검토한 리뷰논문이다. GWAS를 통해 발견된 수천 개의 소규모 효과 유전 변이들을 다중유전위험점수(polygenic risk score, PRS)로 통합하여 질병 위험을 예측하는 방법론을 다룬다. 약물유전체학(pharmacogenomics)과 함께 PRS가 임상에서 흔한 질환의 예방 및 치료에 활용될 수 있는 방안을 제시한다.",
+        "key_points": [
+          "다중유전변이를 통합한 다중유전위험점수(PRS) 개발 및 임상 예측 능력 평가",
+          "약물유전체학(pharmacogenomics)과 PRS의 임상 적용을 위한 실제적 전략 제시",
+          "공통 질환의 복잡한 유전 구조 이해 및 정밀의료 구현의 필요성"
+        ],
+        "reason": "약물반응 예측(pharmacogenomics)과 다중오믹스 통합을 통한 공통질환 위험 예측을 다루어 MFDS의 핵심 주제와 부분적으로 일치하나, 실제 데이터 분석, 만성대사질환 특정성, EHR/RWD 활용이 명확하지 않아 중간 정도의 관련성으로 평가."
+      },
+      "project": "MFDS",
+      "subtopic": "오믹스 × 약물반응"
+    }
+  ]
+}
