@@ -1,0 +1,111 @@
+{
+  "date": "2026-09-30",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 3,
+  "articles_scored": 3,
+  "articles_above_threshold": 2,
+  "results": [
+    {
+      "article": {
+        "pmid": "42808173",
+        "title": "Epigenome-Wide Association Study of Abdominal Aortic Aneurysm Identifies Central Role for Inflammatory Pathways.",
+        "abstract": "BACKGROUND: Epigenetic mechanisms underlying susceptibility to abdominal aortic aneurysm (AAA) remain poorly understood. Identifying causal DNA methylation markers for AAA can elucidate the regulatory processes that drive aneurysm formation and accelerate translational applications. We leveraged the Veterans Affairs (VA) Million Veteran Program to identify methylation biomarkers and delineate underlying pathways. METHODS: We first conducted an epigenome-wide association study of incident AAA (1324 cases and 42 065 noncases), performed stratified analyses by population group and smoking status, and conducted Mendelian randomization to facilitate causal inference of the CpG-AAA association. Chromatin state, island context, and transcription factor binding were implicated through functional annotation of identified CpGs. To identify genes impacted by change in methylation state, we aligned associations with transcriptional data obtained in blood, aorta, and liver. We performed expression quantitative trait methylation to capture CpG-gene-expression links across the genome. Network Mendelian randomization was used to test cardiometabolic and inflammatory mediation. Finally, we developed a methylation risk score for AAA using penalized regression and evaluated its performance against a clinical model in the Million Veteran Program and 2 external studies. RESULTS: Epigenome-wide association study identified 1253 CpGs associated with incident AAA, and Mendelian randomization supported a putative causal role for 143 of these associations. Functional annotation pointed to predominantly distal, enhancer-centered regulation and enrichment of inflammatory transcription factor programs (eg, activator protein-1 and nuclear factor κB). This distal architecture was consistent with expression quantitative trait methylation results, which showed a larger number of trans associations. Among 143 CpGs associated with AAA in Mendelian randomization analyses, we identified 213 CpG-gene expression pairs with strong colocalization support, including AGER, C2, and DDR1. Multi-trait colocalization further prioritized 8 CpG-gene expression-AAA links with evidence of a shared genetic signal. Network Mendelian randomization identified 135 putative mediation pathways linking CpGs to AAA, including 58 via cardiometabolic traits and 77 via inflammation-related traits. Blood lipid traits mediated >40% of the associations between AAA risk and CpGs near LDLR (cg19305903) and TRIB1 (cg14128479). Among inflammation-related mediators, circulating DAG1, NEXN, MMP9, IL1RN, and MMP13 were prioritized as potential intermediates. Additionally, a CpG selection process was used to develop a methylation risk score for AAA, which strongly associated with disease in both the discovery cohort and 2 external validation cohorts, even after adjustment for a full suite of clinical covariates. CONCLUSIONS: This study identified putative causal DNA methylation markers for AAA, and multi-omics analyses implicate activator protein-1-linked inflammatory transcriptional programs, blood lipids, and multiple inflammation-related proteins as key pathways underlying methylation-associated AAA risk.",
+        "journal": "Circulation",
+        "authors": [
+          "Shuai Yuan",
+          "Michael G Clark",
+          "Gabrielle Shakt",
+          "Michael G Levin",
+          "Katherine Hartmann",
+          "Renae Judy"
+        ],
+        "pub_date": "2026-Sep-29",
+        "doi": "10.1161/CIRCULATIONAHA.126.079863",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42808173/",
+        "journal_canonical": "Circulation"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 VA Million Veteran Program 코호트(1,324명의 복부대동맥류 환자, 42,065명의 대조군)를 이용하여 복부대동맥류(AAA)의 에피게놈 전체 연관분석을 수행했습니다. Mendelian randomization, 전사체 데이터 연계, 표현형질-메틸화 QTL 분석 등 다중오믹스 통합 방법론을 적용하여 143개의 인과적 CpG-AAA 연관을 식별했고, 염증 경로와 혈중 지질 특성이 주요 매개 경로임을 밝혔습니다. 개발된 메틸화 위험점수는 발견 코호트 및 2개의 외부 검증 코호트에서 임상 모델을 초과하는 성능을 보였습니다.",
+        "key_points": [
+          "대규모 코호트(Million Veteran Program) 기반 epigenome-wide association study",
+          "Mendelian randomization + 전사체 데이터 + expression QTM을 활용한 다중오믹스 통합 분석",
+          "염증성 경로(AP-1, NF-κB) 및 혈중 지질 특성을 주요 매개인자로 식별",
+          "메틸화 기반 위험점수 개발 및 외부 검증 완료"
+        ],
+        "reason": "MFDS의 핵심 키워드(다중오믹스, 대규모 코호트, EHR 기반 데이터)와 방법론(Mendelian randomization, 위험점수 개발)이 일치하나, 대상 질환이 심혈관질환(AAA)의 일부이고 당뇨/MASLD/CKD 등 주요 만성대사질환이 아니며, GDM/T2D 직접 관련성 부재로 부분 관련으로 평가됨."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    },
+    {
+      "article": {
+        "pmid": "42805981",
+        "title": "Distinct multi-omics signatures of clinical subgroups of type 2 diabetes define heterogeneous responses to an insulin sensitizer.",
+        "abstract": "Type 2 diabetes (T2D) subgroups defined by clinical variables differ in disease progression and treatment response. To uncover potential molecular drivers of this heterogeneity, we performed a multi-omics analysis of 826 drug-naïve T2D patients from two phase 3 trials of the insulin sensitizer chiglitazar. Here we show that severe insulin-resistant diabetes (SIRD) is characterized by distinct miRNA profiles (e.g., miR-122-5p) correlated with liver injury, and metabolic shifts in amino acids and primary bile acids. Mild obesity-related diabetes (MOD) showed the lowest level of phenylacetylglutamine, a metabolite known to promote cardiovascular disease. Severe insulin-deficient diabetes (SIDD) exhibited high pancreas-specific miR-7-5p, while mild age-related diabetes (MARD) presented the mildest abnormalities. Finally, integrating these multi-omics signatures into machine learning models enhanced prediction of insulin sensitizer efficacy over clinical data alone. Our findings define the distinct molecular signatures of T2D subgroups, facilitating the prediction of heterogeneous treatment responses and supporting personalized clinical management.",
+        "journal": "Nature communications",
+        "authors": [
+          "Zehui Cao",
+          "Ruolan Zhang",
+          "Haonan Chen",
+          "Naixin Zhang",
+          "Qiaochu Chen",
+          "Yuanbang Mai"
+        ],
+        "pub_date": "2026-Aug-29",
+        "doi": "10.1038/s41467-026-77187-8",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42805981/",
+        "journal_canonical": "Nature Communications"
+      },
+      "score": {
+        "relevance_score": 9,
+        "topic_match": "MFDS | DGDB",
+        "summary_kr": "본 연구는 두 개의 임상시험에서 826명의 약물 미투여 제2형 당뇨병(T2D) 환자를 대상으로 다중오믹스(miRNA, 대사체) 분석을 수행하여 임상 소그룹별 분자 특성을 규명했습니다. SIRD(심각한 인슐린 저항성 당뇨)는 독특한 miRNA 프로파일(miR-122-5p 포함)과 간 손상 연관성, 아미노산·담즙산 대사 변화로 특징지어졌으며, MOD는 심혈관질환 촉진 대사체가 낮고, SIDD는 췌장 특이적 miR-7-5p가 높았습니다. 머신러닝 모델에 다중오믹스 시그니처를 통합하면 임상데이터 단독 대비 인슐린 민감제 치료 효과 예측이 향상되었습니다.",
+        "key_points": [
+          "T2D 임상 소그룹별 구분되는 다중오믹스 시그니처(miRNA, 대사체) 동정",
+          "약물반응 예측을 위한 다중오믹스 기반 머신러닝 모델링으로 정밀의료 실현",
+          "826명 규모의 대규모 약물 임상시험 기반 분석으로 견고성 확보"
+        ],
+        "reason": "다중오믹스 통합·약물반응 예측·T2D 만성질환·정밀의료의 핵심 키워드가 모두 부합하며, MFDS 식약처 과제의 명시적 목표와 직접 일치하고, 대규모 코호트 기반 임상 데이터 활용으로도 부합합니다."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    },
+    {
+      "article": {
+        "pmid": "42808145",
+        "title": "FGFR1/KLB-MFG-E8 Maintains Microvascular Integrity and Adaptive Cardiac Remodeling.",
+        "abstract": "BACKGROUND: Endothelial defects in the heart are a contributor to cardiac pathological remodeling and dysfunction, which can be influenced by cardiomyocytes. Here, we explore cardioprotective crosstalk between cardiomyocytes and endothelial cells under diabetic conditions. METHODS: Type 2 diabetes was induced in male and female mice using a high-fat, high-sucrose diet in conjunction with low-dose streptozotocin. Cardiomyocyte-specific deletion of FGFR1 (fibroblast growth factor receptor 1) or KLB (beta-Klotho) was achieved by crossing floxed mice with αMHC (alpha-myosin heavy chain)-Cre transgenic mice, while the treatment potential was assessed by recombinant adeno-associated virus 9 delivery systems or administration of recombinant protein. Various in vitro models were used to investigate the mechanisms under a diabetes-like condition. The molecular mechanisms were explored through transcriptomics, proteomics, cytokine arrays, angiogenesis assays, histology, and luciferase reporter assays. RESULTS: Human diabetic hearts exhibited impaired angiogenic pathways with a marked reduction in myocardial capillary density. Multiomics profiling also revealed alterations in the FGFR1 (fibroblast growth factor receptor 1) pathway in mouse diabetic hearts. Both cardiomyocyte-specific FGFR1- and KLB- knockout mice exhibited reduced capillary abundance and developed decompensated cardiac remodeling. Mechanistic studies identified CEBPβ (CCAAT/enhancer binding protein beta) as a downstream transcription factor of the FGFR1/KLB pathway regulating MFG-E8 (milk fat globule-EGF factor 8) expression in cardiomyocytes. Cardiomyocyte-secreted MFG-E8 enhanced endothelial viability and branching. Importantly, the detrimental effects on the heart were rescued by corestoration of cardiac FGFR1 and KLB, whereas neither alone was sufficient, underscoring their synergistic action against diabetic stress. Finally, genetic or pharmacological enhancement of MFG-E8 reversed myocardial capillary rarefaction and led to an improvement in cardiac function, albeit with more pronounced therapeutic effects in males. CONCLUSIONS: Our findings demonstrate FGFR1/KLB-mediated cardioprotective mechanisms through cardiomyocyte-endothelial cell crosstalk and provide evidence that preserving adaptive remodeling represents a promising strategy to alleviate heart failure in both sexes.",
+        "journal": "Circulation research",
+        "authors": [
+          "Sanskruti R Gare",
+          "Nasser H Alatawi",
+          "Xinyi Chen",
+          "Jiayan Zhang",
+          "Claire Ross",
+          "Oveena Fonseka"
+        ],
+        "pub_date": "2026-Sep-29",
+        "doi": "10.1161/CIRCRESAHA.125.327950",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42808145/",
+        "journal_canonical": "Circulation Research"
+      },
+      "score": {
+        "relevance_score": 6,
+        "topic_match": "MFDS",
+        "summary_kr": "고지방·고당분 식이와 저용량 스트렙토조토신으로 유도한 제2형 당뇨 마우스 모델에서 심근세포와 내피세포 간 상호작용을 통한 심장 보호 메커니즘을 규명한 연구이다. 전사체학·단백질체학·사이토카인 어레이 등 다중오믹스 프로파일링으로 당뇨 심장에서 FGFR1/KLB 신호 경로의 변화를 발견했고, 심근세포 특이적 FGFR1/KLB 결손 마우스에서 모세혈관 밀도 감소와 부적응적 심장 리모델링이 나타남을 확인했다. 기계적으로는 CEBPβ를 통해 MFG-E8 발현을 조절하는 FGFR1/KLB 경로가 심근세포에서 분비되는 MFG-E8이 내피세포 생존력과 혈관신생을 증진함을 규명했다.",
+        "key_points": [
+          "제2형 당뇨 마우스 모델에서 다중오믹스(전사체학·단백질체학) 기반 심혈관 합병증 기전 규명",
+          "FGFR1/KLB-CEBPβ-MFG-E8 신호 경로의 동정 및 심근세포-내피세포 상호작용 메커니즘 규명",
+          "약물 치료 가능성 제시 (MFG-E8 증강으로 모세혈관 희소화 역전 및 심기능 개선)"
+        ],
+        "reason": "만성질환(제2형 당뇨) 및 심혈관 합병증에서 다중오믹스 기법 활용과 약물반응 예측이 포함되어 MFDS 과제와 부분적으로 관련되나, 실험 설계가 동물 모델 중심이고 인간 코호트·EHR·RWD 데이터 활용이 없어 점수 제한."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
