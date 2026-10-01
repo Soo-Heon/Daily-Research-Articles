@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-01",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 0,
+  "results": [
+    {
+      "article": {
+        "pmid": "42814802",
+        "title": "Cranial bone marrow-derived monocytes promote neuroinflammation in chronic traumatic brain injury.",
+        "abstract": "Patients with chronic traumatic brain injury (cTBI) experience long-term exacerbated neurological decline, which is even more severe in older patients, yet the underlying mechanisms remain unclear. Cranial bone marrow (CBM) has recently been recognized as an adjacent immune surveillance organ of the brain that rapidly responds to acute brain injury. We investigated whether CBM-derived immune cells contribute to chronic neuroinflammation after cTBI by integrating clinical specimens, cell-tracing strategies, multiomics profiling, transgenic animal assays, adoptive cell transfer, and a proof-of-concept randomized clinical trial. We found that cTBI induced persistent aberrant myelopoiesis in the CBM, characterized by expansion of inflammatory monocytes/macrophages (Mo/Macs), which aggravated with aging. These CBM-derived Mo/Macs actively migrated into brain parenchyma, where they fueled chronic neuroinflammation and drove neurological deficits. Mechanistically, age-related peroxisome proliferator-activated receptor α (PPARα) deficiency caused lipid metabolism dysfunction in these Mo/Macs, enhancing H3K4me3-mediated regulation of inflammatory chromatin states and thereby promoting neuroinflammation. Activation of PPARα via fenofibrate rectified Mo/Mac lipid metabolism and reduced inflammatory Mo/Mac infiltration into the brain. In a proof-of-concept randomized clinical trial enrolling 40 older adult patients with cTBI, fenofibrate treatment reduced plasma neurofilament light chain levels and improved cognitive functions. Together, these findings demonstrate that CBM-originated inflammatory Mo/Macs may serve as key inflammatory drivers of cTBI and further show that fenofibrate represents a potential therapeutic strategy for cTBI treatment in older adults.",
+        "journal": "Science translational medicine",
+        "authors": [
+          "Zhichao Lu",
+          "Chenxing Wang",
+          "Peipei Gong",
+          "Qianqian Liu",
+          "Xingjia Zhu",
+          "Bin Yang"
+        ],
+        "pub_date": "2026-Sep-30",
+        "doi": "10.1126/scitranslmed.aef5898",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42814802/",
+        "journal_canonical": "Science Translational Medicine"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 만성 외상성 뇌손상(cTBI) 환자에서 두개골 골수 유래 염증성 단핵구/대식세포가 신경염증을 지속시키는 메커니즘을 규명했습니다. 임상 샘플, 세포 추적, 다중오믹스 프로파일링, 동물 모델 및 무작위 임상시험(n=40, 고령 환자)을 통합하여 PPARα 결핍으로 인한 지질 대사 기능 장애와 H3K4me3 매개 염증성 크로마틴 조절을 발견했습니다. Fenofibrate를 통한 PPARα 활성화가 염증성 단핵구 침윤을 감소시키고 신경필라멘트 경쇄 수치 감소 및 인지기능 개선을 보였습니다.",
+        "key_points": [
+          "다중오믹스(세포 추적+다중오믹스+에피게놈)를 통한 만성질환 메커니즘 규명",
+          "임상 샘플-동물 모델-임상시험을 통합한 중개연구 수행",
+          "생물마커(neurofilament light chain)를 활용한 약물반응 평가"
+        ],
+        "reason": "MFDS 과제의 다중오믹스×만성질환×임상코호트 요소는 부합하나, 대사질환(당뇨/심혈관) 중심이 아닌 신경퇴행성 질환(외상성 뇌손상)에 초점이 있어 부분 관련으로 평가됩니다."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
