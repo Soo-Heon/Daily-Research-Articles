@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-03",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42823455",
+        "title": "Gene regulatory network analysis identifies auranofin as an anti-atherosclerotic drug.",
+        "abstract": "Gene-regulatory networks (GRNs) offer a mechanistic framework for dissecting the complex molecular and genetic architecture of coronary artery disease and for identifying new therapeutic opportunities. Here, we present a GRN-driven drug-repurposing strategy that integrates transcriptional signatures induced by silencing key drivers of the human arterial wall foam cell regulator GRN 42 with drug-induced gene expression profiles from the NIH LINCS program. In vitro screening of top candidate compounds validates the computational predictions, identifying candidate foam cell modulators and showing that auranofin, an FDA-approved gold salt used to treat rheumatoid arthritis, effectively reduces foam cell formation. In vivo, auranofin attenuates atherosclerosis and inflammation in both male mice and rabbits. Clinically, auranofin was associated with reduced cardiovascular risk in a retrospective cohort of patients with rheumatoid arthritis. Together, these findings show that a GRN-based drug-repurposing framework, coupled with preclinical and clinical validation, can uncover new therapeutic applications for existing drugs, including auranofin, in coronary artery disease.",
+        "journal": "Nature communications",
+        "authors": [
+          "Letizia Amadori",
+          "Claudia Calcagno",
+          "Ravneet Kaur",
+          "Hauke Horstmann",
+          "Tianshe He",
+          "Michael Gildea"
+        ],
+        "pub_date": "2026-Sep-02",
+        "doi": "10.1038/s41467-026-77443-x",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42823455/",
+        "journal_canonical": "Nature Communications"
+      },
+      "score": {
+        "relevance_score": 7,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 유전자 조절 네트워크(GRN) 분석을 통해 관상동맥질환의 분자·유전적 메커니즘을 규명하고 신약 재창출 전략을 제시했습니다. 인간 동맥벽 폼세포 조절 GRN의 핵심 드라이버 억제 시 유도되는 전사 시그니처를 NIH LINCS 약물 유발 유전자 발현 프로파일과 통합하여 auranofin을 동정했습니다. 세포 수준 검증 및 생체 내 동맥경화 모델(마우스, 토끼)에서 항염증 효과를 입증했으며, 임상 코호트에서 류마티스관절염 환자의 심혈관 위험 감소와 연관되었습니다.",
+        "key_points": [
+          "다중오믹스 통합: 전사체 + 약물 반응 프로파일 통합 분석",
+          "심혈관질환(관상동맥질환) 중점: MFDS 만성대사질환 범주",
+          "약물반응/약물재창출 예측: GRN 기반 계산 예측 + 임상 검증 통합 전략"
+        ],
+        "reason": "다중오믹스(전사체) 통합, 약물반응 예측, 심혈관질환, 임상 코호트 검증 등 MFDS 핵심 키워드가 다수 일치하나, GDM/당뇨 특이 내용이 없고 정밀의료 맥락보다는 약물 재창출에 초점이 있어 부분 관련 수준입니다."
+      },
+      "project": "MFDS",
+      "subtopic": "오믹스 × 약물반응"
+    }
+  ]
+}
