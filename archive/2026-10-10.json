@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-10",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 0,
+  "results": [
+    {
+      "article": {
+        "pmid": "42850279",
+        "title": "Single cell multi-omics guided hydrogel enables closed-loop therapy for renal osteodystrophy.",
+        "abstract": "Fracture repair in renal osteodystrophy remains challenging because impaired bone quality compromises fixation stability, while current systemic therapies regulating bone metabolism do not sufficiently address the disease-specific mechanisms underlying defective repair. An integrated strategy combining early fracture stabilization with mechanism-guided local treatment is therefore needed. Here, integrated single-cell RNA sequencing and multi-omics analyses identify inflammatory macrophages as a key pathogenic population, characterized by glycolytic reprogramming driven by hypoxia-inducible factor 1 alpha and phosphofructokinase-2/fructose-2,6-bisphosphatase 3, together with acidic metabolite accumulation. We show that this inflammatory acidic niche suppresses bone formation, enhances bone resorption and impairs regeneration. Guided by this mechanism, we develop a microenvironment-responsive adhesive hydrogel formed from a gelatin-boronic acid conjugate and sodium alginate and loaded with Epimedium-derived extracellular vesicle-like nanoparticles. We demonstrate that the hydrogel provides early local stabilization, enables microenvironment-responsive nanoparticle release and regulates the pathological niche. In vitro and in vivo, we find that the system suppresses inflammatory macrophage activation, promotes osteogenesis, inhibits osteoclastogenesis and accelerates fracture healing in a renal osteodystrophy model. These findings reveal a disease-specific mechanism of defective bone repair and provide a closed-loop therapeutic strategy that integrates local stabilization with microenvironment-directed treatment for fractures associated with renal osteodystrophy.",
+        "journal": "Nature communications",
+        "authors": [
+          "Lei Fan",
+          "Kenan Sun",
+          "Feiping Xia",
+          "Guanghong Wu",
+          "Hao Xie",
+          "Bolin Chen"
+        ],
+        "pub_date": "2026-Sep-09",
+        "doi": "10.1038/s41467-026-77551-8",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42850279/",
+        "journal_canonical": "Nature Communications"
+      },
+      "score": {
+        "relevance_score": 3,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 신장골이영양증(renal osteodystrophy)에서 골절 치유 메커니즘을 규명하기 위해 단일세포 RNA 시퀀싱과 다중오믹스 분석을 수행했습니다. 염증성 대식세포의 글리콜라이시스 재프로그래밍과 산성 대사산물 축적이 핵심 병리 기전임을 발견했으며, 이를 표적으로 하는 마이크로환경 반응형 하이드로겔을 개발했습니다. 개발된 치료제는 염증성 대식세포 활성화를 억제하고 골형성을 촉진하여 동물 모델에서 골절 치유를 가속화했습니다.",
+        "key_points": [
+          "Single-cell RNA sequencing + multi-omics 데이터 통합으로 신장골이영양증 병리 메커니즘 규명",
+          "염증성 대식세포의 HIF-1α 기반 글리콜라이시스 재프로그래밍 발견",
+          "정밀의료 기반의 microenvironment-directed 폐쇄형 치료 전략 개발"
+        ],
+        "reason": "다중오믹스 방법론과 만성질환(CKD 관련 신장골이영양증) 다루지만, MFDS 과제의 핵심 대상 질환(당뇨/심혈관/MASLD/뇌졸중)이 아니며 약물반응 예측·EHR·코호트 데이터 기반 접근이 없고 동물 모델 기반 중심이어서 관련성 제한적."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
