@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-14",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 0,
+  "results": [
+    {
+      "article": {
+        "pmid": "42867109",
+        "title": "CardioPharmaGENET: a new European network for pharmacogenomics-driven cardiovascular care.",
+        "abstract": "",
+        "journal": "European heart journal",
+        "authors": [
+          "Adna Asic",
+          "Svetlana Frolova",
+          "Yvan Devaux"
+        ],
+        "pub_date": "2026-Oct-13",
+        "doi": "10.1093/eurheartj/ehag772",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42867109/",
+        "journal_canonical": "European Heart Journal"
+      },
+      "score": {
+        "relevance_score": 0,
+        "topic_match": "없음",
+        "summary_kr": "초록 없음 — 평가 불가",
+        "key_points": [],
+        "reason": "abstract 비어있음"
+      },
+      "project": "MFDS",
+      "subtopic": "AI × 약물반응 × 대사질환"
+    }
+  ]
+}
