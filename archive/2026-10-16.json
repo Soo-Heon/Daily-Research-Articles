@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-16",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42875459",
+        "title": "Multimodal data-driven clustering analysis of heart failure patients identifies two distinct patterns of heart failure with preserved ejection fraction: Results from the PACIFIC-PRESERVED study.",
+        "abstract": "Heart failure with preserved ejection fraction (HFpEF) accounts for over half of heart failure cases but remains poorly defined due to its clinical heterogeneity. In the prospective PACIFIC-Preserved cohort (NCT04189029, n = 155), we applied multimodal deep phenotyping, including high-throughput proteomics, and unsupervised machine learning to identify biologically distinct HFpEF subgroups. Multiview clustering revealed two major HFpEF phenogroups: PEF1, characterized by inflammatory signaling, TNF receptor activation, cardio-skeletal injury, and greater renal dysfunction; and PEF2, marked by endothelial stress and milder perturbations. Conventional diagnostics alone could not reliably distinguish these subgroups, but a multimodal classifier integrating clinical, imaging, and proteomic variables achieved high predictive accuracy (F1-score 0.87). External validation in the MEDIA-DHF cohort (n = 456) confirmed that PEF1 was independently associated with adverse outcomes (adjusted HR 2.27, 95% CI 1.04-4.94). These findings establish a classifier-driven, biologically informed stratification of HFpEF, providing a framework for precision medicine in heart failure.",
+        "journal": "Nature communications",
+        "authors": [
+          "Jean-Sébastien Hulot",
+          "Pierre-Yves Hervé",
+          "Nicolas Girerd",
+          "Frédérique Chézalviel-Guilbert",
+          "Philip Janiak",
+          "Pierre Boutouyrie"
+        ],
+        "pub_date": "2026-Sep-15",
+        "doi": "10.1038/s41467-026-77642-6",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42875459/",
+        "journal_canonical": "Nature Communications"
+      },
+      "score": {
+        "relevance_score": 7,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 심부전 보존된 박출률(HFpEF) 환자 155명의 PACIFIC-Preserved 코호트에서 고처리량 프로테오믹스, 임상정보, 영상 데이터를 통합한 다중오믹스 심층표현형 분석을 수행했습니다. 비지도 기계학습(multiview clustering)을 적용하여 PEF1(염증성, TNF 신호 활성화, 심신 손상, 신장기능 악화)과 PEF2(내피세포 스트레스, 경증 변화)의 두 가지 생물학적 서브그룹을 식별했습니다. 임상·영상·프로테오믹 변수를 통합한 다중모달 분류기는 높은 예측 정확도(F1-score 0.87)를 달성했으며, 외부 검증 코호트(MEDIA-DHF, n=456)에서 PEF1이 부작용과 독립적으로 관련됨을 확인했습니다.",
+        "key_points": [
+          "다중오믹스(프로테오믹스 + 임상 + 영상) 통합 분석을 통한 질환 표현형 정의",
+          "심부전(만성질환)의 정밀의료 분류 및 위험도층화(precision medicine stratification)",
+          "EHR/코호트 데이터 + 고처리량 오믹스 + 기계학습의 실제 임상 적용 사례"
+        ],
+        "reason": "MFDS의 다중오믹스 통합, 정밀의료, 만성질환(심혈관), 코호트·EHR 등 핵심 요소들이 포함되었으나, 당뇨/MASLD/CKD 등 우리 연구실 주요 대사질환이 아니고 DGDB/GDM 과제와의 직접 연관성은 낮음."
+      },
+      "project": "MFDS",
+      "subtopic": "EHR/RWD × 오믹스 × 정밀의료"
+    }
+  ]
+}
