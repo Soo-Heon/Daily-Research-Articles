@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-17",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42885481",
+        "title": "Multiomics Profiling Supports Cathepsin B as a Protective Factor in White Matter Hyperintensities and Cognition.",
+        "abstract": "BACKGROUND: White matter hyperintensities (WMH) are a common brain magnetic resonance imaging marker of cerebral small vessel disease and a major risk factor for stroke and dementia, yet the molecular mechanisms governing lesion formation remain incompletely understood. We sought to identify circulating proteins that lie upstream of WMH and influence related clinical manifestations. METHODS: We conducted a 4-stage proteogenomic study. Stage 1 tested a WMH polygenic risk score against 2923 plasma proteins in 52 560 UK Biobank participants (mean age, 56.8 years, 53.9% female, 94.0% White), and candidate proteins against WMH volume in the neuroimaging subset (n=5443; mean age 54.2 years, 53.5% female). Stage 2 applied bidirectional Mendelian randomization, colocalization, and local genetic correlation using cis protein quantitative trait locus and cis expression quantitative trait locus instruments from plasma, vascular, and brain tissue. Stage 3 analyzed single-nucleus RNA sequencing of 8 postmortem periventricular white matter samples (4 WMH lesions, 4 controls; mean age, 81 years; 50% female). Stage 4 tested circulating and genetically predicted protein levels against general cognitive ability. RESULTS: Stages 1 and 2 converged on CTSB (cathepsin B) and ECHDC3 (enoyl-coenzyme A hydratase domain-containing 3). Higher plasma CTSB was associated with lower WMH volume (β=-0.09 [95% CI, -0.13 to -0.05]; n=5260), and Mendelian randomization estimates were directionally consistent across all 5 instrument sets (plasma protein quantitative trait locus β=-0.052 [95% CI, -0.064 to -0.040]), with concordant effects on white matter microstructure, perivascular spaces, and lacunar stroke. Single-nucleus RNA sequencing showed CTSB downregulation within lesions, predominantly in astrocytes (log2 fold change=-1.70) and oligodendrocytes (log2 fold change=-0.48; both false discovery rate P<1×10-20). Higher plasma CTSB (β=0.061 [95% CI, 0.010-0.112]; n=5193) and a cis protein quantitative trait locus polygenic score (β=0.031 [95% CI, 0.009-0.054]; n=8884) predicted better cognitive performance. ECHDC3 showed no consistent association beyond stage 1. CONCLUSIONS: Multimodal proteogenomic evidence nominates CTSB as a lesion-suppressed protein associated with lower WMH burden and better cognition, and a candidate therapeutic target for cerebral small vessel disease.",
+        "journal": "Stroke",
+        "authors": [
+          "Cyprien A Rivier",
+          "Sebastian Diaz-Perez",
+          "Gael Bories",
+          "Shufan Huo",
+          "Santiago Clocchiatti-Tuozzo",
+          "Adam de Havenon"
+        ],
+        "pub_date": "2026-Oct-16",
+        "doi": "10.1161/STROKEAHA.126.056508",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42885481/",
+        "journal_canonical": "Stroke"
+      },
+      "score": {
+        "relevance_score": 6,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 뇌 백질병변(WMH)과 인지기능에 영향을 미치는 순환 단백질을 규명하기 위해 다중오믹스 통합 접근법을 수행했습니다. UK Biobank 52,560명의 혈장 단백질 데이터, 멘델리안 무작위화, 그리고 뇌 조직의 단일핵 RNA 시퀀싱을 결합하여 Cathepsin B (CTSB)가 백질병변 억제 및 인지 개선과 관련된 보호인자임을 발견했습니다. CTSB의 높은 혈중 수치는 더 낮은 백질병변 부피 및 더 나은 인지 수행과 연관되었으며, 뇌졸중 위험 감소와도 일치했습니다.",
+        "key_points": [
+          "다중오믹스 통합(proteogenomics): 혈장 단백질, cis-pQTL/eQTL, snRNA-seq 데이터 4단계 통합 분석",
+          "뇌졸중/치매 위험 관련 뇌 만성질환: 백질병변은 뇌소혈관질환의 주요 바이오마커로 뇌졸중/인지저하의 위험인자",
+          "대규모 코호트 기반(UK Biobank n=52,560): 신경영상 부분집합 n=5,443으로 임상 연관성 검증"
+        ],
+        "reason": "MFDS 과제의 핵심인 다중오믹스 통합, 만성질환(뇌졸중/치매 전조), 대규모 코호트/바이오뱅크, 약물반응 예측 포텐셜을 가진 연구이나, GDM/당뇨/MASLD/CKD 등 특정 대사질환 타겟과 직접 겹치지 않아 6점으로 평가."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
