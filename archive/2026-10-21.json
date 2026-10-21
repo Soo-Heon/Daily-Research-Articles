@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-21",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 2,
+  "articles_scored": 2,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "42897187",
+        "title": "Multiplexed embryo profiling links cellular state to zygotic genome activation in single cells.",
+        "abstract": "Multicellular self-organization depends on interactions across multiple length scales, yet mapping protein states at high spatial resolution in whole-mount embryos remains challenging. Here, we introduce high-throughput 3D in toto iterative immunofluorescence imaging (3D-4i) and a dedicated computer vision pipeline to quantify morphological and molecular features from subcellular to whole-embryo scales across hundreds of samples. Applying this pipeline to early zebrafish embryos undergoing mid-blastula transition, we determine the cell cycle phase for each cell across the embryo, and uncover the spatiotemporal dynamics by which global meta-synchronous mitotic waves transition to cell cycle desynchronization. Using statistical analysis, we find that the cell cycle phase is the major source of variability in transcription within a division cycle, and combining this with the analysis of key transcription factors and chromatin modifier state, included in our multiplexed dataset, enables accurate prediction of transcriptional output during zygotic genome activation in individual cells. Together, these findings establish 3D-4i as a powerful approach for quantifying multimodal, multiscale biological processes underlying multicellular self-organization.",
+        "journal": "Nature communications",
+        "authors": [
+          "Max Hess",
+          "Marvin F Wyss",
+          "Edlyn Wu",
+          "Gian-Marco Schaniel",
+          "Joel Lüthi",
+          "Chiara Rebagliati"
+        ],
+        "pub_date": "2026-Sep-17",
+        "doi": "10.1038/s41467-026-77784-7",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42897187/",
+        "journal_canonical": "Nature Communications"
+      },
+      "score": {
+        "relevance_score": 1,
+        "topic_match": "없음",
+        "summary_kr": "본 연구는 3D-4i(3차원 반복 면역형광 이미징) 기술과 컴퓨터 비전 파이프라인을 개발하여 제브라피시 초기 배아의 세포 주기 및 유전체 활성화 과정을 단일세포 수준에서 다중 시간 및 공간 규모로 분석했습니다. 형태학적 및 분자적 특징을 포함한 다중 오믹스 데이터를 생성하고 통계 분석을 통해 세포 주기 위상이 전사 변이의 주요 요인임을 규명하였습니다. 궁극적으로 전사인자 및 크로마틴 수정자 상태를 조합하여 배아 배반엽 전이 중 개별 세포의 전사 출력을 정확히 예측할 수 있음을 보였습니다.",
+        "key_points": [
+          "3D-4i 고처량 이미징 기술 기반 다중 분자 프로파일링 (multi-modal data)",
+          "제브라피시 배아 발생 중 세포 주기-전사 동역학 분석 (단일세포 수준)",
+          "통계 기반 전사 출력 예측 모델 개발"
+        ],
+        "reason": "개발생물학 기반 초기 배아 연구로, 임상 정밀의료, 질병 예측, EHR/RWD, 만성대사질환 등 우리 연구실의 주요 과제와 전혀 무관하며 동물 모델 기초 연구에 해당합니다."
+      },
+      "project": "MFDS",
+      "subtopic": "EHR/RWD × 오믹스 × 정밀의료"
+    },
+    {
+      "article": {
+        "pmid": "42900778",
+        "title": "Low-Carbohydrate Diets, Nutritional Adequacy, Glycemia, and Perinatal Outcomes in Women With Gestational Diabetes Mellitus: A Secondary Analysis of the DiGest Trial.",
+        "abstract": "OBJECTIVE: The optimal dietary carbohydrate intake for pregnant women is disputed internationally. Many authorities recommend a minimum of 175 g/day of carbohydrates primarily to support maternal brain glucose requirements and normal fetal brain development. We assessed whether low (<175 g/day) or very low (<120 g/day) carbohydrate intake was associated with altered nutrient intake, glycemia, or pregnancy outcomes in women with gestational diabetes mellitus (GDM). RESEARCH DESIGN AND METHODS: Women recruited to the Dietary Intervention in Gestational Diabetes Trial (DiGest) completed masked continuous glucose monitoring and a 24-h dietary recall at baseline before random assignment to receive either a standard- (2,000 kcal/day) or reduced-energy diet (1,200 kcal/day) from ∼29-36 weeks' gestation. RESULTS: At baseline, 215 women completed a dietary assessment, of whom 66 (30.7%), 74 (34.4%), and 75 (34.9%) reported standard (≥175 g/day), low (120-175 g/day), and very low carbohydrate intake (<120 g/day), respectively. Women consuming fewer carbohydrates consumed less energy, less dietary fiber, and fewer vitamins (B and E) and minerals but proportionally more protein and fat. Consumption of <120 g/day carbohydrates as assessed at baseline before the intervention was associated with a lower time above range (TAR) >120 mg/dL (-6.8% [95% CI -13.4% to -0.2%]; P = 0.044) and lower birth weight (-9.6 [95% CI -18.7 to -0.6] centiles; P = 0.037), but no difference in large- or small-for-gestational-age birth weight was observed. Low carbohydrate intake as a proportion of total energy intake (<35%) without energy restriction was associated with reduced TAR but not with a difference in birth weight. CONCLUSIONS: Lower carbohydrate intake at baseline was associated with modestly improved glycemia before random assignment in women with GDM, but vigilance to maintain adequate intake of micronutrients and fiber is required.",
+        "journal": "Diabetes care",
+        "authors": [
+          "Ehtasham Ahmad",
+          "Sarah Dib",
+          "Danielle Jones",
+          "Linda M Oude Griep",
+          "Roy Taylor",
+          "Laura C Kusinski"
+        ],
+        "pub_date": "2026-Oct-20",
+        "doi": "10.2337/dc26-0199",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42900778/",
+        "journal_canonical": "Diabetes Care"
+      },
+      "score": {
+        "relevance_score": 7,
+        "topic_match": "GDM",
+        "summary_kr": "임신성당뇨(GDM) 환자 215명을 대상으로 저탄수화물 식이(≥175, 120-175, <120 g/day)가 혈당조절, 영양섭취, 주산기 결과에 미치는 영향을 연속혈당모니터링(CGM)과 24시간 식이회상을 통해 평가한 DiGest trial의 이차분석 연구이다. 매우 저탄수화물 식이(<120 g/day)는 기저선에서 더 낮은 혈당상승 범위(TAR >120 mg/dL)와 낮은 출생체중과 연관되었으나 영양미량원소 및 식이섬유 섭취 감소의 우려가 있었다. 저탄수화물 식이가 GDM 환자의 혈당관리에 부분적 효과를 보이지만 미량영양소 보충의 필요성을 강조한다.",
+        "key_points": [
+          "GDM 환자의 탄수화물 섭취 수준(<120 g/day)과 CGM 기반 혈당지표(TAR) 연관성 평가",
+          "식이 다량영양소/미량영양소 구성이 혈당조절 및 출생아 결과에 미치는 영향 분석",
+          "임상중재(DiGest trial)에서의 실제 식이 및 CGM 데이터 활용한 실제 근거(RWD) 생성"
+        ],
+        "reason": "GDM × CGM 프로젝트의 핵심 주제(임신성당뇨 + 연속혈당모니터링)를 직접 다루고, 코호트 기반 임상데이터와 CGM 활용으로 질병관리청 과제와 높은 부합성을 보이나, 메커니즘(microbiome, genetics) 또는 T2D 전환 예측 모델링이 없어 만점에는 미치지 못함."
+      },
+      "project": "GDM",
+      "subtopic": "GDM × CGM"
+    }
+  ]
+}
