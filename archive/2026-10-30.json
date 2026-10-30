@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-30",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 2,
+  "articles_scored": 2,
+  "articles_above_threshold": 2,
+  "results": [
+    {
+      "article": {
+        "pmid": "42953931",
+        "title": "VSMC DDR1 Mechanosensation Aggravates Atherosclerosis via Paracrine Signaling.",
+        "abstract": "BACKGROUND: Chronic kidney disease (CKD) increases cardiovascular risk and is linked to arterial stiffening and atherosclerosis. How stiffness promotes atherogenesis remains unclear. DDR1 (discoidin domain receptor 1), a mechanosensory tyrosine kinase receptor, has been implicated in force-regulated arterial remodeling. We investigated whether DDR1-mediated mechanosensation links arterial stiffness to vascular smooth muscle cell (SMC)-endothelial paracrine communication in CKD-related atherosclerosis. METHODS: Single-cell RNA sequencing, secretome proteomics, and bulk RNA sequencing were integrated with stiffness-controlled models, endothelial assays, and a CKD-hyperlipidemia mouse model. SMC-specific Ddr1 deletion and a DDR1 dephosphorylation-targeting chimera (DEPTAC) were evaluated in vivo. Plasma TSP-1 (thrombospondin-1) levels were quantified in a CKD clinical cohort and analyzed in relation to renal function and atherosclerosis severity. RESULTS: CKD-associated vascular stiffening coincided with SMC phenotypic switching and enhanced THBS signaling. Multiomics integration identified THBS1 as a stiffness-induced SMC secretory effector. Stiff matrices increased SMC THBS1 secretion, promoting endothelial proliferation, migration, and leukocyte adhesion; these effects were attenuated by THBS1 knockdown. DDR1 coupled matrix stiffness cues to THBS1 expression by regulating its transcription via a tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein epsilon-FOXO3 (forkhead box O3) axis. Vascular SMC-specific Ddr1 deletion reduced aortic THBS1 levels, vascular stiffening, and atherosclerotic burden. DEPTAC suppressed aberrant DDR1 phosphorylation, reduced THBS1, and ameliorated vascular stiffening and atherosclerosis. Plasma THBS1 increased with CKD severity and correlated with atherosclerosis. CONCLUSIONS: DDR1-dependent mechanosensing in SMCs drives stiffness-induced paracrine signaling to endothelium via THBS1, promoting CKD-accelerated atherosclerosis. Targeting mechanical DDR1 activation may be therapeutic.",
+        "journal": "Circulation research",
+        "authors": [
+          "Shuang Zhou",
+          "Xiangyu Chu",
+          "Jiaqi Zhang",
+          "Jianrui Zhang",
+          "Yiwei Xu",
+          "Linwei Fan"
+        ],
+        "pub_date": "2026-Oct-29",
+        "doi": "10.1161/CIRCRESAHA.126.328540",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42953931/",
+        "journal_canonical": "Circulation Research"
+      },
+      "score": {
+        "relevance_score": 7,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 만성신장질환(CKD)에서 혈관경화와 죽상동맥경화증의 연결고리를 기계감지 수용체 DDR1의 관점에서 규명했습니다. 단일세포 RNA 시퀀싱, 분비체 프로테오믹스, 벌크 RNA 시퀀싱 등 다중오믹스 통합분석과 CKD-고지혈증 마우스 모델을 활용하여 혈관평활근세포(SMC)의 DDR1-매개 기계감지가 THBS1 분비를 통해 내피세포 기능장애를 유발함을 밝혔습니다. CKD 임상 코호트에서 혈장 TSP-1(THBS1) 수치가 신기능 악화 및 죽상동맥경화증 심각도와 상관관계를 보였으며, DDR1 억제가 치료 타겟으로 제시되었습니다.",
+        "key_points": [
+          "다중오믹스 통합분석(scRNA-seq, 분비체 프로테오믹스, RNA-seq)으로 CKD-죽상동맥경화증의 기계생물학적 메커니즘 규명",
+          "CKD 임상 코호트 기반 바이오마커(혈장 TSP-1) 검증 및 신기능·죽상동맥경화증 심각도와의 연관성 분석",
+          "만성질환(CKD) 관련 심혈관계 합병증 예측 및 정밀의료 타겟(DDR1/THBS1 억제) 제시"
+        ],
+        "reason": "MFDS 과제의 핵심 키워드(다중오믹스 통합, CKD, 심혈관질환, 임상 코호트, 바이오마커)를 다수 포함하며 만성대사질환과 약물반응 기전 규명에 직접 관련되나, 약물유해반응 예측이나 GDM·제2형 당뇨 특이적 내용이 부재하여 7점으로 평가합니다."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    },
+    {
+      "article": {
+        "pmid": "42951970",
+        "title": "Genetic variants shape single-cell chromatin accessibility and disease risk.",
+        "abstract": "Understanding how genetic variation shapes gene regulation at single-cell resolution is crucial for elucidating complex disease mechanisms1, but has been limited by the lack of large-scale single-cell multi-omics data2-4. Here we present single-cell assay for transposase-accessible chromatin with sequencing of 3.5 million peripheral blood mononuclear cells from 1,042 donors with matched whole-genome sequencing. Across 28 immune cell types, we tested 440,996 chromatin accessibility peaks and identified 243,225 chromatin accessibility quantitative trait loci (caQTLs) at 100,483 peaks, 60% of them cell-type specific. Rare variant analysis identified 38,161 associated peaks, with predicted transcription factor-binding disruption implicated at individual loci. Colocalization with expression QTLs (eQTLs) from single-cell RNA sequencing data (5.4 million peripheral blood mononuclear cells)5 defined 28,834 candidate cis-regulatory elements. Across genome-wide association studies for 16 diseases and 44 blood traits, caQTLs colocalized 4.5-22.6% more signals than eQTLs alone. Cell-type-specific and tissue-specific context, distal effects and multi-causal-variant models raised genome-wide association study-eQTL concordance from approximately 16% to approximately 65%. Cell state further modulates genetic effects, with 27% of over 200,000 caQTL-cell-state interactions lacking a main effect. At the inflammatory bowel disease risk gene ADCY7, accessibility effects varied with genotype and G protein-mediated pathway activity in CD4+ T cells. A graph neural network trained on both eQTL and caQTL layers inferred peak-gene links in unpaired multiome data with up to 17.2% higher accuracy than QTL-agnostic data, uncovering 128 additional transcription factor-target pairs (22% increase). Together, these results show that genetic variants shape chromatin accessibility in a cell-type-specific and cell-state-specific manner, influencing immune function and disease risk.",
+        "journal": "Nature",
+        "authors": [
+          "Angli Xue",
+          "Jianan Fan",
+          "Oscar A Dong",
+          "Hao Lawrence Huang",
+          "Ling Chen",
+          "Peter C Allen"
+        ],
+        "pub_date": "2026-Oct-28",
+        "doi": "10.1038/s41586-026-11173-4",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42951970/",
+        "journal_canonical": "Nature"
+      },
+      "score": {
+        "relevance_score": 7,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 1,042명 공여자의 말초혈액 단핵세포 3.5백만 개에서 single-cell ATAC-seq과 whole-genome sequencing을 수행하여 유전적 변이가 세포 유형별 크로마틴 접근성에 미치는 영향을 분석했다. 28개 면역세포 유형에서 243,225개의 caQTL(chromatin accessibility QTL)을 식별하고, 이를 eQTL 데이터와 통합하여 16개 질환과 44개 혈액형질의 GWAS 신호와 비교 검증했다. 그래프 신경망을 활용한 피크-유전자 연결 추론으로 예측 정확도를 향상시켰으며, 세포 상태별 유전 효과의 조절 메커니즘을 규명했다.",
+        "key_points": [
+          "Single-cell multi-omics (ATAC-seq + WGS) 통합으로 유전-환경-세포 상태의 다층적 상호작용 분석",
+          "243,225개 caQTL 중 60%가 세포 유형 특이적이며, GWAS 신호 포착에 eQTL보다 4.5-22.6% 우수",
+          "Graph neural network 기반 예측 모델로 unpaired multiome 데이터에서 피크-유전자 연결 추론 (17.2% 정확도 향상)"
+        ],
+        "reason": "MFDS의 핵심 방법론(다중오믹스 통합, GWAS-QTL 연결, 정밀의료)과 직접 부합하고 면역 관련 만성질환(염증성장질환 등) 위험 예측을 다루지만, 구체적 만성대사질환(당뇨/심혈관/MASLD)에 제한적이고 코호트/임상 데이터 활용이 부재하여 7점."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
