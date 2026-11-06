@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-06",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 2,
+  "articles_scored": 2,
+  "articles_above_threshold": 0,
+  "results": [
+    {
+      "article": {
+        "pmid": "42986700",
+        "title": "Multi-omics identifies convergent genetic drivers of medial arterial calcification in chronic kidney disease.",
+        "abstract": "",
+        "journal": "European heart journal",
+        "authors": [
+          "Mandy E Turner",
+          "Elena Aikawa",
+          "Mark C Blaser"
+        ],
+        "pub_date": "2026-Nov-05",
+        "doi": "10.1093/eurheartj/ehag828",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42986700/",
+        "journal_canonical": "European Heart Journal"
+      },
+      "score": {
+        "relevance_score": 0,
+        "topic_match": "없음",
+        "summary_kr": "초록 없음 — 평가 불가",
+        "key_points": [],
+        "reason": "abstract 비어있음"
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    },
+    {
+      "article": {
+        "pmid": "42983496",
+        "title": "Cellular and spatial continuum of TAM functional states governs immune exclusion and dictates immune checkpoint resistance in melanoma.",
+        "abstract": "BACKGROUND: Immune checkpoint inhibitor (ICI) therapy has transformed melanoma treatment, yet many patients either fail to respond or develop resistance after an initial response. The cellular and spatial determinants within the tumor microenvironment (TME) that underlie these divergent ICI therapy outcomes remain poorly defined. Here, we aimed to characterize the immune composition and spatial organization of the TME associated with ICI response and resistance. METHODS: We integrated public scRNA-seq data (N = 32) with in-house spatial transcriptomics and imaging mass cytometry from an independent melanoma cohort (N = 6) to achieve high-resolution spatial profiling of the TME. This multimodal approach allowed us to map cellular heterogeneity within discrete spatial neighborhoods. To validate our findings, we constructed a scRNA-seq derived signature-matrix and deconvoluted a bulk RNA-seq cohort (N = 334). Clinical associations were assessed using Kaplan-Meier survival analysis, Cox hazard models, and a machine-learning classifier. RESULTS: We identified a distinct tumor-associated macrophage (TAM) state, termed lipid-associated TAMs (LA-TAMs), characterized by conserved lipid metabolic programs and tumor-specific adaptations in glycolysis under hypoxic conditions. Deep spatial multi-omics profiling revealed divergent immune architectures associated with treatment outcomes. In non-responder patients, LA-TAMs colocalized with sparsely distributed TIM3⁺ exhausted CD8⁺ T cells within an immune-excluded TME. In contrast, responder patients harbored interferon-primed CCL4+ TAMs (IFN-TAMs) spatially associated with Granzyme B⁺ activated CD8⁺ T cells, reflecting an immune-active microenvironment. These findings define contrasting macrophage-centered immune neighborhoods linked to ICI response. Interestingly, patients with LA-TAM-enriched neighborhoods were consistently non-responders or progressed during follow-up, irrespective of the presence of IFN-TAM neighborhoods. Lastly, we constructed a single-cell-derived signature matrix that estimates TAM fractions from bulk RNA-seq data and revealed LA-TAM abundance as a robust, independent predictor of poor ICI response and survival in a validation cohort. CONCLUSIONS: Our study defines the spatial landscapes of TAM-heterogeneity in melanoma and identifies LA-TAM neighborhoods as an important feature of ICI resistance. Although patients span a continuum of TAM-centered immune states, the presence of LA-TAM is likely to diminish the beneficial effects of IFN-TAM-associated immune activation. Finally, our proposed Melanoma-TME-derived signature-matrix provides a translatable framework to robustly predict ICI response and resistance.",
+        "journal": "Genome medicine",
+        "authors": [
+          "Sajib Chakraborty",
+          "Eyleen Corrales",
+          "Ira Godbole",
+          "Nawal Madkhali",
+          "Tonmoy Das",
+          "Christopher Krolla"
+        ],
+        "pub_date": "2026-Nov-03",
+        "doi": "10.1186/s13073-026-01794-9",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42983496/",
+        "journal_canonical": "Genome Medicine"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 멜라노마 환자의 면역관문억제제(ICI) 치료 반응성을 예측하기 위해 단일세포 RNA 시퀀싱(scRNA-seq), 공간 전사체학, 이미징 질량 세포계측법을 통합한 다중오믹스 접근법을 사용했습니다. 32개 공개 데이터셋과 6명의 독립적 멜라노마 코호트를 분석하여 종양 관련 대식세포(TAM)의 기능적 상태가 ICI 반응성을 결정함을 밝혔으며, 지질대사 관련 LA-TAM이 비반응군에서 풍부함을 발견했습니다. 단일세포 유래 서명 행렬을 구축하여 334명의 벌크 RNA-seq 코호트를 분석하고 기계학습 분류기로 검증하여, LA-TAM 풍부도가 ICI 반응 불량과 생존율 예측의 독립적 지표임을 제시했습니다.",
+        "key_points": [
+          "다중오믹스 통합(scRNA-seq + 공간 전사체학 + 이미징 질량세포계측법)을 이용한 종양미세환경 고해상도 프로파일링",
+          "코호트 기반 연구(공개 데이터 32개 + 자체 코호트 6명 + 검증 코호트 334명)와 머신러닝 기반 약물반응 예측",
+          "대사체 특성(지질대사, 저산소증 유도 당해석)과 공간적 위치를 포함한 생물마커 발굴"
+        ],
+        "reason": "다중오믹스 통합, 코호트/바이오뱅크, AI/머신러닝 예측 등 MFDS 핵심 요소를 포함하지만, 만성대사질환(당뇨/심혈관질환 등)과 무관한 암 면역학 주제로 질환 특이성이 낮아 부분 관련 수준입니다."
+      },
+      "project": "MFDS",
+      "subtopic": "코호트/바이오뱅크 × 다중오믹스 × AI"
+    }
+  ]
+}
