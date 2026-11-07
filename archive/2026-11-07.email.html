@@ -1,0 +1,49 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'>
+
+    <style>
+      body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif;
+             color:#222; line-height:1.55; max-width:760px; margin:0 auto; padding:20px; }
+      h1 { font-size: 22px; border-bottom: 2px solid #333; padding-bottom: 8px; }
+      h2 { font-size: 17px; margin-top: 28px; padding: 6px 10px; color: #fff; border-radius: 4px; }
+      .meta { color:#666; font-size: 13px; margin-bottom: 16px; }
+      .article { border-left: 4px solid #ddd; padding: 10px 14px; margin: 14px 0;
+                 background: #fafafa; border-radius: 0 4px 4px 0; }
+      .title { font-weight: 600; font-size: 15px; margin-bottom: 6px; }
+      .title a { color: #0d47a1; text-decoration: none; }
+      .title a:hover { text-decoration: underline; }
+      .journal { color: #555; font-size: 13px; font-style: italic; }
+      .badge { display:inline-block; color:#fff; padding: 2px 8px; border-radius: 10px;
+               font-size: 12px; font-weight: 600; margin-right: 6px; }
+      .summary { margin-top: 8px; font-size: 14px; }
+      .keypoints { margin: 6px 0 0 0; padding-left: 20px; font-size: 13px; color:#444; }
+      .reason { color:#777; font-size: 12px; margin-top: 6px; }
+      .footer { color:#999; font-size: 12px; margin-top: 32px; border-top: 1px solid #eee; padding-top: 12px; }
+    </style>
+    
+<title>Daily Research — 2026-11-07</title>
+</head><body>
+<h1>📚 Daily Research Articles — 2026-11-07</h1>
+<div class='meta'>임계값 6점 이상: <b>2편</b> (전체 평가: 2편)</div>
+<h2 style='background:#1565c0;'>MFDS — 2편</h2>
+
+    <div class='article'>
+      <div><span class='badge' style='background:#fbc02d;'>6/10</span><span class='badge' style='background:#455a64;'>Multi-omics × 만성질환</span></div>
+      <div class='title'><a href='https://pubmed.ncbi.nlm.nih.gov/42988870/'>Integration and annotation of spatial multi-omic data with DIRAC.</a></div>
+      <div class='journal'>Nature Methods · 2026-Nov-05 · Chang Xu, Shibo Liu, Yang Heng 외</div>
+      <div class='summary'>본 연구는 공간 다중오믹스 데이터의 수직적 통합(서로 다른 분자 모달리티 결합)과 수평적 통합(연구 간 세포 유형 정렬)을 수행하는 DIRAC이라는 기하학적 딥러닝 모델을 제시했습니다. DIRAC은 배치 효과, 오믹 모달리티, 연구 사이트로 인한 도메인 시프트에 불변인 특성을 학습하여 공유 임베딩 공간을 생성하고 참조 데이터셋으로부터 자동 세포 유형 주석을 가능하게 합니다. 뇌종양, 알츠하이머병, 마우스 배아, 마우스 비장 및 흉선 데이터에서 DIRAC의 우수성을 검증했으며, 백만 개의 세포까지 확장 가능합니다.</div>
+      <ul class='keypoints'><li>다중오믹스 데이터의 수직/수평 통합 프레임워크 (도메인 적응)</li><li>배치 효과 및 도메인 시프트에 강인한 representation learning</li><li>자동화된 세포 유형 주석 및 라벨 전이 (reference transfer)</li></ul>
+      <div class='reason'>판단 근거: 다중오믹스 통합과 EHR/바이오뱅크 데이터 정합성이 MFDS 핵심 과제이나, 본 논문은 공간 조직 데이터와 신경질환/면역학에 초점을 두어 만성대사질환 및 약물반응 예측과의 직접 연관성이 제한적입니다.</div>
+    </div>
+    
+
+    <div class='article'>
+      <div><span class='badge' style='background:#fbc02d;'>6/10</span><span class='badge' style='background:#455a64;'>오믹스 × 약물반응</span></div>
+      <div class='title'><a href='https://pubmed.ncbi.nlm.nih.gov/42990092/'>How Stroke Genetics Is Impacting Clinical Care: Now and the Future.</a></div>
+      <div class='journal'>Stroke · 2026-Nov-06 · Hugh Markus</div>
+      <div class='summary'>본 리뷰논문은 뇌졸중의 유전학적 발전이 임상진료에 미치는 영향을 종합적으로 분석했습니다. 게놈와이드연관분석(GWAS)을 통한 뇌졸중의 유전적 구조 파악, 단일유전자형 뇌졸중의 식별 및 검사 가이드라인, 다유전자위험점수(PRS)의 위험층화 및 예방에의 적용, 그리고 약물유전체학과 메델리안 무작위화를 포함한 치료적 함의를 제시했습니다. 유전체 정보의 임상 적용 가능성과 현재의 제한점을 함께 논의했습니다.</div>
+      <ul class='keypoints'><li>GWAS를 통한 뇌졸중의 유전적 아키텍처 규명</li><li>다유전자위험점수(PRS) 기반 위험층화 및 예방전략</li><li>약물유전체학과 멘델리안 무작위화 기반 치료표적 발굴</li></ul>
+      <div class='reason'>판단 근거: 뇌졸중은 MFDS의 핵심 만성질환이며, GWAS·유전정보·약물반응(약물유전체학)·위험예측 등 다중 관련 키워드를 포함하나, 오믹스 통합분석·당뇨 등 주요 과제 질환 미포함으로 부분 관련성을 보임.</div>
+    </div>
+    
+<div class='footer'>이 메일은 GitHub Actions에서 자동 발송되었습니다. 전체 결과 및 로그: archive/ 폴더 참조.</div>
+</body></html>

@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-07",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 2,
+  "articles_scored": 2,
+  "articles_above_threshold": 2,
+  "results": [
+    {
+      "article": {
+        "pmid": "42990092",
+        "title": "How Stroke Genetics Is Impacting Clinical Care: Now and the Future.",
+        "abstract": "The past decade has seen a transformation in our understanding of the genetics of stroke. However, a commonly asked question is how do these advances impact the practicing clinician now, and what are their implications for clinical care in the future? This review outlines the major recent advances in stroke genetics and addresses 4 questions most relevant to the clinician: What do we now know about the genetic architecture of stroke? When and how should genetic testing be used to identify monogenic stroke? How can genetic information be applied to risk stratification and prevention? And what therapeutic implications are emerging from genetic discoveries? It highlights the success of genome-wide association studies in stroke and how these have transformed how we understand the genetic architecture of stroke. An increasing number of monogenic forms of cerebral small vessel disease are being identified, and guidance on when and how to test for them is covered. Polygenic risk scores are gaining increasing attention. How these can be applied, and the challenges in their use are discussed. Lastly, the impact of genomics on stroke therapeutics, whether by identifying new targets, assessing causality using techniques such as Mendelian randomization, or pharmacogenomics, is discussed.",
+        "journal": "Stroke",
+        "authors": [
+          "Hugh Markus"
+        ],
+        "pub_date": "2026-Nov-06",
+        "doi": "10.1161/STROKEAHA.126.051399",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42990092/",
+        "journal_canonical": "Stroke"
+      },
+      "score": {
+        "relevance_score": 6,
+        "topic_match": "MFDS",
+        "summary_kr": "본 리뷰논문은 뇌졸중의 유전학적 발전이 임상진료에 미치는 영향을 종합적으로 분석했습니다. 게놈와이드연관분석(GWAS)을 통한 뇌졸중의 유전적 구조 파악, 단일유전자형 뇌졸중의 식별 및 검사 가이드라인, 다유전자위험점수(PRS)의 위험층화 및 예방에의 적용, 그리고 약물유전체학과 메델리안 무작위화를 포함한 치료적 함의를 제시했습니다. 유전체 정보의 임상 적용 가능성과 현재의 제한점을 함께 논의했습니다.",
+        "key_points": [
+          "GWAS를 통한 뇌졸중의 유전적 아키텍처 규명",
+          "다유전자위험점수(PRS) 기반 위험층화 및 예방전략",
+          "약물유전체학과 멘델리안 무작위화 기반 치료표적 발굴"
+        ],
+        "reason": "뇌졸중은 MFDS의 핵심 만성질환이며, GWAS·유전정보·약물반응(약물유전체학)·위험예측 등 다중 관련 키워드를 포함하나, 오믹스 통합분석·당뇨 등 주요 과제 질환 미포함으로 부분 관련성을 보임."
+      },
+      "project": "MFDS",
+      "subtopic": "오믹스 × 약물반응"
+    },
+    {
+      "article": {
+        "pmid": "42988870",
+        "title": "Integration and annotation of spatial multi-omic data with DIRAC.",
+        "abstract": "Spatial multi-omic technologies measure multiple molecular layers within intact tissues. Two central challenges are vertical integration, which combines different molecular modalities, and horizontal integration, which aligns cell types across studies. Here we show domain invariant representation through adaptive calibration (DIRAC), a geometric deep learning model that unifies these tasks in a generalized domain adaptation framework. DIRAC learns task-discriminative features that are insensitive to domain shifts caused by batch effects, omic modalities or study sites, enabling a shared embedding space and automated cell-type annotation through label transfer from reference datasets. Across sequencing-based and imaging-based datasets, DIRAC identified a new microvascular proliferation domain in glioblastoma, corrected cortical-layer annotations in severe Alzheimer's disease, resolved subtle structures in mouse embryos and remained robust to missing data and unseen cell types. We generated mouse spleen and thymus Stereo-CITE-seq data and used DIRAC to reveal thymic T cell migration and splenic immune cell interactions. DIRAC is fast and scales to millions of cells.",
+        "journal": "Nature methods",
+        "authors": [
+          "Chang Xu",
+          "Shibo Liu",
+          "Yang Heng",
+          "Chen Yang",
+          "Yuan Cao",
+          "Junbin Gao"
+        ],
+        "pub_date": "2026-Nov-05",
+        "doi": "10.1038/s41592-026-03282-9",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42988870/",
+        "journal_canonical": "Nature Methods"
+      },
+      "score": {
+        "relevance_score": 6,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 공간 다중오믹스 데이터의 수직적 통합(서로 다른 분자 모달리티 결합)과 수평적 통합(연구 간 세포 유형 정렬)을 수행하는 DIRAC이라는 기하학적 딥러닝 모델을 제시했습니다. DIRAC은 배치 효과, 오믹 모달리티, 연구 사이트로 인한 도메인 시프트에 불변인 특성을 학습하여 공유 임베딩 공간을 생성하고 참조 데이터셋으로부터 자동 세포 유형 주석을 가능하게 합니다. 뇌종양, 알츠하이머병, 마우스 배아, 마우스 비장 및 흉선 데이터에서 DIRAC의 우수성을 검증했으며, 백만 개의 세포까지 확장 가능합니다.",
+        "key_points": [
+          "다중오믹스 데이터의 수직/수평 통합 프레임워크 (도메인 적응)",
+          "배치 효과 및 도메인 시프트에 강인한 representation learning",
+          "자동화된 세포 유형 주석 및 라벨 전이 (reference transfer)"
+        ],
+        "reason": "다중오믹스 통합과 EHR/바이오뱅크 데이터 정합성이 MFDS 핵심 과제이나, 본 논문은 공간 조직 데이터와 신경질환/면역학에 초점을 두어 만성대사질환 및 약물반응 예측과의 직접 연관성이 제한적입니다."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
