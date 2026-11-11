@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-11",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 2,
+  "articles_scored": 2,
+  "articles_above_threshold": 0,
+  "results": [
+    {
+      "article": {
+        "pmid": "43003872",
+        "title": "Calpain-mediated TBP cleavage disturbs neuronal AMOT-YAP1 signalling.",
+        "abstract": "The transcription factor TATA-box-binding protein (TBP) plays a crucial role in neurons, as highlighted by its involvement in spinocerebellar ataxia type 17 (SCA17), where pathological polyglutamine expansions disrupt its function. While the molecular pathomechanisms remain unclear, our previous study showed that calcium-activated calpains cleave TBP in SCA17 cell and animal models. Here, we pinpoint a major calpain cleavage site after residue T106, C-terminal to TBP's polyglutamine tract. The resulting polyglutamine-containing N-terminal fragments mislocalise to the cytoplasm and exhibit increased aggregation. Both the N-terminal and the nuclear-localised C-terminal fragments contribute to calpain overactivation. SCA17 cell line-based multi-omics analyses revealed that TBP fragments alter pathways linked to neuronal function and neurodegeneration, identifying AMOT as a key player. Further analyses in SCA17 cell lines, patient-derived fibroblasts and induced neurons as well as in rat and zebrafish models confirmed AMOT's pivotal role in neurons, regulated by TBP and mediated via YAP1-dependent signalling. These findings offer further insights into TBP's neuronal function and suggest broader implications of AMOT for neurodegenerative and neurodevelopmental disorders.",
+        "journal": "Nature communications",
+        "authors": [
+          "Rana Dilara Incebacak Eltemur",
+          "Florian Fath",
+          "Chrisovalantou Huridou",
+          "Max Duong Phu",
+          "Till Ivo Stoltenow",
+          "Jacob Helm"
+        ],
+        "pub_date": "2026-Nov-09",
+        "doi": "10.1038/s41467-026-79055-x",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43003872/",
+        "journal_canonical": "Nature Communications"
+      },
+      "score": {
+        "relevance_score": 2,
+        "topic_match": "없음",
+        "summary_kr": "본 연구는 척수소뇌변성운동실조증 17형(SCA17)에서 칼파인에 의한 TBP 단백질 절단 메커니즘을 규명했습니다. 세포주 기반 다중오믹스 분석을 통해 TBP 단편이 신경퇴행성 관련 경로를 변경하며, AMOT-YAP1 신호전달이 핵심 역할을 함을 확인했습니다. 환자 유래 섬유아세포, 유도신경세포, 래트 및 제브라피시 모델에서 검증하여 신경퇴행성 질환의 분자 병리기전을 제시했습니다.",
+        "key_points": [
+          "다중오믹스 분석을 활용한 신경퇴행성 질환 메커니즘 연구",
+          "SCA17 (신경퇴행성 질환) - 만성대사질환과 무관한 질환 영역",
+          "약물반응/반응예측과 직접 관련 없는 기초 병리학 연구"
+        ],
+        "reason": "신경퇴행성 질환(SCA17)의 기초 분자생물학 연구로, MFDS의 만성대사질환(당뇨/심혈관/MASLD/CKD/뇌졸중), DGDB의 제2형 당뇨, GDM의 임신성당뇨와 질환 영역이 전혀 다르며 약물반응 예측이나 임상 정밀의료 응용과도 무관합니다."
+      },
+      "project": "MFDS",
+      "subtopic": "오믹스 × 약물반응"
+    },
+    {
+      "article": {
+        "pmid": "43003811",
+        "title": "Microbial ecological instability and non-linear host interactions shape airway inflammation in HIV-associated COPD.",
+        "abstract": "Chronic obstructive pulmonary disease (COPD) is increasingly recognized among people living with HIV in sub-Saharan Africa, yet the mechanisms linking airway microbial ecology to chronic inflammation remain poorly understood. Here, we study 200 adults stratified by HIV and COPD status, including 160 participants with two-year longitudinal follow-up, using an integrated multi-omics framework combining sputum 16S rRNA profiling, bacterial outer membrane vesicle quantification, airway cytokine profiling, CyTOF immune phenotyping, bulk transcriptomics of induced sputum, bronchoalveolar lavage and peripheral blood, and bronchoalveolar lavage single-cell RNA sequencing-guided deconvolution. We find that sputum microbial communities are shaped predominantly by temporal ecological turnover rather than HIV or COPD status. Although microbial diversity, microbiome instability, outer membrane vesicle burden and inferred airway cellular composition remain largely preserved, HIV-associated COPD exhibits disease-specific microbial signatures together with inflammatory transcriptional remodeling concentrated in induced sputum. Integrated analyses identify selective host-microbe interaction networks linking discrete microbial taxa with inflammatory, immune and transcriptional programmes.",
+        "journal": "Nature communications",
+        "authors": [
+          "Alex Kayongo",
+          "Theda Ulrike Patricia Bartolomaeus",
+          "Julia Hecker",
+          "Till Birkner",
+          "Eremire Vila",
+          "Moses Levi Ntayi"
+        ],
+        "pub_date": "2026-Oct-06",
+        "doi": "10.1038/s41467-026-78400-4",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43003811/",
+        "journal_canonical": "Nature Communications"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 HIV 감염자의 만성폐쇄성폐질환(COPD) 발병 메커니즘을 규명하기 위해 200명의 참가자(2년 종단 추적)를 대상으로 통합 다중오믹스 분석을 수행했습니다. 16S rRNA 프로파일링, 세포외소포 정량화, 사이토카인 프로파일링, CyTOF 면역표현형, 전사체 분석 및 단일세포 RNA 시퀀싱 기반 해석을 통합하여 기도 미생물 생태 불안정성과 숙주-미생물 상호작용 네트워크를 분석했습니다. HIV-COPD는 특이적 미생물 서명과 함께 염증성 전사체 재편성을 보였으며, 이는 별개의 미생물 분류군과 염증/면역 프로그램을 연결하는 숙주-미생물 상호작용 네트워크로 설명됩니다.",
+        "key_points": [
+          "다중오믹스 통합 분석(16S, 세포외소포, 사이토카인, 면역표현형, 전사체, scRNA-seq)",
+          "종단 추적 연구(2년 follow-up) 기반 시간적 미생물 생태 변화 추적",
+          "숙주-미생물 상호작용 네트워크로 HIV-COPD 관련 염증 메커니즘 규명"
+        ],
+        "reason": "다중오믹스 통합 및 만성질환(COPD) 연구로 MFDS 과제와 방법론 일치하나, 타겟 질환이 당뇨/심혈관/MASLD/CKD/뇌졸중이 아닌 HIV-COPD이고, microbiome-질환 전환 예측이 아닌 기전 규명에 초점이 맞춰져 있어 부분 관련성만 인정됩니다."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
