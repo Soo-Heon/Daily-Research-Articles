@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-12",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "43009464",
+        "title": "Integrated multi-omics identifies distinct immune signatures with diagnostic and therapeutic implications in immune checkpoint inhibitor-induced myocarditis.",
+        "abstract": "Immune checkpoint inhibitor-associated myocarditis (ICI-myocarditis) is a rare but frequently fatal immune-related adverse event. A comprehensive understanding of the cellular and molecular determinants driving ICI-myocarditis is essential for improving diagnostic precision and developing targeted interventions. We delineate the immune landscape of ICI-myocarditis via scRNA-seq, flow cytometry, Olink proteomics, and multiplex cytokine profiling. We demonstrate that high levels of baseline ISG15⁺CD8⁺ T cells are linked to the proinflammatory features of monocytes and in vitro experiments confirm the existence of circulating ISG15⁺CD8⁺ T cells with a high potential to induce cardiomyocyte apoptosis, supporting their pathogenic potential for cardiomyocyte cytotoxicity. Notably, intercellular crosstalk between these subsets is possibly mediated via the CCL2-CCR2 axis, and its blockade attenuated ICI-induced cardiac injury in vivo. Based on the inflammatory signature in ICI-myocarditis, we develop an 8-protein custom panel with promising performance in distinguishing ICI-myocarditis from other ICIs-treated controls. JAK-STAT pathway activation promotes inflammatory programs in both ISG15⁺CD8⁺ T cells and monocytes. Furthermore, JAK-STAT inhibition ameliorates cardiac dysfunction and inflammatory infiltration while enhancing the response to anti-PD-1 therapy in mouse models. In summary, this study implicates immune-pathogenic features of ICI-myocarditis and provides a possible basis for future therapies.",
+        "journal": "Nature communications",
+        "authors": [
+          "Shi-Long Zhang",
+          "Qing-Qing Cai",
+          "Jian Zhang",
+          "Yuan Liu",
+          "Hao Lu",
+          "Ye-Rui Zhang"
+        ],
+        "pub_date": "2026-Oct-14",
+        "doi": "10.1038/s41467-026-77262-0",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43009464/",
+        "journal_canonical": "Nature Communications"
+      },
+      "score": {
+        "relevance_score": 6,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 면역관문억제제 유발 심근염(ICI-myocarditis)의 면역학적 메커니즘을 규명하기 위해 scRNA-seq, 유동세포분석, Olink 단백질체학, 다중 사이토카인 프로파일링을 통합한 다중오믹스 접근을 수행했습니다. ISG15⁺CD8⁺ T세포와 단핵구 간의 CCL2-CCR2 축 상호작용이 심근세포 손상을 매개하며, JAK-STAT 경로 억제가 심기능 개선과 항-PD-1 치료 반응 증진을 유도함을 보였습니다. 8개 단백질 바이오마커 패널을 개발하여 ICI-심근염의 진단적 성능을 보여주었습니다.",
+        "key_points": [
+          "Multi-omics (scRNA-seq, 단백질체학, 사이토카인 프로파일링) 통합으로 약물유해반응(ADR) 메커니즘 규명",
+          "바이오마커 패널 개발을 통한 정밀진단 및 치료타겟(JAK-STAT, CCL2-CCR2) 제시",
+          "심혈관질환의 면역학적 특성 분석으로 만성질환 정밀의료 적용 가능성"
+        ],
+        "reason": "다중오믹스와 약물유해반응 예측·진단이 핵심 키워드로 일치하나, 만성대사질환(당뇨/신장질환/뇌졸중)이 아닌 암치료 관련 심독성이라는 특수한 질환군 대상으로 직접 관련성은 중간 수준입니다."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
