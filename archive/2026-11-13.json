@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-13",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 0,
+  "results": [
+    {
+      "article": {
+        "pmid": "43017801",
+        "title": "NNMT Safeguards Vascular Aging by Modulating an Endothelial LMNA-HSP Stress-Response Axis.",
+        "abstract": "BACKGROUND: NNMT (nicotinamide N-methyltransferase) is a pivotal metabolic-epigenetic integrator that regulates cellular methylation balance. Although its expression and function exhibit profound, context-dependent heterogeneity in metabolic diseases and cancer, its role within the vascular system, particularly in aging endothelial cells, remains elusive. METHODS: We examined NNMT expression in a small, pathological, male-only cohort of older versus younger plaque-adjacent human carotid intimal donors, primary mouse aortic endothelial cells, and senescent human umbilical vein endothelial cells. Using endothelial-targeted adeno-associated virus-Tie systems, we assessed the effects of NNMT restoration and knockdown on vasodilation and arterial stiffness in aged mice. Mechanistic insights were obtained through exploratory multiomics integration. RESULTS: We established that NNMT expression exhibits an exploratory inverse association in a small, pathological, male-only cohort of older versus younger plaque-adjacent human carotid intimal donors, a pattern mirrored by declines observed in primary mouse aortic endothelial cells and senescent human umbilical vein endothelial cells. Functional assays demonstrated that NNMT restoration improves vasodilation and arterial stiffness in aged mice, whereas knockdown exacerbates these deficits. Mechanistically, exploratory multiomics integration, including Cleavage Under Targets and Tagmentation and transcriptomic analyses, suggests that NNMT-associated reduction in histone H3 lysine 27 trimethylation occupancy at the LMNA (lamin A/C) promoter correlates with its transcriptional maintenance, a process influenced by S-adenosylmethionine supplementation. Downstream, we identified that NNMT-induced LMNA stabilization operates in concert with HSF1 (heat shock transcription factor 1) activation and nuclear translocation, a process accompanied by enhanced binding to HSP90 and HSP70 promoters to drive their transcription. Furthermore, we demonstrated that the vascular protective effects of the natural compound Heterophyllin B are mediated, at least in part, by NNMT, as these benefits were partially attenuated after endothelial NNMT knockdown in vivo. CONCLUSIONS: We identify a protective, age-dependent role for NNMT in vascular endothelium. Our findings reveal that NNMT maintains endothelial homeostasis through coordinated regulation of nuclear LMNA and the downstream HSP (heat shock protein) stress response, highlighting the therapeutic potential of this pathway for addressing age-related endothelial dysfunction.",
+        "journal": "Circulation research",
+        "authors": [
+          "Jun Guo",
+          "Huilin Tu",
+          "Jiameng Yin",
+          "Shang Gao",
+          "Deping Liu",
+          "Mingjun Wang"
+        ],
+        "pub_date": "2026-Nov-12",
+        "doi": "10.1161/CIRCRESAHA.126.328363",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43017801/",
+        "journal_canonical": "Circulation Research"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 대사-후성유전 통합 조절자인 NNMT가 혈관 노화와 내피세포 기능에 미치는 역할을 규명했습니다. 노인과 청년 인간 경동맥 기증자, 마우스 대동맥 내피세포, 노화 인간 제대정맥 내피세포를 대상으로 NNMT 발현을 분석하고, 다중오믹스 통합 분석(CUTAC, 전사체)을 통해 기전을 탐색했습니다. NNMT 회복은 노화 마우스의 혈관확장 및 동맥 경직화를 개선했으며, LMNA-HSP 스트레스 반응축의 조절을 통해 내피세포 항상성을 유지하는 것으로 나타났습니다.",
+        "key_points": [
+          "심혈관질환 관련 혈관 노화에서 NNMT의 보호적 역할 규명",
+          "다중오믹스 통합(CUTAC, 전사체) 활용한 기전 분석",
+          "LMNA-HSF1-HSP90/70 축의 후성유전적 조절 메커니즘 발견"
+        ],
+        "reason": "만성질환(심혈관노화) 관련 다중오믹스 통합 분석을 수행했으나, MFDS 과제의 약물반응/유해반응 예측, 정밀의료, 코호트/EHR 등 핵심 요소가 부재하고 기초 메커니즘 연구로 임상 적용성이 제한적입니다."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
