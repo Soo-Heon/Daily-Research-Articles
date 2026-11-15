@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-15",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "43025758",
+        "title": "Translocation of the environmental bacterium Aquitalea magnusonii promotes systemic inflammation and liver fibrosis in chronic liver disease.",
+        "abstract": "BACKGROUND & AIMS: Impaired mucosal barrier integrity facilitates translocation of the gut microbiome into the circulation and the liver, thereby exacerbating the severity of chronic liver diseases (CLD). This study aimed to investigate the pathogenic role of non-commensal environmental bacteria, specifically Aquitalea magnusonii in CLD progression by assessing its ability to cross the intestinal barrier and induce systemic inflammation and liver fibrosis. METHODS: Using an integrated translational framework, patient blood analyses were combined with multi-omics profiling, human intestinal epithelial models, peripheral blood mononuclear cells (PBMC), hepatic stellate cells (HSC), monocytes, and alcoholic (ALD) and metabolic dysfunction-associated (MASLD) models to evaluate the translocation, virulence, inflammatory and fibrotic potential of A. magnusonii in CLD. RESULTS: Non-commensal environmental bacteria, including Aquitalea spp. were detected in multiple organs in both ALD and MASLD models. Detection of Aquitalea DNA in patient samples and other non-commensal environmental bacteria in tap water suggested potential aquatic reservoirs. A. magnusonii produced 12 acute-on-chronic liver failure (ACLF) associated metabolites and its outer membrane vesicles (OMV) were enriched in virulence-related proteins, supporting roles in adhesion, invasion, and immune activation. In addition, gavage with A. magnusonii led to a substantial dysbiotic shift in the gut microbiome. Mechanistically, the cell-free supernatant of A. magnusonii culture activated TLR2- and TLR4-dependent pro-inflammatory signaling pathways. Exposure to A. magnusonii or its pathogen-associated molecular patterns (PAMPs) significantly increased inflammation and fibrosis in vitro and in vivo. CONCLUSION: Non-commensal environmental bacteria, in the example of A. magnusonii, can translocate across the intestinal barrier and promote liver inflammation and fibrogenesis via metabolite production, virulence-associated OMV, and innate immune activation. IMPACT AND IMPLICATIONS: This study highlights an underrecognized role of non-commensal environmental bacteria in chronic liver disease. Beyond gut commensals, detection of non-commensal environmental microbes such as Aquitalea was associated with markers of more advanced liver disease, while experimental studies of A. magnusonii support biological plausibility for a potential contributory role. These findings highlight the importance of considering environmental reservoirs and non-commensal pathogens in microbial contributions to CLD pathogenesis.",
+        "journal": "Journal of hepatology",
+        "authors": [
+          "Olaf Tyc",
+          "Sania Arif",
+          "Frank E Uschner",
+          "Nathalie Jung",
+          "Wenyi Gu",
+          "Cristina Ortiz"
+        ],
+        "pub_date": "2026-Nov-13",
+        "doi": "10.1016/j.jhep.2026.10.036",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43025758/",
+        "journal_canonical": "Journal of Hepatology"
+      },
+      "score": {
+        "relevance_score": 7,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 만성간질환(ALD, MASLD) 환자에서 비상재균인 Aquitalea magnusonii의 장벽 투과성과 전신염증, 간섬유화 유도 메커니즘을 규명했다. 환자 혈액 분석과 다중오믹스 프로파일링, 인체 장상피세포 모델, PBMC, 간성상세포 등을 통합한 중개연구 프레임워크를 적용하였다. A. magnusonii는 ACLF 연관 사염화물 생산, TLR2/4 매개 염증 신호 활성화, 외막소포(OMV)의 독성단백질 제시를 통해 장벽 손상과 간염증·섬유화를 촉진하였다.",
+        "key_points": [
+          "MASLD 포함 만성대사질환에서 다중오믹스(microbiome + metabolites + immune markers) 통합 분석",
+          "환자 샘플 기반 발견(patient blood analyses)을 동물모델 및 세포주 실험으로 중개/검증",
+          "장내미생물-장벽-간염증 축(gut-barrier-liver axis)에서의 기계론적 인사이트 제시"
+        ],
+        "reason": "MFDS 핵심 대상질환(MASLD)에서 다중오믹스(microbiome, metabolites, inflammatory markers)와 EHR/환자샘플 기반 중개연구를 수행했으나, GWAS/유전학 분석이나 약물반응 예측은 포함되지 않아 부분 관련으로 평가."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
