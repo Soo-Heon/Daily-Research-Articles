@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-24",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 2,
+  "articles_scored": 2,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "43069262",
+        "title": "Small molecule biomarkers predictive of Chagas disease progression.",
+        "abstract": "Chagas disease (CD), caused by the protozoan parasite Trypanosoma cruzi, affects an estimated 10.5 million people worldwide and remains a leading cause of infectious cardiomyopathy in Latin America. Although infection is lifelong without treatment, only 20-30% of chronically infected individuals progress from an asymptomatic stage to clinically significant cardiac disease, and current antiparasitic therapies are limited by toxicity and variable efficacy. Reliable biomarkers capable of predicting disease progression would improve clinical risk stratification and support therapeutic development. Here, we performed a metabolomics study to identify serum biomarkers predictive of progression from asymptomatic infection to cardiac CD. Untargeted liquid chromatography-mass spectrometry profiling using complementary chromatographic platforms and univariate statistics, machine learning feature selection, and receiver operating characteristic (ROC) analysis were performed to identify candidate biomarkers. These biomarkers were validated by targeted analysis. We identified eight individual metabolite biomarkers and 45 combinatorial panels predictive of progression status, including 10 panels that met sensitivity and specificity criteria defined in the target product profile for CD treatment-response biomarkers. These findings demonstrate that circulating metabolites measured at baseline can predict future cardiac disease progression and provide a foundation for clinically deployable prognostic tools in chronic Chagas disease.",
+        "journal": "Nature communications",
+        "authors": [
+          "Zongyuan Liu",
+          "Joseane Godinho",
+          "Jarrod A Laro",
+          "Kelly DeToy",
+          "Steffany Vucetic",
+          "Jordan R Edens"
+        ],
+        "pub_date": "2026-Oct-23",
+        "doi": "10.1038/s41467-026-78899-7",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43069262/",
+        "journal_canonical": "Nature Communications"
+      },
+      "score": {
+        "relevance_score": 5,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 샤가스병의 무증상 감염에서 심장질환으로의 진행을 예측하기 위해 대사체학 기반 생물마커를 개발했습니다. LC-MS 비타겟 대사체 프로파일링, 머신러닝 특성 선택, ROC 분석을 통해 8개의 개별 대사체 생물마커와 45개의 조합 패널을 발굴하였으며, 이 중 10개 패널이 임상 적용 기준을 충족했습니다. 기저선 혈청 대사체가 미래의 질환 진행을 예측할 수 있음을 입증하였으며, 만성 샤가스병의 임상 예후 진단 도구 개발의 기초를 제시했습니다.",
+        "key_points": [
+          "대사체학(metabolomics)을 이용한 질병 진행 예측 생물마커 발굴",
+          "머신러닝 기반 특성 선택 및 ROC 분석을 통한 바이오마커 검증",
+          "조합 패널 개발을 통한 임상 적용 가능성 입증"
+        ],
+        "reason": "다중오믹스(대사체학)와 질병 진행 예측이라는 MFDS 과제의 핵심 요소는 포함하나, 대사질환(당뇨/심혈관)이 아닌 감염성 질환을 대상으로 하여 직접적 관련성이 제한적입니다."
+      },
+      "project": "MFDS",
+      "subtopic": "오믹스 × 약물반응"
+    },
+    {
+      "article": {
+        "pmid": "43069263",
+        "title": "Dynamic prediction of preterm birth and gestational age at delivery based on longitudinal electronic health records.",
+        "abstract": "This study introduces GestaCare, a deep learning framework designed to jointly optimize all-cause preterm birth (PTB) risk classification and time-to-delivery regression. Using routine electronic health record (EHR) data, the model dynamically updates the estimated remaining weeks at every antenatal visit without requiring specialized assays; together with prospective same-center temporal and prospective external validation, these results suggest that routine EHR data may provide an EHR-based complement to omics-based \"pregnancy clock\" studies. We develop and validate the framework using a large-scale retrospective cohort covering 14 calendar years (2011-2024), comprising 56,373 singleton and 3577 twin pregnancies. To our knowledge, this represents one of the largest and longest-spanning longitudinal single-center EHR cohorts reported for dynamic PTB prediction. In prospective validation, area under the receiver operating characteristic curve (AUROC)/area under the precision-recall curve (AUPRC) values are 0.841/0.478 and 0.785/0.856 in prospective same-center temporal validation and 0.810/0.328 and 0.644/0.686 in prospective external validation for singleton and twin pregnancies, respectively. In prospective external validation, these values correspond to relative AUROC/AUPRC gains of 7.0%/23.3% for singleton pregnancies and 2.7%/2.7% for twin pregnancies over the strongest same-study baselines. Interpretability analysis suggests a data-driven distinction in PTB-associated clinical patterns: predictive signals in singleton pregnancies are characterized by a nutritional-inflammatory dominance (driven by placental-hepatic function and systemic inflammation markers), whereas twin pregnancies exhibit a mechanical-hemodynamic dominance (driven by cervical constraints and cumulative metabolic load). Finally, in a pilot clinician evaluation, obstetricians rate GestaCare explanations as more aligned with clinical knowledge than those from XGBoost with Shapley additive explanations (SHAP) (mean clinical alignment score, 4.25/5.00 vs. 3.50/5.00) in a small retrospective assessment.",
+        "journal": "NPJ digital medicine",
+        "authors": [
+          "Lei Gu",
+          "Wenqiang Li",
+          "Yinghao Zhu",
+          "Shuang Li",
+          "Ying Wang",
+          "Yuanfang Zhu"
+        ],
+        "pub_date": "2026-Aug-05",
+        "doi": "10.1038/s41746-026-03071-w",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43069263/",
+        "journal_canonical": "npj Digital Medicine"
+      },
+      "score": {
+        "relevance_score": 6,
+        "topic_match": "GDM",
+        "summary_kr": "본 연구는 GestaCare라는 딥러닝 프레임워크를 개발하여 전자의무기록(EHR) 데이터만으로 조산(preterm birth) 위험도를 동적으로 예측하고 분만 예정일을 추정했다. 2011-2024년 14년간의 대규모 단일기관 종단 EHR 코호트(56,373건의 단태아, 3,577건의 쌍둥이)를 활용하여 임상적 검증을 수행했으며, 임신성당뇨와 관련된 대사-염증 마커의 중요성을 발견했다. 임상의 평가에서 SHAP 기반 해석성보다 우수한 임상적 정렬성을 보였으며, omics 기반 임신 시계 연구의 보완적 역할을 제시했다.",
+        "key_points": [
+          "EHR 기반 임신 관련 질환의 동적 예측 모델 (GDM 고위험군 포함)",
+          "대규모 종단 코호트 데이터(14년, 60,000+)와 임상 해석가능성 강조",
+          "염증-대사 마커가 조산 위험 예측의 핵심 신호(omics와 EHR 통합 가능성)"
+        ],
+        "reason": "GDM 연구 과제와의 직접 관련성은 제한적이나(임신성당뇨 특화 아님), 임신 관련 대사질환의 EHR·코호트 기반 동적 예측, 대사-염증 마커의 역할, omics 데이터와의 통합 가능성 등이 부분적으로 부합하여 중간 관련도로 평가."
+      },
+      "project": "MFDS",
+      "subtopic": "EHR/RWD × 오믹스 × 정밀의료"
+    }
+  ]
+}
