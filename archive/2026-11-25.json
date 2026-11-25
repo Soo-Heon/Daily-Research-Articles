@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-25",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "43073266",
+        "title": "Genetic and multi-omic insights into inflammation and metabolism in a French Polynesian cohort.",
+        "abstract": "Inflammatory and metabolic diseases are a major global health burden, and their genetic mechanisms differ between populations. The stepwise settlement of the Pacific has left Polynesian communities with variants that are locally common and globally rare. Yet these communities remain underrepresented in genomic research. Here we combine whole-genome sequencing with blood metabolite and gene-activity profiling in a gout-focused cohort of 1,043 French Polynesian participants, and show that such variants shape molecular traits and disease risk. Hundreds alter metabolite levels, gene expression or splicing but are absent or rare in global reference datasets. Findings include a gene-disrupting variant in ANGPTL8 that lowers lipids and inflammatory markers; an LRMDA variant linked to type 2 diabetes; and a signal at the alpha-globin locus suggestive of thalassemia trait. Integrating molecular and phenotypic data further implicates WDR1 as an additional causal gout gene at the SLC2A9 locus. Genomic research in underrepresented populations thus reveals broadly relevant disease mechanisms.",
+        "journal": "Nature communications",
+        "authors": [
+          "Tristan Pascart",
+          "Iman Hamid",
+          "Anne-Katrin Emde",
+          "Olivia A Gray",
+          "Jaye Moors",
+          "Baptiste Gérard"
+        ],
+        "pub_date": "2026-Oct-24",
+        "doi": "10.1038/s41467-026-78816-y",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43073266/",
+        "journal_canonical": "Nature Communications"
+      },
+      "score": {
+        "relevance_score": 7,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 프랑스령 폴리네시아 코호트 1,043명을 대상으로 전장 게놈 시퀀싱, 혈액 대사물질, 유전자 발현 프로파일링을 통합한 다중오믹스 접근법을 수행했습니다. 집단 특이적 희귀 변이들이 대사물질 수준, 유전자 발현, 스플라이싱에 영향을 미치며 질병 위험도를 형성함을 규명했습니다. ANGPTL8 유전자 파괴 변이는 지질 및 염증 마커를 저하시키고, LRMDA 변이는 제2형 당뇨와 연결되며, WDR1이 통풍의 추가 인과 유전자로 확인되었습니다.",
+        "key_points": [
+          "다중오믹스 통합(전장 게놈 시퀀싱 + 대사물질 + 유전자 발현) 적용",
+          "대사질환 및 염증성 질환의 유전적 기전 규명 (당뇨, 지질대사, 통풍)",
+          "집단 특이적 희귀 변이의 분자적 표현형과 질병 위험도 연관성 증명"
+        ],
+        "reason": "다중오믹스 통합, 만성 대사질환(제2형 당뇨, 이상지질혈증), 대규모 코호트 등 MFDS 핵심 키워드가 일치하나, 임상 예측 모델, EHR/RWD, 약물반응 등 MFDS의 정밀의료 실용화 측면과는 거리가 있음."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
