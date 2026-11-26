@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-26",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "43078100",
+        "title": "Cardiomyocyte-derived circulating extracellular vesicles enable a non-invasive liquid biopsy of human myocardium.",
+        "abstract": "Non-invasive interrogation of difficult-to-sample tissues remains a central challenge in human health. Here, we identify and characterize cardiomyocyte-derived extracellular vesicles (EVs; \"cardiovesicles\") as a liquid interface to the myocardium. Integrating induced pluripotent stem cell-derived cardiomyocytes, genetic models, and multi-omics, we identify two cardiomyocyte-enriched surface markers (POPDC2 and CHRNE), enabling antibody-based cardiovesicle immunocapture from human plasma. Cardiovesicles are enriched for cardiomyocyte transcripts, exhibiting disease-specific transcriptional signatures in heart failure and myocardial infarction. Paired human myocardial tissue-plasma analyses demonstrate cardiac enrichment (versus bulk EVs) and concordance with myocardial single-nucleus transcriptional profiles. In patients undergoing cardiopulmonary bypass, cardiovesicles capture rapid, dynamic transcriptional changes that parallel cardiomyocyte (not fibroblast, endothelial, and myeloid) responses to ischemic stress. Functional genomics implicates cardiovesicle transcripts in cardiomyocyte cell-specific cardiovascular disease liability in large human populations. Cardiovesicles may capture dynamic cardiomyocyte states in humans that reflect genetic disease liability, supporting an EV-based approach to non-invasive liquid biopsy of the myocardium.",
+        "journal": "Cell",
+        "authors": [
+          "Priyanka Gokulnath",
+          "Michail Spanos",
+          "Elizabeth Hutchins",
+          "Bessie Meechoovet",
+          "Quanhu Sheng",
+          "Phillip Lin"
+        ],
+        "pub_date": "2026-Nov-23",
+        "doi": "10.1016/j.cell.2026.10.050",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43078100/",
+        "journal_canonical": "Cell"
+      },
+      "score": {
+        "relevance_score": 6,
+        "topic_match": "MFDS",
+        "summary_kr": "본 연구는 심근세포 유래 순환 외소포체(cardiovesicles)를 액체생검의 새로운 바이오마커로 발굴하였다. iPSC 유래 심근세포, 유전 모델, 다중오믹스 기술을 통합하여 심근 특이적 표면마커(POPDC2, CHRNE)를 식별하고, 이를 이용해 혈장에서 cardiovesicles를 면역포획했다. Cardiovesicles는 심부전과 심근경색에서 질병-특이적 전사체 서명을 보였으며, 심근조직-혈장 쌍 분석으로 심근 농축과 단일핵 전사체 프로파일과의 일치성을 확인했다. 급성 허혈 스트레스 상황에서 cardiovesicles가 심근세포의 역동적 전사 변화를 포착할 수 있음을 보여주었다.",
+        "key_points": [
+          "다중오믹스(iPSC, 유전 모델, 전사체) 통합을 통한 심장질환 바이오마커 발굴",
+          "액체생검(liquid biopsy)을 활용한 비침습적 조직 진단 접근법",
+          "심부전·심근경색 등 심혈관질환의 질병-특이적 전사체 서명 규명"
+        ],
+        "reason": "만성 심혈관질환(심부전, 심근경색) 연구에 다중오믹스와 EHR/바이오마커 발굴이 포함되어 MFDS 과제의 핵심 키워드를 충족하나, 당뇨/대사질환 집중 과제는 아니고 액체생검 방법론 중심이므로 부분 관련성을 보임."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
