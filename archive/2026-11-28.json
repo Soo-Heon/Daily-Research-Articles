@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-28",
+  "days_back": 1,
+  "threshold": 6,
+  "queries_run": 10,
+  "articles_found": 1,
+  "articles_scored": 1,
+  "articles_above_threshold": 1,
+  "results": [
+    {
+      "article": {
+        "pmid": "43099700",
+        "title": "Korea10K integrates 10,239 whole genomes with multiomic and clinical health information as a Korean reference dataset.",
+        "abstract": "BACKGROUND: Large-scale genome projects have advanced the characterization of human genetic diversity. However, the lack of deeply sequenced, multiomic resources representing the Korean population has limited systematic evaluation of population-specific variation and its functional and translational impact. RESULTS: We present Korea10K, a population-scale multiomic resource comprising 10,239 high-depth whole genomes (mean coverage 30 ×) with integrated molecular and phenotypic data. Analysis of 9,000 unrelated individuals enables near-complete discovery of ultra-rare variants (allele count > 2 and allele frequency ≤ 0.0005) and supports the construction of a high-resolution, population-specific imputation panel. Koreans exhibit pronounced autosomal genetic homogeneity together with a narrow Y-chromosomal and HLA-A allelic spectrum and comparatively deep mitochondrial lineage diversity, consistent with long-term demographic continuity. We further identify 16.4 million variants that alter CpG dinucleotide context, revealing widespread sequence-driven modulation of the genomic CG landscape. Notably, CG-eliminating variants generate loss of methylation signal and disrupt CpG probe targets in widely used methylation arrays, introducing a systematic source of bias in epigenome-wide association studies and epigenetic clock estimation. CONCLUSIONS: Korea10K establishes a high-resolution genomic and multiomic reference for the Korean population and reveals a previously unrecognized interaction between genetic variation and epigenomic measurement. This resource provides a foundation for precision medicine and highlights the need for ancestry-aware interpretation of molecular data.",
+        "journal": "Genome biology",
+        "authors": [
+          "Kyungwhan An",
+          "Sungwon Jeon",
+          "Yoonsung Kwon",
+          "Yookyung Choi",
+          "Changhan Yoon",
+          "Yeonsu Jeon"
+        ],
+        "pub_date": "2026-Nov-20",
+        "doi": "10.1186/s13059-026-04321-6",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/43099700/",
+        "journal_canonical": "Genome Biology"
+      },
+      "score": {
+        "relevance_score": 7,
+        "topic_match": "MFDS",
+        "summary_kr": "Korea10K는 한국인 10,239명의 전장유전체 데이터(30×)와 멀티오믹스, 임상 표현형 정보를 통합한 대규모 집단 참조 자원이다. 초희귀변이 발굴, 인구집단 특이적 임플리테이션 패널 구축, CpG 메틸화 패턴의 유전적 조절 메커니즘을 밝혔으며, 에피게놈 연구의 체계적 오차원을 규명했다. 이는 한국인 맞춤형 정밀의료 기초 자료로서 다중오믹스 기반의 약물반응 및 만성질환 예측 연구에 활용 가능하다.",
+        "key_points": [
+          "한국인 대규모 코호트(n=10,239)의 고심도 전장유전체와 멀티오믹스(유전체·에피게놈) 통합 데이터셋",
+          "인구집단 특이적 변이 특성 규명 및 메틸화 어레이의 체계적 편향 발견",
+          "정밀의료 및 질병 취약성 평가를 위한 한국인 맞춤형 참조 자원 제공"
+        ],
+        "reason": "다중오믹스 통합, 한국인 코호트/바이오뱅크, 정밀의료 기초 자료 등 MFDS 핵심 키워드가 명확하나, 만성대사질환 특이적 분석이나 약물반응 예측 모델 개발은 미포함되어 부분 관련으로 평가됨."
+      },
+      "project": "MFDS",
+      "subtopic": "Multi-omics × 만성질환"
+    }
+  ]
+}
